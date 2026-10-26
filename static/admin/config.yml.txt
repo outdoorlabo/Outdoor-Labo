@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: outdoorlabo/outdoorlabo
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "記事一覧"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "タイトル", name: "title", widget: "string" }
+      - { label: "投稿日時", name: "date", widget: "datetime" }
+      - { label: "アイキャッチ画像", name: "image", widget: "image", required: false }
+      - { label: "本文", name: "body", widget: "markdown" }
