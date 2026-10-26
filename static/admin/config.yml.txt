@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: outdoorlabo/outdoorlabo
+  repo: outdoorlabo/Outdoor-Labo
   branch: main
 
 media_folder: "static/images"
