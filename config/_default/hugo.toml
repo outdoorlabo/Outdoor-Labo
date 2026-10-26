@@ -71,4 +71,4 @@ enableEmoji = true
       weight = 10
 
 [permalinks]
-  posts = "/:year/:month/:day/:slug/"
+  posts = "/:year/:month/:day/:filename/"
