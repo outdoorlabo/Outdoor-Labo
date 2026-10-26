@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/IMG_2165-225x300.jpg"
 title: "Trango Extreme EVO Light GTX [冬靴]"
 date: 2010-01-01T23:50:46
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/IMG_2165-225x300.jpg"
 
 <!-- wp:paragraph -->
 明けましておめでとうございます。今年はいろんなことにチャレンジする年にしたいと思います。がんばるぞー。
@@ -102,3 +104,4 @@ La Sportivaは他社と比べると幅広の靴らしいのですが、それで
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03294-300x225.jpg"
 title: "Granite Gear Hiker Wallet"
 date: 2008-12-06T21:51:00
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03294-300x225.jpg"
 
 <!-- wp:paragraph -->
 グラナイトギアのハイカー ウォレット [ワレット]です。
@@ -56,3 +58,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

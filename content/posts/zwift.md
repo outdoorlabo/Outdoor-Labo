@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/04/img_5884.jpg"
 title: "Zwiftが楽しすぎる"
 date: 2016-05-10T10:41:53
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/04/img_5884.jpg"
 
 <h2 class="Balloon">ほんとにヤバイよ</h2>
 1年半ほど前、ハーフマラソン3分/kmで走ってた頃に踵を疲労骨折し、その後アキレス腱炎に… 走るのを諦め、ロードバイクに乗るようになるも、週末も乗れるか乗れないか…程度。平日でも乗れるようにミノウラのローラー台LR760を買ってみたものの、つまらなくて続かず… 部屋の片隅にポツーン。
@@ -115,3 +117,4 @@ Garmin Expressが立ち上がってる状態の時は、ドングルが機能し
 </div>
 <div class="booklink-footer" style="clear: left;"></div>
 </div>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/04/img_9267.jpg"
 title: "スノーピーク チタントレック900の蓋をプチ改造"
 date: 2019-05-07T02:35:08
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/04/img_9267.jpg"
 
  (｡・д・)ﾉ☆⌒☆【<em>祝</em>】令和
 
@@ -54,4 +56,5 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+
 

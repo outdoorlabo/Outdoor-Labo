@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/06/img_8410.jpg"
 title: "KASK Protone ヘルメットを購入してみましたよ"
 date: 2018-07-17T10:35:14
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/06/img_8410.jpg"
 
 気がついたら、ロードバイクを始めて早4年が経ってました。
 
@@ -38,4 +40,5 @@ Protoneは、手で持った瞬間、明らかに軽さの違いを感じられ�
 良い買い物をしました。(´∀｀*)ｳﾌﾌ
 
 [itemlink post_id="4913"]
+
 

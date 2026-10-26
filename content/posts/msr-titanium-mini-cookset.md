@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03587-300x225.jpg"
 title: "MSR チタン ミニクックセット コッフェル"
 date: 2008-12-01T00:05:13
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03587-300x225.jpg"
 
 <!-- wp:paragraph -->
 ソロの時はスノーピークの<a href="https://outdoorlabo.a-ce.com/2008/10/18/snowpeak-solo-titanium-cooker/" target="_blank" rel="noopener" title="">ソロセット 極 チタン</a>（←詳しくは以前紹介したページへ）。
@@ -70,3 +72,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

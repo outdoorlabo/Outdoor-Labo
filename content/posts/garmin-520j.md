@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/04/img_5956.jpg"
 title: "Garmin 520J セット 購入"
 date: 2016-04-09T19:36:32
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/04/img_5956.jpg"
 
 かなり長い間更新してないですね…
 
@@ -58,3 +60,4 @@ MacにつなげるANT+のUSBを買って、ローラー台練習もちょっと�
  	<li><span style="line-height: 1.6; font-size: 1.3rem;">太陽の光の映り込みで画面が見えにくくなるのが心配で、520Jが届く前に低反射の保護フィルムを注文してしまったんですが、フィルム無しでもしっかり画面が見えます。（無駄遣いしてしまった。。。）</span></li>
  	<li>反応もサクサク！</li>
 </ul>
+

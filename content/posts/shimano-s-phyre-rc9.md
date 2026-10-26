@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2022/01/e2222c8e-a73c-4ddc-a133-3f7d9fc01334.jpg"
 title: "[レビュー] Shimano S-PHYRE RC9"
 date: 2022-01-30T10:02:00
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2022/01/e2222c8e-a73c-4ddc-a133-3f7d9fc01334.jpg"
 
 <!-- wp:paragraph -->
 履いていたShimanoのシューズの踵部分が割れてお亡くなりになったので、同じくShimanoのRC9を購入。
@@ -81,3 +83,4 @@ RC9の剛性は、さすがレースモデルとあって、カッチカチで�
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

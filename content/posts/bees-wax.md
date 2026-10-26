@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2019/12/img_0056.jpg"
 title: "蜜蝋ワックスのススメ [レザー・木工]"
 date: 2019-12-19T11:08:37
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2019/12/img_0056.jpg"
 
 <!-- wp:paragraph -->
 レザークラフトやら木工やらに重宝する蜜蝋ワックス。
@@ -114,4 +116,5 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+
 

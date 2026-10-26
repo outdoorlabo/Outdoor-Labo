@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6168.jpg"
 title: "6週間のFTPトレーニングの結果"
 date: 2016-05-30T17:19:50
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6168.jpg"
 
 先週にZwiftの6週間のビギナー向けFTPトレーニングが終わったので、FTPテストをやりますた。
 
@@ -24,3 +26,4 @@ draft: false
 今日から12週間のFTPトレーニング始めますが、223W設定のトレーニングに耐えられるのだろうか…(꒪ω꒪υ)
 
 がんばります… ((((;ﾟ;Д;ﾟ;))))ｶﾀｶﾀｶﾀ
+

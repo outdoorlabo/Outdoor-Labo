@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC00800-300x225.jpg"
 title: "Marmot Swallow 2 テント [3シーズン＋]"
 date: 2009-02-01T22:00:31
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC00800-300x225.jpg"
 
 <!-- wp:paragraph -->
 うちにあるテント類は３つ（これ、ヒルバーグ アクト、ヘネシーハンモック Explorer Ultralite A-sym、その中のひとつがマーモットの冬でも使える3シーズン＋のテント、スワロー 2という二人用のテントです。
@@ -52,3 +54,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

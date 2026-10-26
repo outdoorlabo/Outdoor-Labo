@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03576-300x225.jpg"
 title: "スノーピーク ソロセット 極 チタン"
 date: 2008-10-18T00:25:35
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03576-300x225.jpg"
 
 <!-- wp:paragraph -->
 このコッフェルは本当にお気に入りです。使い勝手がとてもよいです。
@@ -90,3 +92,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

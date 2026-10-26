@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/05/DSC02837-300x225.jpg"
 title: "[山行] 伊豆ヶ岳"
 date: 2008-05-05T21:08:09
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/05/DSC02837-300x225.jpg"
 
 インターナショナルスクールの同級生と伊豆ヶ岳に登ってきました。
 
@@ -22,3 +24,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/tozan/"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/tozan/">にほんブログ村</a>
+

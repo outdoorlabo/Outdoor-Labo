@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/IMG_1268-300x200.jpg"
 title: "Suunto M3 コンパス"
 date: 2009-01-12T17:35:28
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/IMG_1268-300x200.jpg"
 
 <!-- wp:paragraph -->
 登山の時、必ずスントのコンパス、M3を持ち歩いているのですが、M3っていう腕時計もでてるんですね、スントから。ややこし。
@@ -68,3 +70,4 @@ GPSもほしいなーと思い、Garminの小型のものでもうちょっと�
 
 
 <!-- /wp:paragraph -->
+

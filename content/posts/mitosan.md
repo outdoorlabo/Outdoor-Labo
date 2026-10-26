@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/11/IMG_0012--225x300.jpg"
 title: "三頭山〜大沢山〜槇寄山"
 date: 2009-11-21T22:36:44
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/11/IMG_0012--225x300.jpg"
 
 <!-- wp:paragraph -->
 今日は珍しく複数名での山歩きでした。いつもお仕事を手伝ってもらっているプロダクションのデザイナーのA君とT君の３人で、プレゼンのお疲れ様会＆海外の広告賞受賞のお祝い会を兼ねてお山でパーティー。
@@ -134,3 +136,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

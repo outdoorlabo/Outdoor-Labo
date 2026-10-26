@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0781-300x200.jpg"
 title: "紅葉だよ、代々木公園"
 date: 2008-11-30T22:12:20
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0781-300x200.jpg"
 
 すごくいい天気だったので、愛犬たちを連れて、代々木公園に行ってきました。
 
@@ -34,3 +36,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" width="88" height="31" border="0" alt="にほんブログ村 アウトドアブログへ" /></a>  
 <a href="http://outdoor.blogmura.com/">にほんブログ村</a>
+

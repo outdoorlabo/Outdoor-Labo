@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_1690-300x200.jpg"
 title: "折りたたみ　ステンレス my 箸　[100均]"
 date: 2009-07-25T11:17:45
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_1690-300x200.jpg"
 
 <!-- wp:paragraph -->
 ハイマウントの折りたたみ式のmy箸ポケハシでステンレス製があったはずなのですが、お店で木製バージョンしか見あたらないんです。
@@ -61,3 +63,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_1261-300x200.jpg"
 title: "モンベル O.D.ロールペーパーキット"
 date: 2008-12-29T00:14:45
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_1261-300x200.jpg"
 
 <!-- wp:paragraph -->
 携帯用トイレットペーパー＆ケースです。
@@ -72,3 +74,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

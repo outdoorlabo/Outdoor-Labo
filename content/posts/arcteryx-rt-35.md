@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0757-200x300.jpg"
 title: "ARC'TERYX RT 35 バックパック"
 date: 2008-11-25T14:02:25
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0757-200x300.jpg"
 
 日帰りハイキング・登山に、アークテリクスのRT35というバックパックを使っています。
 
@@ -47,3 +49,4 @@ draft: false
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

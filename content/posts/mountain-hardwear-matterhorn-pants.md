@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03471-300x225.jpg"
 title: "Mountain Hardwear マッターホルン パンツ"
 date: 2008-11-24T01:32:43
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03471-300x225.jpg"
 
 暑い時は短パンに、寒くなったら長ズボンにと、体温調節が簡単にできるので、Love コンバーチブルなのです。
 
@@ -26,3 +28,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
+

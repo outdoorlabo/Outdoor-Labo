@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0728-300x200.jpg"
 title: "Leki スリップレスラバーロング 再購入"
 date: 2008-11-15T19:51:45
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0728-300x200.jpg"
 
 Lekiのトレッキングポールの先っぽにつけるゴム足です。
 
@@ -41,3 +43,4 @@ Lekiのトレッキングポールの先っぽにつけるゴム足です。
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

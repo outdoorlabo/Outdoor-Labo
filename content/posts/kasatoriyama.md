@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_0055-225x300.jpg"
 title: "[山行] 笠取山 〜山梨百名山"
 date: 2009-07-11T23:01:07
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_0055-225x300.jpg"
 
 <!-- wp:paragraph -->
 今日は山梨にある笠取山1953mに登ってきました。
@@ -290,3 +292,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

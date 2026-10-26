@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/10/IMG_2003-300x200.jpg"
 title: "Carbo Shotz効果"
 date: 2009-10-18T17:45:30
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/10/IMG_2003-300x200.jpg"
 
 <!-- wp:paragraph -->
 久しぶりということもあり、絶対途中でバテると思い、先週の雲取山にカーボショッツを投入してみました。
@@ -62,3 +64,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

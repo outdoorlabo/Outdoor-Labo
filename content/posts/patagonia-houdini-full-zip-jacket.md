@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2011/05/RIMG0386-300x225.jpg"
 title: "Patagonia フーディニ　フルジップ　ジャケット [購入]"
 date: 2011-05-28T13:54:42
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2011/05/RIMG0386-300x225.jpg"
 
 <!-- wp:paragraph -->
 このブルーに一目惚れしてOD BOXで購入。これからの季節にぴったりのジャケット。DWR加工がされているので、少々の雨も平気。
@@ -130,3 +132,4 @@ draft: false
 <!-- wp:image {"linkDestination":"custom"} -->
 <figure class="wp-block-image"><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" alt="にほんブログ村 アウトドアブログへ"/></a></figure>
 <!-- /wp:image -->
+

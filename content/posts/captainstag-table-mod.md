@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/11/img_9903.jpg"
 title: "キャプテンスタッグ　ローテーブルの脚を延長してみた"
 date: 2019-11-18T11:08:00
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/11/img_9903.jpg"
 
 <!-- wp:paragraph -->
 鹿番長のローテーブル、キャンプに行く時は必ず持っていきますが、ローチェアと一緒に使う際の使い勝手が悪いので、先人の知恵を拝借して脚を延長してみまんた。
@@ -105,3 +107,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

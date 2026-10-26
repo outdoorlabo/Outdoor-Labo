@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC04100-300x225.jpg"
 title: "Golite サンバイザー"
 date: 2009-04-17T21:17:46
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC04100-300x225.jpg"
 
 <!-- wp:paragraph -->
 サンバイザーって、あまり売ってないんですね。神保町の店でも売っている数自体少ないし、これっていうのがなかなか見つからず・・・。
@@ -68,3 +70,4 @@ Goliteのサンバイザー！
 
 
 <!-- /wp:paragraph -->
+

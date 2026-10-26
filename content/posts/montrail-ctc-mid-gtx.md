@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03489-225x300.jpg"
 title: "Montrail CTC Mid GTX 購入 [軽登山用]"
 date: 2008-10-14T23:35:36
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03489-225x300.jpg"
 
 <!-- wp:paragraph -->
 モントレイル　シーティーシーミッド GTXを軽い登山用に購入しました。
@@ -70,3 +72,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2023/12/IMG_2301-jpg.webp"
 title: "Granite Gear Hiker Satchel サコッシュ 軽い！"
 date: 2018-06-24T16:22:34
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2023/12/IMG_2301-jpg.webp"
 
 <!-- wp:paragraph -->
 Granite Gear グラナイトギアのハイカーサッチェルを買ってみました。
@@ -61,3 +63,4 @@ Granite Gear グラナイトギアのハイカーサッチェルを買ってみ�
 
 
 <!-- /wp:paragraph -->
+

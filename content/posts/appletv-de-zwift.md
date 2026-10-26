@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/11/img_7999.jpg"
 title: "AppleTV de Zwift (ﾟ∀ﾟ)ｷﾀｺﾚ!!"
 date: 2017-11-29T16:34:41
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/11/img_7999.jpg"
 
 インスタ見ていたら、１週間ほど前にZwiftがAppleTVに対応しているじゃありませんか！！！
 
@@ -60,3 +62,4 @@ draft: false
 <div class="booklink-footer"></div>
 </div>
 </div>
+

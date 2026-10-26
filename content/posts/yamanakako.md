@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/IMG_1567-300x200.jpg"
 title: "富士山巡り"
 date: 2009-03-22T10:51:29
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/IMG_1567-300x200.jpg"
 
 <!-- wp:paragraph -->
 富士山を見るために、一泊二日で河口湖〜山中湖に行ってきました。
@@ -100,3 +102,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

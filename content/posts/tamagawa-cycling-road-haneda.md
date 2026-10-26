@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_0090-259x300.jpg"
 title: "多摩川サイクリングロード　羽田まで"
 date: 2009-07-20T22:31:43
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_0090-259x300.jpg"
 
 <!-- wp:paragraph -->
 最近あまりにも運動不足なので、多摩川サイクリングロードを走ってきました。
@@ -56,3 +58,4 @@ iPhoneを持っていったんですが、iPhoneの自転車用ホルダーが�
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/snapseed.jpg"
 title: "息子と大山﻿ハイキング"
 date: 2016-04-30T23:15:07
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/snapseed.jpg"
 
 <h2 class="Balloon">幼稚園児 登山デビュー</h2>
 年長さんになったので、待ちに待った息子の山デビュー！
@@ -49,3 +51,4 @@ draft: false
 帰路でも走り回ったり、うちに帰ってきても疲れを見せない… こんな小さな体なのに、子供ってすごいなぁ…
 
 お父ちゃんはすでに筋肉痛です…
+

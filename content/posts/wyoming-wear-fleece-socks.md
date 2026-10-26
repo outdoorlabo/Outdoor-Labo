@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/DSC03974-300x225.jpg"
 title: "Wyoming Wear フリースソックス"
 date: 2009-03-01T11:11:55
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/DSC03974-300x225.jpg"
 
 <!-- wp:paragraph -->
 テント内で寒くて眠れない時、まず足下を暖めるだけで解決できる時があります。
@@ -54,3 +56,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

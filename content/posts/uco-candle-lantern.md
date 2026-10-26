@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03590-300x225.jpg"
 title: "[レビュー] UCO キャンドル ランタン"
 date: 2008-12-02T00:02:26
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03590-300x225.jpg"
 
 <!-- wp:paragraph -->
 <span class="item_desc">LEDランタンも明るくていいけど、自然な柔らかい光もいいものです。</span>
@@ -102,3 +104,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

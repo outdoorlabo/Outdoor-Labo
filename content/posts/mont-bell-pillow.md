@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_2009-300x200.jpg"
 title: "モンベル U.L.コンフォートシステムピロー"
 date: 2009-12-26T17:12:08
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_2009-300x200.jpg"
 
 <!-- wp:paragraph -->
 モンベルのU.L.コンフォートシステムピロー、すごく快適です。
@@ -62,3 +64,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

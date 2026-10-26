@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/07/IMG_2874.jpg"
 title: "[レビュー] Greeshow GS-2801世界初！電動駆動 携帯浄水器 / アウトドア・キャンプ・防災"
 date: 2024-08-05T20:49:50
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/07/IMG_2874.jpg"
 
 <!-- wp:paragraph -->
 アウトドアでは水の確保に気を使いますよね。綺麗に見える川や沢の水・湧き水をそのまま飲むのは危険なので、事前に用意して持っていくか、現地で生水を飲めるように処理して使うかの２択です。
@@ -393,3 +395,4 @@ GreeshowさんのAmazonでのブラックフライデー、12/26　23：59まで
 <a href="https://outdoorlabo.a-ce.com/2024/10/13/greeshow-gs-2811-review/">https://outdoorlabo.a-ce.com/2024/10/13/greeshow-gs-2811-review/</a>
 </div>
 <!-- /wp:cocoon-blocks/blogcard -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/IMG_1239-300x200.jpg"
 title: "熊に金棒　[熊鈴]"
 date: 2009-04-12T22:33:35
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/IMG_1239-300x200.jpg"
 
 <!-- wp:paragraph -->
 暖かくなってきました。山に行きたいですが、週末に出張やら撮影やらで、全然休みがとれてません。そのかわり、ゴールデンウィークはしっかり山にいってきます。
@@ -117,3 +119,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

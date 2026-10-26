@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/12/img_8033.jpg"
 title: "花見川サイクリングロード印旛沼添え"
 date: 2017-12-04T08:26:13
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/12/img_8033.jpg"
 
 千葉にある花見川サイクリングロードに同僚と行ってきますた。
 
@@ -49,3 +51,4 @@ draft: false
 ↑　海まで戻ってきた頃には、もう日暮れ。海から見る夕日、最高。
 
 同僚の自宅から往復88キロ。また行きたいけど、わたしの家から遠い…＿|￣|○ ｶﾞｸｯ
+

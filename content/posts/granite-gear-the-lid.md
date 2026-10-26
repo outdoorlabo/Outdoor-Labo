@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0840-300x200.jpg"
 title: "Granite Gear The Lid 蓋"
 date: 2008-12-16T07:21:02
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0840-300x200.jpg"
 
 <!-- wp:paragraph -->
 Virga、Vapor Trail、Nimbus Ozoneに取り付けられるバックパックのフタを購入しました。
@@ -68,5 +70,6 @@ Virga、Vapor Trail、Nimbus Ozoneに取り付けられるバックパックの�
 
 
 <!-- /wp:paragraph -->
+
 
 

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/10/IMG_2049-300x199.jpg"
 title: "大涌谷〜箱根"
 date: 2009-10-25T15:12:30
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/10/IMG_2049-300x199.jpg"
 
 <!-- wp:paragraph -->
 <span class="yui-non">箱根に一泊してきました。</span>
@@ -56,3 +58,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

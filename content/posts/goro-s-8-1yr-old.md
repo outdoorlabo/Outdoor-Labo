@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_0027-225x300.jpg"
 title: "Goro S-8 もうすぐ1歳"
 date: 2009-12-16T23:34:52
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_0027-225x300.jpg"
 
 <!-- wp:paragraph -->
 今号のヤマケイJoyを立ち読みしていたら、ゴローで"マイ山靴"を作るという記事がありました。工房の写真なんかもあり、つい買ってしまいました。
@@ -60,3 +62,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

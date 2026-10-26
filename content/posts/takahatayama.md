@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03861-300x225.jpg"
 title: "[山行] 高畑山・倉岳山　"
 date: 2008-12-31T22:00:41
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03861-300x225.jpg"
 
 <!-- wp:paragraph -->
 今年の登り納めとして、山梨にある高畑山と倉岳山に行ってきました。
@@ -157,3 +159,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

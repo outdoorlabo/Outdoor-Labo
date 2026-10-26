@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/jt01-300x225.jpg"
 title: "Joshua Tree National Park / ハイキング トリップ [テント泊]"
 date: 2003-02-10T21:43:08
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/jt01-300x225.jpg"
 
 美大のクラスメイト、Gus、Ormar、そしてGF、EJとジョシュアツリーへキャンプ+BBQ+ハイキングトリップに。
 
@@ -25,3 +27,4 @@ draft: false
 EJがミニチュアに見える…。
 
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/jt5.jpg"><img title="岩でかっ" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/jt5-225x300.jpg" alt="岩でかっ" width="225" height="300" /></a>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/02/IMG_2237-300x200.jpg"
 title: "Marmot Mountain Down Jacket [重量級]"
 date: 2010-02-07T21:30:27
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/02/IMG_2237-300x200.jpg"
 
 <!-- wp:paragraph -->
 マーモットのヘビーデューティーなダウンジャケット、マウンテンダウンジャケット。重さはMサイズで1040g。
@@ -60,3 +62,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

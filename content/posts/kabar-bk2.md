@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2019/12/img_0046.jpg"
 title: "海外でも評価の高いブッシュクラフト ナイフ [KA-BAR BK2]"
 date: 2020-01-24T09:37:54
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2019/12/img_0046.jpg"
 
 <!-- wp:paragraph -->
 数年前に流行ったケーバー　ベッカーのBK2ですが、海外のブッシュクラフトのナイフのレビューにて、現在も尚オススメのブッシュクラフト ナイフとして評価が高くて驚き。（所有している身としては嬉しい♡）
@@ -273,3 +275,4 @@ BK2よりお高いESEE 5、BK2の半額くらいの中国製シュレードのSC
 
 <!-- /wp:paragraph -->
 [itemlink post_id="4815"]
+

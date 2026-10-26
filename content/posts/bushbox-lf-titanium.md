@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/12/img_8874.jpg"
 title: "Bushbox LF Titanium ストーブを買ってみた"
 date: 2018-12-31T09:57:53
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/12/img_8874.jpg"
 
 Bushcraft Essentialsのウッドストーブのなかでも最新モデルのLFのチタンモデルを買ってみました。<img class="size-full wp-image-3519" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2018/12/img_8874.jpg" width="700" height="525" />
 
@@ -170,6 +172,7 @@ Bushboxは、3サイズ展開されています。ノーマルサイズ、LF、X
 
 
 [itemlink post_id="4904"]
+
 
 
 

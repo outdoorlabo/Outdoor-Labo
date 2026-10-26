@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9124.jpg"
 title: "南ア 北岳 八本歯経由 [テント泊]"
 date: 2011-07-17T21:35:13
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9124.jpg"
 
 南アルプスの北岳に。
 
@@ -19,3 +21,4 @@ draft: false
 &nbsp;
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31"></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31"></a><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31"></a>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0852-300x200.jpg"
 title: "Trangia & かんたん自作 五徳・風防　"
 date: 2008-12-25T21:51:44
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0852-300x200.jpg"
 
 <!-- wp:paragraph -->
 アルコールストーブの定番、トランギアです。
@@ -72,3 +74,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

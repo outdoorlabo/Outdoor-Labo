@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03659-300x225.jpg"
 title: "大観山〜湯河原"
 date: 2008-12-13T13:36:15
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03659-300x225.jpg"
 
 <!-- wp:paragraph -->
 湯河原のお気に入りの宿が、すでに年末までの週末は満室、年末・年始も満室ということで、金曜に一泊二日で行ってきました。
@@ -64,3 +66,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

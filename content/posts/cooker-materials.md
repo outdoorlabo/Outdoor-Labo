@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://i2.wp.com/outdoorlabo.a-ce.com/wp-content/uploads/2019/04/pots.png?fit=840%2C630"
 title: "チタン？アルミ？ステンレス？鉄？アウトドアでのコッフェル"
 date: 2019-04-24T14:09:15
 draft: false
----
+--
+featureImage: "https://i2.wp.com/outdoorlabo.a-ce.com/wp-content/uploads/2019/04/pots.png?fit=840%2C630"
 
 <!-- wp:image {"id":3833} -->
 <figure class="wp-block-image"><img class="wp-image-3833" src="https://i2.wp.com/outdoorlabo.a-ce.com/wp-content/uploads/2019/04/pots.png?fit=840%2C630" alt="" /></figure>
@@ -277,3 +279,4 @@ C=mc　[C=熱容量 m=質量 c=比熱]
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/06/IMG_2595.jpg"
 title: "[レビュー] キャメロンズ ミニスモーカー 燻製器"
 date: 2024-06-02T21:35:58
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/06/IMG_2595.jpg"
 
 <!-- wp:paragraph -->
 GW突入前に、理由はさっぱりわからないのですが、突発的に燻製が作りたくなってしまいました。
@@ -425,3 +427,4 @@ GW突入前に、理由はさっぱりわからないのですが、突発的に
 <!-- wp:image {"id":5912,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="https://outdoorlabo.a-ce.com/wp-content/uploads/2024/06/IMG_2831.jpg" alt="camerons キャメロンズ ミニスモーカー" class="wp-image-5912"/></figure>
 <!-- /wp:image -->
+

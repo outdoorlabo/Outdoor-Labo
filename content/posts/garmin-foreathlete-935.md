@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/12/ad3fc85f-300x194.jpg"
 title: "Garmin Foreathlete 935を購入してみた [ロードバイク・登山・ラン]"
 date: 2017-12-04T10:44:15
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/12/ad3fc85f-300x194.jpg"
 
 もうかれこれ10年くらい使っていた山用の時計、CasioのPro Trekのガラス内部が曇るようになってきたので、Garmin Foreathlete 935に買い替え！
 
@@ -205,3 +207,4 @@ Runnetに掲載の「ランニングダイナミクスによる評価の目安�
 先にガーミンコネクトで作ったコースをForeathlete 935に転送しておくとナビゲーションしてくれる！
 
 特に便利だったのが、高度グラフで今現在の位置がわかるので、あとどれくらい登ればいいかが一目瞭然。秀逸です。
+

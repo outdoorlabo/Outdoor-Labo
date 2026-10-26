@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/11/img_9948.jpg"
 title: "Firebox Nanoでミニマルに [アルストにも焚き火台にも]"
 date: 2019-12-09T14:31:20
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/11/img_9948.jpg"
 
 <!-- wp:paragraph -->
 Bushcraft EssentialsのBushbox LFを愛用していますが、更にコンパクトに…ということで、 Firebox Nano Gen2 Titanium X-Caseセットを買ってみました。
@@ -265,4 +267,5 @@ Bushboxは組み立て・撤収が面倒くさそうなので、Firebox Nanoを�
 
 
 <!-- /wp:paragraph -->
+
 

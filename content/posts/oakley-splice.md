@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/IMG_2216-300x200.jpg"
 title: "オークリー Splice Jet Black / Pink Iridium [ゴーグル]"
 date: 2010-01-31T21:23:54
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/IMG_2216-300x200.jpg"
 
 <!-- wp:paragraph -->
 装備チェックのため、久しぶりにオークリーのゴーグルを出してみたところ、予定外の出費をさせられるハメに。
@@ -111,3 +113,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

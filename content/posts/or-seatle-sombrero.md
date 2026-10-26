@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/07/IMG_2369-300x200.jpg"
 title: "OR シアトル ソンブレロ [Gore-Tex]"
 date: 2010-07-04T19:51:31
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/07/IMG_2369-300x200.jpg"
 
 アウトドアリサーチのシアトル ソンブレロを先週末の山用に購入。
 
@@ -27,3 +29,4 @@ draft: false
 今までずっとサンバイザー派だったのですが、雨が心配な時はこの手のタイプもありですね。風が強いとブリムがベルクロにくっついてしまう点と、やっぱり長時間の使用だと通気性よいものと比べると暑いという点で、星ひとつ減点の４つ星★★★★☆です。
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

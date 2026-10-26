@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/09/IMG_1977-300x200.jpg"
 title: "グルコサミン + コンドロイチン [リピ買い]"
 date: 2009-09-26T23:03:18
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/09/IMG_1977-300x200.jpg"
 
 <!-- wp:paragraph -->
 グルコサミン摂取で関節痛への効果が現れるようになるまでの期間とされる３ヶ月[詳しくは<a href="http://outdoorlabo.a-ce.com/2008/12/12/glucosamine/" target="_blank" rel="noopener">こちら</a>で]、欠かさず飲みましたよ。で、また念のためリピ買い。６ヶ月分を飲みきった後、油断して飲まない日々が続きました。すると...また調子が悪くなってしまいました。
@@ -45,3 +47,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

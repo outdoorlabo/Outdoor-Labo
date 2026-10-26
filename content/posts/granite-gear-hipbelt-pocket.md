@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03274-300x225.jpg"
 title: "Granite Gear ヒップベルトポケット"
 date: 2008-10-12T02:05:58
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03274-300x225.jpg"
 
 グラナイトギアのNimbus Ozone（ニンバスオゾン）を1泊、2泊のテント泊の時に使っているのですが、↓の写真のように、外に小物を収納するポッケがついていません。
 
@@ -24,3 +26,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
+

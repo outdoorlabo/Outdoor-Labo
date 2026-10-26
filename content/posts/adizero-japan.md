@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1990-300x200.jpg"
 title: "adizero Japan 購入 [ランニング]"
 date: 2009-08-30T16:14:43
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1990-300x200.jpg"
 
 <!-- wp:paragraph -->
 本当はAdidasのadizero Bostonを買おうと思っていたんですが、あまりにも安かったんでadizero Japanを購入してました。
@@ -69,3 +71,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/b45c384b961ae1de41409f03eb7bbafd-300x300.jpg"
 title: "[最強 浄水器] シーガルフォー First Need DELUXE FN-DX"
 date: 2008-12-19T00:00:02
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/b45c384b961ae1de41409f03eb7bbafd-300x300.jpg"
 
 <!-- wp:paragraph -->
 アメリカ在住時に購入し、テント泊の登山やバックパッキングでの浄水器として、シーガルフォーのファースト ニードを今でも愛用しています。
@@ -99,3 +101,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

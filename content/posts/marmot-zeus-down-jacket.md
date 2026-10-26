@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03288-300x225.jpg"
 title: "Marmot ゼウス ダウンジャケット"
 date: 2008-10-19T23:27:10
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03288-300x225.jpg"
 
 かるーいダウンジャケットがほしかったので、今年のニューモデル、マーモットのゼウスダウンジャケットを購入しました。
 
@@ -50,3 +52,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
+

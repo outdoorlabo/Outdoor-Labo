@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/11/DSC03998-300x225.jpg"
 title: "ブレスサーモ 極厚 ウールソックス [冬期・縦走に]"
 date: 2009-11-28T11:08:07
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/11/DSC03998-300x225.jpg"
 
 <!-- wp:paragraph -->
 極厚のソックスがほしい！　そんな方にオススメなのが、このミズノのラムウールブレスサーモ エクスペディション ソックス。
@@ -74,3 +76,4 @@ Patagonia、Smart Wool、モンベル、ファイントラックの一番厚い�
 
 
 <!-- /wp:paragraph -->
+

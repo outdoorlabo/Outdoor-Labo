@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/02/img_0170.jpg"
 title: "買ってよかった！ 格安ヘリノックスコットもどき"
 date: 2020-02-03T11:22:42
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/02/img_0170.jpg"
 
 半年以上前の去年のお話…。
 
@@ -80,5 +82,6 @@ kaliliのコットも軋みます。が、そこまで気にならない程度�
 
 
 [itemlink post_id="4811"]
+
 
 

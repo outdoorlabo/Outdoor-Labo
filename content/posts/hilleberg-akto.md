@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/AktoGrn-Web.jpg"
 title: "Hilleberg Akto / アクト [一人用テント]"
 date: 2009-03-14T21:49:24
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/AktoGrn-Web.jpg"
 
 <!-- wp:paragraph -->
 ヒルバーグの一人用テント、アクトを愛用しています。かれこれ5年ほどのつきあいです。
@@ -83,3 +85,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

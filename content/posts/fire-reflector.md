@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/64472992-0204-42f4-b78a-c48afa5c5069.jpg"
 title: "自作　焚き火リフレクター [DIY]"
 date: 2019-03-18T10:50:27
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/64472992-0204-42f4-b78a-c48afa5c5069.jpg"
 
 <!-- wp:paragraph -->
 帆布で手縫いプロジェクトその２。焚き火用のリフレクターを作ってみました。
@@ -75,6 +77,7 @@ draft: false
 
 
 [itemlink post_id="4888"]
+
 
 
 

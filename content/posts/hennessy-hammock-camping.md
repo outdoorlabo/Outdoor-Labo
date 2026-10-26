@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/1fea8a70-5830-4b9a-a4d8-517b8011149e.jpg"
 title: "氷点下の中でハンモックキャンプ"
 date: 2019-03-31T10:26:31
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/1fea8a70-5830-4b9a-a4d8-517b8011149e.jpg"
 
 踵骨棘と診断され、杖を使わないとまともに歩けまへん。なので、車でキャンプに行ってきました…。
 
@@ -53,4 +55,5 @@ Western MountaineeringのPumaという雪山登山の時に使っている極寒
 夜は焚き火の炎を見ながら、ブランデーをちびちび。寒くなったきたらコーヒーを淹れ、その中にブランデーをどばどば。残念ながら、星は見えませんでしたが、マッタリできました。
 
 [itemlink post_id="4885"]
+
 

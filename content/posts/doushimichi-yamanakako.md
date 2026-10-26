@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/img_7850-1.jpg"
 title: "道志みちー山中湖 ダラダラ ライド "
 date: 2017-08-11T09:38:56
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/img_7850-1.jpg"
 
 山の日の前日に、往復185キロの道志みちー山中湖ライドに行ってきました。なんだか、色んな意味でついてないライドでした…。
 
@@ -72,3 +74,4 @@ GiroのZero IIというグローブを使っているのですが、前から色
 そして、染まった手は…というと…アルコール、白ガス、ハンドソープ、食器用洗剤、メイク落としソープでいくら洗っても取れなかったんですが、メラミンスポンジで擦ったら、綺麗に落ちたｗ。
 
 めでたし、めでたし。
+

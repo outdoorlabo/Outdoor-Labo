@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC04010-300x225.jpg"
 title: "今月の山渓はgoodでした"
 date: 2009-02-22T22:51:24
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC04010-300x225.jpg"
 
 <!-- wp:paragraph -->
 <span class="yui-non">気になる号しか買いませんが、今月の山渓はなかなかよかったですよ。</span>
@@ -55,3 +57,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

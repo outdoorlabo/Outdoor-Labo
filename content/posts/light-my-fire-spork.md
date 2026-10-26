@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/06/IMG_1680-300x200.jpg"
 title: "Light My Fire Spork スポーク"
 date: 2009-06-21T23:27:37
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/06/IMG_1680-300x200.jpg"
 
 <!-- wp:paragraph -->
 最近、空港でもよく見かける、Light My Fireの商品。
@@ -129,3 +131,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/1-300x300.jpg"
 title: "南ア 仙丈ヶ岳 [テント泊]"
 date: 2015-07-18T11:57:18
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/1-300x300.jpg"
 
 恒例の海の日登山。写真のみの健忘録。7月18日〜19日
 
@@ -29,3 +31,4 @@ draft: false
 <img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/11-300x300.jpg" alt="11" width="300" height="300" class="alignnone size-medium wp-image-3177" />
 
 &nbsp;
+

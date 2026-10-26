@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/07/IMG_2787.jpg"
 title: "[レビュー] Medi-Dyne(メディダイン) ProStretch Plus プロ ストレッチ プラス "
 date: 2024-07-02T10:10:51
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/07/IMG_2787.jpg"
 
 <!-- wp:paragraph -->
 足底腱膜炎（足底筋膜炎）だけでなく、アキレス腱、ふくらはぎ、脛、ハムストリングまでストレッチできるアメリカ製のストレッチボードを導入し、3ヶ月が経ったのでレビューします。
@@ -213,3 +215,4 @@ https://youtu.be/Er2pnhQ0NYw?si=bnx4hiqf-_lQBoga
 <a href="https://outdoorlabo.a-ce.com/2024/09/05/superfeet-active-support-low-arch-carbon/">https://outdoorlabo.a-ce.com/2024/09/05/superfeet-active-support-low-arch-carbon/</a>
 </div>
 <!-- /wp:cocoon-blocks/blogcard -->
+

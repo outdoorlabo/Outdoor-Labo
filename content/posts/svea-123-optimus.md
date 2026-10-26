@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/05/img_9421.jpg"
 title: "SVEA 123で遊ぶ [ビンテージ]"
 date: 2019-05-27T07:02:01
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/05/img_9421.jpg"
 
 ひっさしぶりに引っ張りだしてきました。1970年初期のSVEA123。
 
@@ -62,4 +64,5 @@ SVEA 123や123Rの特徴として、ポンピングが不要。プレヒート�
 
 
 <!-- wp:paragraph -->
+
 

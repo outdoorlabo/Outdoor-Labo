@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6145-1.jpg"
 title: "自転車お守りゲッツ [阿蘇神社]"
 date: 2016-05-22T21:04:22
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6145-1.jpg"
 
 先週末に行こうと思っていたんですが、胃炎と熱でダウン… 先週一週間はずっと胃がキリキリ、お腹ギュルギュルで体調絶不調でした。
 
@@ -25,3 +27,4 @@ draft: false
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6146.png"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6146.png" alt="" width="640" height="1136" class="alignnone size-full wp-image-3137" /></a>
 
 サクッと行って帰ってきて、シャワー浴びて、ビール飲んで、お昼寝して。贅沢な日曜でした \(•ө•)/♪
+

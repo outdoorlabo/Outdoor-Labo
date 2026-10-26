@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2011/05/RIMG0369-300x225.jpg"
 title: "大菩薩嶺 [裂石]"
 date: 2011-05-21T22:50:47
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2011/05/RIMG0369-300x225.jpg"
 
 デザイナー君、写真家君の3人で大菩薩に。な、なんと去年の7月以来のお山。（嬉）
 
@@ -67,3 +69,4 @@ draft: false
 &nbsp;
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" /></a>
+

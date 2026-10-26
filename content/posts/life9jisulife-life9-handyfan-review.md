@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/07/IMG_2830.jpg"
 title: "[レビュー] JisuLife Life9 軽量小型で最強ハンディファン"
 date: 2024-07-29T21:04:21
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/07/IMG_2830.jpg"
 
 <!-- wp:paragraph -->
 ランニング・ロードバイクでの熱中症対策に最適な小型で軽量、風量が最高なハンディファンを導入！
@@ -187,3 +189,4 @@ https://outdoorlabo.a-ce.com/2024/07/25/mission-max-plus-cooling-towel-review/
 
 
 <!-- /wp:paragraph -->
+

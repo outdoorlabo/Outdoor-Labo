@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/07/IMG_2806.jpg"
 title: "[レビュー] MISSION ミッション MAX PLUS COOLING TOWEL マックスプラス クールタオル 熱中症対策に"
 date: 2024-07-25T10:08:44
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/07/IMG_2806.jpg"
 
 <!-- wp:paragraph -->
 ５月辺りから10km以上のジョグで滝汗状態。そして６月に入ると朝でも日差しがヤバくなり、ヘロヘロ状態。どこで手に入れたか忘れたハンカチサイズのクールタオルやハンドタオルサイズのPack Towelを水に浸して使用してきましたが、首にしっかり巻けるような長いタオルが欲しくなりAmazonを覗いてみることに。
@@ -188,3 +190,4 @@ Max Plusのレビューが悪いかと思いきや、星4.5（869件）。オリ
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

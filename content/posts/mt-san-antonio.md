@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com//wp-content/uploads/2009/12/09aee5f127b69f439d6726bd81abc48f-300x225.jpg"
 title: "[山行] Mt. San Antonio a.k.a. Mt. Baldy"
 date: 2003-03-21T21:03:23
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com//wp-content/uploads/2009/12/09aee5f127b69f439d6726bd81abc48f-300x225.jpg"
 
 美大のクラスメイト、OrmarとMt. Baldyとして知られるMt. San Antonio（10,064 ft・3067m）へ。San Gabriel Mountainsのひとつで、ロサンゼルスカウンティーの中で一番高い山。
 
@@ -36,3 +38,4 @@ Ormarは途中で拾った枝をトレッキングポールにしてるし。
 
 <a href="http://outdoor.blogmura.com/tozan/"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/tozan/">にほんブログ村</a>
+

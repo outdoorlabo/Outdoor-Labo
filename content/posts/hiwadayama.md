@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/06/DSC03030-300x225.jpg"
 title: "[山行] 日和田山・物見山"
 date: 2008-06-14T18:55:51
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/06/DSC03030-300x225.jpg"
 
 スタビライクスのテストを兼ねて、今回は日高市にある日和田山と物見山に行ってきました。すごくいい天気で山にもってこい。
 
@@ -47,3 +49,4 @@ draft: false
 <a href="http://outdoor.blogmura.com/tozan/">にほんブログ村</a>
 
 </div>
+

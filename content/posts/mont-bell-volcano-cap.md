@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03946-300x225.jpg"
 title: "モンベル　ボルカノキャップ"
 date: 2009-01-25T16:04:23
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03946-300x225.jpg"
 
 <!-- wp:paragraph -->
 上のヒモを縛ればキャップ、そして緩めればネックゲーターにもなるという優れモノ。
@@ -82,3 +84,4 @@ Columbia トロナニットスカーフ：
 
 
 <!-- /wp:paragraph -->
+

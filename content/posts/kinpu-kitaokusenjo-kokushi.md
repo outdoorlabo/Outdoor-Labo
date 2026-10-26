@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/07/RIMG0177-300x225.jpg"
 title: "金峰山・北奥千丈岳・国師ヶ岳 [奥秩父縦走]"
 date: 2010-07-18T23:58:15
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/07/RIMG0177-300x225.jpg"
 
 お家事情でテント泊禁止令が10月まで出ているので、梅雨明け？の3連休の中日に奥秩父の金峰山、金峰山・北奥千丈岳・国師ヶ岳に行ってきました。天気は最高、眺めも最高、虫さん達の数も今までで最高でした。
 
@@ -141,3 +143,4 @@ draft: false
 <a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" /></a>
 
 <a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" /></a>
+

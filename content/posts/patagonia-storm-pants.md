@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/17018263-300x300.jpg"
 title: "Patagonia Storm Pants [冬期用]"
 date: 2010-03-21T23:43:54
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/17018263-300x300.jpg"
 
 <!-- wp:paragraph -->
 愛用のオーバーパンツは、パタゴニアのストームパンツ。ストームジャケットとおそろい。172cmの私はサイズM。足が短いので、丈の長さがちょっと長い。でも長すぎというわけでもないので、ノープロブレモ。
@@ -92,3 +94,4 @@ draft: false
 <!-- wp:image {"linkDestination":"custom"} -->
 <figure class="wp-block-image"><a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ"/></a></figure>
 <!-- /wp:image -->
+

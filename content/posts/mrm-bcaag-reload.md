@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/MRM019-300x300.png"
 title: "MRM BCAA+g RELOAD スイカ味 [購入]"
 date: 2017-08-30T11:05:27
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/MRM019-300x300.png"
 
 <h2 class="Balloon"> <img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/MRM019-300x300.png" alt="" width="300" height="300" class="alignnone size-medium wp-image-3382" /></h2>
 BCAAの有名どころ、MRMのBCAAのレモン味を買っていたのですが、味が不味い…。
@@ -71,3 +73,4 @@ BCAA（(L-ロイシン、L-イソロイシン &amp; L-バリン）は骨格筋�
 こちらから購入すると、割引価格で買えますよ〜。
 
 <span style="color: #ff0000;">**<a href="https://iherb.co/3n2BQhPV" target="_blank" rel="noopener">こちらをクリック</a>**</span>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0843-300x200.jpg"
 title: "Marmot Approach Jacket ソフトシェル"
 date: 2008-12-11T12:03:55
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0843-300x200.jpg"
 
 <!-- wp:paragraph -->
 <span class="yui-non">先日の<a href="https://outdoorlabo.a-ce.com/2008/12/10/marmot-driclime-jacket/" target="_blank" rel="noopener noreferrer">ドライ クライム ジャケット</a>の紹介ページで触れたジャケットがこれです。</span>
@@ -72,3 +74,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

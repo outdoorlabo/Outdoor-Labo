@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0874-200x300.jpg"
 title: "Primus 2245 ガス ランタン"
 date: 2008-12-24T21:02:23
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0874-200x300.jpg"
 
 <!-- wp:paragraph -->
 キャンプでプリムスのガスランタンを使っています。
@@ -102,3 +104,4 @@ Merry X'mas!
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0892-300x200.jpg"
 title: "Casio ProTrek PRG 50-T 7 チタン"
 date: 2008-12-14T13:27:57
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0892-300x200.jpg"
 
 <!-- wp:paragraph -->
 カシオのプロトレックを山用の時計として使っています。
@@ -81,3 +83,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

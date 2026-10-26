@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/08/img_8550.jpg"
 title: "ボトル追加！真夏のライドには、サーモス 真空断熱ストローボトル　FFQ-600"
 date: 2018-09-01T14:32:45
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/08/img_8550.jpg"
 
 今年は尋常じゃないくらい暑いー。ボトル内の飲み物も熱湯かっ！ってくらい熱いー。
 
@@ -71,4 +73,5 @@ draft: false
 普通のボトルなら、ABLOCでしょ！かっちょええー。機能的にいうと、Camelbakのほうが好みです。Camelbakだと一直線にドリンクが出てくるんですが、ABLOCはやや広がって出てくるというか。パッキンのお掃除は、ABLOCのほうがやや楽だと思います。Camelbakはかなり面倒…。
 
 [itemlink post_id="4910"]
+
 

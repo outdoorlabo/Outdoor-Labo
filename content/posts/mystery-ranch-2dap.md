@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2023/07/img_1831.jpg"
 title: "[レビュー] ミステリーランチ 2day アサルト / Mystery Ranch 2DAP"
 date: 2023-11-27T20:03:14
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2023/07/img_1831.jpg"
 
 <!-- wp:paragraph -->
 コロナが5類になり、すっかり世の中は働き方が変わってしまい、社内だけでなくクライアントとの会議も対面からTeamsに…。出勤もフルリモート、出社・リモートのハイブリッドなどの形態が生まれ、私も月に出社が数回という働き方に。ほとんど家にいるので、おデブになり、運動するも気合いを入れすぎて故障…そしておデブに…というサイクルから抜け出せませんw
@@ -181,5 +183,6 @@ draft: false
 
 
 [itemlink post_id="5173"]
+
 
 

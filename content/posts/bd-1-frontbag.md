@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/09/IMG_1978-300x200.jpg"
 title: "BD-1 フロントバッグ [リクセン カウル化]"
 date: 2009-09-06T21:26:10
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/09/IMG_1978-300x200.jpg"
 
 <!-- wp:paragraph -->
 今日は朝イチでジムに行き、ちょろっと8kmほどトレッドミルで走った後、休日出勤...。あー、早くプレゼン終われ〜！週末の楽しみが半減です。
@@ -104,3 +106,4 @@ Topeakの携帯ポンプ、Turbo Morphが入りそうにない？
 
 
 <!-- /wp:paragraph -->
+

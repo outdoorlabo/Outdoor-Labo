@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/12/RIMG0307-300x225.jpg"
 title: "Metolius Rock Rings [ロックリングス]"
 date: 2010-12-05T08:04:38
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/12/RIMG0307-300x225.jpg"
 
 まーだ自分だけのための時間が取れません。かれこれ２ヶ月近くです。息子よ、はやく大きくなれと願うばかり…。首が据わり、１人遊びもできるようになってきてるし、もう少しの辛抱。
 
@@ -39,3 +41,4 @@ draft: false
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/4Y3ClWpL9LU?fs=1&amp;hl=ja_JP" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="480" height="385" src="http://www.youtube.com/v/4Y3ClWpL9LU?fs=1&amp;hl=ja_JP" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" /></a>
+

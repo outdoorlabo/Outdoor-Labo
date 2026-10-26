@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/06/HZO549GY_ITM_M1-thumb-250x320-234x300.jpg"
 title: "[レビュー] CW-X スタビライクス 購入 登山のお供に"
 date: 2008-06-11T18:50:59
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/06/HZO549GY_ITM_M1-thumb-250x320-234x300.jpg"
 
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2008/06/HZO549GY_ITM_M1-thumb-250x320.jpg"><img title="スタビライクス" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2008/06/HZO549GY_ITM_M1-thumb-250x320-234x300.jpg" alt="スタビライクス" /></a>
 
@@ -33,3 +35,4 @@ draft: false
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
 
 </div>
+

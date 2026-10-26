@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/07/IMG_2374-300x200.jpg"
 title: "エクストラクター ポイズン リムーバー [フランス製]"
 date: 2010-07-11T21:47:27
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/07/IMG_2374-300x200.jpg"
 
 虫に刺されないように注意していても、100%防御するのは難しいです。刺されてしまった時、すぐ対処しその後のかゆみ・腫れを緩和する目的の小道具がこちらのエクストラクターこと、ポイズンリムーバーです。
 
@@ -41,3 +43,4 @@ draft: false
 ブヨとかスズメバチとかに刺されたらたぶんとんでもなくやばいことになりそうなので、お守りとして虫の季節はファーストエイドキットの中に入れることにします。
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

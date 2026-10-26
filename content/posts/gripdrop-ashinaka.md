@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/02/gripdrop06-750x563.webp"
 title: "[レビュー] GRIPDROP （グリップドロップ）足半 / 足底腱膜炎対策"
 date: 2024-02-15T11:10:45
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/02/gripdrop06-750x563.webp"
 
 <!-- wp:paragraph -->
 足底腱膜炎（足底筋膜炎）を根本から改善するシリーズの実践編 パート１。足裏のアーチを整えるため、足半を家の中にいるときはずっと履き続けるというもの。実際、履き続けてみて、びっくりするくらい効果があったので、レビューします。購入した足半は、ランプラスさんのGRIPDROP ASHINAKA 02というもの。
@@ -293,3 +295,4 @@ https://gripdrop.runplus55.com/collections/all
 
 
 <!-- /wp:paragraph -->
+

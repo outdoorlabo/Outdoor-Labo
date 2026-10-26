@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/06/DSC03040-300x225.jpg"
 title: "Optimus Novaのお掃除"
 date: 2008-06-21T21:11:26
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/06/DSC03040-300x225.jpg"
 
 長期ハイクやファミリーキャンプでお世話になっているガソリンストーブのNova君のお掃除をすることに。
 
@@ -27,3 +29,4 @@ draft: false
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
 
 </div>
+

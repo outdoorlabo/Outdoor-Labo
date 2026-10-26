@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/06/RIMG0152-300x225.jpg"
 title: "梅雨の塔ノ岳 [表尾根縦走]"
 date: 2010-06-26T23:28:46
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/06/RIMG0152-300x225.jpg"
 
 天気予報では曇り＆降水確率30%だったのに…。
 
@@ -101,3 +103,4 @@ draft: false
 気合いを入れて虫除け対策用グッズを持っていきましたが、あまり虫はおらず。蚊は飛んでいましたが、大量ではなかったです。蚊取り線香もヘッドネットも使用せず。DEETとアームカバーで事足りました。
 
 <a href="http://outdoor.blogmura.com/tozan/"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" /></a>
+

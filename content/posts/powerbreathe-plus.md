@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://www.powerbreathe.co.jp/img/powerbreathe_title2.jpg"
 title: "Power Breathe Plus（パワーブリーズ）で呼吸筋を鍛える！"
 date: 2017-08-07T12:47:01
 draft: false
----
+--
+featureImage: "http://www.powerbreathe.co.jp/img/powerbreathe_title2.jpg"
 
 <!-- wp:paragraph -->
 夏風邪を引いてしまい咳のせいで、Zwiftでも実走でも全然走れない…
@@ -183,3 +185,4 @@ Classic、Plus共に、低負荷（緑）、中負荷（青）、高負荷（赤
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

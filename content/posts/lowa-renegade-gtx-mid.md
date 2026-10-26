@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0817-300x200.jpg"
 title: "Lowa レネゲード GTX Mid"
 date: 2008-12-04T00:23:35
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0817-300x200.jpg"
 
 <!-- wp:paragraph -->
 ローバーのレネゲード GTX Mid。
@@ -80,3 +82,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

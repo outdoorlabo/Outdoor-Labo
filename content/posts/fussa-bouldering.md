@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/09/IMG_0449-225x300.jpg"
 title: "BD-1で行く福生ボルダリング [玉川上水緑地日光橋公園]"
 date: 2010-09-11T18:59:42
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/09/IMG_0449-225x300.jpg"
 
 昨晩、第一子誕生お祝い飲み会を同僚に開いてもらい、泡盛を大量に飲んで二日酔いでヘロヘロ。こういう時は汗をかいて酒を抜いてしまおうってことで、体にムチ打って福生にある玉川上水緑地日光橋公園までBD-1で行ってきました。世田谷から福生まで往復63km。暑さでかなり疲れました。
 
@@ -31,3 +33,4 @@ draft: false
 あー、早く涼しくなってくれないかな。そろそろ山に行きたい。
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/" target="_blank"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" /></a>
+

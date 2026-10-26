@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/RIMG0015-300x225.jpg"
 title: "晴れのち雪の谷川岳 [日本百名山]"
 date: 2010-03-28T12:15:16
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/RIMG0015-300x225.jpg"
 
 <!-- wp:paragraph -->
 あまりにも仕事が忙しく、今季最後の雪山登山となるかも？と思い、3月最後の週末の土曜（昨日）はクルマで谷川岳まで行ってきました。うれしいことに、山の神がちょっこり味方してくれた山登りでした。
@@ -201,3 +203,4 @@ https://youtu.be/LOvMYSaNTMg?si=V71J7wJCOjJtZXvt
 <!-- wp:image {"linkDestination":"custom"} -->
 <figure class="wp-block-image"><a href="http://outdoor.blogmura.com/tozan/"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ"/></a></figure>
 <!-- /wp:image -->
+

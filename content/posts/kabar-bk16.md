@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0160.jpg"
 title: "バトニングも！フェザーも！調理も！できるナイフ [KA-BAR BK16]"
 date: 2020-01-28T21:13:38
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0160.jpg"
 
 <!-- wp:paragraph -->
 ヘビーデューティーなBK2の弟分も揃えたいと思い購入したケーバー　ベッカーのBK16ですが、特にデイキャンプの時に大活躍。
@@ -135,3 +137,4 @@ BK2とBK16、セットで持つとコスパ最強セットが完成します。
 
 
 [itemlink post_id="4812"]
+

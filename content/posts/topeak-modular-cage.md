@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1877-300x200.jpg"
 title: "TOPEAK モジュラーケージ EX [調節可能が◎]"
 date: 2009-08-22T20:55:04
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1877-300x200.jpg"
 
 <!-- wp:paragraph -->
 最近、週末は自転車に乗るのがルーティーンになってます。この暑さで溶けそうになりますが。
@@ -96,3 +98,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif"
 title: "ボルダリングのコツ [YouTube]"
 date: 2010-08-07T10:24:29
 draft: false
----
+--
+featureImage: "http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif"
 
 外岩も登りたいなーと思い、2週間ほど前に始めたボルダリング。がんばって週２のペースでジムに行ってます。あるジムでは中級後半までいけても、違うジムでは初級の後半も落とせない…という悔しい思いをしたので、<!--more-->コツをYouTubeで探すとこんなんありました。クライミングの技術本と合わせるとよりわかりやすいかと。
 
@@ -25,3 +27,4 @@ draft: false
 手の皮がおかしなことになるわ、めちゃくちゃ窮屈な靴を履くので足は痛いわ、かなりドM向きのスポーツだと思います。（笑）
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/" target="_blank"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" /></a>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/11/IMG_2007-300x200.jpg"
 title: "ハイドラパック ソフトフラスク [KODAに]"
 date: 2009-11-08T17:15:53
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/11/IMG_2007-300x200.jpg"
 
 <!-- wp:paragraph -->
 カーボショッツ用にハイドラパックのソフトフラスクがなかなか良いです。
@@ -72,3 +74,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

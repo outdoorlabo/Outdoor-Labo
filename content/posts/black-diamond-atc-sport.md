@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/p_2048_1536_8F4E5B79-7AE6-4123-83A9-8141BA4EFEC6.jpeg"
 title: "Black Diamond ATC Sport"
 date: 2009-12-20T00:01:33
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/p_2048_1536_8F4E5B79-7AE6-4123-83A9-8141BA4EFEC6.jpeg"
 
 <!-- wp:paragraph -->
 アメリカでよく一緒にアウトドアを楽しんでいた旧友Ormarと銀座で再会。六年ぶり。
@@ -32,3 +34,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

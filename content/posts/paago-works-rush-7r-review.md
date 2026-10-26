@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/06/IMG_2781.jpg"
 title: "[レビュー] Paago Works Rush 7R トレランバックパック"
 date: 2024-06-18T18:45:55
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/06/IMG_2781.jpg"
 
 <!-- wp:paragraph -->
 パーゴワークスさんのRush Hipがかなり良かったので、週末の20km〜のランニングやトレイルランニング用にコンパクトな7Rを購入。実は11Rを7Rより前に購入してますが、「セブン・イレブン、いい気分♪」（昭和のCMのサウンドロゴw）という順番で紹介したいので、先に７Rのレビューwww お色はRush Hipと揃えたかったので、Shadow Grayで。数ヶ月使用してみて、良かった点、イマイチな点を書いてみようと思います。
@@ -203,3 +205,4 @@ Rush Hipもそうでしたが、7Rも揺れません。これもパーゴワー�
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

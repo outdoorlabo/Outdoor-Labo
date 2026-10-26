@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/10/IMG_0010-225x300.jpg"
 title: "秋の雲取山"
 date: 2009-10-12T19:09:11
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/10/IMG_0010-225x300.jpg"
 
 <!-- wp:paragraph -->
 一ヶ月間に及ぶプレゼン準備＆激務からやっと解放されました。心を癒しにお山へGO!
@@ -141,3 +143,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

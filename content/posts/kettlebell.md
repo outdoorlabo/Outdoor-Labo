@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://item-shopping.c.yimg.jp/i/e/super-sports_rkb16"
 title: "ケトルベル トレーニング [筋トレ]"
 date: 2010-09-05T22:25:22
 draft: false
----
+--
+featureImage: "https://item-shopping.c.yimg.jp/i/e/super-sports_rkb16"
 
 チューブトレーニングにプラスアルファしたいということで、ケトルベルを購入。
 
@@ -32,3 +34,4 @@ wikiのケトルベルより。
 秋になって空気が乾燥してきたら、ボルダリング師匠に外岩に連れて行ってもらうので、それまでにしっかり体を作っておかねば！
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

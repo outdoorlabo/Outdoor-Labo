@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2019/12/img_0053.jpg"
 title: "Firebox Nanoをガスストーブ化 [Bulin]"
 date: 2020-01-20T16:34:59
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2019/12/img_0053.jpg"
 
 <!-- wp:paragraph -->
 ちっこいくせに多機能なNanoちゃんにガスストーブをプレゼントしました。
@@ -179,4 +181,5 @@ Nanoちゃんの小型ヒーター化完成〜！(*´꒳`*ﾉﾉﾞﾊﾟﾁﾊ�
 
 
 <!-- /wp:paragraph -->
+
 

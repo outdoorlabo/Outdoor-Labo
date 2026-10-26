@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/06/img_9487-1.jpg"
 title: "スイス軍キャンドルランタンをオイルランプ化 [DIY]"
 date: 2019-06-17T10:06:50
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/06/img_9487-1.jpg"
 
 スイス軍のフォールディングキャンドルランタンで蝋燭を使った後の掃除が面倒なので、オイルランプ化してみました。
 
@@ -52,4 +54,5 @@ draft: false
 これはUCOのキャンドルランタンにシンデレラフィット。モノによっては、スイス軍のランランにも使えるかもです。
 
 [itemlink post_id="4876"]
+
 

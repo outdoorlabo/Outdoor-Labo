@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0763-300x200.jpg"
 title: "[山行] 愛鷹山（越前岳）〜 御殿場アウトレット"
 date: 2008-11-23T20:09:48
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0763-300x200.jpg"
 
 3連休の初日に、富士山がきれいに見える愛鷹山の最高峰、越前岳（1504m）に行ってきました。
 
@@ -47,3 +49,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/tozan/"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/tozan/">にほんブログ村</a>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/1-2-225x300.jpg"
 title: "北ア 槍ヶ岳 [テント泊]"
 date: 2012-07-15T12:24:08
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/1-2-225x300.jpg"
 
 恒例の海の日登山。写真だけの健忘録。7月15日-16日
 
@@ -59,3 +61,4 @@ draft: false
 <img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/27-300x225.jpg" alt="27" width="300" height="225" class="alignnone size-medium wp-image-3231" />
 
 <img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/28-300x225.jpg" alt="28" width="300" height="225" class="alignnone size-medium wp-image-3232" />
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2025/10/IMG_5232.jpg"
 title: "[レビュー] アンウェイステッド UNWASTED アダプト adapt グローブ トレラン ハーフフィンガー ミトン"
 date: 2025-11-11T10:05:24
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2025/10/IMG_5232.jpg"
 
 <!-- wp:paragraph -->
 トレイルランナーからの注目度が高いUNWASTED（アンウェイステッド）のグローブ「**adapt（アダプト）**」。ハーフフィンガー（指切り）と収納可能なミトン（フード）が一体となった、まさにトレイルランニングのために設計された高機能モデルで気になっていたのですが、ずっと売り切れ…。ようやくRun Boys! Run Girls!から再入荷連絡が入ったので速攻で購入！かなり気に入ったので、レビューします。
@@ -197,3 +199,4 @@ SIZE (MEN) XS / S / M / L
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

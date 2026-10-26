@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0776-300x200.jpg"
 title: "使い捨てないカイロ　Zippo ハンディ ウォーマー　"
 date: 2008-11-30T00:28:57
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0776-300x200.jpg"
 
 かなり寒くなってきました。
 
@@ -30,3 +32,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
+

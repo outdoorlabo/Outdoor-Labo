@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0837-300x200.jpg"
 title: "Granite Gear Pack Pocket 追加"
 date: 2008-12-17T10:50:08
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0837-300x200.jpg"
 
 <!-- wp:paragraph -->
 グラナイトギアのどのバックパックにも取り付けることができるパックポケットもフタと一緒に購入。
@@ -64,3 +66,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

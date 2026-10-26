@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_0039-225x300.jpg"
 title: "[山行] 川苔山（川乗山）"
 date: 2009-12-30T21:14:12
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_0039-225x300.jpg"
 
 <!-- wp:paragraph -->
 今年の登り納めとして、奥多摩の川苔山へ。本当は別の山に行く予定だったんですが、急遽予定変更。残念。
@@ -132,3 +134,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

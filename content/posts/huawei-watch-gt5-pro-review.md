@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/11/cd36b250cb4d7fa3502f8008afe3995c.png"
 title: "[レビュー] Huawei WATCH GT 5 Pro ファーウェイ スマートウォッチ/ ランニング・トレンラン・登山"
 date: 2024-11-24T09:03:23
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/11/cd36b250cb4d7fa3502f8008afe3995c.png"
 
 <!-- wp:paragraph -->
 Garminを長らく愛用してきましたが、円安というのもありますが、価格設定がちょっとバグってる感が否めないので、脱ガーミン教を考えるように。
@@ -751,3 +753,4 @@ iOS版は設定・できることがAndroid版よりも簡素のようです。A
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2025/10/aw11.jpg"
 title: "Apple Watch 11を購入してみて [どんな人向け？]"
 date: 2025-10-14T09:30:57
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2025/10/aw11.jpg"
 
 <!-- wp:image {"id":6219,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="https://outdoorlabo.a-ce.com/wp-content/uploads/2025/10/aw11.jpg" alt="" class="wp-image-6219"/></figure>
@@ -287,3 +289,4 @@ HuaweiのGT5 Proを知ってしまうと、コスパの悪さを感じてしま�
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

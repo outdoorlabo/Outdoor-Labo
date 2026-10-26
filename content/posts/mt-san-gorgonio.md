@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/d6e5c255b4bf7fb7f8cede408a99bcda-300x225.jpg"
 title: "[山行] Mt. San Gorgonio"
 date: 2003-03-28T19:50:55
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/d6e5c255b4bf7fb7f8cede408a99bcda-300x225.jpg"
 
 <a href="https://outdoorlabo.a-ce.com/2003/03/21/mt-san-antonio/" target="_blank" rel="noopener">Mt. San Antonio</a>を登ったOrmarと一緒に、Mt. San Gorgonio（11,503 ft / 3,506 m）へ。（事前にpermitの申請が必要）
 
@@ -48,3 +50,4 @@ Mt. San Gorgonio山頂。行きはよいよい〜だが、帰りは…距離が�
 
 <a href="http://outdoor.blogmura.com/tozan/"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/tozan/">にほんブログ村</a>
+

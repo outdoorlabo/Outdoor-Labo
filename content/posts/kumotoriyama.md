@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/07/kumotori02-300x225.jpg"
 title: "[山行] 日本百名山　雲取山"
 date: 2008-07-21T21:36:37
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/07/kumotori02-300x225.jpg"
 
 ３連休の最初の２日を使って、東京都最高峰＆日本百名山のひとつである雲取山（2017m）に登ってきました。
 
@@ -80,3 +82,4 @@ draft: false
 <a href="http://outdoor.blogmura.com/tozan/">にほんブログ村</a>
 
 </div>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/05/img_0442.jpg"
 title: "無骨なOigen 鋳鉄ホットサンドメーカー [焚き火]"
 date: 2020-06-16T17:41:00
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/05/img_0442.jpg"
 
 <!-- wp:paragraph -->
 東京もようやく緊急事態宣言から解除されました。
@@ -245,3 +247,4 @@ Oigenからはセパレーターがあるもの、ないものと2種類のホ�
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

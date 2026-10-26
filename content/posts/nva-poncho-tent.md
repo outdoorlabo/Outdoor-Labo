@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/04/1603b4f5-2085-4eb2-bb93-b79dad188211-12048-000003a8dab79492.jpg"
 title: "ソロだけでなくファミキャンにも使えるポンチョテント [NVA軍幕]"
 date: 2019-10-01T14:40:15
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/04/1603b4f5-2085-4eb2-bb93-b79dad188211-12048-000003a8dab79492.jpg"
 
 ちょっと前のお話。GWの前半は草津〜万座温泉に行ってきました。後半はファミキャン行くぞ〜ってことで、新幕を調達！
 
@@ -279,6 +281,7 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+
 
 
 

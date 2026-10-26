@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/1-1-300x225.jpg"
 title: "八ヶ岳 赤岳 [テント泊]"
 date: 2014-07-20T12:07:11
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/1-1-300x225.jpg"
 
 恒例の海の日登山。写真だけの健忘録。7月20日-21日
 
@@ -68,3 +70,4 @@ Note: 美濃戸あたりは大量のアブ。沢山噛まれた。
 &nbsp;
 
 &nbsp;
+

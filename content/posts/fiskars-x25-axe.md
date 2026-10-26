@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0117.jpg"
 title: "化け物な斧 Fiskars X25 [薪割り]"
 date: 2020-01-22T15:29:29
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0117.jpg"
 
 <!-- wp:paragraph -->
 キャンプで使う薪の薪割りに新しい斧を新調しました。去年のブラックフライデーで購入！
@@ -131,3 +133,4 @@ draft: false
 
 
 [itemlink post_id="4817"]
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/04/img_7505.jpg"
 title: "Optimum ゴールドスタンダード ホエイプロテイン"
 date: 2017-04-24T08:42:50
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/04/img_7505.jpg"
 
 Championのプロテイン愛用でしたが、Optimumに鞍替えしてみますた。
 
@@ -19,3 +21,4 @@ iHerb.comにて6700円なり〜。<a href="https://iherb.co/4MiHyn8D" target="_b
 ↓このコード入れると5%オフになります。
 
 LGF3300
+

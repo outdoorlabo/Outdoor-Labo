@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2funlimited%2fcabinet%2fimg56327729.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2funlimited%2fcabinet%2fimg56327729.jpg%3f_ex%3d80x80"
 title: "iPhoneのタッチスクリーンで使える手袋"
 date: 2010-04-04T23:37:28
 draft: false
----
+--
+featureImage: "http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2funlimited%2fcabinet%2fimg56327729.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2funlimited%2fcabinet%2fimg56327729.jpg%3f_ex%3d80x80"
 
 <!-- wp:paragraph -->
 山やジョグの時、手袋をしているとiPhoneのタッチパネルを操作できないので、わざわざ手袋はずして…というのがすごく面倒。特に寒い時期は辛い。
@@ -79,3 +81,4 @@ draft: false
 <!-- wp:image {"linkDestination":"custom"} -->
 <figure class="wp-block-image"><a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ"/></a></figure>
 <!-- /wp:image -->
+

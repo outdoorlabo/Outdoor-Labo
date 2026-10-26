@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0732-300x200.jpg"
 title: "Oakley Flak Jacket 購入"
 date: 2008-11-12T22:10:47
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/IMG_0732-300x200.jpg"
 
 愛用していたOakleyのサングラスを紛失してしまいました。結構長い間使っていたので愛着があったのに。
 
@@ -71,3 +73,4 @@ draft: false
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

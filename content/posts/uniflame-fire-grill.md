@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/09/RIMG02791-300x225.jpg"
 title: "ユニフレーム ファイアグリル"
 date: 2010-09-25T09:32:14
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/09/RIMG02791-300x225.jpg"
 
 先週のBBQでも大活躍だったファイアグリル。BBQだけでなく、この上に鉄板を乗せたり…
 
@@ -42,3 +44,4 @@ draft: false
 表面がエンボス加工されていて焦げがつきにくくなっています。肉などはくっつきませんが、この上で焼きそばをやるとくっつきます。（笑）我が家では、ファイアグリルやネイチャーストーブの上だけでなく、カセットコンロの上に置いて屋内で鉄板焼きをするときにも使います。（<span style="background-color: #ffff00;"><span style="color: #000000;">カセットコンロで使用する際は、ボンベの上に鉄板がなるべく被らないようにしましょう。でないと、高温になりボンベが爆発します。</span></span>）ホットプレートでやるよりも、鉄板焼きはカリっとしあがるので、こっちでやってます。
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0" /></a><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" border="0" /></a>
+

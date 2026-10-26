@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0824-300x200.jpg"
 title: "Outdoor Research [OR] Nicosia Neck Wallet"
 date: 2008-12-09T00:15:23
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0824-300x200.jpg"
 
 <!-- wp:paragraph -->
 アウトドアリサーチの首からさげるお財布です。
@@ -64,3 +66,4 @@ ORって、もう財布作ってないんですね。廃盤となり、ちょっ
 
 
 <!-- /wp:paragraph -->
+

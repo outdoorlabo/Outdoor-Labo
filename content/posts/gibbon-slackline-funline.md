@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/10/RIMG0227-300x225.jpg"
 title: "ギボン スラックライン [ファンライン]"
 date: 2010-10-03T21:27:36
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/10/RIMG0227-300x225.jpg"
 
 ボルダリングのトレーニングにも…と思い、スラックラインを始めました。これ続けてると、自然に腹筋が割れるとか…。いや、それくらい結構腹にきます。
 
@@ -76,3 +78,4 @@ JIBライン（トリック用）
 <a href="http://vimeo.com/15274584">SKYLINERS - A Documentary by Seb Montaz</a> from <a href="http://vimeo.com/chamonix">sébastien montaz-rosset</a> on <a href="http://vimeo.com">Vimeo</a>.
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0"></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0"></a><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" border="0"></a>
+

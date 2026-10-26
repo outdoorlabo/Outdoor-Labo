@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/IMG_0865-300x200.jpg"
 title: "MSR　アルパイン キッチン セット"
 date: 2009-01-24T00:13:57
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/IMG_0865-300x200.jpg"
 
 <!-- wp:paragraph -->
 MSRのキッチンアクセサリーセットです。
@@ -110,3 +112,4 @@ MSRのキッチンアクセサリーセットです。
 
 
 <!-- /wp:paragraph -->
+

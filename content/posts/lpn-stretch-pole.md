@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/08/32b880b5-f1c5-48ea-a792-409312a46744-13986-0000052f449a523a-1.gif"
 title: "LPN ストレッチポール EXは超絶気持ちE〜"
 date: 2019-09-02T11:50:03
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/08/32b880b5-f1c5-48ea-a792-409312a46744-13986-0000052f449a523a-1.gif"
 
 購入して1カ月経ったのでレビュー！
 <h2 class="Balloon">購入した経緯</h2>
@@ -45,3 +47,4 @@ Youtubeに様々なストレッチ法が紹介されているのも参考にな�
 もうこれなしでは生きていけません…ってくらい、助かってます。ちょっとお高いのが玉に瑕ですが、十分元はすぐ取れます。オススメの一品です！！！
 
 [itemlink post_id="4870"]
+

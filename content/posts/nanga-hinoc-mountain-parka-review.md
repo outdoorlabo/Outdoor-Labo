@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2025/12/IMG_5351.jpg"
 title: "[レビュー] NANGA ヒノック マウンテンパーカー"
 date: 2025-12-22T16:46:02
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2025/12/IMG_5351.jpg"
 
 <!-- wp:paragraph -->
 キレイめではなく、カジュアルなスタイリングに使えるブラック系のアウターが欲しく、ナンガのヒノックという難燃素材を使用したマウンテンパーカを購入。
@@ -243,3 +245,4 @@ draft: false
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

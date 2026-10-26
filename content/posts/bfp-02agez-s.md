@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/img_6233.jpg"
 title: "パナレーサー ワンタッチポンプ BFP-02AGEZ-S [レビュー]"
 date: 2016-06-27T14:57:55
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/img_6233.jpg"
 
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/img_6233.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/img_6233.jpg" alt="" width="481" height="337" class="alignnone size-full wp-image-3242" /></a>
 
@@ -47,3 +49,4 @@ Topeakのジョーブロー ターボとこれにするか迷ったのですが�
 <div class="booklink-footer"></div>
 </div>
 </div>
+

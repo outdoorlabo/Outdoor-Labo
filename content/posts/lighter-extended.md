@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/07/DSC03170-300x225.jpg"
 title: "ダイソー　伸びるライター"
 date: 2008-07-21T21:23:14
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/07/DSC03170-300x225.jpg"
 
 アメリカで購入した伸びるライターが壊れました。これで２度目。
 
@@ -34,3 +36,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9141-1.jpg"
 title: "GSI グレイシャー ステンレス ケトルを買って、びっくりした件 [焚き火]"
 date: 2019-03-31T11:21:00
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9141-1.jpg"
 
 <!-- wp:paragraph -->
 ケトルだけは不要…とずっと買わないでいたんですが、子供と野遊びすることが多くなり、鍋でご飯用意して、同じ鍋で湯を沸かして〜の作業が面倒になってきたので、ケトルを買っちゃいました。
@@ -189,6 +191,7 @@ GSIのアルミのエクストリームティーケトルも同じような容�
 
 
 [itemlink post_id="4883"]
+
 
 
 

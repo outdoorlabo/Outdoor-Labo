@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03907-300x225.jpg"
 title: "グリベル　スパイダー　[軽アイゼン]"
 date: 2009-01-11T00:13:01
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03907-300x225.jpg"
 
 <!-- wp:paragraph -->
 今日は行動範囲が広かった割に、収穫物が少なかった一日でした。
@@ -94,3 +96,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

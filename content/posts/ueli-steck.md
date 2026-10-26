@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif"
 title: "Ueli SteckがKarl Unterkricher Award 2010を受賞"
 date: 2010-07-13T10:13:53
 draft: false
----
+--
+featureImage: "http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif"
 
 マッターホルンのNorthfaceを1時間56分で登ってしまう、スピードクライミングで有名なUeli Steckが<a href="http://www.karlunterkircher.com/en/silke_index.htm" target="_blank" rel="noopener noreferrer">Karl Unterkricher Award</a>を受賞。
 
@@ -15,3 +17,4 @@ draft: false
 <a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" /></a>
 
 <a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" /></a>
+

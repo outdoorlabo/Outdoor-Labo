@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_2087-300x199.jpg"
 title: "Petzl ティカXP2 ヘッドランプ [購入]"
 date: 2009-12-09T00:24:51
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_2087-300x199.jpg"
 
 <!-- wp:paragraph -->
 ちょっとヘッドランプの軽量化のため、ペツルのティカXP2を買いました。
@@ -95,3 +97,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

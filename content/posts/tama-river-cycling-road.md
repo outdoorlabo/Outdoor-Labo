@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/DSC03533-300x225.jpg"
 title: "[ポタリング] 多摩川サイクリングロード"
 date: 2008-09-17T16:15:45
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/DSC03533-300x225.jpg"
 
 <!-- wp:paragraph -->
 休みが取れたので、多摩川サイクリングロードへ。多摩川大橋から羽田空港近くの河口までいってきました。自宅から往復22km、所要時間１時間ちょっと。
@@ -88,3 +90,4 @@ Camelbakの<a href="https://outdoorlabo.a-ce.com/2008/08/23/camelbak-better-bott
 
 
 <!-- /wp:paragraph -->
+

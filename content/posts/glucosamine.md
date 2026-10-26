@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_08881-300x200.jpg"
 title: "グルコサミン + コンドロイチン [膝・関節痛に]"
 date: 2008-12-12T00:02:39
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_08881-300x200.jpg"
 
 <!-- wp:paragraph -->
 今月号の山渓にグルコサミンとコンドロイチンが膝の痛みや関節の痛みに効くという記事がありました。
@@ -83,3 +85,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

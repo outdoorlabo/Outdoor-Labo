@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/DSC04029-300x225.jpg"
 title: "サーモス 山専ボトル 0.8リットル 購入"
 date: 2009-03-03T22:26:49
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/DSC04029-300x225.jpg"
 
 <!-- wp:paragraph -->
 <span class="item_name">登山用のサーモス、 ｢山専ボトル｣ステレスボトルの大きいほうの800mlを買いました。</span>
@@ -148,3 +150,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

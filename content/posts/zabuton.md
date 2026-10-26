@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_1264-300x200.jpg"
 title: "登山用 座布団"
 date: 2008-12-30T00:51:53
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_1264-300x200.jpg"
 
 <!-- wp:paragraph -->
 ユニフレームなど、いろいろな会社からこの手のものは出ていますが、100均のものを使っています。
@@ -54,3 +56,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

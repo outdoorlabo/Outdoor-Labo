@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/08/img_6385-1.jpg"
 title: "ヒルクライム ブートキャンプ Day1 乗鞍 [山の日]"
 date: 2016-08-23T12:56:38
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/08/img_6385-1.jpg"
 
 今年からできた山の日。今年は登山ではなく、ロードバイクでヒルクライムしてきますた。
 <h2 class="Balloon">6月10日</h2>
@@ -93,3 +95,4 @@ draft: false
 <div class="booklink-footer"></div>
 </div>
 </div>
+

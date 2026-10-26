@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03876-300x225.jpg"
 title: "Opinel No. 6 ナイフ"
 date: 2009-01-03T03:13:41
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03876-300x225.jpg"
 
 <!-- wp:paragraph -->
 登山用にコンパクトで、軽くて使いやすいナイフを探していたんですが、ちょうど良いものを購入しました。
@@ -117,3 +119,4 @@ No. 7と見比べてどっちにするか迷ったんですが、No. 6をセレ�
 
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a></p>
 <!-- /wp:paragraph -->
+

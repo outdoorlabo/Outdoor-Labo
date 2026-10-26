@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03930-300x225.jpg"
 title: "Patagonia Visor Beanie エスプレッソ"
 date: 2009-01-24T19:41:32
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03930-300x225.jpg"
 
 <!-- wp:paragraph -->
 パタゴニアのバイザービーニーのエスプレッソ（茶色）をセールで買いました。
@@ -48,3 +50,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

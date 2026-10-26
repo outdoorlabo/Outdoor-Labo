@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/04/img_5890.jpg"
 title: "Garmin Vivosmart HR J 購入＋感想"
 date: 2016-04-26T10:26:01
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/04/img_5890.jpg"
 
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/04/img_5890.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/04/img_5890.jpg" alt="" width="3264" height="2448" class="alignnone size-full wp-image-3064" /></a>
 520Jセットに付属の乳バンド a.k.a.心拍計がどうも煩わしい… ということで、ガーミン繋がりでこちらのライフログリストバンドを買ってみました。
@@ -64,3 +66,4 @@ draft: false
 </tr>
 </tbody>
 </table>
+

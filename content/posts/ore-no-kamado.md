@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/10/img_9852.jpg"
 title: "軍幕に最高で最強な薪ストーブ ［俺のかまど］"
 date: 2019-10-02T11:40:27
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/10/img_9852.jpg"
 
 <!-- wp:paragraph -->
 これまたちょっと前のお話…。くそ暑い夏に、薪ストーブを買ってしまいました…。嫁と子供が帰省中。気兼ねなくポチっ！そう、この機会をずっと待ち望んでいたのだwww
@@ -623,3 +625,4 @@ NomadとFbストーブは優等生的な感じに対し、俺のかまどは糞�
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

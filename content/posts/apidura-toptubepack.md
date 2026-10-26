@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/06/img_8424.jpg"
 title: "アピデュラ トップチューブバッグ ドライ 購入 / Apidura"
 date: 2018-07-04T14:55:38
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/06/img_8424.jpg"
 
 <img class="alignnone wp-image-3477 size-full" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2018/06/img_8424.jpg" width="700" height="525" />
 
@@ -47,5 +49,6 @@ iPhone、モバイルバッテリー、お財布、gloのネオスティック�
 夏場は汗でジャージのポケットに入れているモノが濡れ濡れになるので、トップチューブバッグがあると便利です。Σd(ﾟ∀ﾟd)ｫｩｨｪ!!!
 
 [itemlink post_id="4915"]
+
 
 

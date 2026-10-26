@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/01/img_8909.jpg"
 title: "Aqua Quest 3x3 タープを買って使ってみた。[ディフェンダー]"
 date: 2019-01-13T15:55:34
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/01/img_8909.jpg"
 
 ひっさしぶりに幕系を購入。
 
@@ -104,4 +106,5 @@ Aqua Questは、軽量なGuide（675g）とSafari（850g）も出しています
 [itemlink post_id="4899"]
 
 [itemlink post_id="4901"]
+
 

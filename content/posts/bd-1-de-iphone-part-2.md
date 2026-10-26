@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1886-300x200.jpg"
 title: "BD-1 de iPhone Part 2 自転車にマウント [整頓]"
 date: 2009-08-15T11:56:49
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1886-300x200.jpg"
 
 <!-- wp:paragraph -->
 リクセン カウルのフロントバッグ化のアダプターをつけたら、ハンドル周りが窮屈に。
@@ -144,3 +146,4 @@ BD-1で心配なのが、折りたたみ時の干渉ですが、全く問題な�
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC03928-225x300.jpg"
 title: "Patagonia Rain Shadow ジャケット ＋ パンツ"
 date: 2009-02-14T10:15:58
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC03928-225x300.jpg"
 
 <!-- wp:paragraph -->
 似たような生地のパタゴニアのジャケット＋パンツを持っていましたが、6年の使用で裏地が剥離してきたので去年に処分してしまい、秋から春につかえるレインウェアがない状態・・・。
@@ -78,3 +80,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

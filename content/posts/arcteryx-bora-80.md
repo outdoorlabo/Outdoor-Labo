@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/Backpacks-Arc_Teryx_Bora_80.jpg"
 title: "ARC'TERYX Bora 80 バックパック"
 date: 2009-03-19T22:56:02
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/Backpacks-Arc_Teryx_Bora_80.jpg"
 
 <!-- wp:paragraph -->
 2泊以上のテント泊や冬に出動するアークテリクスのボラ 80。
@@ -72,3 +74,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

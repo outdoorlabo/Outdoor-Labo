@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/DSC00816-300x225.jpg"
 title: "[山行] 霧島 縦走〜日本百名山"
 date: 2009-05-06T14:31:21
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/DSC00816-300x225.jpg"
 
 <!-- wp:paragraph -->
 29日から行っていた宮崎から帰ってきました。おいしものをたくさん食べ過ぎて２kgほど太ってしまった・・・。今日からダイエットです。
@@ -192,3 +194,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

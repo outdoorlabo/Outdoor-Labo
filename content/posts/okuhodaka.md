@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o-300x225.jpg"
 title: "上高地 - ザイテングラート - 奥穂高 [テント泊]"
 date: 2013-07-19T18:37:42
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o-300x225.jpg"
 
 <span style="font-size: 1.3rem; line-height: 1.6;">7/13  新宿発
 </span><span style="line-height: 1.6; font-size: 1.3rem;">7/14  上高地 6:00 - 涸沢 11:00 - 12:00 - 穂高岳山荘 15:15
@@ -70,3 +72,4 @@ draft: false
 <img class="alignnone size-medium wp-image-3021" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/286918_10151550581628316_1350094040_o-300x225.jpg" alt="286918_10151550581628316_1350094040_o" width="300" height="225" />
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0" /></a><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" border="0" /></a>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2023/12/xmas-750x500.webp"
 title: "クリスマスショッピング"
 date: 2008-12-21T00:31:08
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2023/12/xmas-750x500.webp"
 
 <!-- wp:paragraph -->
 クリスマスシーズンなので、自分へのプレゼント（こじつけ）を買いにいろいろなところを巡ってきました。
@@ -83,3 +85,4 @@ U.L.ダウンインナーパンツを試着。モンペみたいな形なんで�
 
 
 <!-- /wp:paragraph -->
+

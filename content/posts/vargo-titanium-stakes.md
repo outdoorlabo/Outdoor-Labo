@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC03920-300x225.jpg"
 title: "Vargo エクスカリバー　チタンペグ"
 date: 2009-04-05T00:16:20
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC03920-300x225.jpg"
 
 <!-- wp:paragraph -->
 VARGOのTitanium Nail Peg、エクスカリバーです。
@@ -81,3 +83,4 @@ VARGOのTitanium Nail Peg、エクスカリバーです。
 
 
 <!-- /wp:paragraph -->
+

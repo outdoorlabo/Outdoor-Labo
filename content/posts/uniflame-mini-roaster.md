@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/IMG_1240-300x200.jpg"
 title: "ユニフレーム　ミニロースター"
 date: 2009-01-04T12:10:49
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/IMG_1240-300x200.jpg"
 
 <!-- wp:paragraph -->
 ユニフレームのミニロースターでおつまみを焼いたり、バーナーパッドとして使っています。
@@ -132,3 +134,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

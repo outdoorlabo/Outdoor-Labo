@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/08/img_6464.jpg"
 title: "ヒルクライム ブートキャンプ Day2 美ヶ原"
 date: 2016-08-25T16:46:35
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/08/img_6464.jpg"
 
 <a href="http://outdoorlabo.a-ce.com/2016/08/23/norikura/" target="_blank" rel="noopener">山の日の乗鞍</a>に続き、翌日は美ヶ原へ。このコースは死にました…
 
@@ -86,3 +88,4 @@ draft: false
 <div class="booklink-footer"></div>
 </div>
 </div>
+

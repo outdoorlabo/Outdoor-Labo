@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_0129-259x300.jpg"
 title: "Lodge ダッチオーブン 10\" Deep"
 date: 2009-08-02T19:03:31
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_0129-259x300.jpg"
 
 <!-- wp:paragraph -->
 いろんな素材を、おいしくしてくれるマジックブラックポット、ロッジのダッチオーブン。
@@ -110,3 +112,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

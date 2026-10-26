@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0841-300x200.jpg"
 title: "Marmot DriClime Jacket　オールマイティーなジャケット"
 date: 2008-12-10T08:50:19
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0841-300x200.jpg"
 
 <!-- wp:paragraph -->
 愛用してきたノースフェイスのゴアのウィンドブレーカーを引退させ、マーモットのドライクライムジャケットを購入しました。
@@ -78,3 +80,4 @@ Marmotの製品、日本ではデサントがライセンス契約をしてい�
 
 
 <!-- /wp:paragraph -->
+

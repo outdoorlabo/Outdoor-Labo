@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/12/a8693d7a24213f6689b5331f8370c83a-242x300.png"
 title: "3本 or 4本ローラーでZwiftはもっと楽しくなる！[ GT-Roller Q1.1]"
 date: 2018-02-08T13:04:08
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/12/a8693d7a24213f6689b5331f8370c83a-242x300.png"
 
 Growtacの4本ローラー、GT-Roller Q1.1を購入し、２ヶ月ほど経ちました。
 
@@ -73,4 +75,5 @@ Zwiftのワークアウトメニューをこなす場合、
 
 グロータックの３本ローラーはこちら。
 [itemlink post_id="4856"]
+
 

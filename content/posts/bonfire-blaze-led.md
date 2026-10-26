@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC03604-300x225.jpg"
 title: "Bonfire Blaze LED ランタン"
 date: 2009-02-06T21:30:49
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC03604-300x225.jpg"
 
 <!-- wp:paragraph -->
 CMGのLEDランタン。
@@ -74,3 +76,4 @@ CMGのLEDランタン。
 
 
 <!-- /wp:paragraph -->
+

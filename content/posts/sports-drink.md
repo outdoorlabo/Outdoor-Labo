@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/sportsdrink-300x122.jpg"
 title: "自作　スポーツドリンク"
 date: 2017-06-18T16:24:01
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/sportsdrink-300x122.jpg"
 
 <img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/sportsdrink-300x122.jpg" alt="" width="300" height="122" class="alignnone size-medium wp-image-3321" />
 
@@ -88,3 +90,4 @@ BCAAは、運動する前、している最中、した後、と飲んだほう�
 ということで、オススメはBCAA抜きで。ここぞという時にBCAA混ぜるみたいな感じがよろしいかと。
 
 びっくりするくらい簡単にできるので、お試しあれ〜。
+

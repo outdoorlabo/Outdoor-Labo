@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/01/img_8952.jpg"
 title: "安いHelinox系の折りたたみイスを買ってみた。[KAMUI]"
 date: 2019-02-12T16:42:51
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/01/img_8952.jpg"
 
 キャンプなどで、コールマンの折りたたみチェアーを使用していますが、もっとコンパクトな椅子を求め、ヘリノックスに似た安いブツを買ってみました。
 
@@ -96,4 +98,5 @@ Helinoxなどのお高いブランド品は、キャンプ場で盗難が多い�
 
 
 <!-- /wp:paragraph -->
+
 

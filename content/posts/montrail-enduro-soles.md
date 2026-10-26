@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03482-300x225.jpg"
 title: "Montrail エンデュロソール 購入"
 date: 2008-11-19T21:29:50
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03482-300x225.jpg"
 
 Montrail CTC Mid用のインソールに、モントレイルのエンデュロソールを購入。
 
@@ -26,3 +28,4 @@ Montrail CTC Mid用のインソールに、モントレイルのエンデュロ�
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
+

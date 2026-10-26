@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2005/10/DSC00337-300x225.jpg"
 title: "嬬恋村〜白根山"
 date: 2005-10-23T19:27:32
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2005/10/DSC00337-300x225.jpg"
 
 嬬恋の温泉へ一泊二日で行きました。
 
@@ -28,3 +30,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/">にほんブログ村</a>
+

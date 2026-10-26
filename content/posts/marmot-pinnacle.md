@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0893-300x200.jpg"
 title: "Marmot Pinnacle シュラフ"
 date: 2008-12-18T00:00:21
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0893-300x200.jpg"
 
 <!-- wp:paragraph -->
 ３シーズンはノースフェイスのCat's Meowという化繊を使っていますが、寒い時期や高所ではマーモットのピナクルというダウンのスリーピングバッグを使っています。
@@ -72,3 +74,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

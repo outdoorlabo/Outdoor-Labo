@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/08/RIMG0229-300x225.jpg"
 title: "アークテリクス ミストラル16 [ショルダーバッグ]"
 date: 2010-08-01T20:17:24
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/08/RIMG0229-300x225.jpg"
 
 Arc'teryxのMistral 16というショルダーバッグ。通勤、ジム、自転車用に購入。一泊旅行ぐらいならこれでOK。
 
@@ -41,3 +43,4 @@ Arc'teryxのMistral 16というショルダーバッグ。通勤、ジム、自�
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/08/RIMG0220.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/08/RIMG0220-300x225.jpg" title="mistral 16 / ミストラル 16 小物ポケット" width="300" height="225" class="alignnone size-medium wp-image-2242" /></a>
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

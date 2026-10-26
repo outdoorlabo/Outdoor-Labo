@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_2143-300x200.jpg"
 title: "Nike+ センサー & 自作ケース"
 date: 2009-12-19T17:43:13
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_2143-300x200.jpg"
 
 <!-- wp:paragraph -->
 iPhoneでNike+の機能を使いたいということで、Nike Air Zoom Equalon+ 3と一緒に購入したセンサー。
@@ -122,3 +124,4 @@ iPhoneのNike+のアプリでは、時間無制限、時間、距離、消費カ
 
 
 <!-- /wp:paragraph -->
+

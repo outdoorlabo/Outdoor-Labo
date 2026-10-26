@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fasses%2fcabinet%2f01568652%2f510_1400290_1.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fasses%2fcabinet%2f01568652%2f510_1400290_1.jpg%3f_ex%3d80x80"
 title: "Scarpa Force / スカルパ フォース [クライミングシューズ]"
 date: 2010-08-15T13:16:51
 draft: false
----
+--
+featureImage: "http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fasses%2fcabinet%2f01568652%2f510_1400290_1.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fasses%2fcabinet%2f01568652%2f510_1400290_1.jpg%3f_ex%3d80x80"
 
 先月末のお話。
 
@@ -94,3 +96,4 @@ draft: false
 ボルダリングの師匠が新しいシューズを買い、かなり痛くて拷問だ〜と言っており、玄人も同じように痛いんだということを知りました。
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

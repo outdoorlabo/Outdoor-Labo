@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03914-300x225.jpg"
 title: "OR Outdoor Research Ninjaclava [目出し帽]"
 date: 2009-01-22T21:57:39
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03914-300x225.jpg"
 
 <!-- wp:paragraph -->
 アウトドアリサーチのバラクラバ、ニンジャクラバを買いました。
@@ -76,3 +78,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

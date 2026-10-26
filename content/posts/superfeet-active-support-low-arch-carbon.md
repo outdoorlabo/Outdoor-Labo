@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/08/IMG_2790.jpg"
 title: "[レビュー] Superfeet スーパーフィート カーボン Active Support Low Arch"
 date: 2024-09-05T15:33:01
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/08/IMG_2790.jpg"
 
 <!-- wp:paragraph -->
 左足の足底腱膜炎はお陰様で全く問題なくなりましたが、ランニングに力を入れていると、どこかしらの筋に痛みが出てきます。特に左足の鵞足炎、右足の短腓骨筋腱付着部炎が慢性的に酷い状態。おまけに両足とも疲労が蓄積していて、脚全体も凝り固まってます。（汗）走りながら治すをモットーに試行錯誤中で、ストレッチ、マッサージ、筋トレなどを行っていますが、更に少しでも改善できないものか…ということで、インソールの見直しをすることに。もう20年以上登山靴でお世話になっているSuperfeetをランニングとトレランシューズに導入することにしました。
@@ -251,3 +253,4 @@ https://superfeet-jp.com/pages/how-to-use
 
 
 <!-- /wp:paragraph -->
+

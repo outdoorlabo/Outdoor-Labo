@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/DSC03285-300x225.jpg"
 title: "Swiss Tech Smart Clip Ultra / 爪切り付きアーミーナイフ"
 date: 2008-09-15T23:02:57
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/DSC03285-300x225.jpg"
 
 連泊の山やバックパッキングで必需品なのが爪切り。爪切りとアーミーナイフがくっついたものがないかな〜と思っていたらありました。スイステック社製のスマートクリップウルトラ。
 
@@ -43,3 +45,4 @@ draft: false
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
 
 </div>
+

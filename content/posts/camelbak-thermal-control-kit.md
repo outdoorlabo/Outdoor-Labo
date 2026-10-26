@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03947-300x225.jpg"
 title: "Camelbak サーマルコントロールキット"
 date: 2009-01-28T21:22:38
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03947-300x225.jpg"
 
 <!-- wp:paragraph -->
 キャメルバックのハイドレーションのアクセサリー、サーマルコントロールキットです。
@@ -49,3 +51,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

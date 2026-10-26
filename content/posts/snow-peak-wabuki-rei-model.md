@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03584-300x225.jpg"
 title: "Snow Peak 和武器 REI ダブルネーム モデル"
 date: 2008-11-08T19:49:56
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03584-300x225.jpg"
 
 スノーピークの携帯お箸、「和武器」も愛用食器のひとつです。
 
@@ -43,3 +45,4 @@ draft: false
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

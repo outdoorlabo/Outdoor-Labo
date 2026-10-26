@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/IMG_0086-300x200.jpg"
 title: "Patagonia Storm Jacket ストームジャケット [購入]"
 date: 2008-09-19T10:06:07
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/IMG_0086-300x200.jpg"
 
 先代のパタゴニアのジャケット（名前は忘れました）の内側のコーティングが剥離してお亡くなりになったので、今回は今期復活を遂げたストームジャケットにしてみました。
 
@@ -95,3 +97,4 @@ DWR（耐久性撥水）加工済み。補強部分：H2Noバリヤーを施し�
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
+

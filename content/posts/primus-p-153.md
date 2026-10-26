@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/04/gear03-300x225.jpg"
 title: "[レビュー] プリムス　P-153 ガスストーブ"
 date: 2008-04-10T18:37:59
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/04/gear03-300x225.jpg"
 
 所有しているストーブに新しく仲間が加わりました。
 
@@ -37,3 +39,4 @@ draft: false
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
 
 </div>
+

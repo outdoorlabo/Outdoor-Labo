@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/04/IMG_2212-300x200.jpg"
 title: "DeFeet Armskin [アームカバー]"
 date: 2010-04-25T20:51:38
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/04/IMG_2212-300x200.jpg"
 
 DeFeetのアームスキンというアームカバー。去年の冬からジョグで使用してますが、かなりオススメ。当初、自転車用として購入したんですが、寒い時期に自転車に全く乗らず、結局まだジョグの時にしか使ってない…。そうそう、どっかで読んだんですが、Lance Armstrongが使ってるんですって、これ。
 
@@ -26,3 +28,4 @@ DeFeetのアームスキンというアームカバー。去年の冬からジ�
 </span></strong>
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

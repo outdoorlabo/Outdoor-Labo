@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/DSC03301-300x225.jpg"
 title: "Fox River X-static Liner -足の臭いにさようなら〜"
 date: 2008-09-02T21:17:26
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/DSC03301-300x225.jpg"
 
 Fox RiverのX-static Linerという、ソックスの下に重ねて履く薄いソックスです。
 
@@ -33,3 +35,4 @@ Fox RiverのX-static Linerという、ソックスの下に重ねて履く薄い
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
 
 </div>
+

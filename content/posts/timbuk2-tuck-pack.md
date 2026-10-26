@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/img_7448.jpg"
 title: "オサレ バックパック Timbuk2 Tuck Pack"
 date: 2017-03-20T07:28:18
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/img_7448.jpg"
 
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/img_7448.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/img_7448.jpg" alt="" width="4032" height="3024" class="alignnone size-full wp-image-3292" /></a>
 
@@ -43,3 +45,4 @@ draft: false
 <div class="booklink-footer"></div>
 </div>
 </div>
+

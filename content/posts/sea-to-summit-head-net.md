@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/06/IMG_1970-300x200.jpg"
 title: "SEA TO SUMMIT モスキート ヘッドネット [防虫]"
 date: 2010-06-20T10:57:32
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/06/IMG_1970-300x200.jpg"
 
 この季節、湿度よりも鬱陶しいのがブンブンと顔にまとわりついてくる虫たち。ちょっとした休憩時やご飯を食べている時にも容赦なく襲ってきます。
 
@@ -29,3 +31,4 @@ draft: false
 げっ、たまたま見つけた<a href="http://www.excite.co.jp/News/science/20100511/Nationalgeo_20100511001.html" target="_blank">記事</a>ですが、ナショナルジオグラフィックによると虫除け剤最強であるDEETが効かない蚊が出現してるんですと！日本にどれだけ生息しているかは不明ですが、お願いだから増えないで〜。
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC04108-300x225.jpg"
 title: "縦走準備完了"
 date: 2009-04-25T21:47:15
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC04108-300x225.jpg"
 
 <!-- wp:paragraph -->
 GWはワンコたちも一緒に飛行機に乗って民族大移動します。
@@ -167,3 +169,4 @@ Lowa レネゲイド
 
 
 <!-- /wp:paragraph -->
+

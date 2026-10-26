@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/03/af681b5b7fbf3b304a60d9d5941ed906-300x215.png"
 title: "ローラー台用工業扇 ナカトミ:45cmアルミフロア扇 OPF-45AF"
 date: 2018-03-28T16:34:44
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/03/af681b5b7fbf3b304a60d9d5941ed906-300x215.png"
 
 <img class="alignnone size-medium wp-image-3461" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2018/03/af681b5b7fbf3b304a60d9d5941ed906-300x215.png" alt="" width="300" height="215" />
 
@@ -36,4 +38,5 @@ draft: false
 生産台数が決まっているので、早いもの勝ちですYO! お値段も送料いれても8000円でお釣りがきちゃいますYO。↓
 
 [itemlink post_id="4916"]
+
 

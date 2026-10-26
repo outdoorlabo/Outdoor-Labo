@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_1851-300x225.jpg"
 title: "自作 iPhone ケース ヌメ革 / レザークラフト"
 date: 2009-07-04T20:10:28
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_1851-300x225.jpg"
 
 <!-- wp:paragraph -->
 iPhoneって、ポケットにいれっぱなしにするにはちょっとでかいですね。
@@ -78,3 +80,4 @@ GPSのソフトも入れたし、そろそろ山にも持っていこうかと�
 
 
 <!-- /wp:paragraph -->
+

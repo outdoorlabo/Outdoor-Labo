@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/02/IMG_0116-225x300.jpg"
 title: "[山行] 冬の天狗岳 / 北八ヶ岳"
 date: 2010-02-14T23:52:13
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/02/IMG_0116-225x300.jpg"
 
 <!-- wp:paragraph -->
 八ヶ岳連峰の中の北八ヶ岳の最高峰、天狗岳へ行ってきました。東天狗の後、西天狗も登るつもりでしたが、帰りのバスに間に合わないことから断念。
@@ -236,3 +238,4 @@ iPhoneでの撮影はグローブを外して素手で行わないといけな�
 
 
 <!-- /wp:paragraph -->
+

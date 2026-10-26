@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/07/img_6341.jpg"
 title: "オークリー Jawbreaker Prizm Road [おまけ付きで購入]"
 date: 2016-07-30T22:47:14
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/07/img_6341.jpg"
 
 これまで、山で使っていたOakleyのFlak Jacketをロードバイクでも流用してたのですが、ひとつだけ不満点が…
 
@@ -63,3 +65,4 @@ Jawbreakerを選んだ理由のもうひとつは、レンズ交換が簡単に�
 </tr>
 </tbody>
 </table>
+

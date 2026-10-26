@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0819-200x300.jpg"
 title: "Patagonia シンチラ スナップ T フリース"
 date: 2008-12-03T20:45:11
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0819-200x300.jpg"
 
 <!-- wp:paragraph -->
 パタゴニア定番のフリースのプルオーバー、シンチラ スナップ Tです。
@@ -77,3 +79,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a></p>
 <!-- /wp:paragraph -->
+

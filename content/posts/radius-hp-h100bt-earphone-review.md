@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/08/IMG_2850.jpg"
 title: "[レビュー] radius ラディウス HP-H100BT ながら聴きイヤホン コスパ最強 ランニングと思ったが…違った件"
 date: 2024-08-20T11:48:57
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/08/IMG_2850.jpg"
 
 <!-- wp:paragraph -->
 発売と同時に速攻で購入し、ランニングで愛用していたSOUNDPEATSのGoFree 2が故障したので、音響マニアに人気のラディウスから初登場の"ながら聴きイヤホン"、ネックバンド型のradius HP-H100BTを購入してみました。
@@ -384,3 +386,4 @@ SOUNDPEATSのGo Free 2が８ヶ月で故障したのもあり、今回、Yahoo�
 
 
 <!-- /wp:paragraph -->
+

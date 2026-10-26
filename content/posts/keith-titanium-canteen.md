@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/01/img_8916-1.jpg"
 title: "チタンキャンティーンとキャンティーン専用ストーブはかなりオススメ [Keith+Jolmo Lander]"
 date: 2019-01-13T17:20:15
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/01/img_8916-1.jpg"
 
 <!-- wp:paragraph -->
 Keithのチタンキャンティーン・メスキットを買ってみました。届いたその日にステルスキャンプしてきましたが、かなり良い！
@@ -171,3 +173,4 @@ Jolmo Landerのストーブは枝を突っ込んでウッドストーブにも�
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

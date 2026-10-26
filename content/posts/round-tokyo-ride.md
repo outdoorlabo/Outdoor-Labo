@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/07/df50ba434e4ba88745d845b90a62cd57-300x114.png"
 title: "落車に見舞われた東京一周ライド"
 date: 2016-07-04T07:08:04
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/07/df50ba434e4ba88745d845b90a62cd57-300x114.png"
 
 昨日、猛暑35度の中、149.7kmの東京一周ライドしてきました。日差しも強く、丸焦げになりました。 ((⌯˃̶᷄₎₃₍˂̶᷄ ॣ)ﾌﾟｯ♪
 
@@ -37,3 +39,4 @@ draft: false
 Zwiftのトレーニングのおかげでしょうか。落車で怪我したところ以外は全く痛みなし。筋肉痛もなし！いい感じ。
 
 いやー、ちょっと車の通りの多い、狭い道はトラウマになりそうです。今度からはルート選び、慎重にしたいと思います。
+

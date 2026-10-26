@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2019/12/img_0027.jpg"
 title: "[薪ストーブ] 俺のかまどに、俺の後付けパーツ！"
 date: 2023-12-19T10:36:38
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2019/12/img_0027.jpg"
 
 <!-- wp:paragraph -->
 愛用している俺のかまどをもっと使いやすくするために、DIYでお安く＆お手軽に改造したお話。（数年前だけど…）
@@ -145,3 +147,4 @@ https://outdoorlabo.a-ce.com/2019/10/02/ore-no-kamado/
 
 
 <!-- /wp:paragraph -->
+

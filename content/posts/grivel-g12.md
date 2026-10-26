@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/IMG_2170-300x200.jpg"
 title: "グリベル G12 ニューマチック [アイゼン]"
 date: 2010-01-16T23:42:52
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/IMG_2170-300x200.jpg"
 
 <!-- wp:paragraph -->
 グリベルのセミワンタッチの12本アイゼン。片足530g。グローブをしていても取り付け簡単です。
@@ -156,3 +158,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

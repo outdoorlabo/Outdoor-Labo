@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/08/img_8525.jpg"
 title: "TNI リアディレイラー カーボン プロテクターを取り付けてみたYO"
 date: 2018-08-20T10:56:23
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/08/img_8525.jpg"
 
 とあるパーツ販売会社さんのメルマガで、これいいお！と紹介されていたので、ポチってみました。
 
@@ -31,4 +33,5 @@ eTap WiFLiにしているんで、壊れると出費が痛い…。RDハンガ�
 バイクを立てかけている際にも、安心感が増すので良プチアップグレードだと思います！
 
 [itemlink post_id="4911"]
+
 

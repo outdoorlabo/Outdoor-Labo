@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/07/img_9510.jpg"
 title: "Yoler バーベキューコンロ・焚き火台はなかなかgood！"
 date: 2019-07-09T11:50:11
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/07/img_9510.jpg"
 
 笑'sのB6君やキャプテンスタッグのカマドグリルのオマージュ、Yolerのコンロ・焚き火台を購入してみたお話。
 
@@ -88,4 +90,5 @@ B6君もどき、途中で火床の高さを変えられるから、便利〜。
 安っすいので、一台いかがでしょ？買って損はしませんぜ！
 
 [itemlink post_id="4873"]
+
 

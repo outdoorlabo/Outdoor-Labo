@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_2145-300x200.jpg"
 title: "Nike Air Zoom Equalon+ 3 [トレーニング用]"
 date: 2009-12-13T11:43:56
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/12/IMG_2145-300x200.jpg"
 
 <!-- wp:paragraph -->
 週末はできるだけジムでトレッドミル＋筋トレをこなすようにしているのですが、平日もちょっと走り込みたい。でも、寒いし、モチベーションが上がらない。そこでiPhoneのNike+の機能のお力を拝借ということで、ナイキプラス対応のNikeのAir Zoom Equalon+ 3をトレーニング用に購入してみました。
@@ -50,3 +52,4 @@ Nike+、かなりモチベーションあがります。（iPhoneのアプリも
 
 
 <!-- /wp:paragraph -->
+

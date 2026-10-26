@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/IMG_0832-300x200.jpg"
 title: "Mountain Hardwear トレイルゲイター [スパッツ]"
 date: 2009-05-17T08:18:36
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/IMG_0832-300x200.jpg"
 
 <!-- wp:paragraph -->
 マウンテンハードウェアのショートスパッツ、トレイルゲイターです。
@@ -73,3 +75,4 @@ MHWと言えばコロンビアですが、昨日、初めて行った入間の�
 
 
 <!-- /wp:paragraph -->
+

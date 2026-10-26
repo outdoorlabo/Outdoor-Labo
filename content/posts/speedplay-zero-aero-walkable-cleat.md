@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/img_7404.jpg"
 title: "SPEEDPLAY ゼロ エアロ ウォーカブル クリート"
 date: 2017-03-06T15:22:02
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/img_7404.jpg"
 
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/img_7404.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/03/img_7404.jpg" alt="" width="4032" height="3024" class="alignnone size-full wp-image-3275" /></a>
 
@@ -46,3 +48,4 @@ Cリングが硬いのか、スパッとハマるようになるまで時間が�
 <div class="booklink-footer"></div>
 </div>
 </div>
+

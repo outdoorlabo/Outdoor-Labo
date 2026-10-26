@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0125.jpg"
 title: "俺のかまどに野良の火ばさみ [野良ばさみ]"
 date: 2020-02-11T20:38:32
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0125.jpg"
 
 <!-- wp:paragraph -->
 焚き火・薪ストーブの火ばさみにしてはちょっとお高い野良ばさみを購入しました。
@@ -191,3 +193,4 @@ draft: false
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

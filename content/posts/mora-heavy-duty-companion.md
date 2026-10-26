@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/12/img_8828.jpg"
 title: "Mora Heavy Duty Companion ナイフを買ってみた"
 date: 2018-12-17T13:29:11
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/12/img_8828.jpg"
 
 <!-- wp:image {"id":3515} -->
 <figure class="wp-block-image"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2018/12/img_8828.jpg" alt="" class="wp-image-3515"/></figure>
@@ -77,3 +79,4 @@ draft: false
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

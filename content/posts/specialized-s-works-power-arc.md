@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/07/img_7725.jpg"
 title: "Specialized S-WORKS Power Arc サドル 購入 "
 date: 2017-07-13T23:40:12
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/07/img_7725.jpg"
 
 2018年モデルとして、スペシャライズドからPowerに新しく2モデル登場したというニュースを読み、仕事を終えダッシュでスペシャライズド東京へ。─=≡Σ((( つ╹ω╹)つ
 
@@ -74,3 +76,4 @@ draft: false
  	<li>回しやすい</li>
 </ul>
 サドルに悩める子羊の救世主だー！*\(^o^)/*
+

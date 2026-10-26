@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/07/img_6296.jpg"
 title: "物足りない尾根幹ー大垂水峠ー相模湖"
 date: 2016-07-18T08:10:19
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/07/img_6296.jpg"
 
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/07/img_6296.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/07/img_6296.jpg" alt="" width="2448" height="2448" class="alignnone size-full wp-image-3250" /></a>
 今年の恒例の海の日は、息子を連れて山にテント泊行こうと予定していたものの、彼の風邪がなかなか治らず…
@@ -26,3 +28,4 @@ draft: false
 ↑ Zwiftのステッカーを頂いたので、#外でもZwiftやってみましたw
 
 自転車も車も少ない静かな山道、探してみよーっと。
+

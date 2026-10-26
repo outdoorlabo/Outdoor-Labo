@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fe-lodge%2fcabinet%2f53%2fsie-630051-.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fe-lodge%2fcabinet%2f53%2fsie-630051-.jpg%3f_ex%3d80x80"
 title: "Primus Spider Outdoor Heater-ish heater"
 date: 2010-12-26T23:25:04
 draft: false
----
+--
+featureImage: "http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fe-lodge%2fcabinet%2f53%2fsie-630051-.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fe-lodge%2fcabinet%2f53%2fsie-630051-.jpg%3f_ex%3d80x80"
 
 そろそろ屋外活動の冬眠から覚めたいんですが、なかなか難航しています。
 
@@ -132,3 +134,4 @@ KoveaのHPを見ているといろいろ面白いものがありますが、も�
 2年前、ソウルの南大門市場に行ったとき、アウトドア用品店を回りましたが、特に安いとかって思わなかったんですよね。探せばFire Ballのように色々掘り出し物があるのかも。旅行に行かれる方は是非チェックしてみてください。
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/" target="_blank"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" /></a>
+

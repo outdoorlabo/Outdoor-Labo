@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif"
 title: "激安　アミノバイタル"
 date: 2008-07-10T21:19:51
 draft: false
----
+--
+featureImage: "http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif"
 
 <!-- wp:paragraph -->
 BCAAを摂取すると、次の日の体がすごく楽になります。筋肉痛がかなり軽減されるという効果があるのです。
@@ -66,5 +68,6 @@ BCAAを摂取すると、次の日の体がすごく楽になります。筋肉�
 
 
 <!-- /wp:paragraph -->
+
 
 

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/02/img_9066-1.jpg"
 title: "フルターフォッシュのシースとネックガードをDIY [Hultafors]"
 date: 2019-02-18T11:40:43
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/02/img_9066-1.jpg"
 
 フルターフォッシュ（ハルタホース）のオールラウンドという44cm の手斧を購入し、シースとネックガードを自作してみました。
 
@@ -39,4 +41,5 @@ draft: false
 手元にあったハギレとパーツで作ったので、テキトーに作っちゃいましたが、革やパーツを購入する際、図面をしっかり描いて作ることをオススメします。わたしの二の舞にならないように… _(┐「o:)_
 
 [itemlink post_id="4891"]
+
 

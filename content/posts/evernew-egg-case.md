@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/02/gear01-300x225.jpg"
 title: "[レビュー] エバニュー（EVERNEW） ２個入りタマゴケース"
 date: 2008-02-03T18:46:16
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/02/gear01-300x225.jpg"
 
 ファミリーキャンプ用にコフランの6個入りタマゴケースは持っていたけど、ソロの時のタマゴケースがほしいなと思っていたので、エバニューのタマゴケースを購入しました。
 
@@ -35,3 +37,4 @@ draft: false
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
 
 </div>
+

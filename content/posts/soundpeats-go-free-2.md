@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2023/11/gofree2_01-scaled.webp"
 title: "[レビュー] SOUNDPEATS GoFree 2 オープンイヤー型イヤホン / ランニングに！"
 date: 2023-12-03T16:11:05
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2023/11/gofree2_01-scaled.webp"
 
 <!-- wp:paragraph -->
 発売前より目をつけていたSOUNDPEATSの新作、<a href="https://jp.soundpeats.com/products/gofree2" target="_blank" rel="noopener">GoFree 2</a>を発売開始日に速攻で購入〜。
@@ -207,3 +209,4 @@ Radius（ラディウス）のHP-H100BTに買い替えました！音がヤバ�
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/06/IMG_1676-300x200.jpg"
 title: "KAVU バレー ベルト　岳人祭で購入"
 date: 2009-06-06T20:59:56
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/06/IMG_1676-300x200.jpg"
 
 <!-- wp:paragraph -->
 全く別の目的で原宿に立ち寄ったのですが、駅を降りてすぐ前の山専を見て、ici 石井スポーツの岳人祭のことを思い出し、前からお買い物リストにあった物を買いに。ちなみに岳人祭は昨日からだったみたいです。
@@ -76,3 +78,4 @@ MHWのバックルは金属で、ベルトの幅も太くてちょっと重い�
 
 
 <!-- /wp:paragraph -->
+

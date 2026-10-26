@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC03976-300x225.jpg"
 title: "[山行] 御前山"
 date: 2009-02-11T20:38:16
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC03976-300x225.jpg"
 
 <!-- wp:paragraph -->
 GoroのS-8の慣らしを兼ねて奥多摩の御前山にいってきました。
@@ -144,3 +146,4 @@ GoroのS-8の慣らしを兼ねて奥多摩の御前山にいってきました�
 
 
 <!-- /wp:paragraph -->
+

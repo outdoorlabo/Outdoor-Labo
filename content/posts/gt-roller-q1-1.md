@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/11/q11g-300x215.jpg"
 title: "GT-Roller Q1.1を買ってみた [魅惑の4本ローラー]"
 date: 2017-11-27T16:08:18
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/11/q11g-300x215.jpg"
 
 <img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/11/q11g-300x215.jpg" alt="" width="300" height="215" class="alignnone size-medium wp-image-3387" />
 
@@ -184,3 +186,4 @@ Con
 ネジは75mmのスリムタイプを使用。（柔らかい木用）
 
 乗り始めて6日ですが、両手放しができるようになるには時間がかかりそうです。
+

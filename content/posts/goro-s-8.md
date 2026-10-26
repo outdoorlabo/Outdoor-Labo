@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03964-300x225.jpg"
 title: "Goro S-8 登山靴　"
 date: 2009-01-31T23:44:52
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03964-300x225.jpg"
 
 <!-- wp:paragraph -->
 去年の年末にオーダーしていたゴローのS-8が出来ました。
@@ -165,3 +167,4 @@ S-8を購入してからは、テントを担いで登る山（厳冬期以外�
 <!-- wp:image {"linkDestination":"custom"} -->
 <figure class="wp-block-image"><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" alt="にほんブログ村 アウトドアブログへ"/></a></figure>
 <!-- /wp:image -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03608-300x225.jpg"
 title: "Leki Makalu Ultralite Air Ergo"
 date: 2008-10-27T12:16:05
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/10/DSC03608-300x225.jpg"
 
 <!-- wp:paragraph -->
 10年以上も前にスノボーの巨大ランプで着地を失敗して以来、腰に爆弾を抱えています。おまけに左膝にも。
@@ -132,3 +134,4 @@ Lekiでも色々と種類があるので、比べて自分に合ったものを�
 
 
 <!-- /wp:paragraph -->
+

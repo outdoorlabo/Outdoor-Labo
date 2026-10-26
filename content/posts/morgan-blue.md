@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/04/morgan-300x300.jpg"
 title: "お股の擦れに！MORGAN BLUE ソフトシャモアクリーム"
 date: 2018-04-03T14:00:12
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/04/morgan-300x300.jpg"
 
 <img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2018/04/morgan-300x300.jpg" alt="" width="300" height="300" class="alignnone size-medium wp-image-3464" />
 
@@ -52,3 +54,4 @@ draft: false
 <div class="booklink-footer"></div>
 </div>
 </div>
+

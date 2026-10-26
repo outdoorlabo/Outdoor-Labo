@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2026/05/AEROGLIDE4GRVL_01.png"
 title: "[レビュー] SALOMON AERO GLIDE 4 GRVL ランニングシューズ"
 date: 2026-05-11T17:50:05
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2026/05/AEROGLIDE4GRVL_01.png"
 
 <!-- wp:paragraph -->
 ロードシューズのクッション性と、トレイルシューズの走破性を高次元でミックスしたSALOMONの意欲作、**AERO GLIDE 4 GRVL（エアログライド 4 グラベル）**。
@@ -163,3 +165,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

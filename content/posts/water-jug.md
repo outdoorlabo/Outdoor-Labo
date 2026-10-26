@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/IMG_1257-300x200.jpg"
 title: "100均 ウォータージャグ"
 date: 2009-05-31T10:47:54
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/IMG_1257-300x200.jpg"
 
 <!-- wp:paragraph -->
 ウォータージャグなんですが、100均でもなかなかいいのがあるんですよ。
@@ -72,3 +74,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

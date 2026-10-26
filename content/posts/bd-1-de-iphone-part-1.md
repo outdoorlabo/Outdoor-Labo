@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1873-300x200.jpg"
 title: "BD-1 de iPhone Part 1 リクセン化してみよう。 [リクセン カウル]"
 date: 2009-08-09T22:03:28
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1873-300x200.jpg"
 
 <!-- wp:paragraph -->
 めちゃくちゃ蒸し暑いですね。こんなに暑いと、どうも山に行く気になれません。（ヘタレです。）
@@ -107,3 +109,4 @@ KF810（箱に入っている方）は、ネットでも購入できるのです
 
 
 <!-- /wp:paragraph -->
+

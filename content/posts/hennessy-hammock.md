@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/05/RIMG0118-300x225.jpg"
 title: "ヘネシーハンモックでデイキャンプ [BD-1]"
 date: 2010-05-16T00:37:40
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/05/RIMG0118-300x225.jpg"
 
 お山に行きたいけれど、仕事が忙しく行けない日々が続いていてストレスがマックス。ということで、BD-1でサクッとデイキャンピングに行ってきました。
 
@@ -54,3 +56,4 @@ draft: false
 </span></strong>
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

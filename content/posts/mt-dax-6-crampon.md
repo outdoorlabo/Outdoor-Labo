@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/IMG_1246-300x200.jpg"
 title: "Mt. Dax 6本　軽アイゼン、おすすめ！雪山ハイキング、真夏の雪渓に！"
 date: 2009-03-13T22:30:27
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/IMG_1246-300x200.jpg"
 
 <!-- wp:paragraph -->
 マウンテンダックスの6本軽アイゼンです。
@@ -94,3 +96,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

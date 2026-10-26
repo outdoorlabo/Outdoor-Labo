@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/02/IMG_2176-300x211.jpg"
 title: "モンベル ジオライン L.W.ウエストウォーマー [腹巻き]"
 date: 2010-02-21T10:42:48
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/02/IMG_2176-300x211.jpg"
 
 <!-- wp:paragraph -->
 アンダーウェアのシャツをパンツの中に入れていても、バックパックを背負っているといつの間にか出てきてしまうということが多々あり、お腹だけがすごく冷える…。そんな腹冷え対策にモンベルの腹巻き、ジオラインのウエスト ウォーマーを使っています。
@@ -63,3 +65,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

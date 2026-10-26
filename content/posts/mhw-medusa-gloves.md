@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/IMG_2187-300x200.jpg"
 title: "マウンテンハードウェア　メデューサグローブ [冬期用]"
 date: 2010-03-07T21:43:20
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/IMG_2187-300x200.jpg"
 
 <!-- wp:paragraph -->
 MHWの厳冬期用のグローブ、メデューサグローブ。-20度近くでもToasty!!! オススメのグローブです。
@@ -119,3 +121,4 @@ MHWの厳冬期用のグローブ、メデューサグローブ。-20度近く�
 
 
 <!-- /wp:paragraph -->
+

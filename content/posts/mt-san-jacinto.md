@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2003/09/DSC01952-300x225.jpg"
 title: "[山行] Mt. San Jacinto"
 date: 2003-09-14T23:52:36
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2003/09/DSC01952-300x225.jpg"
 
 夏の暑い日に、美大のクラスメイトAlbertとMt. San Jacinto 標高10,834 ft / 3,302mへ。
 
@@ -52,3 +54,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/tozan/"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/tozan/">にほんブログ村</a>
+

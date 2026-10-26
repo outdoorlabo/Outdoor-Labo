@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2013/06/20130624-072031.jpg"
 title: "Puma Mobium モビアム [ランニングシューズ]"
 date: 2013-06-24T07:21:23
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2013/06/20130624-072031.jpg"
 
 この二年弱、ずーっと走ってます。
 
@@ -34,3 +36,4 @@ draft: false
 </tr>
 </tbody>
 </table>
+

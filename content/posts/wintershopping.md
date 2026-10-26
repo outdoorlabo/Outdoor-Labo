@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/11/IMG_0023000-225x300.jpg"
 title: "冬のお買い物視察"
 date: 2009-11-28T23:35:18
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/11/IMG_0023000-225x300.jpg"
 
 <!-- wp:paragraph -->
 いろいろと気になっているモノがあるので、神田へ視察へいってきました。
@@ -76,3 +78,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

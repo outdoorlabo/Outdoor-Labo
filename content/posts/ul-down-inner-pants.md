@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03908-300x225.jpg"
 title: "モンベル U.L.ダウンインナーパンツ"
 date: 2009-01-16T23:28:44
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/DSC03908-300x225.jpg"
 
 <!-- wp:paragraph -->
 クリスマスショッピングで買ったモンベルのU.L.ダウンインナーパンツ。  
@@ -61,3 +63,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

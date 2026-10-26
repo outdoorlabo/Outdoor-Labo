@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1973-300x200.jpg"
 title: "totes チタニウム レインフォース [折り畳み傘]"
 date: 2009-08-11T11:54:17
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/08/IMG_1973-300x200.jpg"
 
 <!-- wp:paragraph -->
 最近、すごく変な天気が続いています。お昼に晴れていても、夕方から急に大雨になったり。
@@ -264,3 +266,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

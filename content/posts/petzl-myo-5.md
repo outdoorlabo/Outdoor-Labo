@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03601-300x225.jpg"
 title: "Petzl MYO 5 ヘッドランプ"
 date: 2008-12-05T09:47:26
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/DSC03601-300x225.jpg"
 
 <!-- wp:paragraph -->
 ペツルのミオ 5を愛用しています。
@@ -106,3 +108,4 @@ LED
 
 
 <!-- /wp:paragraph -->
+

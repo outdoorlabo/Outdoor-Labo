@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/12/IMG_3848.png"
 title: "[レビュー] RxL ウィンドフード付き マルチグローブ(スマホ・ウォッチウィンドウ両手対応) RLA9503"
 date: 2024-12-09T17:48:17
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/12/IMG_3848.png"
 
 <!-- wp:paragraph -->
 愛用していたRxLのマルチグローブが更にアップグレードされてウィンドフード（ミトン）付きで登場！あったらいいなぁ〜と思っていたので、早速、購入してみたのでレビューします！
@@ -221,3 +223,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

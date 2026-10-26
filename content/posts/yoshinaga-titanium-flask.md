@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0879-300x200.jpg"
 title: "Yoshinaga チタン フラスコ [スキットル]"
 date: 2008-12-15T07:24:53
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0879-300x200.jpg"
 
 <!-- wp:paragraph -->
 チタン製のフラスコは、<span style="color: #000000;">軽いだけでなく、錆びない、金属イオンが溶け出さない、</span>入れた酒の香りが残らないなどという利点があります。
@@ -66,3 +68,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

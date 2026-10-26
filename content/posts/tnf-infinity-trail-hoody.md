@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/01/IMG_2318-jpg.webp"
 title: "[レビュー] ノースフェイス インフィニティトレイルフーディー / TNF INFINITY TRAIL HOODY"
 date: 2024-01-29T08:22:42
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/01/IMG_2318-jpg.webp"
 
 <!-- wp:paragraph -->
 お正月のオッシュマンズのセールで購入したランニング用品その２、インフィニティトレイルフーディーのレビュー。3週間ほどランニングで使用したので、ファーストインプレッション的な感じで。
@@ -121,3 +123,4 @@ https://outdoorlabo.a-ce.com/2011/05/28/patagonia-houdini-full-zip-jacket/
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC04000-300x225.jpg"
 title: "浅草アートブラシ社　かんたん毛玉とりブラシ　[レビュー]"
 date: 2009-02-21T18:55:42
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/02/DSC04000-300x225.jpg"
 
 <!-- wp:paragraph -->
 <span class="sale_desc">浅草で創業80周年を迎えた老舗アートブラシ社の職人さんが手作りで作った、話題の毛玉取りブラシ。</span>
@@ -167,3 +169,4 @@ draft: false
 
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a></p>
 <!-- /wp:paragraph -->
+

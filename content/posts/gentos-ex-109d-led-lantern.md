@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0157.jpg"
 title: "超絶ヤバイ ランタン GENTOS エクスプローラー EX-109D [キャンプ]"
 date: 2020-02-06T13:46:53
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0157.jpg"
 
 使用していた中華製のそこそこ明るいLEDランタンを子供に奪われたので、お父さんは対抗して超絶明るいランタンを買いました。
 
@@ -56,5 +58,6 @@ draft: false
 結構人気商品のようで、売り切れたりしている時もあるので（再入荷はします）、後で買おう…と思っていたけど、売り切れてた…ということがないように注意です。（わたしがそうだった…）
 
 [itemlink post_id="4871"]
+
 
 

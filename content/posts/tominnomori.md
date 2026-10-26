@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/img_6204.jpg"
 title: "ロードバイク初心者でも大丈夫な都民の森"
 date: 2016-06-20T23:30:05
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/img_6204.jpg"
 
 毎年、海の日に山に行く！のが恒例となっていますが、今年から山の日が誕生〜 \(•ө•)/♪
 
@@ -54,3 +56,4 @@ stravaで多摩サイ→武蔵五日市駅→都民の森のピストンのマ�
 反省点として、もっとこまめにエネルギー補給しないとダメですね…。シャリバテ気味になる場面がありました。
 
 斜度もキツくないので、初心者でも大丈夫ですー。
+

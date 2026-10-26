@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/PA5250_210_front-300x300.jpg"
 title: "Golite Ion バックパック"
 date: 2009-05-24T02:19:47
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/PA5250_210_front-300x300.jpg"
 
 <!-- wp:paragraph -->
 Goliteのイオンというウルトラライトなバックパック。
@@ -71,3 +73,4 @@ Goliteのイオンというウルトラライトなバックパック。
 
 
 <!-- /wp:paragraph -->
+

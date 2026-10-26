@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/05/img_9354.jpg"
 title: "ロシア・ソビエト軍　空挺部隊（VDV）キャンティーン キャップのメンテ [兵式飯盒]"
 date: 2019-05-13T15:54:23
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/05/img_9354.jpg"
 
 ロシア・ソビエト軍　空挺部隊（VDV）の1979年製のメスキットのキャンティーンのキャップが劣化してお漏らしするようになったのでプチメンテ。
 
@@ -17,5 +19,6 @@ draft: false
 次回交換する時は、3枚でやってみよう。
 
 [itemlink post_id="4879"]
+
 
 

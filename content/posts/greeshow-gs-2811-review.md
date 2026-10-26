@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/10/IMG_3567.jpg"
 title: "[レビュー] Greeshow GS-2811 ソーラーパネル・手回し充電 電動浄水器 / 災害 キャンプ アウトドア"
 date: 2024-10-13T20:00:25
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/10/IMG_3567.jpg"
 
 <!-- wp:paragraph -->
 世界初内蔵バッテリー駆動の電動浄水器を販売しているGreeshowさんから、またまた画期的な浄水器が登場しました！「あったらいいな〜」を驚愕スピードで開発し、製品化を進めるGreeshowさんには脱帽です。こういうワクワクする製品は、新しもの好きにはたまりまへん。
@@ -302,3 +304,4 @@ GreeshowさんのAmazonでのブラックフライデー、12/26　23：59まで
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/06/polarbottle-232x300.jpg"
 title: "POLAR BOTTLE [保冷ボトル]"
 date: 2010-06-06T21:07:26
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/06/polarbottle-232x300.jpg"
 
 仕事が忙しすぎてお山に行けず…。ということで、チャリネタをば。
 
@@ -37,3 +39,4 @@ draft: false
 うひゃひゃ、今度ここでハンモック張ってみよー。でも小川みたいなのがすぐ側にあって、蚊が大量にいそうな感じ。森林香を焚きながら寝るしかないかな。でも燻されるのもちょっと嫌かも。
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

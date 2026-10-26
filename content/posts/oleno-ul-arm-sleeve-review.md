@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2025/04/IMG_4365.jpg"
 title: "[レビュー] OLENO(オレノ) アームスリーブ UL 親指ホール付き"
 date: 2025-04-10T17:40:15
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2025/04/IMG_4365.jpg"
 
 <!-- wp:paragraph -->
 去年の11月に購入したアームカバーのレビュー。暑がりの私は平地では使用する機会（期間）が短いですが、日焼け防止や山ではあると便利な小物です。
@@ -252,3 +254,4 @@ Apple Watch Series 11の46mmでも、ウォッチウィンドウが小さすぎ�
 
 
 <!-- /wp:paragraph -->
+

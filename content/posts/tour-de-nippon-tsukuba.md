@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/940c22a3-9cdb-4179-baf7-8a774696131f-7164-000009374802fe2e-1.jpg"
 title: "9極の耐9 Tour de Nippon 筑波エンデューロ 2017"
 date: 2017-08-16T11:53:30
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/940c22a3-9cdb-4179-baf7-8a774696131f-7164-000009374802fe2e-1.jpg"
 
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/940c22a3-9cdb-4179-baf7-8a774696131f-7164-000009374802fe2e-1.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/940c22a3-9cdb-4179-baf7-8a774696131f-7164-000009374802fe2e-1.jpg" alt="" width="396" height="370" class="alignnone size-full wp-image-3340"></a>
 
@@ -78,3 +80,4 @@ draft: false
 ↑ ゴールして、ウイニングラン前の光景。最後の人が来るまでのひと時。みなさん、お疲れ様でした！
 
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/img_7808-1.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2017/08/img_7808-1.jpg" alt="" width="4032" height="3024" class="alignnone size-full wp-image-3376"></a>
+

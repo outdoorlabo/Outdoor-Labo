@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/02/IMG_2276-300x200.jpg"
 title: "Grivel エア テック カーボン [ice axe]"
 date: 2010-02-28T21:14:13
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/02/IMG_2276-300x200.jpg"
 
 <!-- wp:paragraph -->
 GrivelのAir Tech Carbonというピッケル。もう、一目でハートを奪われてしまいました。
@@ -68,3 +70,4 @@ GrivelのAir Tech Carbonというピッケル。もう、一目でハートを�
 
 
 <!-- /wp:paragraph -->
+

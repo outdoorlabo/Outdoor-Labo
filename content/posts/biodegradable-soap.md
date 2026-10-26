@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/DSC03287-300x225.jpg"
 title: "エコソープ　/ Biodegradable"
 date: 2008-09-05T20:53:16
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/09/DSC03287-300x225.jpg"
 
 <!-- wp:paragraph -->
 生物分解性のエコソープです。持っていた分が残り少ないので、REIにて購入。
@@ -51,3 +53,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

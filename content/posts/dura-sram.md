@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/04/Quarq-Red-DZero-New-line-up-2017-power-meter-powermeter24-com-300x96.png"
 title: "DURA-SRAM化断念"
 date: 2017-04-21T13:00:58
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/04/Quarq-Red-DZero-New-line-up-2017-power-meter-powermeter24-com-300x96.png"
 
 仕事が激務でロードバイクに週２ほどしか乗れてませんが、５月中にSLR02のアップグレード構想を達成すべく、いろいろと購入を進めていたのですが…撃沈…。
 <h2 class="Balloon">当初の構想</h2>
@@ -30,3 +32,4 @@ draft: false
 SLR02はPressfit 86なので、SRAMのGXPと互換性ありません… こちらはWishboneのBB86-GXPで対応しようかと。
 
 来月の暇な週末にでもインスコしてみます。楽しみ！(*^_^*)
+

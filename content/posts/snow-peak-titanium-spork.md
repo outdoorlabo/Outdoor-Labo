@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03579-300x225.jpg"
 title: "Snow Peak チタン 先割れスプーン"
 date: 2008-11-02T11:00:09
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03579-300x225.jpg"
 
 <!-- wp:paragraph -->
 <span class="sale_desc">スノーピークのチタン製の先割れスプーンを愛用しています。</span>
@@ -68,3 +70,4 @@ https://outdoorlabo.a-ce.com/2009/06/21/light-my-fire-spork/
 
 
 <!-- /wp:paragraph -->
+

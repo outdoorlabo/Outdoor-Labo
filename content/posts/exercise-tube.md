@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/08/RIMG0230-300x225.jpg"
 title: "エクササイズ チューブ [筋トレ]"
 date: 2010-08-22T21:09:17
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/08/RIMG0230-300x225.jpg"
 
 最近ジムに行けてないので家で筋トレしてます。2回に分けて、ちょっと筋力アップを図りたいという人にオススメできる筋トレグッズを紹介したいと思います。
 
@@ -32,3 +34,4 @@ draft: false
 
 ↑ナイキのハードタイプ。<span style="color: #ff0000;">**30%オフ！楽天最安です。**</span>
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

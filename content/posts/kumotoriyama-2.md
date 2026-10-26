@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/DSC04044-300x225.jpg"
 title: "[山行] 冬の雲取山というか、奥多摩小屋"
 date: 2009-03-08T23:48:10
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/03/DSC04044-300x225.jpg"
 
 <!-- wp:paragraph -->
 雪を求めて、1泊で奥多摩小屋に行ってきました。
@@ -219,3 +221,4 @@ Granite GearのAir Cell Blockに凍らせた肉を入れておいたのに、着
 
 
 <!-- /wp:paragraph -->
+

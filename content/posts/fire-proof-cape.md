@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/02/img_9082.jpg"
 title: "自作 ファイヤーマント [焚き火]"
 date: 2019-02-24T11:20:54
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/02/img_9082.jpg"
 
 焚き火をやると服が臭くなったり、火の粉で化繊の衣類に穴があいたり…。
 
@@ -67,4 +69,5 @@ BE-PALに作り方が載っていたので、帆布でファイヤーマント�
 ちょっと羽織るだけでも暖かさアップするので、一枚あると便利です。
 
 [itemlink post_id="4886"]
+
 

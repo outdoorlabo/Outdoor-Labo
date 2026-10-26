@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/07/IMG_2362-300x200.jpg"
 title: "モントレイル サビノトレイル・ミッド GTX [軽い]"
 date: 2010-07-25T22:26:27
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/07/IMG_2362-300x200.jpg"
 
 日帰り用のLowa レネゲードのソールが経年劣化でペコペコと浮くのを発見したのが、<a href="http://outdoorlabo.a-ce.com/2010/06/26/tounodake/" target="_blank">塔ノ岳</a>にいく数日前。急いで買ったのが、Montrailのサビノトレイル・ミッド GTX。でも、この靴、当初欲しかった靴ではないのです。
 
@@ -38,3 +40,4 @@ OD BOXにてブリーズ・ミッドを試し履きをしてみると…足に�
 ↑<span style="color: #ff0000;">楽天最安！送料無料！</span>店舗より2000円ほど安く購入できます。
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6051.jpg"
 title: "江ノ島ライド [Shamal Ultra 履き替えテスト]"
 date: 2016-05-02T22:38:08
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6051.jpg"
 
 カンパーニョロのShamal Ultra 2way＋IRC Formula RBCC チューブレスに履き替えたので、江ノ島まで行ってきました。往復115キロのピストン〜。
 
@@ -108,3 +110,4 @@ Shamalさんの真の恩恵を受けることができるレベルにまだ達�
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6048.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/05/img_6048.jpg" alt="" width="2448" height="2448" class="alignnone size-full wp-image-3099" /></a>
 
 帰路、気温が下がり肌寒くなり、お目当の飯田牧場のソフトクリームを食べる気もしなくなり、行って帰ってくるだけのライドになってしまいました… Ωヾ(*･∀･*)ﾁｰﾝ
+

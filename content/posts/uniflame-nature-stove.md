@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03594-300x225.jpg"
 title: "ユニフレーム　ネイチャーストーブ　L"
 date: 2008-11-28T10:12:54
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/11/DSC03594-300x225.jpg"
 
 ユニフレームのネイチャーストーブの大きいほうのモデルです。
 
@@ -28,3 +30,4 @@ Lサイズは1Kgちょい。小さいモデルは320gなので携帯に◎。ソ
 
 <a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a>
 <a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0149.jpg"
 title: "アウトドア de ブリトー・タコス！ [簡単キャンプ飯]"
 date: 2022-12-21T12:26:09
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2020/01/img_0149.jpg"
 
 <!-- wp:paragraph -->
 焚き火をしたり、薪ストーブで料理する肉は格別！その美味い肉を使って更に美味しく食べたい…。
@@ -214,3 +216,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

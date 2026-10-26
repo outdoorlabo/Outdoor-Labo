@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/05/37609601-zoom-300x300.jpg"
 title: "Skins A400 コンプレッションのチカラ"
 date: 2018-05-17T19:38:19
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2018/05/37609601-zoom-300x300.jpg"
 
 <img class="alignnone size-medium wp-image-3468" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2018/05/37609601-zoom-300x300.jpg" alt="" width="300" height="300" />
 
@@ -118,3 +120,4 @@ Skinsのコンプレッションのチカラは、偉大だ！！！！
 </div>
 </div>
 </div>
+

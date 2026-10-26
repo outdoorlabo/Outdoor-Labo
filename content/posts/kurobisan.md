@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/IMG_0060-225x300.jpg"
 title: "[山行] 冬の黒檜山・駒ヶ岳（赤城山）"
 date: 2010-01-11T09:04:19
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/IMG_0060-225x300.jpg"
 
 <!-- wp:paragraph -->
 2010年の最初のお山は日本百名山のひとつ、赤城山の最高峰の黒檜山〜駒ヶ岳に。風邪が完治していないままの登山でしたが、ハードでもなく、ちょうどいい山でした。晴れていたら、かなり景色がいいらしいのですが、今日は山頂はガスってました。
@@ -176,3 +178,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0845-300x200.jpg"
 title: "[レビュー] ARC'TERYX Delta SV グローブ"
 date: 2008-12-08T20:56:11
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0845-300x200.jpg"
 
 <!-- wp:paragraph -->
 アークテリスクのデルタ SV グローブを購入しました。
@@ -72,3 +74,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

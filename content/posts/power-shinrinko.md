@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_1711-300x200.jpg"
 title: "パワー森林香＋携帯ケース"
 date: 2009-07-06T22:58:57
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/07/IMG_1711-300x200.jpg"
 
 <!-- wp:paragraph -->
 ちょっと吸われただけで、めちゃくちゃ腫れてしまうというデリケートな肌の持ち主なので、  
@@ -108,3 +110,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

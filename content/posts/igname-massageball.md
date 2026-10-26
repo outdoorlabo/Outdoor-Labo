@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/07/img_9646.jpg"
 title: "イナーメ　メタルマッサージボールは使えるのか？"
 date: 2019-07-30T15:15:25
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/07/img_9646.jpg"
 
 去年購入し、投稿するのを忘れていた…。つーことで、改めて…。
 
@@ -43,5 +45,6 @@ draft: false
 イナーメのオイルはちょっと高価なので、ふつーのトレーニング後のオイルマッサージに使うのは勿体ない！（貧乏性…汗）なので、一応イナーメのオイルにも含まれるホホバオイルが入った激安マッサージオイル使ってます。笑
 
 これ単体ではちょっとイマイチですが、他の器具と併用するといい感じ…そんな商品でございました。
+
 
 

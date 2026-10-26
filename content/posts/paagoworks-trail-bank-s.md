@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/04/IMG_2632.jpg"
 title: "[レビュー] Paagoworks TRAIL BANK S / ミニマル財布"
 date: 2024-04-30T15:00:15
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/04/IMG_2632.jpg"
 
 <!-- wp:paragraph -->
 Rush Hipと一緒に手に入れたミニマルな財布で、超お気に入り。流石パーゴワークスさんの製品。使い勝手はピカイチです。半年以上使ってみたので、レビューしてみます。
@@ -179,3 +181,4 @@ https://outdoorlabo.a-ce.com/2008/12/06/granite-gear-hiker-wallet/
 
 
 <!-- /wp:rinkerg/gutenberg-rinker -->
+

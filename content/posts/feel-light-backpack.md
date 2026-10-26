@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoor.blogmura.com/img/outdoor88_31.gif"
 title: "バックパックが軽く感じる裏技"
 date: 2009-09-13T11:07:03
 draft: false
----
+--
+featureImage: "http://outdoor.blogmura.com/img/outdoor88_31.gif"
 
 <!-- wp:paragraph -->
 今週も休日出勤です。ただ今、会社から更新中〜。
@@ -52,3 +54,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

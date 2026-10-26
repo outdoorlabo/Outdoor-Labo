@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/01/IMG_2331-jpg.webp"
 title: "My Proteinに乗り換えたら… / 激安購入方法"
 date: 2024-01-22T09:58:55
 draft: false
----
+--
+featureImage: "https://outdoorlabo.a-ce.com/wp-content/uploads/2024/01/IMG_2331-jpg.webp"
 
 <!-- wp:paragraph -->
 My Protein（マイプロテイン）を激安で購入することができたので、WPIとEAAのレビュー。
@@ -619,3 +621,4 @@ As of 2025では、プロテインは、ミルクティー、北海道ミルク�
 
 
 <!-- /wp:paragraph -->
+

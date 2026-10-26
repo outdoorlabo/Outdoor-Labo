@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/DSC03915-300x225.jpg"
 title: "ブラックダイヤモンド オービット [LED ランタン]"
 date: 2010-01-23T23:39:27
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/01/DSC03915-300x225.jpg"
 
 <!-- wp:paragraph -->
 Black DiamondコンパクトなLEDランタン、オービット。去年の夏に購入したんですが、なかなか使い勝手がよいランタンで、お気に入り。
@@ -84,3 +86,4 @@ Black DiamondコンパクトなLEDランタン、オービット。去年の夏�
 
 
 <!-- /wp:paragraph -->
+

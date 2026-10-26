@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/11/img_9926.jpg"
 title: "Toaks チタン アルコールストーブは優れもの [キャンプ・登山]"
 date: 2019-12-25T10:22:20
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/11/img_9926.jpg"
 
 メリークリスマス！
 
@@ -234,4 +236,5 @@ Toaksのアルストのほうが速く沸かすことができました。そし
 
 
 <!-- /wp:paragraph -->
+
 

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/08/DSC03230-300x225.jpg"
 title: "[ハイキング] Lands End -サンフランシスコ"
 date: 2008-08-23T19:31:58
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/08/DSC03230-300x225.jpg"
 
 ２週間ほどアメリカ、サンフランシスコに出張に行ってきました。
 
@@ -30,3 +32,4 @@ draft: false
 <a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2008/08/DSC03240.jpg"><img title="激うまPho" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2008/08/DSC03240-300x225.jpg" alt="激うまPho" /></a>
 
 </div>
+

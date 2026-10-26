@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2011/01/RIMG0330-300x225.jpg"
 title: "キャンパーズコレクション ザ・シチリン S-360G"
 date: 2011-01-03T15:24:38
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2011/01/RIMG0330-300x225.jpg"
 
 この正月の休みはできるだけお庭でオクガイ活動を…ということで、七輪を購入しました。（豆炭を入れてみたよの図）
 
@@ -60,3 +62,4 @@ draft: false
 この後、焼き芋もやってみましたが、炭の量が少なかったのか、焼き上がるまでに２時間かかりました。（汗）
 
 <a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" /></a><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" /></a>
+

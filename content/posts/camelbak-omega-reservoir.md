@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/IMG_0882-200x300.jpg"
 title: "Camelbak アンボトル オメガリザーバー 3リットル"
 date: 2009-01-27T22:50:07
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/IMG_0882-200x300.jpg"
 
 <!-- wp:paragraph -->
 キャメルバックのアンボトル オメガリザーバー。3リットル入ります。お山用のハイドレーションとしては2〜３リットルぐらいが丁度いいサイズかも。5年くらい前のモデルですが、まだまだ現役です。
@@ -54,3 +56,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

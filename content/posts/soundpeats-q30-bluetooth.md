@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/12/img_8083.jpg"
 title: "SoundPEATS(サウンドピーツ) Q30 Bluetoothイヤホンを買ってみた"
 date: 2017-12-12T12:29:48
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2017/12/img_8083.jpg"
 
 ローラー台トレーニング、ラン、山、通勤、出張用にbluetoothのイヤホンを買ってみました。
 
@@ -120,3 +122,4 @@ iPhoneを手に持ちながら歩いていてiPhoneを落としそうになっ�
 </div>
 </div>
 </div>
+

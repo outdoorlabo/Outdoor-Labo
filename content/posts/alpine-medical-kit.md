@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/IMG_1269-300x200.jpg"
 title: "アルパイン メディカル キット"
 date: 2009-05-10T23:16:46
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/05/IMG_1269-300x200.jpg"
 
 <!-- wp:paragraph -->
 お山に行くときに、忘れてはならないものがファーストエイドキット。
@@ -67,3 +69,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+

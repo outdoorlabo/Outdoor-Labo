@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/01/img_8888.jpg"
 title: "Bushbox LF Titaniumで肉を焼いてみた"
 date: 2019-01-02T14:45:46
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/01/img_8888.jpg"
 
 先日購入したBushcraft Essentialsのウッドストーブのなかでも最新モデルのLFのチタンモデルで肉を焼いてみました。
 
@@ -31,4 +33,5 @@ draft: false
 [itemlink post_id="4902"]
 
 [itemlink post_id="4904"]
+
 

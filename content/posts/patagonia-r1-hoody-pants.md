@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/04/IMG_2304-300x200.jpg"
 title: "Patagonia R1 フーディー + パンツ [冬期用]"
 date: 2010-04-11T23:56:20
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/04/IMG_2304-300x200.jpg"
 
 <!-- wp:html -->
 <div id="desc">冬期において、ファンクショナリティーが最高によかったのがR1 フーディーとパンツ。</div>
@@ -127,3 +129,4 @@ R1パンツはさすがに秋口には使いませんが、CW-X、R1パンツ、
 <!-- wp:image {"linkDestination":"custom"} -->
 <figure class="wp-block-image"><a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ"/></a></figure>
 <!-- /wp:image -->
+

@@ -1,8 +1,10 @@
----
+﻿--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/nimbusozone-225x300.jpg"
 title: "Granite Gear Nimbus Ozone [バックパック]"
 date: 2009-01-18T00:44:25
 draft: false
----
+--
+featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/01/nimbusozone-225x300.jpg"
 
 <!-- wp:paragraph -->
 ほとんどのテント泊のときに、グラナイトギアのニンバスオゾンを使っています。
@@ -106,3 +108,4 @@ draft: false
 
 
 <!-- /wp:paragraph -->
+
