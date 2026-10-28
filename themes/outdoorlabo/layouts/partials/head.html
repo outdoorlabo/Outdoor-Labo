@@ -17,7 +17,9 @@
 {{ range .AlternativeOutputFormats }}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
 {{ end }}
-<link rel="icon" href="{{ "images/favicon.png" | relURL }}">
+{{ $fav := site.Params.favicon | default "/images/ol.png" }}
+<link rel="icon" type="image/png" href="{{ $fav | relURL }}">
+<link rel="apple-touch-icon" href="{{ $fav | relURL }}">
 {{ if site.Params.webfont }}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

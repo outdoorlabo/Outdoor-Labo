@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ partial "breadcrumb.html" . }}
+  <article class="article">
+    <h1 class="article-title">{{ .Title }}</h1>
+    <div class="entry-content">{{ .Content }}</div>
+    {{ with site.Params.contactFormKey }}
+    <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="{{ . }}">
+      <input type="hidden" name="from_name" value="{{ site.Title }}">
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p><label>氏名<input type="text" name="name" required autocomplete="name"></label></p>
+      <p><label>メールアドレス<input type="email" name="email" required autocomplete="email"></label></p>
+      <p><label>題名<input type="text" name="subject" required></label></p>
+      <p><label>メッセージ本文<textarea name="message" rows="9" required></textarea></label></p>
+      <p><button type="submit">送信</button></p>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+    {{ else }}
+    <p class="form-status ng">お問い合わせフォームは準備中です。</p>
+    {{ end }}
+  </article>
+{{ end }}

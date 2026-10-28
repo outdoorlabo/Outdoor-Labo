@@ -1,5 +1,5 @@
 # OUTDOOR LABO — Hugo 設定 (Blowfish の設定を置き換えるもの)
-baseURL = "https://outdoor-labo.pages.dev/"   # 独自ドメイン(https://outdoorlabo.a-ce.com/)に切り替える時にここを変更
+baseURL = "https://outdoorlabo.pages.dev/"   # 独自ドメイン(https://outdoorlabo.a-ce.com/)に切り替える時にここを変更
 title = "OUTDOOR LABO"
 theme = "outdoorlabo"
 locale = "ja"

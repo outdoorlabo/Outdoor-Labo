@@ -65,9 +65,10 @@
         {{ with $ig.bio }}<p class="ig-bio">{{ . }}</p>{{ end }}
       </div>
     </div>
-    {{ with $ig.posts }}
-    <div class="ig-grid">
-      {{ range first 12 . }}{{ if .image }}<a href="{{ .url }}" target="_blank" rel="noopener"><img src="{{ .image | relURL }}" alt="" loading="lazy"></a>{{ end }}{{ end }}
+    {{ $feed := site.Params.beholdFeedId }}
+    {{ if or $ig.posts $feed }}
+    <div class="ig-grid"{{ with $feed }} data-feed="https://feeds.behold.so/{{ . }}"{{ end }}>
+      {{ with $ig.posts }}{{ range first 12 . }}{{ if .image }}<a href="{{ .url }}" target="_blank" rel="noopener"><img src="{{ .image | relURL }}" alt="" loading="lazy"></a>{{ end }}{{ end }}{{ end }}
     </div>
     {{ end }}
     <p class="ig-actions"><a class="ig-follow" href="https://www.instagram.com/{{ . }}/" target="_blank" rel="noopener">Instagram でフォロー</a></p>

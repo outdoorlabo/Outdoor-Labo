@@ -399,7 +399,7 @@ def main():
     ap.add_argument("--limit", type=int, help="試験用: 先頭N件だけ変換")
     ap.add_argument("--no-images", action="store_true", help="画像をダウンロードしない")
     ap.add_argument("--grep", help="調査用: WordPress の本文に指定の文字列が含まれる記事を探して表示(ファイルは作らない)")
-    ap.add_argument("--skip-pages", default="site-map", help="変換しない固定ページのスラッグ(カンマ区切り)")
+    ap.add_argument("--skip-pages", default="site-map,contact", help="変換しない固定ページのスラッグ(カンマ区切り)")
     a = ap.parse_args()
     host = urllib.parse.urlparse(a.site).netloc
     cats, tags, posts, pages = parse_wxr(a.wxr) if a.wxr else from_api(a.site)

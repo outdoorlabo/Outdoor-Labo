@@ -8,6 +8,9 @@ authorBox = false                      # 記事末尾のプロフィール欄
 relatedPosts = true                    # 関連記事
 amazonNotice = "OUTDOOR LABOは、Amazonアソシエイト・プログラムの参加者です。"
 instagramUser = "outdoorlabo"
+favicon = "/images/ol.png"          # ファビコン(static/images/ に置いた画像)
+contactFormKey = "4b6d21d4-84a7-4b3f-b2c5-a66e91faff6b"                  # Web3Forms のアクセスキー(お問い合わせフォーム)。空の間は「準備中」と表示
+beholdFeedId = "https://feeds.behold.so/OvM6jVcbAdTRsBmUZtfL"                    # Behold のフィードID(Instagram グリッド)。空の間はグリッドを出さない
 
 # サイドバーの Instagram 欄(APIは使わず、画像を static/images/instagram/ に置いて手動で並べる)
 [instagram]

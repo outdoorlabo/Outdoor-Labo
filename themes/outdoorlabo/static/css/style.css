@@ -282,3 +282,15 @@ a.page-numbers:hover { background: var(--c-soft); opacity: 1; }
   .yyi-rinker-info { width: 100%; }
   .yyi-rinker-links li { flex: 1 1 100%; }
 }
+
+/* ---------- お問い合わせフォーム ---------- */
+.contact-form { max-width: 640px; margin: 1.6em 0; }
+.contact-form label { display: block; font-weight: 500; font-size: .95rem; }
+.contact-form input[type=text], .contact-form input[type=email], .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 10px 12px; border: 2px solid var(--c-border); border-radius: 0; font: inherit; font-size: 1rem; background: #fff; }
+.contact-form input:focus, .contact-form textarea:focus { outline: none; border-color: var(--c-primary); }
+.contact-form .hp { position: absolute; left: -9999px; }
+.contact-form button { min-width: 160px; padding: 10px 24px; border: 0; border-radius: 999px; background: var(--c-primary); color: #fff; font: inherit; font-size: 1rem; cursor: pointer; }
+.contact-form button:hover { background: var(--c-primary-dark); }
+.contact-form button:disabled { opacity: .6; cursor: default; }
+.form-status.ok { color: #2e7d32; }
+.form-status.ng { color: #c62828; }

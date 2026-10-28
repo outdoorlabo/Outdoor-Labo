@@ -27,4 +27,47 @@
     toggle();
     top.addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
   }
+  // Instagram フィード (Behold の JSON フィードを読み込む)
+  var grid = document.querySelector('.ig-grid[data-feed]');
+  if (grid && window.fetch) {
+    fetch(grid.dataset.feed)
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        (d.posts || []).slice(0, 12).forEach(function (p) {
+          var u = (p.sizes && p.sizes.small && p.sizes.small.mediaUrl) || p.thumbnailUrl || p.mediaUrl;
+          if (!u || !p.permalink) return;
+          var a = document.createElement('a');
+          a.href = p.permalink; a.target = '_blank'; a.rel = 'noopener';
+          var i = document.createElement('img');
+          i.src = u; i.alt = ''; i.loading = 'lazy';
+          a.appendChild(i); grid.appendChild(a);
+        });
+      })
+      .catch(function () { /* 失敗時は何も出さない(フォローボタンは残る) */ });
+  }
+  // お問い合わせフォーム (Web3Forms)
+  var form = document.getElementById('contact-form');
+  if (form && window.fetch) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var st = form.querySelector('.form-status');
+      var btn = form.querySelector('button[type=submit]');
+      var data = {};
+      new FormData(form).forEach(function (v, k) { data[k] = v; });
+      btn.disabled = true; st.className = 'form-status'; st.textContent = '送信中…';
+      fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(data) })
+        .then(function (r) { return r.json(); })
+        .then(function (j) {
+          if (!j.success) throw new Error(j.message || 'error');
+          st.className = 'form-status ok';
+          st.textContent = '送信しました。ありがとうございます。内容を確認のうえ、ご連絡します。';
+          form.reset();
+        })
+        .catch(function () {
+          st.className = 'form-status ng';
+          st.textContent = '送信できませんでした。時間をおいて、もう一度お試しください。';
+        })
+        .then(function () { btn.disabled = false; });
+    });
+  }
 })();
