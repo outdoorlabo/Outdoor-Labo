@@ -1,75 +1,35 @@
-﻿--
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0840-300x200.jpg"
+---
 title: "Granite Gear The Lid 蓋"
-date: 2008-12-16T07:21:02
-draft: false
---
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0840-300x200.jpg"
+date: 2008-12-16T07:21:02+09:00
+lastmod: 2023-12-07T09:12:28+09:00
+slug: "granite-gear-the-lid"
+category: ["backpack", "gear", "hiking"]
+tag: ["granite-gear", "granite-gear2", "backpack", "lid"]
+image: "/wp-content/uploads/2008/12/IMG_0840.jpg"
+description: "Virga、Vapor Trail、Nimbus Ozoneに取り付けられるバックパックのフタを購入しました。ウルトラライトなバックパックなので、バックパックの口はヒモでしぼるだけというシンプルな作りなのですが、やっぱり…"
+wpid: 66
+---
 
-<!-- wp:paragraph -->
-Virga、Vapor Trail、Nimbus Ozoneに取り付けられるバックパックのフタを購入しました。
+<p class="wp-block-paragraph">Virga、Vapor Trail、Nimbus Ozoneに取り付けられるバックパックのフタを購入しました。</p>
 
+<figure class="wp-block-image"><a href="/wp-content/uploads/2008/12/IMG_0840.jpg"><img decoding="async" src="/wp-content/uploads/2008/12/IMG_0840-300x200.jpg" alt="フタ" title="フタ"/></a></figure>
 
-<!-- /wp:paragraph -->
+<p class="wp-block-paragraph">ウルトラライトなバックパックなので、バックパックの口はヒモでしぼるだけというシンプルな作りなのですが、やっぱりポッケがあると便利。あと、フタがあると少々の雨も防げますし。</p>
 
-<!-- wp:image {"linkDestination":"custom"} -->
-<figure class="wp-block-image"><a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0840.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0840-300x200.jpg" alt="フタ" title="フタ"/></a></figure>
-<!-- /wp:image -->
+<p class="wp-block-paragraph">重さはアップ（84g）しましたが、利便性はそれ以上にアップ。</p>
 
-<!-- wp:paragraph -->
-ウルトラライトなバックパックなので、バックパックの口はヒモでしぼるだけというシンプルな作りなのですが、やっぱりポッケがあると便利。あと、フタがあると少々の雨も防げますし。
+<p class="wp-block-paragraph">ニンバス&nbsp; オゾンにつけてみました。↓</p>
 
+<figure class="wp-block-image"><a href="/wp-content/uploads/2008/12/IMG_0846.jpg"><img decoding="async" src="/wp-content/uploads/2008/12/IMG_0846-300x200.jpg" alt="ニンバスオゾンに" title="ニンバスオゾンに"/></a></figure>
 
-<!-- /wp:paragraph -->
+<p class="wp-block-paragraph">グラナイトギアのロゴが２つになって、ちょっとくどいのが気になります・・・。</p>
 
-<!-- wp:paragraph -->
-重さはアップ（84g）しましたが、利便性はそれ以上にアップ。
+<p class="wp-block-paragraph">この中にパックカバー、コンパス、FAKや、その他こまめに出し入れする小物を入れることにします。</p>
 
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-ニンバス&nbsp; オゾンにつけてみました。↓
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"linkDestination":"custom"} -->
-<figure class="wp-block-image"><a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0846.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2008/12/IMG_0846-300x200.jpg" alt="ニンバスオゾンに" title="ニンバスオゾンに"/></a></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-グラナイトギアのロゴが２つになって、ちょっとくどいのが気になります・・・。
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-この中にパックカバー、コンパス、FAKや、その他こまめに出し入れする小物を入れることにします。
-
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-
-<!-- wp:paragraph -->
-
-
-**<span style="color: #ff007f;">↓ ポチッとクリック応援お願いします！ ↓</span>**
-
-
-<!-- /wp:paragraph -->
-
-
-<!-- wp:paragraph -->
-
-
-<a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a>  
-<a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
-
-
-<!-- /wp:paragraph -->
-
-
-
+<p></p>
+<p></p>
+<p><strong><span style="color: #ff007f;">↓ ポチッとクリック応援お願いします！ ↓</span></strong></p>
+<p></p>
+<p></p>
+<p><a href="http://outdoor.blogmura.com/outdoorgear/"><img loading="lazy" decoding="async" src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a><br /><a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a></p>
+<p></p>

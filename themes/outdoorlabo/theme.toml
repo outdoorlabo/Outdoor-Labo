@@ -1,0 +1,3 @@
+name = "OUTDOOR LABO"
+description = "WordPress(Cocoon グレー系)風のレイアウトを再現した Hugo テーマ"
+min_version = "0.128.0"

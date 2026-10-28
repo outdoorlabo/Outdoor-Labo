@@ -1,0 +1,6 @@
+{{ with site.Params.author }}
+<section class="author-box">
+  {{ with .avatar }}<img class="avatar" src="{{ . | relURL }}" alt="" width="80" height="80">{{ end }}
+  <div><div class="author-name">{{ .name }}</div><div class="author-bio">{{ .bio | markdownify }}</div></div>
+</section>
+{{ end }}

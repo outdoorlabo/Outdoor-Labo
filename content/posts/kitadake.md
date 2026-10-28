@@ -1,24 +1,20 @@
-﻿--
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9124.jpg"
+---
 title: "南ア 北岳 八本歯経由 [テント泊]"
-date: 2011-07-17T21:35:13
-draft: false
---
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9124.jpg"
+date: 2011-07-17T21:35:13+09:00
+lastmod: 2019-12-18T13:43:50+09:00
+slug: "kitadake"
+category: ["kitadake", "southern-apls", "hiking", "hiking-mountaineering"]
+tag: ["camping", "kitadake", "minami-alps", "日本百名山", "登山"]
+image: "/wp-content/uploads/2011/07/RIMG05321.jpg"
+description: "南アルプスの北岳に。甲府〜広河原〜二俣〜八本歯のコル〜北岳山頂〜肩の小屋肩の小屋〜小太郎尾根分岐〜白根御池小屋〜広河原〜甲府"
+wpid: 2554
+---
 
-南アルプスの北岳に。
-
-[1日目]
-
-甲府 〜 広河原&nbsp; 〜 二俣 〜 八本歯のコル 〜 北岳山頂 〜 肩の小屋
-
-[2日目]
-
-肩の小屋 〜 小太郎尾根分岐 〜 白根御池小屋&nbsp; 〜 広河原 〜 甲府
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9124.jpg" class="size-full wp-image-3758" width="720" height="459"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9125.jpg" class="size-full wp-image-3764" width="900" height="1200"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9126.jpg" class="size-full wp-image-3767" width="1200" height="900"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9127.jpg" class="size-full wp-image-3766" width="540" height="720"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9128.jpg" class="size-full wp-image-3762" width="720" height="540"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9130.jpg" class="size-full wp-image-3761" width="540" height="720"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9129.jpg" class="size-full wp-image-3760" width="720" height="540"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9131.jpg" class="size-full wp-image-3759" width="720" height="540"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9132.jpg" class="size-full wp-image-3763" width="720" height="540"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2019/03/img_9133.jpg" class="size-full wp-image-3765" width="720" height="540">
-
-&nbsp;
-
-<a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31"></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31"></a><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31"></a>
-
+<p>南アルプスの北岳に。</p>
+<p>[1日目]</p>
+<p>甲府 〜 広河原&nbsp; 〜 二俣 〜 八本歯のコル 〜 北岳山頂 〜 肩の小屋</p>
+<p>[2日目]</p>
+<p>肩の小屋 〜 小太郎尾根分岐 〜 白根御池小屋&nbsp; 〜 広河原 〜 甲府</p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9124.jpg" class="size-full wp-image-3758" width="720" height="459" srcset="/wp-content/uploads/2019/03/img_9124.jpg 700w, /wp-content/uploads/2019/03/img_9124-300x191.jpg 300w" sizes="(max-width: 720px) 100vw, 720px" /><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9125.jpg" class="size-full wp-image-3764" width="900" height="1200" srcset="/wp-content/uploads/2019/03/img_9125.jpg 525w, /wp-content/uploads/2019/03/img_9125-225x300.jpg 225w, /wp-content/uploads/2019/03/img_9125-768x1024.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9126.jpg" class="size-full wp-image-3767" width="1200" height="900" srcset="/wp-content/uploads/2019/03/img_9126.jpg 700w, /wp-content/uploads/2019/03/img_9126-300x225.jpg 300w, /wp-content/uploads/2019/03/img_9126-768x576.jpg 768w, /wp-content/uploads/2019/03/img_9126-1024x768.jpg 1024w, /wp-content/uploads/2019/03/img_9126-1200x900.jpg 1200w" sizes="(max-width: 1200px) 100vw, 1200px" /><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9127.jpg" class="size-full wp-image-3766" width="540" height="720" srcset="/wp-content/uploads/2019/03/img_9127.jpg 525w, /wp-content/uploads/2019/03/img_9127-225x300.jpg 225w" sizes="(max-width: 540px) 100vw, 540px" /><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9128.jpg" class="size-full wp-image-3762" width="720" height="540" srcset="/wp-content/uploads/2019/03/img_9128.jpg 700w, /wp-content/uploads/2019/03/img_9128-300x225.jpg 300w" sizes="(max-width: 720px) 100vw, 720px" /><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9130.jpg" class="size-full wp-image-3761" width="540" height="720" srcset="/wp-content/uploads/2019/03/img_9130.jpg 525w, /wp-content/uploads/2019/03/img_9130-225x300.jpg 225w" sizes="(max-width: 540px) 100vw, 540px" /><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9129.jpg" class="size-full wp-image-3760" width="720" height="540" srcset="/wp-content/uploads/2019/03/img_9129.jpg 700w, /wp-content/uploads/2019/03/img_9129-300x225.jpg 300w" sizes="(max-width: 720px) 100vw, 720px" /><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9131.jpg" class="size-full wp-image-3759" width="720" height="540" srcset="/wp-content/uploads/2019/03/img_9131.jpg 700w, /wp-content/uploads/2019/03/img_9131-300x225.jpg 300w" sizes="(max-width: 720px) 100vw, 720px" /><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9132.jpg" class="size-full wp-image-3763" width="720" height="540" srcset="/wp-content/uploads/2019/03/img_9132.jpg 700w, /wp-content/uploads/2019/03/img_9132-300x225.jpg 300w" sizes="(max-width: 720px) 100vw, 720px" /><img loading="lazy" decoding="async" src="/wp-content/uploads/2019/03/img_9133.jpg" class="size-full wp-image-3765" width="720" height="540" srcset="/wp-content/uploads/2019/03/img_9133.jpg 700w, /wp-content/uploads/2019/03/img_9133-300x225.jpg 300w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p>&nbsp;</p>
+<p><a rel="noopener" href="http://outdoor.blogmura.com/outdoorgear/" target="_blank"><img loading="lazy" decoding="async" src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31"></a><a rel="noopener" href="http://outdoor.blogmura.com/tozan/" target="_blank"><img loading="lazy" decoding="async" src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" border="0" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31"></a><a rel="noopener" href="http://outdoor.blogmura.com/" target="_blank"><img loading="lazy" decoding="async" src="http://outdoor.blogmura.com/img/outdoor88_31.gif" border="0" alt="にほんブログ村 アウトドアブログへ" width="88" height="31"></a></p>

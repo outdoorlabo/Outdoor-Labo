@@ -1,27 +1,22 @@
-﻿--
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/17018263-300x300.jpg"
+---
 title: "Patagonia Storm Pants [冬期用]"
-date: 2010-03-21T23:43:54
-draft: false
---
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/17018263-300x300.jpg"
+date: 2010-03-21T23:43:54+09:00
+lastmod: 2024-01-09T14:41:04+09:00
+slug: "patagonia-storm-pants"
+category: ["gear", "clothing", "snow-trekking-gear", "hiking"]
+tag: ["patagonia", "storm-pants", "storm-pants2", "patagonia2", "雪山装備"]
+image: "/wp-content/uploads/2010/03/17018263.jpg"
+description: "愛用のオーバーパンツは、パタゴニアのストームパンツ。ストームジャケットとおそろい。172cmの私はサイズM。足が短いので、丈の長さがちょっと長い。でも長すぎというわけでもないので、ノープロブレモ。詳細H2No防水性／透湿…"
+wpid: 1837
+---
 
-<!-- wp:paragraph -->
-愛用のオーバーパンツは、パタゴニアのストームパンツ。ストームジャケットとおそろい。172cmの私はサイズM。足が短いので、丈の長さがちょっと長い。でも長すぎというわけでもないので、ノープロブレモ。
+<p class="wp-block-paragraph">愛用のオーバーパンツは、パタゴニアのストームパンツ。ストームジャケットとおそろい。172cmの私はサイズM。足が短いので、丈の長さがちょっと長い。でも長すぎというわけでもないので、ノープロブレモ。</p>
 
+<figure class="wp-block-image"><a href="/wp-content/uploads/2010/03/17018263.jpg"><img loading="lazy" decoding="async" width="300" height="300" src="/wp-content/uploads/2010/03/17018263-300x300.jpg" alt="" class="wp-image-1896" title="Storm Pants Full View" srcset="/wp-content/uploads/2010/03/17018263-300x300.jpg 300w, /wp-content/uploads/2010/03/17018263-150x150.jpg 150w, /wp-content/uploads/2010/03/17018263.jpg 440w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":1896,"linkDestination":"custom"} -->
-<figure class="wp-block-image"><a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/17018263.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/17018263-300x300.jpg" alt="" class="wp-image-1896" title="Storm Pants Full View"/></a></figure>
-<!-- /wp:image -->
-
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><!-- wp:html -->
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
 <div>詳細</div>
-<!-- /wp:html -->
 
-<!-- wp:html -->
 <div>
 <div id="detailsuses">
 <div id="details">
@@ -40,58 +35,24 @@ featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/17018263-3
 </div>
 </div>
 </div>
-<!-- /wp:html --></blockquote>
-<!-- /wp:quote -->
+</blockquote>
 
-<!-- wp:paragraph -->
-下の写真には写っていませんが、ベルクロで取り外し可能なサスペンダーがついています。ベルトループもついていますが、ベルトよりサスペンダーのほうが楽。どんな状況でもズレ落ちてこないのはいいです。
+<p class="wp-block-paragraph">下の写真には写っていませんが、ベルクロで取り外し可能なサスペンダーがついています。ベルトループもついていますが、ベルトよりサスペンダーのほうが楽。どんな状況でもズレ落ちてこないのはいいです。</p>
 
+<figure class="wp-block-image"><a href="/wp-content/uploads/2010/03/IMG_2278.jpg"><img loading="lazy" decoding="async" width="300" height="200" src="/wp-content/uploads/2010/03/IMG_2278-300x200.jpg" alt="" class="wp-image-1895" title="Storm Pants" srcset="/wp-content/uploads/2010/03/IMG_2278-300x200.jpg 300w, /wp-content/uploads/2010/03/IMG_2278.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
 
-<!-- /wp:paragraph -->
+<p class="wp-block-paragraph">暑がりの私のお気に入りが、このサイドのベンチレーター。ジッパーの開け閉めで温度調節可能。</p>
 
-<!-- wp:image {"id":1895,"linkDestination":"custom"} -->
-<figure class="wp-block-image"><a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/IMG_2278.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/IMG_2278-300x200.jpg" alt="" class="wp-image-1895" title="Storm Pants"/></a></figure>
-<!-- /wp:image -->
+<figure class="wp-block-image"><a href="/wp-content/uploads/2010/03/IMG_2280.jpg"><img loading="lazy" decoding="async" width="300" height="200" src="/wp-content/uploads/2010/03/IMG_2280-300x200.jpg" alt="" class="wp-image-1897" title="ベンチレーター" srcset="/wp-content/uploads/2010/03/IMG_2280-300x200.jpg 300w, /wp-content/uploads/2010/03/IMG_2280.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
 
-<!-- wp:paragraph -->
-暑がりの私のお気に入りが、このサイドのベンチレーター。ジッパーの開け閉めで温度調節可能。
+<p class="wp-block-paragraph">裾の内部には簡易ゲイター付き。裾の内側にはエッジガードで補強されています。この上からORのクロコダイルゲイターをつけると最強。</p>
 
+<figure class="wp-block-image"><a href="/wp-content/uploads/2010/03/IMG_2281.jpg"><img loading="lazy" decoding="async" width="300" height="200" src="/wp-content/uploads/2010/03/IMG_2281-300x200.jpg" alt="" class="wp-image-1898" title="エッジガード" srcset="/wp-content/uploads/2010/03/IMG_2281-300x200.jpg 300w, /wp-content/uploads/2010/03/IMG_2281.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
 
-<!-- /wp:paragraph -->
+<p class="wp-block-paragraph">このパンツの下には、R1パンツ、CW-X、キャプのボクサーブリーフといったレイヤリングです。</p>
 
-<!-- wp:image {"id":1897,"linkDestination":"custom"} -->
-<figure class="wp-block-image"><a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/IMG_2280.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/IMG_2280-300x200.jpg" alt="" class="wp-image-1897" title="ベンチレーター"/></a></figure>
-<!-- /wp:image -->
+<p class="wp-block-paragraph">今季はあと何回いけるんだろう。三連休もプレゼン準備で潰れるけど、今週こそ乗り切れば日帰りなら行けそう。あとは週末のお天気次第。お願い、晴れてー。（週間天気予報は雪。ガーン。）</p>
 
-<!-- wp:paragraph -->
-裾の内部には簡易ゲイター付き。裾の内側にはエッジガードで補強されています。この上からORのクロコダイルゲイターをつけると最強。
+<p class="wp-block-paragraph"><strong><span style="color: #ff007f;">&nbsp;</span></strong></p>
 
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":1898,"linkDestination":"custom"} -->
-<figure class="wp-block-image"><a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/IMG_2281.jpg"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2010/03/IMG_2281-300x200.jpg" alt="" class="wp-image-1898" title="エッジガード"/></a></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-このパンツの下には、R1パンツ、CW-X、キャプのボクサーブリーフといったレイヤリングです。
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-今季はあと何回いけるんだろう。三連休もプレゼン準備で潰れるけど、今週こそ乗り切れば日帰りなら行けそう。あとは週末のお天気次第。お願い、晴れてー。（週間天気予報は雪。ガーン。）
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-**<span style="color: #ff007f;">&nbsp;</span>**
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"linkDestination":"custom"} -->
-<figure class="wp-block-image"><a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ"/></a></figure>
-<!-- /wp:image -->
-
+<figure class="wp-block-image"><a href="http://outdoor.blogmura.com/outdoorgear/"><img decoding="async" src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ"/></a></figure>

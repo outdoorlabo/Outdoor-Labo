@@ -1,0 +1,618 @@
+# グローバルナビ(現行WordPressのメニュー構成から生成)。URLは /category/<スラッグ>/ に統一。
+
+[[main]]
+  identifier = "m1"
+  name = "ロードバイク"
+  url = "/category/roadbike/"
+  weight = 1
+
+[[main]]
+  identifier = "m2"
+  parent = "m1"
+  name = "BD-1"
+  url = "/category/bd-1/"
+  weight = 1
+
+[[main]]
+  identifier = "m3"
+  parent = "m1"
+  name = "BMC SLR02"
+  url = "/category/bmc-slr02/"
+  weight = 2
+
+[[main]]
+  identifier = "m4"
+  parent = "m1"
+  name = "パーツ"
+  url = "/category/road-parts/"
+  weight = 3
+
+[[main]]
+  identifier = "m5"
+  parent = "m1"
+  name = "ライド"
+  url = "/category/ride/"
+  weight = 4
+
+[[main]]
+  identifier = "m6"
+  parent = "m5"
+  name = "乗鞍"
+  url = "/category/乗鞍/"
+  weight = 1
+
+[[main]]
+  identifier = "m7"
+  parent = "m5"
+  name = "美ヶ原"
+  url = "/category/美ヶ原/"
+  weight = 2
+
+[[main]]
+  identifier = "m8"
+  parent = "m5"
+  name = "東京1周"
+  url = "/category/東京1周/"
+  weight = 3
+
+[[main]]
+  identifier = "m9"
+  parent = "m5"
+  name = "都民の森"
+  url = "/category/都民の森/"
+  weight = 4
+
+[[main]]
+  identifier = "m10"
+  parent = "m5"
+  name = "大垂水峠"
+  url = "/category/大垂水峠/"
+  weight = 5
+
+[[main]]
+  identifier = "m11"
+  parent = "m5"
+  name = "羽村 [多摩サイ]"
+  url = "/category/hamura/"
+  weight = 6
+
+[[main]]
+  identifier = "m12"
+  parent = "m5"
+  name = "筑波サーキット"
+  url = "/category/筑波サーキット/"
+  weight = 7
+
+[[main]]
+  identifier = "m13"
+  parent = "m5"
+  name = "花見川CR"
+  url = "/category/花見川cr/"
+  weight = 8
+
+[[main]]
+  identifier = "m14"
+  parent = "m5"
+  name = "江ノ島"
+  url = "/category/enoshima/"
+  weight = 9
+
+[[main]]
+  identifier = "m15"
+  parent = "m5"
+  name = "道志みち・山中湖"
+  url = "/category/道志みち・山中湖/"
+  weight = 10
+
+[[main]]
+  identifier = "m16"
+  parent = "m5"
+  name = "相模湖"
+  url = "/category/相模湖/"
+  weight = 11
+
+[[main]]
+  identifier = "m17"
+  name = "キャンプ"
+  url = "/category/camp/"
+  weight = 2
+
+[[main]]
+  identifier = "m18"
+  parent = "m17"
+  name = "キャンプ用具"
+  url = "/category/camping-goods/"
+  weight = 1
+
+[[main]]
+  identifier = "m19"
+  parent = "m17"
+  name = "キャンピング"
+  url = "/category/camping/"
+  weight = 2
+
+[[main]]
+  identifier = "m20"
+  name = "クライミング"
+  url = "/category/climbing/"
+  weight = 3
+
+[[main]]
+  identifier = "m21"
+  parent = "m20"
+  name = "クライミング装備"
+  url = "/category/climbing-gear/"
+  weight = 1
+
+[[main]]
+  identifier = "m22"
+  parent = "m21"
+  name = "クライミングシューズ"
+  url = "/category/climbing-shoes/"
+  weight = 1
+
+[[main]]
+  identifier = "m23"
+  name = "山登り"
+  url = "/category/hiking/"
+  weight = 4
+
+[[main]]
+  identifier = "m24"
+  parent = "m23"
+  name = "山行・エリア別"
+  url = "/category/hiking-mountaineering/"
+  weight = 1
+
+[[main]]
+  identifier = "m25"
+  parent = "m24"
+  name = "中央沿線"
+  url = "/category/chuoensen/"
+  weight = 1
+
+[[main]]
+  identifier = "m26"
+  parent = "m25"
+  name = "高畑山・倉岳山"
+  url = "/category/takahatayama/"
+  weight = 1
+
+[[main]]
+  identifier = "m27"
+  parent = "m24"
+  name = "丹沢"
+  url = "/category/tanzawa/"
+  weight = 2
+
+[[main]]
+  identifier = "m28"
+  parent = "m27"
+  name = "塔ノ岳"
+  url = "/category/tounodake/"
+  weight = 1
+
+[[main]]
+  identifier = "m29"
+  parent = "m27"
+  name = "大山"
+  url = "/category/oyama/"
+  weight = 2
+
+[[main]]
+  identifier = "m30"
+  parent = "m27"
+  name = "檜洞丸"
+  url = "/category/hinokiboramaru/"
+  weight = 3
+
+[[main]]
+  identifier = "m31"
+  parent = "m24"
+  name = "八ヶ岳連峰"
+  url = "/category/yatsugatake/"
+  weight = 3
+
+[[main]]
+  identifier = "m32"
+  parent = "m31"
+  name = "天狗岳"
+  url = "/category/tengudake/"
+  weight = 1
+
+[[main]]
+  identifier = "m33"
+  parent = "m31"
+  name = "赤岳"
+  url = "/category/akadake/"
+  weight = 2
+
+[[main]]
+  identifier = "m34"
+  parent = "m24"
+  name = "北アルプス"
+  url = "/category/kita-alps/"
+  weight = 4
+
+[[main]]
+  identifier = "m35"
+  parent = "m34"
+  name = "奥穂高"
+  url = "/category/okuhodaka/"
+  weight = 1
+
+[[main]]
+  identifier = "m36"
+  parent = "m34"
+  name = "槍ヶ岳"
+  url = "/category/yarigatake/"
+  weight = 2
+
+[[main]]
+  identifier = "m37"
+  parent = "m24"
+  name = "南アルプス"
+  url = "/category/southern-apls/"
+  weight = 5
+
+[[main]]
+  identifier = "m38"
+  parent = "m37"
+  name = "仙丈ヶ岳"
+  url = "/category/senjogatake/"
+  weight = 1
+
+[[main]]
+  identifier = "m39"
+  parent = "m37"
+  name = "北岳"
+  url = "/category/kitadake/"
+  weight = 2
+
+[[main]]
+  identifier = "m40"
+  parent = "m24"
+  name = "奥多摩"
+  url = "/category/okutama/"
+  weight = 6
+
+[[main]]
+  identifier = "m41"
+  parent = "m40"
+  name = "三頭山"
+  url = "/category/mitosan/"
+  weight = 1
+
+[[main]]
+  identifier = "m42"
+  parent = "m40"
+  name = "川苔山"
+  url = "/category/kawanoriyama/"
+  weight = 2
+
+[[main]]
+  identifier = "m43"
+  parent = "m40"
+  name = "御前山"
+  url = "/category/gozenyama/"
+  weight = 3
+
+[[main]]
+  identifier = "m44"
+  parent = "m40"
+  name = "雲取山"
+  url = "/category/kumotoriyama/"
+  weight = 4
+
+[[main]]
+  identifier = "m45"
+  parent = "m24"
+  name = "奥武蔵"
+  url = "/category/okumusashi/"
+  weight = 7
+
+[[main]]
+  identifier = "m46"
+  parent = "m45"
+  name = "伊豆ヶ岳"
+  url = "/category/izugatake/"
+  weight = 1
+
+[[main]]
+  identifier = "m47"
+  parent = "m45"
+  name = "日和田山・物見山"
+  url = "/category/hiwadayama/"
+  weight = 2
+
+[[main]]
+  identifier = "m48"
+  parent = "m24"
+  name = "奥秩父"
+  url = "/category/okuchichibu/"
+  weight = 8
+
+[[main]]
+  identifier = "m49"
+  parent = "m48"
+  name = "北奥千丈岳"
+  url = "/category/kitaokusenjodake/"
+  weight = 1
+
+[[main]]
+  identifier = "m50"
+  parent = "m48"
+  name = "国師岳"
+  url = "/category/kokushidake/"
+  weight = 2
+
+[[main]]
+  identifier = "m51"
+  parent = "m48"
+  name = "大菩薩嶺"
+  url = "/category/daibosatsurei/"
+  weight = 3
+
+[[main]]
+  identifier = "m52"
+  parent = "m48"
+  name = "金峰山"
+  url = "/category/kinpusan/"
+  weight = 4
+
+[[main]]
+  identifier = "m53"
+  parent = "m48"
+  name = "笠取山"
+  url = "/category/kasatoriyama/"
+  weight = 5
+
+[[main]]
+  identifier = "m54"
+  parent = "m24"
+  name = "愛鷹連峰"
+  url = "/category/ashitaka/"
+  weight = 9
+
+[[main]]
+  identifier = "m55"
+  parent = "m54"
+  name = "越前岳"
+  url = "/category/echizendake/"
+  weight = 1
+
+[[main]]
+  identifier = "m56"
+  parent = "m24"
+  name = "谷川連峰"
+  url = "/category/tanigawarenpou/"
+  weight = 10
+
+[[main]]
+  identifier = "m57"
+  parent = "m56"
+  name = "谷川岳"
+  url = "/category/tanigawadake/"
+  weight = 1
+
+[[main]]
+  identifier = "m58"
+  parent = "m24"
+  name = "赤城山"
+  url = "/category/akagiyama/"
+  weight = 11
+
+[[main]]
+  identifier = "m59"
+  parent = "m58"
+  name = "黒檜山・駒ヶ岳"
+  url = "/category/kurobisan/"
+  weight = 1
+
+[[main]]
+  identifier = "m60"
+  parent = "m24"
+  name = "霧島連峰"
+  url = "/category/kirishima/"
+  weight = 12
+
+[[main]]
+  identifier = "m61"
+  parent = "m60"
+  name = "韓国岳・新燃岳・中岳"
+  url = "/category/karakunidake/"
+  weight = 1
+
+[[main]]
+  identifier = "m62"
+  parent = "m24"
+  name = "海外"
+  url = "/category/abroad/"
+  weight = 13
+
+[[main]]
+  identifier = "m63"
+  parent = "m62"
+  name = "アメリカ"
+  url = "/category/america/"
+  weight = 1
+
+[[main]]
+  identifier = "m64"
+  parent = "m23"
+  name = "山装備"
+  url = "/category/gear/"
+  weight = 2
+
+[[main]]
+  identifier = "m65"
+  parent = "m64"
+  name = "テント・タープ"
+  url = "/category/tent_tarp/"
+  weight = 1
+
+[[main]]
+  identifier = "m66"
+  parent = "m64"
+  name = "用具"
+  url = "/category/climbing-gears/"
+  weight = 2
+
+[[main]]
+  identifier = "m67"
+  parent = "m64"
+  name = "バックパック"
+  url = "/category/backpack/"
+  weight = 3
+
+[[main]]
+  identifier = "m68"
+  parent = "m64"
+  name = "衣類"
+  url = "/category/clothing/"
+  weight = 4
+
+[[main]]
+  identifier = "m69"
+  parent = "m64"
+  name = "手・腕"
+  url = "/category/hands_arms/"
+  weight = 5
+
+[[main]]
+  identifier = "m70"
+  parent = "m64"
+  name = "雪山装備"
+  url = "/category/snow-trekking-gear/"
+  weight = 6
+
+[[main]]
+  identifier = "m71"
+  parent = "m64"
+  name = "寝具"
+  url = "/category/sleeping-gear/"
+  weight = 7
+
+[[main]]
+  identifier = "m72"
+  parent = "m64"
+  name = "靴・足回り"
+  url = "/category/shoes/"
+  weight = 8
+
+[[main]]
+  identifier = "m73"
+  parent = "m64"
+  name = "サポートギア"
+  url = "/category/support-gear/"
+  weight = 9
+
+[[main]]
+  identifier = "m74"
+  parent = "m64"
+  name = "食器・調理用具"
+  url = "/category/cookware/"
+  weight = 10
+
+[[main]]
+  identifier = "m75"
+  parent = "m74"
+  name = "ハイドレーション"
+  url = "/category/hydration/"
+  weight = 1
+
+[[main]]
+  identifier = "m76"
+  parent = "m74"
+  name = "ストーブ"
+  url = "/category/stove/"
+  weight = 2
+
+[[main]]
+  identifier = "m77"
+  parent = "m64"
+  name = "ナイフ・斧"
+  url = "/category/knife-axe/"
+  weight = 11
+
+[[main]]
+  identifier = "m78"
+  parent = "m64"
+  name = "便利な小物"
+  url = "/category/gadget/"
+  weight = 12
+
+[[main]]
+  identifier = "m79"
+  parent = "m64"
+  name = "ランタン・ヘッドランプ"
+  url = "/category/lamp/"
+  weight = 13
+
+[[main]]
+  identifier = "m80"
+  parent = "m23"
+  name = "ナビゲーション"
+  url = "/category/navi/"
+  weight = 3
+
+[[main]]
+  identifier = "m81"
+  parent = "m23"
+  name = "トレーニング"
+  url = "/category/training/"
+  weight = 4
+
+[[main]]
+  identifier = "m82"
+  parent = "m81"
+  name = "スラックライン"
+  url = "/category/slackline/"
+  weight = 1
+
+[[main]]
+  identifier = "m83"
+  parent = "m81"
+  name = "トレーニング用品"
+  url = "/category/training-goods/"
+  weight = 2
+
+[[main]]
+  identifier = "m84"
+  parent = "m81"
+  name = "サプリ"
+  url = "/category/supplement/"
+  weight = 3
+
+[[main]]
+  identifier = "m85"
+  parent = "m81"
+  name = "補給食"
+  url = "/category/portable-food/"
+  weight = 4
+
+[[main]]
+  identifier = "m86"
+  parent = "m23"
+  name = "セール情報"
+  url = "/category/sale/"
+  weight = 5
+
+[[main]]
+  identifier = "m87"
+  parent = "m23"
+  name = "読み物"
+  url = "/category/reading/"
+  weight = 6
+
+[[main]]
+  identifier = "m88"
+  name = "Contact"
+  url = "/contact/"
+  weight = 5
+
+[[main]]
+  identifier = "m89"
+  name = "サイトマップ"
+  url = "/site-map/"
+  weight = 6

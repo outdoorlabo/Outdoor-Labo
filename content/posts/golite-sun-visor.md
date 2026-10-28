@@ -1,73 +1,33 @@
-﻿--
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC04100-300x225.jpg"
+---
 title: "Golite サンバイザー"
-date: 2009-04-17T21:17:46
-draft: false
---
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC04100-300x225.jpg"
+date: 2009-04-17T21:17:46+09:00
+lastmod: 2023-12-20T09:51:56+09:00
+slug: "golite-sun-visor"
+category: ["gear", "clothing", "hiking"]
+tag: ["golite", "golite2", "sunvisor", "帽子"]
+image: "/wp-content/uploads/2009/04/DSC04100.JPG"
+description: "サンバイザーって、あまり売ってないんですね。神保町の店でも売っている数自体少ないし、これっていうのがなかなか見つからず・・・。あー、帽子が似合う人だったら苦労しないんですけどね。種類もたくさんあるし。半分あきらめていたん…"
+wpid: 113
+---
 
-<!-- wp:paragraph -->
-サンバイザーって、あまり売ってないんですね。神保町の店でも売っている数自体少ないし、これっていうのがなかなか見つからず・・・。
+<p class="wp-block-paragraph">サンバイザーって、あまり売ってないんですね。神保町の店でも売っている数自体少ないし、これっていうのがなかなか見つからず・・・。</p>
 
+<p class="wp-block-paragraph">あー、帽子が似合う人だったら苦労しないんですけどね。種類もたくさんあるし。</p>
 
-<!-- /wp:paragraph -->
+<p class="wp-block-paragraph">半分あきらめていたんですが、ぶらり途中下車してみたら、いいサンバイザーみっけました。</p>
 
-<!-- wp:paragraph -->
-あー、帽子が似合う人だったら苦労しないんですけどね。種類もたくさんあるし。
+<figure class="wp-block-image"><a href="/wp-content/uploads/2009/04/DSC04100.JPG"><img decoding="async" src="/wp-content/uploads/2009/04/DSC04100-300x225.jpg" alt="Golite サンバイザー" title="Golite サンバイザー"/></a></figure>
 
+<p class="wp-block-paragraph">Goliteのサンバイザー！</p>
 
-<!-- /wp:paragraph -->
+<p class="wp-block-paragraph">お色はブラックの他に、ホワイト、オレンジがありました。</p>
 
-<!-- wp:paragraph -->
-半分あきらめていたんですが、ぶらり途中下車してみたら、いいサンバイザーみっけました。
+<p class="wp-block-paragraph">タグに、吸湿に優れ、通気性が高く、速乾性があると書いていたので、即買い。</p>
 
+<p class="wp-block-paragraph">黒だと汗が乾いて塩で白くなるのが目立つ。ハチとか蚊とか寄ってくる。でも、そんなの気にしないことにします。</p>
 
-<!-- /wp:paragraph -->
+<p class="wp-block-paragraph">ガシガシ洗えそうなところもいいです。</p>
 
-<!-- wp:image {"linkDestination":"custom"} -->
-<figure class="wp-block-image"><a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC04100.JPG"><img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2009/04/DSC04100-300x225.jpg" alt="Golite サンバイザー" title="Golite サンバイザー"/></a></figure>
-<!-- /wp:image -->
+<p class="wp-block-paragraph"><strong><span style="color: #ff007f;">↓ ポチッとクリック応援お願いします！ ↓</span></strong></p>
 
-<!-- wp:paragraph -->
-Goliteのサンバイザー！
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-お色はブラックの他に、ホワイト、オレンジがありました。
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-タグに、吸湿に優れ、通気性が高く、速乾性があると書いていたので、即買い。
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-黒だと汗が乾いて塩で白くなるのが目立つ。ハチとか蚊とか寄ってくる。でも、そんなの気にしないことにします。
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-ガシガシ洗えそうなところもいいです。
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-**<span style="color: #ff007f;">↓ ポチッとクリック応援お願いします！ ↓</span>**
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<a href="http://outdoor.blogmura.com/outdoorgear/"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0"/></a>  
-<a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a>
-
-
-<!-- /wp:paragraph -->
-
+<p class="wp-block-paragraph"><a href="http://outdoor.blogmura.com/outdoorgear/"><img loading="lazy" decoding="async" src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0"/></a><br /><a href="http://outdoor.blogmura.com/outdoorgear/">にほんブログ村</a></p>

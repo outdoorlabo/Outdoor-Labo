@@ -1,0 +1,8 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a class="footer-logo" href="{{ "/" | relLangURL }}">
+      {{ with site.Params.footerLogo }}<img src="{{ . | relURL }}" alt="{{ site.Title }}" height="45" onerror="this.replaceWith(document.createTextNode('{{ site.Title }}'))">{{ else }}{{ site.Title }}{{ end }}
+    </a>
+    <p class="copyright">© 2003 {{ site.Title }}.</p>
+  </div>
+</footer>

@@ -1,0 +1,14 @@
+<div class="site-tagline">{{ site.Params.description }}</div>
+<header class="site-header">
+  <div class="site-logo">
+    <a href="{{ "/" | relLangURL }}">
+      {{ with site.Params.logo }}<img src="{{ . | relURL }}" alt="{{ site.Title }}" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'site-title',textContent:'{{ site.Title }}'}))">{{ else }}<span class="site-title">{{ site.Title }}</span>{{ end }}
+    </a>
+  </div>
+  <nav class="global-nav" aria-label="グローバルメニュー">
+    <button class="nav-toggle" aria-expanded="false" aria-controls="global-menu">メニュー</button>
+    <div id="global-menu" class="global-menu">
+      {{ partial "nav-items.html" (dict "items" site.Menus.main "page" . "depth" 0) }}
+    </div>
+  </nav>
+</header>

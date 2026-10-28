@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+
+   <meta charset="utf-8"> <!-- 文字コード -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- レスポ用おまじない -->
+
+   <title>トップページ｜日本勤労者山岳連盟（JWAF）</title>
+   <meta name="description" content="日本勤労者山岳連盟（JWAF）の公式サイトです。労山の活動や、所属のメリット、最新情報などを掲載しています。"> <!-- ページ概要を140字程度で -->
+   <meta name="format-detection" content="telephone=no"> <!-- 電話番号自動リンクを許さない魔法 -->
+
+   <link rel="canonical" href="https://www.jwaf.jp/"> <!-- URLの正規化 -->
+
+   <!-- OGP -->
+   <meta property="og:locale" content="ja_JP">
+   <meta property="og:type" content="website"> <!-- トップページ以外はarticle -->
+   <meta property="og:image" content="https://www.jwaf.jp/img/ogp.png"> <!-- フルパスで設定 -->
+   <meta property="og:title" content="トップページ｜日本勤労者山岳連盟（JWAF）">
+   <meta property="og:description" content="日本勤労者山岳連盟（JWAF）の公式サイトです。労山の活動や、所属のメリット、最新情報などを掲載しています。">
+   <meta property="og:url" content="https://www.jwaf.jp/">
+   <meta property="og:site_name" content="日本勤労者山岳連盟（JWAF）">
+   <meta name="twitter:card" content="summary_large_image">
+
+   <link rel="icon" href="./img/favicon.ico"> <!-- ファビコン -->
+   <link rel="apple-touch-icon" href="./img/apple-touch-icon.png"> <!-- スマホのページアイコン -->
+
+   <!-- CSS読み込み -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"> <!-- フォント -->
+   <link rel="stylesheet" href="css/style.css"> <!-- ベース -->
+   <link rel="stylesheet" href="css/common.css"> <!-- 個別 -->
+   <link rel="stylesheet" href="css/header-top.css"> <!-- トップ用 -->
+   <link rel="stylesheet" href="css/top.css"> <!-- トップ用 -->
+
+   <meta name="robots" content="index,follow"> <!-- 念のためのrobots -->
+
+</head>
+
+<body id="site" class="container">
+
+   <header>
+
+      <nav class="global-nav" aria-label="メインナビゲーション">
+         <input type="checkbox" id="nav-toggle" class="visually-hidden global-nav__checkbox">
+
+         <!-- クリック時のスクロール発生をJSで防止 -->
+         <label for="nav-toggle" class="global-nav__toggle" aria-controls="global-nav-list">
+            <span class="global-nav__toggle-line bg-r bg-p-center bg-s-contain"></span>
+         </label>
+
+         <ul id="global-nav-list" class="global-nav__list" aria-expanded="false">
+
+            <li class="global-nav__item"><a href="./" class="global-nav__link">申請</a>
+               <ul class="sub-nav column">
+                  <li><a href="content/members"><span class="vtext">労山会員</span></a>⁨</li>
+                  <li><a href="02application/join/"><span class="vtext">団体加盟</span>⁨</a>⁨</li>
+                  <li><a href="02application/safety/"><span class="vtext">安全対策基金</span></a>⁨</li>
+                  <li><a href="02application/overseas/"><span class="vtext">海外登山届</span></a>⁨</li>
+               </ul>
+            </li>
+
+            <li class="global-nav__item"><a href="01about/" class="global-nav__link">JWAFとは</a>
+               <ul class="sub-nav column">
+                  <li><a href="01about/history/"><span class="vtext">ショート・ヒストリー⁨</span></a>⁨</li>
+               </ul>
+            </li>
+
+            <li class="global-nav__item"><a href="./" class="global-nav__link">労山基金とは</a>
+               <ul class="sub-nav column">
+                  <li><a href="content/subscriber"><span class="vtext">加入者向け</span></a>⁨</li>
+                  <li><a href="03fund/practitioner/"><span class="vtext">実務担当者向け⁨</span></a>⁨</li>
+               </ul>
+            </li>
+
+            <li class="global-nav__item"><a href="./" class="global-nav__link">加盟団体</a>
+               <ul class="sub-nav column">
+                  <li><a href="04affiliation/regional/"><span class="vtext">地方連盟事務所</span></a>⁨</li>
+                  <li><a href="04affiliation/map/"><span class="vtext">クラブ紹介　マップ</span>⁨</a>⁨</li>
+                  <li><a href="04affiliation/club/"><span class="vtext">クラブ紹介　リスト</span>⁨</a>⁨</li>
+
+               </ul>
+            </li>
+
+            <li class="global-nav__item"><a href="./" class="global-nav__link">活動紹介</a>
+               <ul class="sub-nav column">
+                  <li><a href="05activities/japan/"><span class="vtext">全国連盟の活動</span></a>⁨</li>
+                  <li><a href="05activities/specialist/"><span class="vtext">専門部会の活動</span></a>⁨</li>
+                  <li><a href="05activities/local/"><span class="vtext">地方連盟の活動</span></a>⁨</li>
+               </ul>
+            </li>
+
+            <li class="global-nav__item"><a href="./" class="global-nav__link">優待施設</a>
+               <ul class="sub-nav column">
+                  <li><a href="06preferred/lodge/"><span class="vtext">宿泊施設</span></a>⁨</li>
+                  <li><a href="06preferred/gym/"><span class="vtext">クライミングジム</span></a>⁨</li>
+               </ul>
+            </li>
+
+            <li class="global-nav__item"><a href="07publications/" class="global-nav__link">出版物</a>
+               <ul class="sub-nav column">
+                  <li><a href="07publications/magazine/"><span class="vtext">登山時報</span></a>⁨</li>
+                  <li><a href="07publications/journal/"><span class="vtext">JWAF Journal</span></a>⁨</li>
+                  <li><a href="07publications/calendar/"><span class="vtext">カレンダー</span></a>⁨</li>
+                  <li><a href="07publications/goods/"><span class="vtext">グッズ</span></a>⁨</li>
+               </ul>
+            </li>
+
+            <li class="global-nav__item"><a href="form/contact/" class="global-nav__link">お問い合わせ</a></li>
+
+         </ul>
+      </nav>
+
+   </header>
+
+   <main>
+
+      <div class="bg-r bg-p-center bg-s-cover fv relative"> <!-- ファーストビュー -->
+
+         <div class="deco-sun bg-r bg-p-center bg-s-contain"></div>
+         <div class="deco-mt bg-r bg-p-center bg-s-contain"></div>
+
+         <div class="bg-switcher bg-r bg-p-center bg-s-contain anime-ster" data-interval="2"
+            data-images='["img/anime/star-1.png","img/anime/star-2.png"]'></div> <!-- 星のアニメーション -->
+
+         <h1><img src="img/head/main-title.png" alt=""><span class="visually-hidden">日本勤労者山岳連盟</span></h1>
+
+      </div>
+
+      <section class="content topics relative"> <!-- トピックス -->
+
+         <div class="absolute bg-p-center bg-r bg-s-contain cloud"></div>
+
+         <h2 class="absolute">
+            <picture>
+               <source media="(min-width:1000px)" srcset="img/top/title/title-topics-pc.png">
+               <img src="img/top/title/title-topics-sp.png" alt="">
+            </picture>
+            <span class="visually-hidden">トピックス</span>
+         </h2>
+
+         <div class="tabs">
+            <ul class="tab-buttons flex">
+               <li class="active" data-tab="panel1">新着情報⁨⁨⁨</li>
+               <li data-tab="panel2">活動紹介</li>
+               <li data-tab="panel3">magazine</li>
+            </ul>
+
+            <div class="tab-contents">
+               <div id="panel1" class="tab-panel active"> <!-- 新着タブ --></div>
+
+               <div id="panel2" class="tab-panel"> <!-- 活動紹介タブ --></div>
+
+               <div id="panel3" class="tab-panel"> <!-- magazine --></div>
+
+            </div>
+         </div>
+
+
+         <p class="more flex"><a href="content" class="bg-r bg-s-cover flex"><img src="img/top/button/top-more.png"
+                  alt=""><span class="visually-hidden">もっと見る</span></a></p>
+
+      </section>
+
+      <div class="flex layout">
+
+         <section class="content box card relative federation-card"> <!-- 全国連盟の動き -->
+
+            <div class="absolute bg-switcher bg-r bg-p-center bg-s-contain anime-bare" data-interval="2"
+               data-images='["img/anime/bare-1.png","img/anime/bare-2.png"]'></div> <!-- クマのアニメーション -->
+
+            <div class="absolute bg-p-center bg-r bg-s-contain cloud"></div>
+
+            <h2 class="absolute">
+               <picture>
+                  <source media="(min-width:1000px)" srcset="img/top/title/title-nationwide-pc.png">
+                  <img src="img/top/title/title-nationwide-sp.png" alt="">
+               </picture>
+               <span class="visually-hidden">全国連盟の動き</span>
+            </h2>
+
+            <div class="flex column">
+
+               <div class="card-txt">
+                  <p>全国自然保護担当者会議<br>11月14日～15日（近畿地方（開催地未定））</p>
+               </div>
+               <div class="card-ph"><img src="img/top/link/260910_01.jpg"></div>
+               <p class="more flex"><a href="05activities/japan/" class="bg-r bg-s-cover flex"><img
+                        src="img/top/button/top-more.png" alt=""><span class="visually-hidden">もっと見る</span></a></p>
+            </div>
+
+         </section>
+
+         <section class="content box card exchange-card relative"> <!-- 交流集会 -->
+
+            <div class="absolute bg-p-center bg-r bg-s-contain cloud"></div>
+
+            <h2 class="absolute">
+               <picture>
+                  <source media="(min-width:1000px)" srcset="img/top/title/title-alternating-pc.png">
+                  <img src="img/top/title/title-alternating-sp.png" alt="">
+               </picture>
+               <span class="visually-hidden">交流集会</span>
+            </h2>
+
+            <div class="flex column">
+               <div class="card-txt">
+                  <p>全国組織拡大経験交流集会<br>10月3日
+                     （全国連盟事務所オンライン・東京）</p>
+               </div>
+               <div class="card-ph"><img src="img/top/link/260910_02.jpg"></div>
+               <p class="more flex"><a href="05activities/japan/" class="bg-r bg-s-cover flex"><img
+                        src="img/top/button/top-more.png" alt=""><span class="visually-hidden">もっと見る</span></a></p>
+
+            </div>
+
+         </section>
+
+      </div>
+
+      <section class="content box card raicho-card relative"> <!-- らいちょう -->
+
+         <div class="absolute bg-p-center bg-r bg-s-contain cloud"></div>
+
+         <h2 class="absolute">
+            <picture>
+               <source media="(min-width:1000px)" srcset="img/top/title/title-raicho-pc.png">
+               <img src="img/top/title/title-raicho-sp.png" alt="">
+            </picture>
+            <span class="visually-hidden">らいちょう情報</span>
+         </h2>
+
+         <div class="flex column">
+            <div class="card-txt">
+               <p>らいちょうの目撃情報を募集しています。<br>お見かけの際は、ぜひ、ご一報ください。<br>らいちょうの様子をみんなで見守りましょう。</p>
+            </div>
+            <div class="card-ph"><img src="img/top/thumbnail/raicho-thumbnail.jpg" alt=""></div>
+         </div>
+         <p class="more flex"><a href="raicho/" class="bg-r bg-s-cover flex"><img src="img/top/button/top-more.png"
+                  alt=""><span class="visually-hidden">もっと見る</span></a></p>
+
+      </section>
+
+      <div class="bg-mt-frame relative">
+         <div class="absolute bg-mt bg-s-cover bg-r"></div>
+      </div>
+
+      <div class="relative mt-deco">
+         <div class="absolute bg-s-contain bg-r acorn"></div>
+      </div>
+
+      <section class="content photo-gallery">
+
+         <h2 class="center">
+            <picture>
+               <source media="(min-width:1000px)" srcset="img/top/title/title-photogallery-pc.png">
+               <img src="img/top/title/title-photogallery-sp.png" alt="">
+            </picture>
+            <span class="visually-hidden">フォトギャラリー（PHOTO GALLERY）</span>
+         </h2>
+
+         <div class="gallery-content flex">
+
+            <div class="gallery-engine">
+               <div class="gallery-main relative">
+
+                  <button class="absolute gallery-arrow prev" aria-label="previous">
+                     <svg class="absolute" width="20" height="20" viewBox="0 0 20 20" fill="white"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <polyline points="12 4 6 10 12 16" stroke="white" stroke-width="2" fill="none"
+                           stroke-linecap="round" stroke-linejoin="round" />
+                     </svg>
+                  </button>
+                  <a href="photo-gallery/index.html"><img class="absolute gallery-main-image"
+                        src="photo-gallery/img/2026/2612-photo.webp" alt=""></a>
+
+                  <button class="absolute gallery-arrow next" aria-label="next">
+                     <svg class="absolute" width="20" height="20" viewBox="0 0 20 20" fill="white"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <polyline points="8 4 14 10 8 16" stroke="white" stroke-width="2" fill="none"
+                           stroke-linecap="round" stroke-linejoin="round" />
+                     </svg>
+                  </button>
+
+               </div>
+
+               <div class="flex gallery-thumbs">
+                  <img src="photo-gallery/img/2026/2612-photo.webp" data-full="photo-gallery/img/2026/2612-photo.webp"
+                     class="current" alt="">
+                  <img src="photo-gallery/img/2026/2611-photo.webp" data-full="photo-gallery/img/2026/2611-photo.webp"
+                     alt="">
+                  <img src="photo-gallery/img/2026/2610-photo.webp" data-full="photo-gallery/img/2026/2610-photo.webp"
+                     alt="">
+                  <img src="photo-gallery/img/2026/2609-photo.jpg" data-full="photo-gallery/img/2026/2609-photo.jpg"
+                     alt="">
+                  <img src="photo-gallery/img/2026/2608-photo.jpg" data-full="photo-gallery/img/2026/2608-photo.jpg"
+                     alt="">
+               </div>
+            </div>
+
+            <div class="gallery-side relative">
+
+               <div class="absolute bg-p-center bg-r bg-s-contain leaf-1"></div>
+               <div class="absolute bg-p-center bg-r bg-s-contain leaf-2"></div>
+
+               <div class="absolute bg-switcher bg-r bg-p-center bg-s-contain anime-camera" data-interval="2"
+                  data-images='["img/anime/camera-1.png","img/anime/camera-2.png"]'></div> <!-- カメラマンのアニメーション -->
+
+               <div class="absolute bg-switcher bg-r bg-p-center bg-s-contain anime-momonga" data-interval="2"
+                  data-images='["img/anime/momonga-1.png","img/anime/momonga-2.png"]'></div> <!-- モモンガのアニメーション -->
+
+               <p class="more more-bk flex"><a href="photo-gallery/" class="bg-r bg-s-cover flex"><img
+                        src="img/top/button/top-more-bk.png" alt=""><span class="visually-hidden">もっと見る</span></a></p>
+
+            </div>
+
+         </div>
+
+      </section>
+
+
+      <div class="flex layout">
+
+         <section class="content box card relative leaflet-content"> <!-- 労山リーフ -->
+
+            <div class="absolute bg-s-contain bg-r acorn"></div>
+
+            <h2 class="absolute">
+               <picture>
+                  <source media="(min-width:1000px)" srcset="img/top/title/title-leaflet-pc.png">
+                  <img src="img/top/title/title-leaflet-sp.png" alt="">
+               </picture>
+               <span class="visually-hidden">労山リーフ</span>
+            </h2>
+
+            <div class="flex column">
+               <div class="card-txt">
+                  <p>A4・三つ折りのリーフレットができました。表面中央（三つ折りした状態で裏面になります）の下の白い囲みに連盟・クラブ紹介を印刷できます。１団体につき年間200部まで全国事務所で無料でお作りします。
+                  </p>
+               </div>
+               <div class="card-ph second-half">
+                  <picture>
+                     <source media="(min-width:1000px)" srcset="img/top/thumbnail/leaflet-pc.png">
+                     <img src="img/top/thumbnail/leaflet-sp.png" alt="">
+                  </picture>
+               </div>
+               <p class="more contact-more flex"><a href="form/contact/" class="bg-r bg-s-cover flex"><img
+                        src="img/top/button/top-contact.png" alt=""><span class="visually-hidden">お申し込みはこちら</span></a>
+               </p>
+            </div>
+
+         </section>
+
+         <section class="content sns-content box card relative"> <!-- フェイスブック -->
+
+            <div class="absolute bg-switcher bg-r bg-p-center bg-s-contain anime-bare" data-interval="2"
+               data-images='["img/anime/bare-1.png","img/anime/bare-2.png"]'></div> <!-- クマのアニメーション -->
+
+            <h2 class="absolute">
+               <picture>
+                  <source media="(min-width:1000px)" srcset="img/top/title/title-fb-pc.png">
+                  <img src="img/top/title/title-fb-sp.png" alt="">
+               </picture>
+               <span class="visually-hidden">Facebook</span>
+            </h2>
+
+            <div class="flex column">
+
+               <div class="card-txt">
+                  <!-- <p>youtubeで体操を公開しています。<br>体操を日課にして、日頃から登山できる体作りをしておきましょう。</p> -->
+               </div>
+
+               <div class="card-ph second-half">
+                  <div id="fb-root"></div>
+                  <a href="https://www.facebook.com/JapanWorkersAlpineFederation/" target="_blank" rel="noopener">
+                     <img src="img/top/link/facebook-capture.png" alt="日本勤労者山岳連盟 Facebookページ" style="max-width:100%;">
+                  </a>
+                  <!-- <script async defer crossorigin="anonymous"
+       src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v24.0&appId=APP_ID"></script>
+      <div class="fb-page" data-href="https://www.facebook.com/JapanWorkersAlpineFederation/?ref=embed_page"
+       data-tabs="timeline" data-width="500" data-height="" data-small-header="false" data-adapt-container-width="true"
+       data-hide-cover="false" data-show-facepile="true">
+       <blockquote cite="https://www.facebook.com/JapanWorkersAlpineFederation/?ref=embed_page"
+        class="fb-xfbml-parse-ignore"><a
+         href="https://www.facebook.com/JapanWorkersAlpineFederation/?ref=embed_page">日本勤労者山岳連盟</a></blockquote>
+      </div> -->
+               </div>
+
+            </div>
+
+         </section>
+
+      </div>
+
+      <p class="back-top flex"><a class="bg-p-center bg-r bg-s-contain" href="#"><span
+               class="visually-hidden">ページトップに戻る</span></a></p>
+
+   </main>
+
+   <footer class="bg-p-center bg-s-cover">
+
+      <div class="footer-frame flex">
+
+         <div class="footer-info flex column">
+            <h2 class="footer-title"><a href="./"><img src="img/footer/footer-title.png" alt="日本勤労者山岳連盟（JWAF）"></a></h2>
+            <div class="info-block flex column">
+               <address>〒162-0814 東京都新宿区新小川町5-24</address>
+               <p>Tel : <a class="tel-link" href="tel:0332606331">03-3260-6331</a>　Fax : 03-3235-4324</p>
+               <p class="email-row"> E-mail :jwaf＊jwaf.jp ＊印は＠に置き換えてください</p>
+            </div>
+
+            <p class="footer-root">JR・地下鉄　飯田橋駅　下車　徒歩10分。<br>
+               飯田橋駅から目白通りを江戸川橋方面へ歩いて大曲バス停前のコンビニ（ローソン）の角を曲がり約50ｍ歯科医院の角を入る</p>
+
+         </div>
+
+         <div class="footer-map center"><img src="img/footer/footer-map.jpg" alt="地図"></div>
+
+      </div>
+
+   </footer>
+   <script src="js/anime.js"></script>
+   <script src="js/email.js"></script>
+   <script src="js/gallery.js"></script>
+   <script src="js/gnav-top.js"></script>
+   <script src="js/tab.js"></script>
+   <script src="js/top-news.js"></script>
+</body>
+
+</html>

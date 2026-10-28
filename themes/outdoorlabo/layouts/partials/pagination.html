@@ -1,0 +1,21 @@
+{{/* 引数: .Paginator */}}
+{{ $p := . }}
+{{ if gt $p.TotalPages 1 }}
+{{ $cur := $p.PageNumber }}
+{{ $total := $p.TotalPages }}
+{{ $s := newScratch }}
+{{ $s.Set "last" 0 }}
+{{ if $p.HasNext }}<a class="next-page-button" href="{{ $p.Next.URL }}"><span>次のページ</span><span class="arrow" aria-hidden="true">→</span></a>{{ end }}
+<nav class="pagination" aria-label="ページ送り">
+  {{ if $p.HasPrev }}<a class="page-numbers prev" href="{{ $p.Prev.URL }}" aria-label="前へ">‹</a>{{ end }}
+  {{ range $p.Pagers }}
+    {{ $n := .PageNumber }}
+    {{ if or (eq $n 1) (eq $n $total) (and (ge $n (sub $cur 2)) (le $n (add $cur 2))) }}
+      {{ if gt (sub $n ($s.Get "last")) 1 }}{{ if gt ($s.Get "last") 0 }}<span class="page-numbers dots">…</span>{{ end }}{{ end }}
+      {{ if eq $n $cur }}<span class="page-numbers current">{{ $n }}</span>{{ else }}<a class="page-numbers" href="{{ .URL }}">{{ $n }}</a>{{ end }}
+      {{ $s.Set "last" $n }}
+    {{ end }}
+  {{ end }}
+  {{ if $p.HasNext }}<a class="page-numbers next" href="{{ $p.Next.URL }}" aria-label="次へ">›</a>{{ end }}
+</nav>
+{{ end }}

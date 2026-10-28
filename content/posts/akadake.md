@@ -1,73 +1,47 @@
-﻿--
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/1-1-300x225.jpg"
+---
 title: "八ヶ岳 赤岳 [テント泊]"
-date: 2014-07-20T12:07:11
-draft: false
---
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/1-1-300x225.jpg"
+date: 2014-07-20T12:07:11+09:00
+lastmod: 2016-06-02T14:18:34+09:00
+slug: "akadake"
+category: ["yatsugatake", "hiking", "akadake", "hiking-mountaineering"]
+tag: ["camping", "yatsugatake", "登山", "赤岳"]
+image: "/wp-content/uploads/2016/06/17.jpg"
+description: "恒例の海の日登山。写真だけの健忘録。7月20日-21日07.20美濃戸口ー美濃戸ー行者小屋07.21行者小屋ー文三郎尾根ー赤岳ー地蔵尾根ー行者小屋ー美濃戸ー美濃戸口Note:美濃戸あたりは大量のアブ。沢山噛まれた。初日、…"
+wpid: 3178
+---
 
-恒例の海の日登山。写真だけの健忘録。7月20日-21日
-
-07.20
-美濃戸口ー美濃戸ー行者小屋
-07.21
-行者小屋ー文三郎尾根ー赤岳ー地蔵尾根ー行者小屋ー美濃<wbr />戸ー美濃戸口
-
-Note: 美濃戸あたりは大量のアブ。沢山噛まれた。
-初日、夜通し雨。カッパを着てトイレに行く気なし。
-文三郎尾根の登り、地蔵尾根の下りで大正解。
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/1-1-300x225.jpg" alt="1" width="300" height="225" class="alignnone size-medium wp-image-3179" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/2-1-300x225.jpg" alt="2" width="300" height="225" class="alignnone size-medium wp-image-3180" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/3-1-300x169.jpg" alt="3" width="300" height="169" class="alignnone size-medium wp-image-3181" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/4-1-300x169.jpg" alt="4" width="300" height="169" class="alignnone size-medium wp-image-3182" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/5-1-300x225.jpg" alt="5" width="300" height="225" class="alignnone size-medium wp-image-3183" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/6-1-300x225.jpg" alt="6" width="300" height="225" class="alignnone size-medium wp-image-3184" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/7-1-300x225.jpg" alt="7" width="300" height="225" class="alignnone size-medium wp-image-3185" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/8-1-300x225.jpg" alt="8" width="300" height="225" class="alignnone size-medium wp-image-3186" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/9-1-300x225.jpg" alt="9" width="300" height="225" class="alignnone size-medium wp-image-3187" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/10-1-300x225.jpg" alt="10" width="300" height="225" class="alignnone size-medium wp-image-3188" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/11-1-300x225.jpg" alt="11" width="300" height="225" class="alignnone size-medium wp-image-3189" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/12-300x225.jpg" alt="12" width="300" height="225" class="alignnone size-medium wp-image-3190" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/13-300x225.jpg" alt="13" width="300" height="225" class="alignnone size-medium wp-image-3191" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/14-300x225.jpg" alt="14" width="300" height="225" class="alignnone size-medium wp-image-3192" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/15-300x225.jpg" alt="15" width="300" height="225" class="alignnone size-medium wp-image-3193" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/16-300x225.jpg" alt="16" width="300" height="225" class="alignnone size-medium wp-image-3194" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/17-300x225.jpg" alt="17" width="300" height="225" class="alignnone size-medium wp-image-3195" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/18-300x225.jpg" alt="18" width="300" height="225" class="alignnone size-medium wp-image-3196" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/19-300x225.jpg" alt="19" width="300" height="225" class="alignnone size-medium wp-image-3197" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/20-300x225.jpg" alt="20" width="300" height="225" class="alignnone size-medium wp-image-3198" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/21-300x225.jpg" alt="21" width="300" height="225" class="alignnone size-medium wp-image-3199" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/22-300x225.jpg" alt="22" width="300" height="225" class="alignnone size-medium wp-image-3200" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/23-300x225.jpg" alt="23" width="300" height="225" class="alignnone size-medium wp-image-3201" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/24-300x225.jpg" alt="24" width="300" height="225" class="alignnone size-medium wp-image-3202" />
-
-<img src="http://outdoorlabo.a-ce.com/wp-content/uploads/2016/06/25-300x169.jpg" alt="25" width="300" height="169" class="alignnone size-medium wp-image-3203" />
-
-&nbsp;
-
-&nbsp;
-
+<p>恒例の海の日登山。写真だけの健忘録。7月20日-21日</p>
+<p>07.20<br />
+美濃戸口ー美濃戸ー行者小屋<br />
+07.21<br />
+行者小屋ー文三郎尾根ー赤岳ー地蔵尾根ー行者小屋ー美濃<wbr />戸ー美濃戸口</p>
+<p>Note: 美濃戸あたりは大量のアブ。沢山噛まれた。<br />
+初日、夜通し雨。カッパを着てトイレに行く気なし。<br />
+文三郎尾根の登り、地蔵尾根の下りで大正解。</p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/1-1-300x225.jpg" alt="1" width="300" height="225" class="alignnone size-medium wp-image-3179" srcset="/wp-content/uploads/2016/06/1-1-300x225.jpg 300w, /wp-content/uploads/2016/06/1-1-768x576.jpg 768w, /wp-content/uploads/2016/06/1-1-720x540.jpg 720w, /wp-content/uploads/2016/06/1-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/2-1-300x225.jpg" alt="2" width="300" height="225" class="alignnone size-medium wp-image-3180" srcset="/wp-content/uploads/2016/06/2-1-300x225.jpg 300w, /wp-content/uploads/2016/06/2-1-768x576.jpg 768w, /wp-content/uploads/2016/06/2-1-720x540.jpg 720w, /wp-content/uploads/2016/06/2-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/3-1-300x169.jpg" alt="3" width="300" height="169" class="alignnone size-medium wp-image-3181" srcset="/wp-content/uploads/2016/06/3-1-300x169.jpg 300w, /wp-content/uploads/2016/06/3-1-768x432.jpg 768w, /wp-content/uploads/2016/06/3-1-720x405.jpg 720w, /wp-content/uploads/2016/06/3-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/4-1-300x169.jpg" alt="4" width="300" height="169" class="alignnone size-medium wp-image-3182" srcset="/wp-content/uploads/2016/06/4-1-300x169.jpg 300w, /wp-content/uploads/2016/06/4-1-768x432.jpg 768w, /wp-content/uploads/2016/06/4-1-720x405.jpg 720w, /wp-content/uploads/2016/06/4-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/5-1-300x225.jpg" alt="5" width="300" height="225" class="alignnone size-medium wp-image-3183" srcset="/wp-content/uploads/2016/06/5-1-300x225.jpg 300w, /wp-content/uploads/2016/06/5-1-768x576.jpg 768w, /wp-content/uploads/2016/06/5-1-720x540.jpg 720w, /wp-content/uploads/2016/06/5-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/6-1-300x225.jpg" alt="6" width="300" height="225" class="alignnone size-medium wp-image-3184" srcset="/wp-content/uploads/2016/06/6-1-300x225.jpg 300w, /wp-content/uploads/2016/06/6-1-768x576.jpg 768w, /wp-content/uploads/2016/06/6-1-720x540.jpg 720w, /wp-content/uploads/2016/06/6-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/7-1-300x225.jpg" alt="7" width="300" height="225" class="alignnone size-medium wp-image-3185" srcset="/wp-content/uploads/2016/06/7-1-300x225.jpg 300w, /wp-content/uploads/2016/06/7-1-768x576.jpg 768w, /wp-content/uploads/2016/06/7-1-720x540.jpg 720w, /wp-content/uploads/2016/06/7-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/8-1-300x225.jpg" alt="8" width="300" height="225" class="alignnone size-medium wp-image-3186" srcset="/wp-content/uploads/2016/06/8-1-300x225.jpg 300w, /wp-content/uploads/2016/06/8-1-768x576.jpg 768w, /wp-content/uploads/2016/06/8-1-720x540.jpg 720w, /wp-content/uploads/2016/06/8-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/9-1-300x225.jpg" alt="9" width="300" height="225" class="alignnone size-medium wp-image-3187" srcset="/wp-content/uploads/2016/06/9-1-300x225.jpg 300w, /wp-content/uploads/2016/06/9-1-768x576.jpg 768w, /wp-content/uploads/2016/06/9-1-720x540.jpg 720w, /wp-content/uploads/2016/06/9-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/10-1-300x225.jpg" alt="10" width="300" height="225" class="alignnone size-medium wp-image-3188" srcset="/wp-content/uploads/2016/06/10-1-300x225.jpg 300w, /wp-content/uploads/2016/06/10-1-768x576.jpg 768w, /wp-content/uploads/2016/06/10-1-720x540.jpg 720w, /wp-content/uploads/2016/06/10-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/11-1-300x225.jpg" alt="11" width="300" height="225" class="alignnone size-medium wp-image-3189" srcset="/wp-content/uploads/2016/06/11-1-300x225.jpg 300w, /wp-content/uploads/2016/06/11-1-768x576.jpg 768w, /wp-content/uploads/2016/06/11-1-720x540.jpg 720w, /wp-content/uploads/2016/06/11-1.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/12-300x225.jpg" alt="12" width="300" height="225" class="alignnone size-medium wp-image-3190" srcset="/wp-content/uploads/2016/06/12-300x225.jpg 300w, /wp-content/uploads/2016/06/12-768x576.jpg 768w, /wp-content/uploads/2016/06/12-720x540.jpg 720w, /wp-content/uploads/2016/06/12.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/13-300x225.jpg" alt="13" width="300" height="225" class="alignnone size-medium wp-image-3191" srcset="/wp-content/uploads/2016/06/13-300x225.jpg 300w, /wp-content/uploads/2016/06/13-768x576.jpg 768w, /wp-content/uploads/2016/06/13-720x540.jpg 720w, /wp-content/uploads/2016/06/13.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/14-300x225.jpg" alt="14" width="300" height="225" class="alignnone size-medium wp-image-3192" srcset="/wp-content/uploads/2016/06/14-300x225.jpg 300w, /wp-content/uploads/2016/06/14-768x576.jpg 768w, /wp-content/uploads/2016/06/14-720x540.jpg 720w, /wp-content/uploads/2016/06/14.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/15-300x225.jpg" alt="15" width="300" height="225" class="alignnone size-medium wp-image-3193" srcset="/wp-content/uploads/2016/06/15-300x225.jpg 300w, /wp-content/uploads/2016/06/15-768x576.jpg 768w, /wp-content/uploads/2016/06/15-720x540.jpg 720w, /wp-content/uploads/2016/06/15.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/16-300x225.jpg" alt="16" width="300" height="225" class="alignnone size-medium wp-image-3194" srcset="/wp-content/uploads/2016/06/16-300x225.jpg 300w, /wp-content/uploads/2016/06/16-768x576.jpg 768w, /wp-content/uploads/2016/06/16-720x540.jpg 720w, /wp-content/uploads/2016/06/16.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/17-300x225.jpg" alt="17" width="300" height="225" class="alignnone size-medium wp-image-3195" srcset="/wp-content/uploads/2016/06/17-300x225.jpg 300w, /wp-content/uploads/2016/06/17-768x576.jpg 768w, /wp-content/uploads/2016/06/17-720x540.jpg 720w, /wp-content/uploads/2016/06/17.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/18-300x225.jpg" alt="18" width="300" height="225" class="alignnone size-medium wp-image-3196" srcset="/wp-content/uploads/2016/06/18-300x225.jpg 300w, /wp-content/uploads/2016/06/18-768x576.jpg 768w, /wp-content/uploads/2016/06/18-720x540.jpg 720w, /wp-content/uploads/2016/06/18.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/19-300x225.jpg" alt="19" width="300" height="225" class="alignnone size-medium wp-image-3197" srcset="/wp-content/uploads/2016/06/19-300x225.jpg 300w, /wp-content/uploads/2016/06/19-768x576.jpg 768w, /wp-content/uploads/2016/06/19-720x540.jpg 720w, /wp-content/uploads/2016/06/19.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/20-300x225.jpg" alt="20" width="300" height="225" class="alignnone size-medium wp-image-3198" srcset="/wp-content/uploads/2016/06/20-300x225.jpg 300w, /wp-content/uploads/2016/06/20-768x576.jpg 768w, /wp-content/uploads/2016/06/20-720x540.jpg 720w, /wp-content/uploads/2016/06/20.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/21-300x225.jpg" alt="21" width="300" height="225" class="alignnone size-medium wp-image-3199" srcset="/wp-content/uploads/2016/06/21-300x225.jpg 300w, /wp-content/uploads/2016/06/21-768x576.jpg 768w, /wp-content/uploads/2016/06/21-720x540.jpg 720w, /wp-content/uploads/2016/06/21.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/22-300x225.jpg" alt="22" width="300" height="225" class="alignnone size-medium wp-image-3200" srcset="/wp-content/uploads/2016/06/22-300x225.jpg 300w, /wp-content/uploads/2016/06/22-768x576.jpg 768w, /wp-content/uploads/2016/06/22-720x540.jpg 720w, /wp-content/uploads/2016/06/22.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/23-300x225.jpg" alt="23" width="300" height="225" class="alignnone size-medium wp-image-3201" srcset="/wp-content/uploads/2016/06/23-300x225.jpg 300w, /wp-content/uploads/2016/06/23-768x576.jpg 768w, /wp-content/uploads/2016/06/23-720x540.jpg 720w, /wp-content/uploads/2016/06/23.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/24-300x225.jpg" alt="24" width="300" height="225" class="alignnone size-medium wp-image-3202" srcset="/wp-content/uploads/2016/06/24-300x225.jpg 300w, /wp-content/uploads/2016/06/24-768x576.jpg 768w, /wp-content/uploads/2016/06/24-720x540.jpg 720w, /wp-content/uploads/2016/06/24.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2016/06/25-300x169.jpg" alt="25" width="300" height="169" class="alignnone size-medium wp-image-3203" srcset="/wp-content/uploads/2016/06/25-300x169.jpg 300w, /wp-content/uploads/2016/06/25-768x432.jpg 768w, /wp-content/uploads/2016/06/25-720x405.jpg 720w, /wp-content/uploads/2016/06/25.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

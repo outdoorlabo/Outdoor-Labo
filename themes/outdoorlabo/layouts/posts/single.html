@@ -1,0 +1,53 @@
+{{ define "main" }}
+  {{ partial "breadcrumb.html" . }}
+  <article class="article{{ if site.Params.headingNumbers }} numbered{{ end }}">
+    <h1 class="article-title">{{ .Title }}</h1>
+
+    {{ with .Params.image }}
+    <figure class="eyecatch">
+      <img src="{{ . | relURL }}" alt="">
+      {{ with index ($.GetTerms "category") 0 }}<a class="cat-label" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+    </figure>
+    {{ end }}
+
+    <div class="article-date">
+      投稿日 : <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+      {{ if and .Lastmod (gt .Lastmod.Unix (add .Date.Unix 86400)) }}<span class="updated">更新日 : {{ .Lastmod.Format "2006.01.02" }}</span>{{ end }}
+    </div>
+
+    {{/* 目次は最初の h2 の直前に差し込む(Cocoon と同じ位置) */}}
+    {{ $content := .Content }}
+    {{ if and (ne .Params.toc false) (gt (len (findRE "<li" .TableOfContents)) 1) }}
+      {{ $toc := printf `<div class="toc-box"><details open><summary>目次</summary>%s</details></div>` .TableOfContents }}
+      {{ $content = replaceRE "<h2" (printf "%s<h2" (replace $toc "$" "$$")) $content 1 }}
+    {{ end }}
+    <div class="entry-content">{{ $content | safeHTML }}</div>
+
+    {{ with .GetTerms "tag" }}
+    <div class="article-tags">{{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</div>
+    {{ end }}
+
+    {{ if site.Params.authorBox }}{{ partial "author-box.html" . }}{{ end }}
+
+    <nav class="post-nav">
+      {{ with .PrevInSection }}<a class="prev" href="{{ .RelPermalink }}"><span>‹ 前の記事</span>{{ .Title }}</a>{{ end }}
+      {{ with .NextInSection }}<a class="next" href="{{ .RelPermalink }}"><span>次の記事 ›</span>{{ .Title }}</a>{{ end }}
+    </nav>
+
+    {{ if site.Params.relatedPosts }}
+    {{ with first 6 (site.RegularPages.Related .) }}
+    <section class="related">
+      <h2 class="related-title">関連記事</h2>
+      <div class="related-grid">
+        {{ range . }}
+        <a class="related-item" href="{{ .RelPermalink }}">
+          {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ else }}<span class="no-image">NO IMAGE</span>{{ end }}
+          <span class="related-name">{{ .Title }}</span>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+    {{ end }}
+  </article>
+{{ end }}

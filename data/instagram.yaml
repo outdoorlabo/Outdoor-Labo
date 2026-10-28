@@ -1,0 +1,9 @@
+# サイドバーの Instagram グリッド用データ(任意)。
+# Instagram の API は使わず、画像を static/images/instagram/ に置いて手動で並べる方式です。
+# 空のままでも、プロフィール欄とフォローボタンは表示されます。
+name: outdoorlabo
+bio: "Love #outdoor // #climber #hiker #backpacker #cyclist #bbqjunkie / #tokyo #japan"
+avatar: /images/ol.png
+posts: []
+#  - image: /images/instagram/01.jpg
+#    url: https://www.instagram.com/p/xxxxxxxxx/

@@ -1,219 +1,51 @@
-# -- Theme Options --
-# These options control how the theme functions and allow you to
-# customise the display of your website.
-#
-# Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/configuration/#theme-parameters
+description = "屋外＋道具＋α"
+logo = "/images/ol-header.png"        # static/images/ に置く(WordPressの ol-header.png)
+footerLogo = "/images/ol.png"         # 同 cropped-ol.png
+webfont = true                         # Noto Sans JP を Google Fonts から読み込む
+headingNumbers = true                  # 記事内 h2 に「1.」「2.」を自動で付ける(WP と同じ見た目)
+breadcrumb = false                     # パンくずを出すか
+authorBox = false                      # 記事末尾のプロフィール欄
+relatedPosts = true                    # 関連記事
+amazonNotice = "OUTDOOR LABOは、Amazonアソシエイト・プログラムの参加者です。"
+instagramUser = "outdoorlabo"
 
-colorScheme = "blowfish"
-defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = false
+# サイドバーの Instagram 欄(APIは使わず、画像を static/images/instagram/ に置いて手動で並べる)
+[instagram]
+  bio = "Love #outdoor // #climber #hiker #backpacker #cyclist #bbqjunkie / #tokyo #japan"
+  avatar = "/images/ol.png"
+  # [[instagram.posts]]
+  #   image = "/images/instagram/01.jpg"
+  #   url = "https://www.instagram.com/p/xxxxxxxxx/"
 
-enableA11y = false
-enableSearch = true
-enableCodeCopy = false
-enableStructuredBreadcrumbs = false
-# enableStyledScrollbar = true # disable to use native scrollbar style (defaults to true)
+[author]
+  name = "labocon"
+  title = "OUTDOOR LABOの中の人"
+  # WordPress が使っている Gravatar をそのまま利用(自前画像に差し替え可)
+  avatar = "https://secure.gravatar.com/avatar/7db0333df9ea25470db08b32dce940efde58ff88f4a8f60188726d811418129e?s=200&d=mm&r=g"
+  bio = "1991年に始めたスノーボードを皮切りに、登山、キャンプなどのアウトドア アクティビティーにハマり、四半世紀以上…。\n\nアウトドアでのアクティビティー、オススメのアウトドア道具、その他、興味のあるものを紹介しています。"
+  x = "https://twitter.com/outdoorlabo"
+  instagram = "https://www.instagram.com/outdoorlabo/"
+  pinterest = "https://www.pinterest.jp/outdoorlabo"
 
-replyByEmail = false
+[[favorites]]
+  name = "Backpack Gear Test"
+  url = "http://www.backpackgeartest.org/"
+  desc = "ギアのレビューサイト。"
+[[favorites]]
+  name = "Backpacking Light"
+  url = "http://www.backpackinglight.com/"
+  desc = "もっと軽く！という方、必見。"
+[[favorites]]
+  name = "山レコ"
+  url = "http://www.yamareco.com/"
+  desc = "山行の参考に"
 
-# mainSections = ["section1", "section2"]
-# robots = ""
-
-disableImageOptimization = false
-disableImageOptimizationMD = false
-disableTextInHeader = false
-# backgroundImageWidth = 1200
-
-# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
-# backgroundCanvas = false # render defaultBackgroundImage as a fixed backdrop on every page
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
-# defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
-hotlinkFeatureImage = false
-# Thumbnail aspect ratio as a number (e.g., "1.5", "1.0", "1.777")
-# thumbnailAspectRatio = "1.5"
-# imagePosition = "50% 50%"
-
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
-
-fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
-
-giteaDefaultServer = "https://git.fsfe.org"
-forgejoDefaultServer = "https://v11.next.forgejo.org"
-
-[languageRedirect]
-  enabled = false # Enable client-side language redirects for multilingual sites.
-  storageKey = "blowfish_preferred_language" # localStorage key for manual language selections.
-  # fallbackLanguage = "" # Language to use when no browser language matches. Defaults to Hugo's default content language.
-  browserRedirectHomeOnly = true # Restrict browser-language redirects to home pages.
-  storedLanguageRedirect = true # Redirect to the stored language when a matching translation exists.
-
-[seo]
-# metaDescriptionOrder = ["summary", "description", "site"] # Controls the fallback order for the HTML meta description. Valid values are "summary", "description", and "site".
-
-[header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur, floating
-  # mobileMenuStyle = "fullscreen" # valid options: fullscreen, dropdown
-
-[footer]
-  showMenu = true
-  showCopyright = true
-  showThemeAttribution = true
-  showAppearanceSwitcher = true
-  showScrollToTop = true
-
-[homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, landing, custom
-  # layoutSwitcher = false # opt-in interactive preview of the built-in layouts
-  #homepageImage = "IMAGE.jpg" # used in: hero, and card
-  showRecent = true
-  showRecentItems = 10
-  showMoreLink = false
-  showMoreLinkDest = "/posts/"
-  cardView = true
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = false # only used when layout equals background
-  disableHeroImageFilter = false # only used when layout equals hero
-
-[article]
-  showDate = true
-  showViews = false
-  showLikes = false
-  showDateOnlyInArticle = false
-  showDateUpdated = false
-  showAuthor = true
-  # showAuthorBottom = false
-  showHero = true
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  # layoutBackgroundBlurStyle = "fade" # valid options: fade, classic. Only used when heroStyle equals background
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
-  showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
-  editAppendPath = true
-  seriesOpened = false
-  showHeadingAnchors = true
-  showPagination = true
-  invertPagination = false
-  showReadingTime = false
-  showReadingProgress = false
-  showTableOfContents = true
-  # showRelatedContent = false
-  # relatedContentLimit = 3
-  showTaxonomies = true # Enable the display of taxonomies for the related article.
-  showCategories = true # These will show if showTaxonomies is true.
-  showTags = true # These will show if showTaxonomies is true.
-  showCategoriesInSecondaryColor = false # This will change the color of category badges, so the user can better distinguish between the two. Only if showTaxonomies is true.
-  showAuthorsBadges = true
-  showWordCount = false
-  # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
-  showZenMode = false
-  # externalLinkForceNewTab = false # disable to allow external links in the same tab (defaults to true)
-
-[list]
-  showHero = false
-  # featureImageHover = false # subtle zoom on card thumbnails on hover
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  # layoutBackgroundBlurStyle = "fade" # valid options: fade, classic. Only used when heroStyle equals background
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
-  showSummary = true
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  showCards = false
-  orderByWeight = false
-  groupByYear = true
-  cardView = true
-  cardViewScreenWidth = false
-  constrainItemsWidth = false
-
-[sitemap]
-  excludedKinds = ["taxonomy", "term"]
-
-[taxonomy]
-  showTermCount = true
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  # layoutBackgroundBlurStyle = "fade" # valid options: fade, classic. Only used when heroStyle equals background
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = false
-  cardView = false
-
-[term]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  # layoutBackgroundBlurStyle = "fade" # valid options: fade, classic. Only used when heroStyle equals background
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  groupByYear = false
-  cardView = false
-  cardViewScreenWidth = false
-
-[firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
-
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
-
-[umamiAnalytics]
-  # websiteid = "ABC12345"
-  # domain = "llama.yoursite.com"
-  # dataDomains = "yoursite.com,yoursite2.com"
-  # scriptName = ""
-  # enableTrackEvent = true
-
-[selineAnalytics]
-  # token = "XXXXXX"
-  # enableTrackEvent = true
-
-[buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "right"
-
-[kofi]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetText = "Support me"
-  # globalWidgetBackgroundColor = "#00B9FE"
-  # globalWidgetTextColor = "#FFFFFF"
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
-  # fediverse = ""
-
-[rssnext]
-  # feedId = ""
-  # userId = ""
-
-[advertisement]
-  # adsense = ""
-
-
-disableLanguageSwitching = true
+# サイドバー下のバナー
+[[banners]]
+  image = "https://b.blogmura.com/88_31.gif"
+  url = "https://blogmura.com/ranking/in?p_cid=11032651"
+  alt = "ブログランキング・にほんブログ村へ"
+[[banners]]
+  image = "https://b.blogmura.com/outdoor/88_31.gif"
+  url = "https://outdoor.blogmura.com/ranking/in?p_cid=11032651"
+  alt = "にほんブログ村 アウトドアブログへ"

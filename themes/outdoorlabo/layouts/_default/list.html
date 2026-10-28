@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ partial "breadcrumb.html" . }}
+  <header class="archive-header">
+    <h1 class="archive-title">{{ if eq .Kind "term" }}<span class="archive-label">カテゴリー</span>{{ end }}{{ .Title }}</h1>
+    {{ with .Content }}<div class="archive-desc entry-content">{{ . }}</div>{{ end }}
+  </header>
+  {{ $paginator := .Paginate .Pages }}
+  <div class="entry-list">{{ range $paginator.Pages }}{{ partial "entry-card.html" . }}{{ end }}</div>
+  {{ partial "pagination.html" $paginator }}
+{{ end }}

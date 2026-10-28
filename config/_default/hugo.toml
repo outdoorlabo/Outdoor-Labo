@@ -1,74 +1,61 @@
-# -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/getting-started/
-
-theme = "blowfish"
-baseURL = "https://outdoor-labo.pages.dev/"
+# OUTDOOR LABO — Hugo 設定 (Blowfish の設定を置き換えるもの)
+baseURL = "https://outdoor-labo.pages.dev/"   # 独自ドメイン(https://outdoorlabo.a-ce.com/)に切り替える時にここを変更
+title = "OUTDOOR LABO"
+theme = "outdoorlabo"
+locale = "ja"
 defaultContentLanguage = "ja"
-title = "Outdoor Labo"
-languageCode = "ja"
-
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+hasCJKLanguage = true            # 日本語の要約・文字数カウントを正しく動かす
+timeZone = "Asia/Tokyo"          # 日付→URL(/YYYY/MM/DD/)を WordPress(JST)と一致させる
 
 enableRobotsTXT = true
-summaryLength = 0
-
+enableEmoji = true
 buildDrafts = false
 buildFuture = false
 
-enableEmoji = true
-
-# googleAnalytics = "G-XXXXXXXXX"
-
 [pagination]
-  pagerSize = 100
+  pagerSize = 8                  # トップ・一覧の1ページあたり記事数
 
 [imaging]
-  anchor = 'Center'
+  anchor = "Center"
 
+# WordPress と同じ URL: /2026/05/11/slug/
+[permalinks.page]
+  posts = "/:year/:month/:day/:slug/"
+
+# WordPress と同じ /category/xxx/ にするため、キーも複数形ではなく "category"
 [taxonomies]
-  tag = "tags"
-  category = "categories"
-  author = "authors"
-  series = "series"
+  category = "category"
+  tag = "tag"
 
 [sitemap]
-  changefreq = 'daily'
-  filename = 'sitemap.xml'
+  changefreq = "daily"
+  filename = "sitemap.xml"
   priority = 0.5
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
+# 関連記事(カテゴリ・タグが近い記事を優先)
 [related]
   threshold = 0
   toLower = false
+  [[related.indices]]
+    name = "category"
+    weight = 100
+  [[related.indices]]
+    name = "tag"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10
 
-    [[related.indices]]
-        name = "tags"
-        weight = 100
-
-    [[related.indices]]
-        name = "categories"
-        weight = 100
-
-    [[related.indices]]
-        name = "series"
-        weight = 50
-
-    [[related.indices]]
-        name = "authors"
-        weight = 20
-
-    [[related.indices]]
-        name = "date"
-        weight = 10
-
-    [[related.indices]]
-      applyFilter = false
-      name = 'fragmentrefs'
-      type = 'fragments'
-      weight = 10
-
-[permalinks]
-  posts = "/:year/:month/:day/:filename/"
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true                # WordPress 由来の生HTML(iframe等)をそのまま出す
+  [markup.goldmark.extensions.cjk]
+    enable = true
+    eastAsianLineBreaks = true   # 日本語の改行で余計な空白を入れない
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false

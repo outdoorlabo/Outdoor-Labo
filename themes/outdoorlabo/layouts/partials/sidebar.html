@@ -1,0 +1,88 @@
+<aside class="sidebar">
+  {{/* Profile */}}
+  {{ with site.Params.author }}
+  <section class="widget widget-profile">
+    <h3 class="widget-title">Profile</h3>
+    <div class="profile-card">
+      <div class="profile-head">{{ .title }}</div>
+      <div class="profile-body">
+        {{ with .avatar }}<img class="avatar" src="{{ . | relURL }}" alt="" width="90" height="90">{{ end }}
+        <div class="profile-name">＠<a href="{{ "/" | relLangURL }}">{{ .name }}</a></div>
+        <div class="profile-text">{{ .bio | markdownify }}<p>{{ site.Params.amazonNotice }}</p></div>
+        <div class="profile-links">
+          <a href="{{ "/" | absLangURL }}" title="サイトトップ">{{ partial "icon.html" "home" }}</a>
+          {{ with .x }}<a href="{{ . }}" target="_blank" rel="noopener" title="X">{{ partial "icon.html" "x" }}</a>{{ end }}
+          {{ with .instagram }}<a href="{{ . }}" target="_blank" rel="noopener" title="Instagram">{{ partial "icon.html" "instagram" }}</a>{{ end }}
+          {{ with .pinterest }}<a href="{{ . }}" target="_blank" rel="noopener" title="Pinterest">{{ partial "icon.html" "pinterest" }}</a>{{ end }}
+          <a href="https://feedly.com/i/discover/sources/search/feed/{{ urlquery (absURL "index.xml") }}" target="_blank" rel="noopener" title="feedly">{{ partial "icon.html" "feedly" }}</a>
+          <a href="{{ "index.xml" | relURL }}" title="RSS">{{ partial "icon.html" "rss" }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* Search: Google サイト内検索(Pagefind 等に差し替え可) */}}
+  <section class="widget widget-search">
+    <h3 class="widget-title">Search</h3>
+    <form action="https://www.google.com/search" method="get" target="_blank" class="search-form" role="search">
+      <input type="hidden" name="as_sitesearch" value="{{ (urls.Parse site.BaseURL).Host }}">
+      <input type="search" name="q" placeholder="サイト内を検索" aria-label="サイト内を検索">
+      <button type="submit" aria-label="検索">{{ partial "icon.html" "search" }}</button>
+    </form>
+  </section>
+
+  {{/* Category: プルダウン */}}
+  <section class="widget widget-category">
+    <h3 class="widget-title">Category</h3>
+    <select data-nav aria-label="カテゴリーを選択">
+      <option value="">カテゴリーを選択</option>
+      {{ range site.Taxonomies.category.Alphabetical }}<option value="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }} ({{ .Count }})</option>{{ end }}
+    </select>
+  </section>
+
+  {{/* Archive: プルダウン */}}
+  <section class="widget widget-archive">
+    <h3 class="widget-title">Archive</h3>
+    <select data-nav aria-label="月を選択">
+      <option value="">月を選択</option>
+      {{ range (where site.RegularPages "Section" "posts").GroupByDate "2006-01" }}
+      {{ $d := (index .Pages 0).Date }}
+      <option value="{{ "archives/" | relURL }}#m{{ .Key }}">{{ $d.Format "2006年1月" }} ({{ len .Pages }})</option>
+      {{ end }}
+    </select>
+  </section>
+
+  {{/* Instagram */}}
+  {{ with site.Params.instagramUser }}
+  {{ $ig := site.Params.instagram | default dict }}
+  <section class="widget widget-instagram">
+    <h3 class="widget-title">Instagram</h3>
+    <div class="ig-head">
+      {{ with $ig.avatar }}<img class="ig-avatar" src="{{ . | relURL }}" alt="" width="72" height="72">{{ end }}
+      <div>
+        <a class="ig-name" href="https://www.instagram.com/{{ $.Site.Params.instagramUser }}/" target="_blank" rel="noopener">{{ $.Site.Params.instagramUser }}</a>
+        {{ with $ig.bio }}<p class="ig-bio">{{ . }}</p>{{ end }}
+      </div>
+    </div>
+    {{ with $ig.posts }}
+    <div class="ig-grid">
+      {{ range first 12 . }}{{ if .image }}<a href="{{ .url }}" target="_blank" rel="noopener"><img src="{{ .image | relURL }}" alt="" loading="lazy"></a>{{ end }}{{ end }}
+    </div>
+    {{ end }}
+    <p class="ig-actions"><a class="ig-follow" href="https://www.instagram.com/{{ . }}/" target="_blank" rel="noopener">Instagram でフォロー</a></p>
+  </section>
+  {{ end }}
+
+  {{/* お気に入り */}}
+  {{ with site.Params.favorites }}
+  <section class="widget widget-favorites">
+    <h3 class="widget-title">お気に入り</h3>
+    <ul>{{ range . }}<li><a href="{{ .url }}" title="{{ .desc }}" target="_blank" rel="noopener">{{ .name }}</a></li>{{ end }}</ul>
+  </section>
+  {{ end }}
+
+  {{ with site.Params.banners }}
+  <div class="banners">{{ range . }}<a href="{{ .url }}" target="_blank" rel="noopener"><img src="{{ .image }}" alt="{{ .alt }}" width="88" height="31" loading="lazy"></a>{{ end }}</div>
+  {{ end }}
+</aside>

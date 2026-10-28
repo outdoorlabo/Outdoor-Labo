@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="{{ if .IsHome }}home{{ else }}{{ .Kind }}{{ end }}">
+  <a class="skip-link" href="#main">コンテンツへスキップ</a>
+  {{ partial "header.html" . }}
+  <div class="wrap">
+    <main id="main" class="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "sidebar.html" . }}
+  </div>
+  {{ partial "footer.html" . }}
+  <a href="#" class="go-top" aria-label="ページの先頭へ" hidden>{{ partial "icon.html" "chevrons-up" }}</a>
+  <script src="{{ "js/main.js" | relURL }}" defer></script>
+</body>
+</html>

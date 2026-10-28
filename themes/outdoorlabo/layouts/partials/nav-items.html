@@ -1,0 +1,11 @@
+{{/* 再帰メニュー。引数: dict "items" エントリ配列 "page" 現在のページ "depth" 階層 */}}
+{{ $page := .page }}
+{{ $depth := .depth | default 0 }}
+<ul class="menu{{ if gt $depth 0 }} sub-menu{{ end }}">
+  {{ range .items }}
+  <li class="{{ if .HasChildren }}has-children{{ end }}{{ if $page.HasMenuCurrent "main" . }} current{{ end }}">
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ with .Children }}{{ partial "nav-items.html" (dict "items" . "page" $page "depth" (add $depth 1)) }}{{ end }}
+  </li>
+  {{ end }}
+</ul>

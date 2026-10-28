@@ -1,0 +1,10 @@
+{{/* 使い方: {{< blogcard url="https://..." title="タイトル" desc="説明文" image="/images/x.jpg" >}} */}}
+{{ $url := .Get "url" }}
+<a class="blogcard" href="{{ $url }}" target="_blank" rel="noopener">
+  {{ with .Get "image" }}<span class="blogcard-thumb"><img src="{{ . | relURL }}" alt="" loading="lazy"></span>{{ end }}
+  <span class="blogcard-body">
+    <span class="blogcard-title">{{ .Get "title" | default $url }}</span>
+    {{ with .Get "desc" }}<span class="blogcard-snippet">{{ . }}</span>{{ end }}
+    <span class="blogcard-site">{{ (urls.Parse $url).Host }}</span>
+  </span>
+</a>
