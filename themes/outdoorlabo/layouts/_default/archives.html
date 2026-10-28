@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{ partial "breadcrumb.html" . }}
+  <h1 class="archive-title">{{ .Title }}</h1>
+  {{ range (where site.RegularPages "Section" "posts").GroupByDate "2006-01" }}
+  {{ $d := (index .Pages 0).Date }}
+  <section class="archive-month" id="m{{ .Key }}">
+    <h2>{{ $d.Format "2006年1月" }}</h2>
+    <ul>
+      {{ range .Pages }}<li><time>{{ .Date.Format "01.02" }}</time> <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+    </ul>
+  </section>
+  {{ end }}
+{{ end }}

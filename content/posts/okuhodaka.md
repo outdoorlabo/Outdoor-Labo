@@ -1,75 +1,49 @@
-﻿--
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o-300x225.jpg"
-title: "上高地 - ザイテングラート - 奥穂高 [テント泊]"
-date: 2013-07-19T18:37:42
-draft: false
---
-featureImage: "http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o-300x225.jpg"
+---
+title: "上高地 – ザイテングラート – 奥穂高 [テント泊]"
+date: 2013-07-19T18:37:42+09:00
+lastmod: 2019-12-18T13:42:58+09:00
+slug: "okuhodaka"
+category: ["kita-alps", "okuhodaka", "hiking", "hiking-mountaineering"]
+tag: ["camping", "kita-alps", "奥穂高", "登山"]
+image: "/wp-content/uploads/2013/07/1075452_10151550580258316_74816680_o.jpg"
+description: "7/13新宿発7/14上高地6:00 –涸沢11:00 – 12:00 –穂高岳山荘15:15 7/15穂高岳山荘4:57 –奥穂高山頂6:00 –上高地15:15恒例の海の日に山！今年は奥穂へ。が、2年続けて、北アルプ…"
+wpid: 3018
+---
 
-<span style="font-size: 1.3rem; line-height: 1.6;">7/13  新宿発
-</span><span style="line-height: 1.6; font-size: 1.3rem;">7/14  上高地 6:00 - 涸沢 11:00 - 12:00 - 穂高岳山荘 15:15
-</span><span style="line-height: 1.6; font-size: 1.3rem;">7/15  穂高岳山荘 4:57 - 奥穂高山頂 6:00 - 上高地 15:15</span>
-
-恒例の海の日に山！今年は奥穂へ。が、2年続けて、北アルプスはあいにくの天気…。
-
-雨が降ったり止んだりで、写真が撮れず。。。
-
-横尾から1時間ちょいくらいから雪渓を登り、ようやく涸沢ヒュッテに。
-（ここまではアイゼンの必要なし）
-
-<img class="alignnone size-medium wp-image-3026" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o-300x225.jpg" alt="1074720_10151550578388316_1012547414_o" width="300" height="225" />
-
-涸沢カール。。。ガスってます。。。
-
-<img class="alignnone size-medium wp-image-3029" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1073212_10151550578338316_505158623_o-300x225.jpg" alt="1073212_10151550578338316_505158623_o" width="300" height="225" />
-
-大休止して、冷えきった体を温めるためにおでんを頂き、
-穂高岳山荘目指します。
-
-涸沢ヒュッテから、また雪渓を登り、ザイテングラートの取り付きまでは6本歯装着で。
-
-雪渓の上にも落石がゴロゴロ転がっていました…。で、ザイテンからはヘルメット装着。
-
-<img class="alignnone size-medium wp-image-3024" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1075554_10151550579668316_633952164_o-300x225.jpg" alt="1075554_10151550579668316_633952164_o" width="300" height="225" />
-
-ザイテングラートが見えてきました。
-
-<img class="alignnone size-medium wp-image-3020" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/210623_10151550579453316_1325089565_o-300x225.jpg" alt="210623_10151550579453316_1325089565_o" width="300" height="225" />
-
-降りしきる雨の中の登り。やだーーー！
-
-<img class="alignnone size-medium wp-image-3030" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1063688_10151550579968316_1502819706_o-300x225.jpg" alt="1063688_10151550579968316_1502819706_o" width="300" height="225" />
-
-途中の小休止の時に、斜度をカメラの水平器で確認。こんな感じです。
-
-<img class="alignnone size-medium wp-image-3022" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/965659_10151550580128316_318727378_o-300x225.jpg" alt="965659_10151550580128316_318727378_o" width="300" height="225" />
-
-9時間ちょいかけて、ようやく穂高岳山荘に到着。
-暴風でテントをピッチするのに一苦労。テン場、狭し。
-夜通し、雨と暴風でテントごとふっ飛ばされるんじゃないかと思うくらいテントが揺れてました…
-
-<img class="alignnone size-medium wp-image-3031" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1075452_10151550580258316_74816680_o-300x225.jpg" alt="1075452_10151550580258316_74816680_o" width="300" height="225" />
-
-翌日、6時に登頂。雨で全くなにも見えませんでした。
-
-<a href="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1075452_10151550580258316_74816680_o.jpg">
-</a><img class="alignnone size-medium wp-image-3019" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/267158_10151550580448316_13003221_o-300x225.jpg" alt="267158_10151550580448316_13003221_o" width="300" height="225" />
-
-ジャンダルムへの道…こんな天気じゃなくても行きたくない…
-
-<img class="alignnone size-medium wp-image-3023" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1008937_10151550580563316_286758303_o-300x225.jpg" alt="1008937_10151550580563316_286758303_o" width="300" height="225" />
-
-テン場に戻って、テントを撤収して、いざ下山というその時、急に晴れる…という…おいっ！
-
-<img class="alignnone size-medium wp-image-3025" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1074752_10151550580853316_559290773_o-300x225.jpg" alt="1074752_10151550580853316_559290773_o" width="300" height="225" />
-
-これから登られる方がうらやましい。。。
-
-<img class="alignnone size-medium wp-image-3028" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/1073349_10151550581138316_1207450808_o-300x225.jpg" alt="1073349_10151550581138316_1207450808_o" width="300" height="225" />
-
-もー、こんなに天気よくなっちゃって…。んがー。ちゃんと晴れた日に登りたいなぁ。。。
-
-<img class="alignnone size-medium wp-image-3021" style="font-size: 1.3rem; line-height: 1;" src="http://outdoorlabo.a-ce.com/wp-content/uploads/2013/07/286918_10151550581628316_1350094040_o-300x225.jpg" alt="286918_10151550581628316_1350094040_o" width="300" height="225" />
-
-<a href="http://outdoor.blogmura.com/outdoorgear/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a><a href="http://outdoor.blogmura.com/tozan/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0" /></a><a href="http://outdoor.blogmura.com/" target="_blank" rel="noopener noreferrer"><img src="http://outdoor.blogmura.com/img/outdoor88_31.gif" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" border="0" /></a>
-
+<p><span style="font-size: 1.3rem; line-height: 1.6;">7/13  新宿発<br />
+</span><span style="line-height: 1.6; font-size: 1.3rem;">7/14  上高地 6:00 &#8211; 涸沢 11:00 &#8211; 12:00 &#8211; 穂高岳山荘 15:15<br />
+</span><span style="line-height: 1.6; font-size: 1.3rem;">7/15  穂高岳山荘 4:57 &#8211; 奥穂高山頂 6:00 &#8211; 上高地 15:15</span></p>
+<p>恒例の海の日に山！今年は奥穂へ。が、2年続けて、北アルプスはあいにくの天気…。</p>
+<p>雨が降ったり止んだりで、写真が撮れず。。。</p>
+<p>横尾から1時間ちょいくらいから雪渓を登り、ようやく涸沢ヒュッテに。<br />
+（ここまではアイゼンの必要なし）</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3026" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o-300x225.jpg" alt="1074720_10151550578388316_1012547414_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o-300x225.jpg 300w, /wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o-720x540.jpg 720w, /wp-content/uploads/2013/07/1074720_10151550578388316_1012547414_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>涸沢カール。。。ガスってます。。。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3029" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/1073212_10151550578338316_505158623_o-300x225.jpg" alt="1073212_10151550578338316_505158623_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/1073212_10151550578338316_505158623_o-300x225.jpg 300w, /wp-content/uploads/2013/07/1073212_10151550578338316_505158623_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/1073212_10151550578338316_505158623_o-720x540.jpg 720w, /wp-content/uploads/2013/07/1073212_10151550578338316_505158623_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>大休止して、冷えきった体を温めるためにおでんを頂き、<br />
+穂高岳山荘目指します。</p>
+<p>涸沢ヒュッテから、また雪渓を登り、ザイテングラートの取り付きまでは6本歯装着で。</p>
+<p>雪渓の上にも落石がゴロゴロ転がっていました…。で、ザイテンからはヘルメット装着。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3024" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/1075554_10151550579668316_633952164_o-300x225.jpg" alt="1075554_10151550579668316_633952164_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/1075554_10151550579668316_633952164_o-300x225.jpg 300w, /wp-content/uploads/2013/07/1075554_10151550579668316_633952164_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/1075554_10151550579668316_633952164_o-720x540.jpg 720w, /wp-content/uploads/2013/07/1075554_10151550579668316_633952164_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>ザイテングラートが見えてきました。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3020" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/210623_10151550579453316_1325089565_o-300x225.jpg" alt="210623_10151550579453316_1325089565_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/210623_10151550579453316_1325089565_o-300x225.jpg 300w, /wp-content/uploads/2013/07/210623_10151550579453316_1325089565_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/210623_10151550579453316_1325089565_o-720x540.jpg 720w, /wp-content/uploads/2013/07/210623_10151550579453316_1325089565_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>降りしきる雨の中の登り。やだーーー！</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3030" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/1063688_10151550579968316_1502819706_o-300x225.jpg" alt="1063688_10151550579968316_1502819706_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/1063688_10151550579968316_1502819706_o-300x225.jpg 300w, /wp-content/uploads/2013/07/1063688_10151550579968316_1502819706_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/1063688_10151550579968316_1502819706_o-720x540.jpg 720w, /wp-content/uploads/2013/07/1063688_10151550579968316_1502819706_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>途中の小休止の時に、斜度をカメラの水平器で確認。こんな感じです。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3022" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/965659_10151550580128316_318727378_o-300x225.jpg" alt="965659_10151550580128316_318727378_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/965659_10151550580128316_318727378_o-300x225.jpg 300w, /wp-content/uploads/2013/07/965659_10151550580128316_318727378_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/965659_10151550580128316_318727378_o-720x540.jpg 720w, /wp-content/uploads/2013/07/965659_10151550580128316_318727378_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>9時間ちょいかけて、ようやく穂高岳山荘に到着。<br />
+暴風でテントをピッチするのに一苦労。テン場、狭し。<br />
+夜通し、雨と暴風でテントごとふっ飛ばされるんじゃないかと思うくらいテントが揺れてました…</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3031" src="/wp-content/uploads/2013/07/1075452_10151550580258316_74816680_o-300x225.jpg" alt="1075452_10151550580258316_74816680_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/1075452_10151550580258316_74816680_o-300x225.jpg 300w, /wp-content/uploads/2013/07/1075452_10151550580258316_74816680_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/1075452_10151550580258316_74816680_o-720x540.jpg 720w, /wp-content/uploads/2013/07/1075452_10151550580258316_74816680_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>翌日、6時に登頂。雨で全くなにも見えませんでした。</p>
+<p><a href="/wp-content/uploads/2013/07/1075452_10151550580258316_74816680_o.jpg"><br />
+</a><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3019" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/267158_10151550580448316_13003221_o-300x225.jpg" alt="267158_10151550580448316_13003221_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/267158_10151550580448316_13003221_o-300x225.jpg 300w, /wp-content/uploads/2013/07/267158_10151550580448316_13003221_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/267158_10151550580448316_13003221_o-720x540.jpg 720w, /wp-content/uploads/2013/07/267158_10151550580448316_13003221_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>ジャンダルムへの道…こんな天気じゃなくても行きたくない…</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3023" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/1008937_10151550580563316_286758303_o-300x225.jpg" alt="1008937_10151550580563316_286758303_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/1008937_10151550580563316_286758303_o-300x225.jpg 300w, /wp-content/uploads/2013/07/1008937_10151550580563316_286758303_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/1008937_10151550580563316_286758303_o-720x540.jpg 720w, /wp-content/uploads/2013/07/1008937_10151550580563316_286758303_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>テン場に戻って、テントを撤収して、いざ下山というその時、急に晴れる…という…おいっ！</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3025" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/1074752_10151550580853316_559290773_o-300x225.jpg" alt="1074752_10151550580853316_559290773_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/1074752_10151550580853316_559290773_o-300x225.jpg 300w, /wp-content/uploads/2013/07/1074752_10151550580853316_559290773_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/1074752_10151550580853316_559290773_o-720x540.jpg 720w, /wp-content/uploads/2013/07/1074752_10151550580853316_559290773_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>これから登られる方がうらやましい。。。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3028" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/1073349_10151550581138316_1207450808_o-300x225.jpg" alt="1073349_10151550581138316_1207450808_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/1073349_10151550581138316_1207450808_o-300x225.jpg 300w, /wp-content/uploads/2013/07/1073349_10151550581138316_1207450808_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/1073349_10151550581138316_1207450808_o-720x540.jpg 720w, /wp-content/uploads/2013/07/1073349_10151550581138316_1207450808_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>もー、こんなに天気よくなっちゃって…。んがー。ちゃんと晴れた日に登りたいなぁ。。。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-3021" style="font-size: 1.3rem; line-height: 1;" src="/wp-content/uploads/2013/07/286918_10151550581628316_1350094040_o-300x225.jpg" alt="286918_10151550581628316_1350094040_o" width="300" height="225" srcset="/wp-content/uploads/2013/07/286918_10151550581628316_1350094040_o-300x225.jpg 300w, /wp-content/uploads/2013/07/286918_10151550581628316_1350094040_o-1024x768.jpg 1024w, /wp-content/uploads/2013/07/286918_10151550581628316_1350094040_o-720x540.jpg 720w, /wp-content/uploads/2013/07/286918_10151550581628316_1350094040_o.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><a rel="noopener" href="http://outdoor.blogmura.com/outdoorgear/" target="_blank"><img loading="lazy" decoding="async" src="http://outdoor.blogmura.com/outdoorgear/img/outdoorgear88_31.gif" alt="にほんブログ村 アウトドアブログ アウトドア用品へ" width="88" height="31" border="0" /></a><a rel="noopener" href="http://outdoor.blogmura.com/tozan/" target="_blank"><img loading="lazy" decoding="async" src="http://outdoor.blogmura.com/tozan/img/tozan88_31.gif" alt="にほんブログ村 アウトドアブログ 登山へ" width="88" height="31" border="0" /></a><a rel="noopener" href="http://outdoor.blogmura.com/" target="_blank"><img loading="lazy" decoding="async" src="http://outdoor.blogmura.com/img/outdoor88_31.gif" alt="にほんブログ村 アウトドアブログへ" width="88" height="31" border="0" /></a></p>

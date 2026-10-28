@@ -1,0 +1,5 @@
+{{ define "main" }}
+  {{ $paginator := .Paginate (where site.RegularPages "Section" "posts") }}
+  <div class="entry-list">{{ range $paginator.Pages }}{{ partial "entry-card.html" . }}{{ end }}</div>
+  {{ partial "pagination.html" $paginator }}
+{{ end }}

@@ -1,0 +1,7 @@
+{{ if site.Params.breadcrumb }}
+<nav class="breadcrumb" aria-label="パンくず">
+  <a href="{{ "/" | relLangURL }}">ホーム</a>
+  {{ if .IsPage }}{{ with index (.GetTerms "category") 0 }}<span class="sep">›</span><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ end }}
+  <span class="sep">›</span><span>{{ .Title }}</span>
+</nav>
+{{ end }}

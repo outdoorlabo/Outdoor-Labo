@@ -1,0 +1,13 @@
+<article class="entry-card">
+  <a class="entry-card-link" href="{{ .RelPermalink }}" title="{{ .Title }}">
+    <figure class="entry-card-thumb">
+      {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ else }}<span class="no-image">NO IMAGE</span>{{ end }}
+      {{ with index (.GetTerms "category") 0 }}<span class="cat-label">{{ .LinkTitle }}</span>{{ end }}
+    </figure>
+    <div class="entry-card-content">
+      <h2 class="entry-card-title">{{ .Title }}</h2>
+      <p class="entry-card-snippet">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 100 }}{{ end }}</p>
+      <div class="entry-card-meta"><time class="date-clock" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time></div>
+    </div>
+  </a>
+</article>
