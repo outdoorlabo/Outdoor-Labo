@@ -32,8 +32,15 @@ buildFuture = false
   filename = "sitemap.xml"
   priority = 0.5
 
+# サイト内検索用のインデックス(/search-index.json)
+[outputFormats.SearchIndex]
+  mediaType = "application/json"
+  baseName = "search-index"
+  isPlainText = true
+  notAlternative = true
+
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "SearchIndex"]
 
 # 関連記事(カテゴリ・タグが近い記事を優先)
 [related]

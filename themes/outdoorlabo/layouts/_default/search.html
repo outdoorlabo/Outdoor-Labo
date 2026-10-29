@@ -1,0 +1,67 @@
+{{ define "main" }}
+  <article class="article">
+    <h1 class="article-title">{{ .Title }}</h1>
+    <form class="search-form search-form-page" action="{{ "search/" | relURL }}" method="get" role="search">
+      <input type="search" id="search-q" name="q" placeholder="キーワードを入力(スペースで AND 検索)" aria-label="キーワード">
+      <button type="submit" aria-label="検索">{{ partial "icon.html" "search" }}</button>
+    </form>
+    <p id="search-status" class="search-status" role="status"></p>
+    <div id="search-results" class="entry-list"></div>
+    <p class="search-more-wrap"><button type="button" id="search-more" class="search-more" hidden>もっと見る</button></p>
+  </article>
+  <script>
+  (function () {
+    var INDEX = {{ "search-index.json" | relURL | jsonify }};
+    var PER = 20;
+    var q = (new URLSearchParams(location.search).get("q") || "").trim();
+    var input = document.getElementById("search-q");
+    var status = document.getElementById("search-status");
+    var box = document.getElementById("search-results");
+    var more = document.getElementById("search-more");
+    input.value = q;
+    function norm(s) { return (s || "").normalize("NFKC").toLowerCase(); }
+    function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+    function re(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+    if (!q) { status.textContent = "キーワードを入力してください。"; return; }
+    status.textContent = "検索中…";
+    var terms = norm(q).split(/\s+/).filter(Boolean);
+    fetch(INDEX).then(function (r) { return r.json(); }).then(function (items) {
+      var hits = [];
+      items.forEach(function (it) {
+        var title = norm(it.title), meta = norm(it.cat + " " + it.tags), body = norm(it.text);
+        var all = title + " " + meta + " " + body;
+        if (!terms.every(function (t) { return all.indexOf(t) > -1; })) return;
+        var score = 0;
+        terms.forEach(function (t) { if (title.indexOf(t) > -1) score += 10; if (meta.indexOf(t) > -1) score += 3; });
+        hits.push({ it: it, score: score });
+      });
+      hits.sort(function (a, b) { return b.score - a.score || (a.it.date < b.it.date ? 1 : -1); });
+      status.textContent = hits.length ? "「" + q + "」の検索結果: " + hits.length + "件" : "「" + q + "」に一致する記事は見つかりませんでした。";
+      var shown = 0;
+      function snippet(it) {
+        var text = it.text || "", n = norm(text), pos = -1;
+        for (var i = 0; i < terms.length && pos < 0; i++) pos = n.indexOf(terms[i]);
+        var s = pos < 0 ? (it.desc || text.slice(0, 110)) : text.slice(Math.max(0, pos - 30), pos + 90);
+        var h = esc(s);
+        terms.forEach(function (t) { try { h = h.replace(new RegExp(re(esc(t)), "gi"), "<mark>$&</mark>"); } catch (e) {} });
+        return (pos > 30 ? "…" : "") + h + "…";
+      }
+      function render() {
+        hits.slice(shown, shown + PER).forEach(function (h) {
+          var it = h.it;
+          var thumb = it.image ? '<img src="' + esc(it.image) + '" alt="" loading="lazy">' : '<span class="no-image">NO IMAGE</span>';
+          var cat = it.cat ? '<span class="cat-label">' + esc(it.cat) + "</span>" : "";
+          box.insertAdjacentHTML("beforeend",
+            '<article class="entry-card"><a class="entry-card-link" href="' + esc(it.url) + '"><figure class="entry-card-thumb">' + thumb + cat +
+            '</figure><div class="entry-card-content"><h2 class="entry-card-title">' + esc(it.title) + '</h2><p class="entry-card-snippet">' + snippet(it) +
+            '</p><div class="entry-card-meta"><time class="date-clock">' + esc(it.date) + "</time></div></div></a></article>");
+        });
+        shown = Math.min(shown + PER, hits.length);
+        more.hidden = shown >= hits.length;
+      }
+      more.addEventListener("click", render);
+      render();
+    }).catch(function () { status.textContent = "検索データを読み込めませんでした。時間をおいて、もう一度お試しください。"; });
+  })();
+  </script>
+{{ end }}

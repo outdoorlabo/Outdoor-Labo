@@ -1,0 +1,11 @@
+{{- $items := slice -}}
+{{- range where site.RegularPages "Section" "posts" -}}
+  {{- $cat := "" -}}
+  {{- with .GetTerms "category" -}}{{- $cat = (index . 0).LinkTitle -}}{{- end -}}
+  {{- $tags := slice -}}
+  {{- range .GetTerms "tag" -}}{{- $tags = $tags | append .LinkTitle -}}{{- end -}}
+  {{- $plain := .Plain | replaceRE `\s+` " " -}}
+  {{- $text := substr $plain 0 5000 -}}
+  {{- $items = $items | append (dict "title" .Title "url" .RelPermalink "date" (.Date.Format "2006.01.02") "image" (.Params.image | default "") "cat" $cat "tags" (delimit $tags " ") "desc" .Description "text" $text) -}}
+{{- end -}}
+{{- $items | jsonify -}}

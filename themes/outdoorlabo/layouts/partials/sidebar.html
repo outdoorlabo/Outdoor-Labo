@@ -22,11 +22,10 @@
   </section>
   {{ end }}
 
-  {{/* Search: Google サイト内検索(Pagefind 等に差し替え可) */}}
+  {{/* Search: サイト内検索(/search/ ページで全文検索) */}}
   <section class="widget widget-search">
     <h3 class="widget-title">Search</h3>
-    <form action="https://www.google.com/search" method="get" target="_blank" class="search-form" role="search">
-      <input type="hidden" name="as_sitesearch" value="{{ (urls.Parse site.BaseURL).Host }}">
+    <form action="{{ "search/" | relURL }}" method="get" class="search-form" role="search">
       <input type="search" name="q" placeholder="サイト内を検索" aria-label="サイト内を検索">
       <button type="submit" aria-label="検索">{{ partial "icon.html" "search" }}</button>
     </form>
