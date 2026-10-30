@@ -4,8 +4,8 @@
 media:
   - name: post-images
     label: 記事画像
-    input: static/images/posts
-    output: /images/posts
+    input: static/wp-content/uploads
+    output: /wp-content/uploads
     categories: [image]
     extensions: [jpg, jpeg, png, webp, gif]
     rename: safe
