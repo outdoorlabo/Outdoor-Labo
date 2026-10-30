@@ -35,7 +35,7 @@ jobs:
 
       - name: Commit generated reference data
         run: |
-          if git diff --quiet -- data/pages-cms; then
+          if [ -z "$(git status --porcelain -- data/pages-cms)" ]; then
             echo "Taxonomy reference data is already up to date."
             exit 0
           fi
