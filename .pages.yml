@@ -123,16 +123,6 @@ content:
           media: post-images
           switcher: true
 
-actions:
-  - name: migrate-taxonomy-slugs
-    label: カテゴリー・タグを一括移行
-    workflow: migrate-taxonomy-slugs.yml
-    ref: current
-    confirm:
-      title: 分類データを移行しますか？
-      message: 既存のカテゴリー94件・タグ922件の各ファイルに、フォルダ名と同じslug項目を追加します。記事の分類値やURLは変更しません。
-      button: 一括移行を実行
-
 settings:
   content:
     merge: true
