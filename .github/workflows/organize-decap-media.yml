@@ -6,6 +6,7 @@ on:
       - 'cms/**'
     paths:
       - 'static/wp-content/uploads/_incoming/**'
+      - 'content/posts/**/*.md'
 
 permissions:
   contents: write
@@ -24,9 +25,8 @@ jobs:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
 
-      - name: Move staged media into the WordPress year/month structure
+      - name: Move referenced staged media into the WordPress year/month structure
         env:
-          SOURCE_COMMIT: ${{ github.event.before }}
           PUSH_COMMIT: ${{ github.sha }}
         run: |
           python3 - <<'PY'
@@ -42,12 +42,25 @@ jobs:
               print("No incoming media directory; nothing to do.")
               raise SystemExit(0)
 
+          markdown_files = sorted(Path("content/posts").rglob("*.md"))
+          documents = {md: md.read_text(encoding="utf-8") for md in markdown_files}
           files = sorted(p for p in incoming.rglob("*") if p.is_file())
           if not files:
               print("No staged media files; nothing to do.")
               raise SystemExit(0)
 
-          # Use the CMS save commit timestamp, not the article publication date.
+          # Only organize files that are already referenced by a saved CMS entry.
+          referenced = []
+          for source in files:
+              old_url = "/wp-content/uploads/_incoming/" + source.relative_to(incoming).as_posix()
+              if any(old_url in body for body in documents.values()):
+                  referenced.append((source, old_url))
+
+          if not referenced:
+              print("Staged uploads are not referenced by saved articles yet; leaving them in _incoming.")
+              raise SystemExit(0)
+
+          # Use the save commit timestamp converted to Japan time, never the post publication date.
           iso = subprocess.check_output(
               ["git", "show", "-s", "--format=%cI", os.environ["PUSH_COMMIT"]],
               text=True
@@ -56,7 +69,7 @@ jobs:
           year, month = saved_at.strftime("%Y"), saved_at.strftime("%m")
 
           moved = []
-          for source in files:
+          for source, old_url in referenced:
               target_dir = Path("static/wp-content/uploads") / year / month
               target_dir.mkdir(parents=True, exist_ok=True)
               target = target_dir / source.name
@@ -66,23 +79,20 @@ jobs:
                   while target.exists():
                       target = target_dir / f"{stem}-{n}{suffix}"
                       n += 1
-              old_url = "/wp-content/uploads/_incoming/" + source.relative_to(incoming).as_posix()
               new_url = "/wp-content/uploads/" + year + "/" + month + "/" + target.name
               target.parent.mkdir(parents=True, exist_ok=True)
               shutil.move(str(source), str(target))
               moved.append((old_url, new_url))
               print(f"{old_url} -> {new_url}")
 
-          # Rewrite both front matter image paths and body references in the draft.
-          for md in Path("content/posts").rglob("*.md"):
-              text = md.read_text(encoding="utf-8")
-              updated = text
+          for md, original in documents.items():
+              updated = original
               for old_url, new_url in moved:
                   updated = updated.replace(old_url, new_url)
-              if updated != text:
+              if updated != original:
                   md.write_text(updated, encoding="utf-8")
 
-          # Remove empty staging directories.
+          # Remove only empty staging directories; unreferenced uploads remain untouched.
           for directory in sorted((p for p in incoming.rglob("*") if p.is_dir()),
                                   key=lambda p: len(p.parts), reverse=True):
               try:
