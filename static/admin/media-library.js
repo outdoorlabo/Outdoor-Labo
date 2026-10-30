@@ -35,22 +35,12 @@
 
   const mediaLibrary = {
     name: PLUGIN_NAME,
-    async init({ handleInsert, getMediaLibraryContext }) {
-      if (typeof getMediaLibraryContext !== 'function') {
-        throw new Error('Decap CMS media library context is unavailable.');
-      }
-      const context = await getMediaLibraryContext();
-      const backend = context.backendConfig || {};
-      const token = context.token;
-      const repo = backend.repo;
-      const branch = backend.branch || 'main';
-      if (!token || !repo || !/^[-a-zA-Z0-9_.]+\/[-a-zA-Z0-9_.]+$/.test(repo)) {
-        throw new Error('GitHub repository or OAuth token is unavailable to the media library.');
-      }
+    async init({ handleInsert }) {
+      const repo = 'outdoorlabo/Outdoor-Labo';
+      const branch = 'main';
       const apiBase = 'https://api.github.com/repos/' + repo;
       const headers = {
         Accept: 'application/vnd.github+json',
-        Authorization: 'Bearer ' + token,
         'X-GitHub-Api-Version': '2022-11-28'
       };
 
