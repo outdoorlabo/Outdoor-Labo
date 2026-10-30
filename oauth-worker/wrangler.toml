@@ -1,0 +1,7 @@
+name = "outdoorlabo-decap-auth"
+main = "src/index.ts"
+compatibility_date = "2026-10-30"
+workers_dev = true
+
+[vars]
+CMS_ORIGIN = "https://outdoorlabo.a-ce.com"
