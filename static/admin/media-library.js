@@ -3,7 +3,7 @@
 
   const PLUGIN_NAME = 'outdoor-labo-folder-library';
   const MEDIA_ROOT = 'static/wp-content/uploads';
-  const IMAGE_EXT = /\\.(jpe?g|png|gif|webp|avif|svg|bmp|ico)$/i;
+  const IMAGE_EXT = /\.(jpe?g|png|gif|webp|avif|svg|bmp|ico)$/i;
 
   function element(tag, className, text) {
     const node = document.createElement(tag);
@@ -44,7 +44,7 @@
       const token = context.token;
       const repo = backend.repo;
       const branch = backend.branch || 'main';
-      if (!token || !repo || !/^[-a-zA-Z0-9_.]+\\/[-a-zA-Z0-9_.]+$/.test(repo)) {
+      if (!token || !repo || !/^[-a-zA-Z0-9_.]+\/[-a-zA-Z0-9_.]+$/.test(repo)) {
         throw new Error('GitHub repository or OAuth token is unavailable to the media library.');
       }
       const apiBase = 'https://api.github.com/repos/' + repo;
