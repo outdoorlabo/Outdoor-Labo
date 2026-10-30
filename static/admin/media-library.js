@@ -154,8 +154,8 @@
           if (!input.files || !input.files.length) return;
           const chosen = [...input.files];
           loading = true; render();
+          const occupied = new Set(files.map(item => item.path));
           for (const file of chosen) {
-            const occupied = new Set(files.map(item => item.path));
             const dot = file.name.lastIndexOf('.');
             const stem = dot > 0 ? file.name.slice(0, dot) : file.name;
             const ext = dot > 0 ? file.name.slice(dot) : '';
@@ -166,6 +166,7 @@
               suffix += 1;
             }
             const path = INCOMING_FOLDER + '/' + uploadName;
+            occupied.add(path);
             try {
               await backend.persistMedia({ file, path }, { commitMessage: 'Upload ' + uploadName + ' to Decap incoming media' });
             } catch (error) {
