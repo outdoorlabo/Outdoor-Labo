@@ -11,6 +11,52 @@ media:
     rename: safe
 
 content:
+  - name: categories
+    label: カテゴリー管理
+    type: collection
+    path: content/category
+    subfolders: true
+    format: yaml-frontmatter
+    filename:
+      template: "{fields.slug}/_index.md"
+      field: false
+    view:
+      primary: title
+      fields: [title, slug]
+    fields:
+      - name: title
+        label: カテゴリー名
+        type: string
+        required: true
+      - name: slug
+        label: URLスラッグ（英数字）
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+
+  - name: tags
+    label: タグ管理
+    type: collection
+    path: content/tag
+    subfolders: true
+    format: yaml-frontmatter
+    filename:
+      template: "{fields.slug}/_index.md"
+      field: false
+    view:
+      primary: title
+      fields: [title, slug]
+    fields:
+      - name: title
+        label: タグ名
+        type: string
+        required: true
+      - name: slug
+        label: URLスラッグ（英数字）
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+
   - name: posts
     label: 記事
     type: collection
