@@ -5,7 +5,7 @@ on:
     inputs:
       payload:
         description: Pages CMS action payload
-        required: false
+        required: true
         type: string
 
 permissions:
