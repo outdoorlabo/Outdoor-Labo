@@ -46,6 +46,7 @@ function callbackPage(
   cmsOrigin: string,
   status: "success" | "error",
   payload: { token?: string; message?: string },
+  extraHeaders: HeadersInit = {},
 ): Response {
   // Escape characters that could terminate the inline script context.
   const payloadJson = JSON.stringify(payload).replace(/</g, "\\u003c");
@@ -77,7 +78,10 @@ function callbackPage(
   </script>
 </body>
 </html>`;
-  return htmlResponse(html, 200, { "Content-Security-Policy": "default-src 'none'; script-src 'unsafe-inline'; base-uri 'none'; frame-ancestors 'none'" });
+  return htmlResponse(html, 200, {
+    ...Object.fromEntries(new Headers(extraHeaders).entries()),
+    "Content-Security-Policy": "default-src 'none'; script-src 'unsafe-inline'; base-uri 'none'; frame-ancestors 'none'",
+  });
 }
 
 function errorPage(message: string, status = 400, extra: HeadersInit = {}): Response {
@@ -124,7 +128,7 @@ async function handleCallback(request: Request, env: Env): Promise<Response> {
   if (oauthError) {
     return callbackPage(env.CMS_ORIGIN, "error", {
       message: "GitHub authorization was not completed.",
-    });
+    }, { "Set-Cookie": clearState });
   }
 
   const code = url.searchParams.get("code");
@@ -163,7 +167,9 @@ async function handleCallback(request: Request, env: Env): Promise<Response> {
     });
   }
 
-  return callbackPage(env.CMS_ORIGIN, "success", { token: tokenData.access_token });
+  return callbackPage(env.CMS_ORIGIN, "success", { token: tokenData.access_token }, {
+    "Set-Cookie": clearState,
+  });
 }
 
 export default {
