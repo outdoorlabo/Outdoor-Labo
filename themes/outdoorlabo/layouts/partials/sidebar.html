@@ -66,7 +66,7 @@
     </div>
     {{ $feed := site.Params.beholdFeedId }}
     {{ if or $ig.posts $feed }}
-    <div class="ig-grid"{{ with $feed }} data-feed="https://feeds.behold.so/{{ . }}"{{ end }}>
+    <div class="ig-grid"{{ with $feed }} data-feed="{{ . }}"{{ end }}>
       {{ with $ig.posts }}{{ range first 12 . }}{{ if .image }}<a href="{{ .url }}" target="_blank" rel="noopener"><img src="{{ .image | relURL }}" alt="" loading="lazy"></a>{{ end }}{{ end }}{{ end }}
     </div>
     {{ end }}
