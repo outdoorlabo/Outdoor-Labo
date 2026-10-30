@@ -176,7 +176,7 @@ a.page-numbers:hover { background: var(--c-soft); opacity: 1; }
 .ig-avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 .ig-name { display: block; font-size: 1.3rem; color: var(--c-muted); line-height: 1.4; }
 .ig-bio { margin: 2px 0 0; font-size: .9rem; line-height: 1.5; color: var(--c-link); }
-.ig-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 14px; }
+.ig-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 14px; }
 .ig-grid a { display: block; aspect-ratio: 1; }
 .ig-grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .ig-actions { margin: 0; }
