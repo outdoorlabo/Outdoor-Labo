@@ -1,4 +1,5 @@
 ---
 title: "Backpacker Magazine Editor's Choice"
+slug: "backpacker-magazine-editors-choice"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "アクアクエスト"
+slug: "aqua-quest"
 ---
 

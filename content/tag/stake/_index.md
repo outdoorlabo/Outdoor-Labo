@@ -1,4 +1,5 @@
 ---
 title: "ペグ"
+slug: "stake"
 ---
 

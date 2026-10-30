@@ -1,4 +1,5 @@
 ---
 title: "OR"
+slug: "or"
 ---
 

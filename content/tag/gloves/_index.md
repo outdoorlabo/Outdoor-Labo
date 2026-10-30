@@ -1,4 +1,5 @@
 ---
 title: "グローブ"
+slug: "gloves"
 ---
 

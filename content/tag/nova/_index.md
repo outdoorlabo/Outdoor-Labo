@@ -1,4 +1,5 @@
 ---
 title: "Nova"
+slug: "nova"
 ---
 

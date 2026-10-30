@@ -1,4 +1,5 @@
 ---
 title: "helinox"
+slug: "helinox"
 ---
 

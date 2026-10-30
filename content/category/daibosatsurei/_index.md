@@ -1,4 +1,5 @@
 ---
 title: "大菩薩嶺"
+slug: "daibosatsurei"
 ---
 

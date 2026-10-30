@@ -1,4 +1,5 @@
 ---
 title: "スイス軍"
+slug: "swss-army"
 ---
 

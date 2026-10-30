@@ -1,4 +1,5 @@
 ---
 title: "レシピ"
+slug: "recipe"
 ---
 

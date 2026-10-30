@@ -1,4 +1,5 @@
 ---
 title: "サングラス"
+slug: "sunglasses"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "titanlight"
+slug: "titanlight"
 ---
 

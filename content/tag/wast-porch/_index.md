@@ -1,4 +1,5 @@
 ---
 title: "ウエストポーチ"
+slug: "wast-porch"
 ---
 

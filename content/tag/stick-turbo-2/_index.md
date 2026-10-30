@@ -1,4 +1,5 @@
 ---
 title: "スティックターボ II"
+slug: "stick-turbo-2"
 ---
 

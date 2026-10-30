@@ -1,4 +1,5 @@
 ---
 title: "OSHMAN'S"
+slug: "oshmans"
 ---
 

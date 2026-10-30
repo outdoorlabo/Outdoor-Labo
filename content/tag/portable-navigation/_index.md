@@ -1,4 +1,5 @@
 ---
 title: "ポータブルナビ"
+slug: "portable-navigation"
 ---
 

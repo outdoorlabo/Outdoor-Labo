@@ -1,4 +1,5 @@
 ---
 title: "キャプテンスタッグ"
+slug: "captain-stag"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "SEA TO SUMMIT"
+slug: "sea-to-summit"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "クールタオル"
+slug: "cool-towel"
 ---
 

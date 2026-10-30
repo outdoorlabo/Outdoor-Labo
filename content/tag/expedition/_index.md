@@ -1,4 +1,5 @@
 ---
 title: "エクスペディション"
+slug: "expedition"
 ---
 

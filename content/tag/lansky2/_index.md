@@ -1,4 +1,5 @@
 ---
 title: "ランスキー"
+slug: "lansky2"
 ---
 

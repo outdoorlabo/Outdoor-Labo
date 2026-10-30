@@ -1,4 +1,5 @@
 ---
 title: "mora"
+slug: "mora"
 ---
 

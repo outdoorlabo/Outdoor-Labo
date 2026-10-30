@@ -1,4 +1,5 @@
 ---
 title: "ミステリーランチ"
+slug: "mystery-ranch"
 ---
 

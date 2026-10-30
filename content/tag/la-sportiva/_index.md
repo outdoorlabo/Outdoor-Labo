@@ -1,4 +1,5 @@
 ---
 title: "La Sportiva"
+slug: "la-sportiva"
 ---
 

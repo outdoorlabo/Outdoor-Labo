@@ -1,4 +1,5 @@
 ---
 title: "ジョギング"
+slug: "jogging"
 ---
 

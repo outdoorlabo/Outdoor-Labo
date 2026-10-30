@@ -1,4 +1,5 @@
 ---
 title: "ソビエト"
+slug: "soviet"
 ---
 

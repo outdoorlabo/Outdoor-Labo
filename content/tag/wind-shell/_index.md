@@ -1,4 +1,5 @@
 ---
 title: "ウインドシェル"
+slug: "wind-shell"
 ---
 

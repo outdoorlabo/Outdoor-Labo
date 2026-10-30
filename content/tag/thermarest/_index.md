@@ -1,4 +1,5 @@
 ---
 title: "thermarest"
+slug: "thermarest"
 ---
 

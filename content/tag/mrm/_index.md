@@ -1,4 +1,5 @@
 ---
 title: "MRM"
+slug: "mrm"
 ---
 

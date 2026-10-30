@@ -1,4 +1,5 @@
 ---
 title: "ノースフェイス"
+slug: "northface"
 ---
 

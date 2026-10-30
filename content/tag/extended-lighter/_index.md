@@ -1,4 +1,5 @@
 ---
 title: "伸びるライター"
+slug: "extended-lighter"
 ---
 

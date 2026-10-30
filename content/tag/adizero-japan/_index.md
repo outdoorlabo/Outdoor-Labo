@@ -1,4 +1,5 @@
 ---
 title: "adizero Japan"
+slug: "adizero-japan"
 ---
 

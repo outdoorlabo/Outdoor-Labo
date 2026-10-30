@@ -1,4 +1,5 @@
 ---
 title: "Shimano"
+slug: "shimano"
 ---
 

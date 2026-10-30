@@ -1,4 +1,5 @@
 ---
 title: "Bonfire"
+slug: "bonfire"
 ---
 

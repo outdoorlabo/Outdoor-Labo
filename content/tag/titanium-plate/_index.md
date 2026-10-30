@@ -1,4 +1,5 @@
 ---
 title: "チタンプレート"
+slug: "titanium-plate"
 ---
 

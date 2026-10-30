@@ -1,4 +1,5 @@
 ---
 title: "Rush 7R"
+slug: "rush-7r"
 ---
 

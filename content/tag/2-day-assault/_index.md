@@ -1,4 +1,5 @@
 ---
 title: "2 day Assault"
+slug: "2-day-assault"
 ---
 

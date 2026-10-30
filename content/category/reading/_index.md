@@ -1,4 +1,5 @@
 ---
 title: "読み物"
+slug: "reading"
 ---
 

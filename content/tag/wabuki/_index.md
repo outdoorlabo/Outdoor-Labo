@@ -1,4 +1,5 @@
 ---
 title: "和武器"
+slug: "wabuki"
 ---
 

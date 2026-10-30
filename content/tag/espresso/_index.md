@@ -1,4 +1,5 @@
 ---
 title: "エスプレッソ"
+slug: "espresso"
 ---
 

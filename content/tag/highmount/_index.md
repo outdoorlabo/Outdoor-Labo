@@ -1,4 +1,5 @@
 ---
 title: "ハイマウント"
+slug: "highmount"
 ---
 

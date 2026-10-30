@@ -1,4 +1,5 @@
 ---
 title: "EOS"
+slug: "eos"
 ---
 

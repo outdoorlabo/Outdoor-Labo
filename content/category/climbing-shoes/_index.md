@@ -1,4 +1,5 @@
 ---
 title: "クライミングシューズ"
+slug: "climbing-shoes"
 ---
 

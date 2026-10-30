@@ -1,4 +1,5 @@
 ---
 title: "ファーストニード"
+slug: "first-need2"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Lowa"
+slug: "lowa"
 ---
 

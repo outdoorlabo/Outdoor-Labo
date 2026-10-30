@@ -1,4 +1,5 @@
 ---
 title: "ヘラ"
+slug: "hella"
 ---
 

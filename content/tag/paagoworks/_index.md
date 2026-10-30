@@ -1,4 +1,5 @@
 ---
 title: "パーゴワークス"
+slug: "paagoworks"
 ---
 

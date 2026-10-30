@@ -1,4 +1,5 @@
 ---
 title: "Magic Mouse"
+slug: "magic-mouse"
 ---
 

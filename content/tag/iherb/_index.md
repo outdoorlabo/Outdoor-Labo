@@ -1,4 +1,5 @@
 ---
 title: "iherb"
+slug: "iherb"
 ---
 

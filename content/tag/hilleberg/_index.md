@@ -1,4 +1,5 @@
 ---
 title: "Hilleberg"
+slug: "hilleberg"
 ---
 

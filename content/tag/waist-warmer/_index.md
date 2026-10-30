@@ -1,4 +1,5 @@
 ---
 title: "ウエスト ウォーマー"
+slug: "waist-warmer"
 ---
 

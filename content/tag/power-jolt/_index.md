@@ -1,4 +1,5 @@
 ---
 title: "Power Jolt"
+slug: "power-jolt"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "プロテイン"
+slug: "protein"
 ---
 

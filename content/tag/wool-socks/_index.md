@@ -1,4 +1,5 @@
 ---
 title: "ウールソックス"
+slug: "wool-socks"
 ---
 

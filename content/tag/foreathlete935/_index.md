@@ -1,4 +1,5 @@
 ---
 title: "Foreathlete935"
+slug: "foreathlete935"
 ---
 

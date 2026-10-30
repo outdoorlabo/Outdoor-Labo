@@ -1,4 +1,5 @@
 ---
 title: "キャンピング"
+slug: "camping"
 ---
 

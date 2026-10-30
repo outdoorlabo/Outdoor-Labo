@@ -1,4 +1,5 @@
 ---
 title: "レザーケース"
+slug: "leather-case"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "nano"
+slug: "nano"
 ---
 

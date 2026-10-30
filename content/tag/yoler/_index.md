@@ -1,4 +1,5 @@
 ---
 title: "yoler"
+slug: "yoler"
 ---
 

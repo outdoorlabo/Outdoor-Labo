@@ -1,4 +1,5 @@
 ---
 title: "μTOUGH-6010"
+slug: "μtough-6010"
 ---
 

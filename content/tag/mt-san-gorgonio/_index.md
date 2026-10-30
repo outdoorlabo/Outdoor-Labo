@@ -1,4 +1,5 @@
 ---
 title: "Mt. San Gorgonio"
+slug: "mt-san-gorgonio"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "GPS"
+slug: "gps"
 ---
 

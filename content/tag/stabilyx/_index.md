@@ -1,4 +1,5 @@
 ---
 title: "スタビライクス"
+slug: "stabilyx"
 ---
 

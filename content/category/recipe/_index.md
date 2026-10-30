@@ -1,4 +1,5 @@
 ---
 title: "山飯・キャンプ飯"
+slug: "recipe"
 ---
 

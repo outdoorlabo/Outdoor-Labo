@@ -1,4 +1,5 @@
 ---
 title: "Patagonia"
+slug: "patagonia"
 ---
 

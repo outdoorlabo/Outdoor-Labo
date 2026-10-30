@@ -1,4 +1,5 @@
 ---
 title: "Trango Extreme EVO Light GTX"
+slug: "trango-extreme-evo-light-gtx"
 ---
 

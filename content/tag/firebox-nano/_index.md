@@ -1,4 +1,5 @@
 ---
 title: "firebox nano"
+slug: "firebox-nano"
 ---
 

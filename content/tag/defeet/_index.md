@@ -1,4 +1,5 @@
 ---
 title: "DeFeet"
+slug: "defeet"
 ---
 

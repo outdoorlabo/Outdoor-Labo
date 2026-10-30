@@ -1,4 +1,5 @@
 ---
 title: "テント"
+slug: "tent"
 ---
 

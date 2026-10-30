@@ -1,4 +1,5 @@
 ---
 title: "ハイカー ウォレット　[ワレット]"
+slug: "hiker-wallet"
 ---
 

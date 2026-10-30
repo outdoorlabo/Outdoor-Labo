@@ -1,4 +1,5 @@
 ---
 title: "ピナクル"
+slug: "pinnacle2"
 ---
 

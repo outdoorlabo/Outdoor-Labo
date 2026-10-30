@@ -1,4 +1,5 @@
 ---
 title: "KASK"
+slug: "kask"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "フーディニ"
+slug: "houdini"
 ---
 

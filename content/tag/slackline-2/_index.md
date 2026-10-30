@@ -1,4 +1,5 @@
 ---
 title: "Slackline"
+slug: "slackline-2"
 ---
 

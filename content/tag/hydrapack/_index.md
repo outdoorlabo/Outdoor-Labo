@@ -1,4 +1,5 @@
 ---
 title: "ハイドラパック"
+slug: "hydrapack"
 ---
 

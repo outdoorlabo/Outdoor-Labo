@@ -1,4 +1,5 @@
 ---
 title: "フラック ジャケット"
+slug: "flak-jacket2"
 ---
 

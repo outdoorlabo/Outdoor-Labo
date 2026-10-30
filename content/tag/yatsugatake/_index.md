@@ -1,4 +1,5 @@
 ---
 title: "八ヶ岳"
+slug: "yatsugatake"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "パーツ"
+slug: "road-parts"
 ---
 

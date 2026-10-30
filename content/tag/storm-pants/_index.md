@@ -1,4 +1,5 @@
 ---
 title: "Storm Pants"
+slug: "storm-pants"
 ---
 

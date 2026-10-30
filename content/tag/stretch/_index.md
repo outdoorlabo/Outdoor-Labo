@@ -1,4 +1,5 @@
 ---
 title: "ストレッチ"
+slug: "stretch"
 ---
 

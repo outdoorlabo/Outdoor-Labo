@@ -1,4 +1,5 @@
 ---
 title: "アダプター"
+slug: "adaptor"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "コンドロイチン"
+slug: "chondroitin"
 ---
 

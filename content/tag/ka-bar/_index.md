@@ -1,4 +1,5 @@
 ---
 title: "ka-bar"
+slug: "ka-bar"
 ---
 

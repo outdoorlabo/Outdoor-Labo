@@ -1,4 +1,5 @@
 ---
 title: "Oakley"
+slug: "oakley"
 ---
 

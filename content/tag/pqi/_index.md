@@ -1,4 +1,5 @@
 ---
 title: "PQI"
+slug: "pqi"
 ---
 

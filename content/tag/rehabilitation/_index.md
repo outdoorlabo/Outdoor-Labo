@@ -1,4 +1,5 @@
 ---
 title: "リハビリ"
+slug: "rehabilitation"
 ---
 

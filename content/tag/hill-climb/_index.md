@@ -1,4 +1,5 @@
 ---
 title: "ヒルクライム"
+slug: "hill-climb"
 ---
 

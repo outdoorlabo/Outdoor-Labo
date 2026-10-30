@@ -1,4 +1,5 @@
 ---
 title: "R1 パンツ"
+slug: "r1-pants"
 ---
 

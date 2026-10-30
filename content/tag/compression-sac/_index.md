@@ -1,4 +1,5 @@
 ---
 title: "コンプレッションサック"
+slug: "compression-sac"
 ---
 

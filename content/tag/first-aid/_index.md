@@ -1,4 +1,5 @@
 ---
 title: "ファーストエイド"
+slug: "first-aid"
 ---
 

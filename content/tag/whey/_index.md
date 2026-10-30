@@ -1,4 +1,5 @@
 ---
 title: "ホエイ"
+slug: "whey"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "DRC-BT60"
+slug: "drc-bt60"
 ---
 

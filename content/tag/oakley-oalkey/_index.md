@@ -1,4 +1,5 @@
 ---
 title: "オークリー"
+slug: "oakley-oalkey"
 ---
 

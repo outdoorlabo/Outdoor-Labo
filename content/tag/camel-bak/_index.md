@@ -1,4 +1,5 @@
 ---
 title: "キャメルバック"
+slug: "camel-bak"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Grivel"
+slug: "grivel"
 ---
 

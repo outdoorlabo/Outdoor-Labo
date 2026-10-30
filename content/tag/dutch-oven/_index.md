@@ -1,4 +1,5 @@
 ---
 title: "ダッチオーブン"
+slug: "dutch-oven"
 ---
 

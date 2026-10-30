@@ -1,4 +1,5 @@
 ---
 title: "ビアレッティ"
+slug: "bialetti"
 ---
 

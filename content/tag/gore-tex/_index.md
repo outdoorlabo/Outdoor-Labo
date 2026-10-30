@@ -1,4 +1,5 @@
 ---
 title: "Gore-Tex"
+slug: "gore-tex"
 ---
 

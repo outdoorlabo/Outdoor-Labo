@@ -1,4 +1,5 @@
 ---
 title: "9極の耐9"
+slug: "9tai-race"
 ---
 

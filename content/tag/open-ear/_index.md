@@ -1,4 +1,5 @@
 ---
 title: "オープンイヤー型"
+slug: "open-ear"
 ---
 

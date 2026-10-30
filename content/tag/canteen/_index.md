@@ -1,4 +1,5 @@
 ---
 title: "キャンティーン"
+slug: "canteen"
 ---
 

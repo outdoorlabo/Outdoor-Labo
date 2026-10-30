@@ -1,4 +1,5 @@
 ---
 title: "オイルランプ"
+slug: "oil-lantern"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "お皿"
+slug: "dish"
 ---
 

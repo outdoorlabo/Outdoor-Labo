@@ -1,4 +1,5 @@
 ---
 title: "アディダス"
+slug: "adidas-adidas"
 ---
 

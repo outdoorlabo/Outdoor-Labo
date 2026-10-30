@@ -1,4 +1,5 @@
 ---
 title: "チェコ軍"
+slug: "czech-army"
 ---
 

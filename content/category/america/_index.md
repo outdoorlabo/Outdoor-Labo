@@ -1,4 +1,5 @@
 ---
 title: "アメリカ"
+slug: "america"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "サーモス"
+slug: "thermos"
 ---
 

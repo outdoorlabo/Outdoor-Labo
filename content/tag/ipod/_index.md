@@ -1,4 +1,5 @@
 ---
 title: "iPod"
+slug: "ipod"
 ---
 

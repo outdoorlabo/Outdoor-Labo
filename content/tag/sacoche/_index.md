@@ -1,4 +1,5 @@
 ---
 title: "サコッシュ"
+slug: "sacoche"
 ---
 

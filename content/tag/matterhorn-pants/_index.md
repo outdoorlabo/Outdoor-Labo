@@ -1,4 +1,5 @@
 ---
 title: "マッターホルン パンツ"
+slug: "matterhorn-pants"
 ---
 

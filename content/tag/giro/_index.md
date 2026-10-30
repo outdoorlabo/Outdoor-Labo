@@ -1,4 +1,5 @@
 ---
 title: "GIRO"
+slug: "giro"
 ---
 

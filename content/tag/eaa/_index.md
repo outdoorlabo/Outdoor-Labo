@@ -1,4 +1,5 @@
 ---
 title: "EAA"
+slug: "eaa"
 ---
 

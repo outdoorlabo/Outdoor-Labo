@@ -1,4 +1,5 @@
 ---
 title: "サンバイザー"
+slug: "sunvisor"
 ---
 

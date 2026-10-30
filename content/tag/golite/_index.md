@@ -1,4 +1,5 @@
 ---
 title: "Golite"
+slug: "golite"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Delta SV"
+slug: "delta-sv"
 ---
 

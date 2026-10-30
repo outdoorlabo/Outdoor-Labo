@@ -1,4 +1,5 @@
 ---
 title: "中央沿線"
+slug: "chuoensen"
 ---
 

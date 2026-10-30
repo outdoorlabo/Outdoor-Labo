@@ -1,4 +1,5 @@
 ---
 title: "Lodge"
+slug: "lodge"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "1人用"
+slug: "one-person"
 ---
 

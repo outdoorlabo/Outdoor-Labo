@@ -1,4 +1,5 @@
 ---
 title: "トレーニング"
+slug: "training"
 ---
 

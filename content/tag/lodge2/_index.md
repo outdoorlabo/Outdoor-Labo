@@ -1,4 +1,5 @@
 ---
 title: "ロッジ"
+slug: "lodge2"
 ---
 

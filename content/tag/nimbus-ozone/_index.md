@@ -1,4 +1,5 @@
 ---
 title: "ニンバス オゾン"
+slug: "nimbus-ozone"
 ---
 

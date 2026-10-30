@@ -1,4 +1,5 @@
 ---
 title: "トレーニング用品"
+slug: "training-goods"
 ---
 

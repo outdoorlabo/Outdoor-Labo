@@ -1,4 +1,5 @@
 ---
 title: "AvaLung Pack"
+slug: "avalung-pack"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "用具"
+slug: "climbing-gears"
 ---
 

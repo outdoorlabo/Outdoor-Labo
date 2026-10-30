@@ -1,4 +1,5 @@
 ---
 title: "ガーミン"
+slug: "garmin-garmin"
 ---
 

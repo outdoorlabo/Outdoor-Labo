@@ -1,4 +1,5 @@
 ---
 title: "BMC SLR02"
+slug: "bmc-slr02"
 ---
 

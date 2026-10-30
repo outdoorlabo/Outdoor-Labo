@@ -1,4 +1,5 @@
 ---
 title: "羽村 [多摩サイ]"
+slug: "hamura"
 ---
 

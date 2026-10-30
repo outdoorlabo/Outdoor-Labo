@@ -1,4 +1,5 @@
 ---
 title: "プロストレッチプラス"
+slug: "pro-stretch-plus2"
 ---
 

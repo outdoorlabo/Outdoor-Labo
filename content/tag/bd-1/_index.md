@@ -1,4 +1,5 @@
 ---
 title: "BD-1"
+slug: "bd-1"
 ---
 

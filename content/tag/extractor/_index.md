@@ -1,4 +1,5 @@
 ---
 title: "エクストラクター"
+slug: "extractor"
 ---
 

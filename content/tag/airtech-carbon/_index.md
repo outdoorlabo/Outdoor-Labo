@@ -1,4 +1,5 @@
 ---
 title: "エアーテック カーボン"
+slug: "airtech-carbon"
 ---
 

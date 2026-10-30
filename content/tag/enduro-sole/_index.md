@@ -1,4 +1,5 @@
 ---
 title: "エンデュロソール"
+slug: "enduro-sole"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Light My Fire"
+slug: "light-my-fire"
 ---
 

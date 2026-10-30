@@ -1,4 +1,5 @@
 ---
 title: "キャメロンズ"
+slug: "camerons"
 ---
 

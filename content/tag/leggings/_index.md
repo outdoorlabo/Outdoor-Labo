@@ -1,4 +1,5 @@
 ---
 title: "スパッツ"
+slug: "leggings"
 ---
 

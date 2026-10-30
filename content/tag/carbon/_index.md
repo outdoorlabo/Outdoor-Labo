@@ -1,4 +1,5 @@
 ---
 title: "カーボン"
+slug: "carbon"
 ---
 

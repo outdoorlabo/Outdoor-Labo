@@ -1,4 +1,5 @@
 ---
 title: "タコス"
+slug: "tacos"
 ---
 

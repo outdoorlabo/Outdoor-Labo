@@ -1,4 +1,5 @@
 ---
 title: "LF"
+slug: "lf"
 ---
 

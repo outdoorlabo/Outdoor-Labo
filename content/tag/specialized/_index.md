@@ -1,4 +1,5 @@
 ---
 title: "Specialized"
+slug: "specialized"
 ---
 

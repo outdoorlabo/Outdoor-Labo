@@ -1,4 +1,5 @@
 ---
 title: "トルティーヤ"
+slug: "tortilla"
 ---
 

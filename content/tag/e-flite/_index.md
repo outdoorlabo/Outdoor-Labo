@@ -1,4 +1,5 @@
 ---
 title: "E-Flite"
+slug: "e-flite"
 ---
 

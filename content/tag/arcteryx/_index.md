@@ -1,4 +1,5 @@
 ---
 title: "ARC'TERYX"
+slug: "arcteryx"
 ---
 

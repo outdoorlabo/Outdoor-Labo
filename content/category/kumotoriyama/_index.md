@@ -1,4 +1,5 @@
 ---
 title: "雲取山"
+slug: "kumotoriyama"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "ローバー"
+slug: "rover"
 ---
 

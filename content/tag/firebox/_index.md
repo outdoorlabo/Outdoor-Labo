@@ -1,4 +1,5 @@
 ---
 title: "firebox"
+slug: "firebox"
 ---
 

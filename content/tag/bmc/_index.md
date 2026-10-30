@@ -1,4 +1,5 @@
 ---
 title: "BMC"
+slug: "bmc"
 ---
 

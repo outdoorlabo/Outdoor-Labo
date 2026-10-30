@@ -1,4 +1,5 @@
 ---
 title: "Shuffle 2GB"
+slug: "shuffle-2gb"
 ---
 

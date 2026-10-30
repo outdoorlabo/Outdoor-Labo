@@ -1,4 +1,5 @@
 ---
 title: "Lamy"
+slug: "lamy"
 ---
 

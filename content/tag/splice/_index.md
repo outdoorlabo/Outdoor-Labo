@@ -1,4 +1,5 @@
 ---
 title: "Splice"
+slug: "splice"
 ---
 

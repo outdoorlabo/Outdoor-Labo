@@ -1,4 +1,5 @@
 ---
 title: "iPhone"
+slug: "iphone"
 ---
 

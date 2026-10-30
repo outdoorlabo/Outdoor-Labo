@@ -1,4 +1,5 @@
 ---
 title: "マイプロ"
+slug: "myprotein"
 ---
 

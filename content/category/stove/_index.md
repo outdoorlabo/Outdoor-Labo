@@ -1,4 +1,5 @@
 ---
 title: "ストーブ"
+slug: "stove"
 ---
 

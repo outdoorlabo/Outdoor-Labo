@@ -1,4 +1,5 @@
 ---
 title: "マーモット"
+slug: "marmot2"
 ---
 

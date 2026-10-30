@@ -1,4 +1,5 @@
 ---
 title: "モンベル"
+slug: "mont-bell2"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "D-BROS"
+slug: "d-bros"
 ---
 

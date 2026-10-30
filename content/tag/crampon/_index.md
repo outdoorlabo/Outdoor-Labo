@@ -1,4 +1,5 @@
 ---
 title: "アイゼン"
+slug: "crampon"
 ---
 

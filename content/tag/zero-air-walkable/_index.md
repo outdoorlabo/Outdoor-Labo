@@ -1,4 +1,5 @@
 ---
 title: "ゼロエアロウォーカブル"
+slug: "zero-air-walkable"
 ---
 

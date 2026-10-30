@@ -1,4 +1,5 @@
 ---
 title: "赤岳"
+slug: "akadake"
 ---
 

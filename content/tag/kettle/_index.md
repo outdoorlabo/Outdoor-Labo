@@ -1,4 +1,5 @@
 ---
 title: "ケトル"
+slug: "kettle"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Huawei"
+slug: "huawei"
 ---
 

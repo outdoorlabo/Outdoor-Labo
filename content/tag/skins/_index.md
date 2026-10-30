@@ -1,4 +1,5 @@
 ---
 title: "Skins"
+slug: "skins"
 ---
 

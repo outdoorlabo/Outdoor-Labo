@@ -1,4 +1,5 @@
 ---
 title: "ナイフ"
+slug: "knife"
 ---
 

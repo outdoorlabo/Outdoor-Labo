@@ -1,4 +1,5 @@
 ---
 title: "3本ローラー"
+slug: "roller"
 ---
 

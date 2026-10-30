@@ -1,4 +1,5 @@
 ---
 title: "ポンチョテント"
+slug: "poncho-tent"
 ---
 

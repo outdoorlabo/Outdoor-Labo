@@ -1,4 +1,5 @@
 ---
 title: "Wyoming Wear"
+slug: "wyoming-wear"
 ---
 

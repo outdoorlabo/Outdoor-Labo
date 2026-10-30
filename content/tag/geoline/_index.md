@@ -1,4 +1,5 @@
 ---
 title: "ジオライン"
+slug: "geoline"
 ---
 

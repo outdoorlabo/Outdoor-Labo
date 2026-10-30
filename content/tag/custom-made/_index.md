@@ -1,4 +1,5 @@
 ---
 title: "オーダーメイド"
+slug: "custom-made"
 ---
 

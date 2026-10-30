@@ -1,4 +1,5 @@
 ---
 title: "北アルプス"
+slug: "kita-alps"
 ---
 

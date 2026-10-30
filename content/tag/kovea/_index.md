@@ -1,4 +1,5 @@
 ---
 title: "Kovea"
+slug: "kovea"
 ---
 

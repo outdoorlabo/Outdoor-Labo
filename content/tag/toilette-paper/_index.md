@@ -1,4 +1,5 @@
 ---
 title: "トイレットペーパー"
+slug: "toilette-paper"
 ---
 

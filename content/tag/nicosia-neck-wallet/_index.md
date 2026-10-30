@@ -1,4 +1,5 @@
 ---
 title: "Nicosia Neck Wallet"
+slug: "nicosia-neck-wallet"
 ---
 

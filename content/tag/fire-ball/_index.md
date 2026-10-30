@@ -1,4 +1,5 @@
 ---
 title: "Fire Ball"
+slug: "fire-ball"
 ---
 

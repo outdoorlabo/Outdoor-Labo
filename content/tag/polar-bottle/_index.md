@@ -1,4 +1,5 @@
 ---
 title: "Polar Bottle"
+slug: "polar-bottle"
 ---
 

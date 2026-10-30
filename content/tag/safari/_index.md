@@ -1,4 +1,5 @@
 ---
 title: "Safari"
+slug: "safari"
 ---
 

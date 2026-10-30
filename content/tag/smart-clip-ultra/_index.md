@@ -1,4 +1,5 @@
 ---
 title: "Smart Clip Ultra"
+slug: "smart-clip-ultra"
 ---
 

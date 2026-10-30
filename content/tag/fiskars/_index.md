@@ -1,4 +1,5 @@
 ---
 title: "Fiskars"
+slug: "fiskars"
 ---
 

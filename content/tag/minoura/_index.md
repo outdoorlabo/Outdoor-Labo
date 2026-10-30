@@ -1,4 +1,5 @@
 ---
 title: "ミノウラ"
+slug: "minoura"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "キャンドルランタン"
+slug: "candle-lantern"
 ---
 

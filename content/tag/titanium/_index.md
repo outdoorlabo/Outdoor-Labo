@@ -1,4 +1,5 @@
 ---
 title: "チタン"
+slug: "titanium"
 ---
 

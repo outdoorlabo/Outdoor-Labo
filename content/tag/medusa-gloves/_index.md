@@ -1,4 +1,5 @@
 ---
 title: "Medusa Gloves"
+slug: "medusa-gloves"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "BRS"
+slug: "brs"
 ---
 

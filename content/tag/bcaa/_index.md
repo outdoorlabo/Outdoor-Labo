@@ -1,4 +1,5 @@
 ---
 title: "BCAA"
+slug: "bcaa"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "ライド"
+slug: "ride"
 ---
 

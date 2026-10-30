@@ -1,4 +1,5 @@
 ---
 title: "グリル"
+slug: "grill"
 ---
 

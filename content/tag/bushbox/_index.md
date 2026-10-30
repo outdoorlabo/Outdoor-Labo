@@ -1,4 +1,5 @@
 ---
 title: "bushbox"
+slug: "bushbox"
 ---
 

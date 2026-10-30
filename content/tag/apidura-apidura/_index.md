@@ -1,4 +1,5 @@
 ---
 title: "アピデュラ"
+slug: "apidura-apidura"
 ---
 

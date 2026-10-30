@@ -1,4 +1,5 @@
 ---
 title: "ヘッドネット"
+slug: "head-net"
 ---
 

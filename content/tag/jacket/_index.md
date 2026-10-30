@@ -1,4 +1,5 @@
 ---
 title: "ジャケット"
+slug: "jacket"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "メデューサグローブ"
+slug: "medusa-gloves2"
 ---
 

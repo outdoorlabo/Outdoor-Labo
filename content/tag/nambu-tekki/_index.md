@@ -1,4 +1,5 @@
 ---
 title: "南部鉄器"
+slug: "nambu-tekki"
 ---
 

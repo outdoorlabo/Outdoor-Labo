@@ -1,4 +1,5 @@
 ---
 title: "キャンプ"
+slug: "camp"
 ---
 

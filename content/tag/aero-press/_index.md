@@ -1,4 +1,5 @@
 ---
 title: "エアロプレス"
+slug: "aero-press"
 ---
 

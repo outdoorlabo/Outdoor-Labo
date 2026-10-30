@@ -1,4 +1,5 @@
 ---
 title: "エナジー補給"
+slug: "energy-charge"
 ---
 

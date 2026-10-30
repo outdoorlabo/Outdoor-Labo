@@ -1,4 +1,5 @@
 ---
 title: "G12 ニューマチック"
+slug: "g12-newmatic"
 ---
 

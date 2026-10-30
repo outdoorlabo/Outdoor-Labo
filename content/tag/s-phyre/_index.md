@@ -1,4 +1,5 @@
 ---
 title: "S-PHYRE"
+slug: "s-phyre"
 ---
 

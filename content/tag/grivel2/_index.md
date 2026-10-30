@@ -1,4 +1,5 @@
 ---
 title: "グリベル"
+slug: "grivel2"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "ハンモック"
+slug: "hammock"
 ---
 

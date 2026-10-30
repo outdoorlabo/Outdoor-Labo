@@ -1,4 +1,5 @@
 ---
 title: "ネイチャーストーブ L"
+slug: "nature-stove-l"
 ---
 

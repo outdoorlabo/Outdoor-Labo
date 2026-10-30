@@ -1,4 +1,5 @@
 ---
 title: "トレラン"
+slug: "trail-running"
 ---
 

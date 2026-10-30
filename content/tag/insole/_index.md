@@ -1,4 +1,5 @@
 ---
 title: "インソール"
+slug: "insole"
 ---
 

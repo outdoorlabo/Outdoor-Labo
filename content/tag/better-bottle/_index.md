@@ -1,4 +1,5 @@
 ---
 title: "ベターボトル"
+slug: "better-bottle"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "クライミング"
+slug: "climbing"
 ---
 

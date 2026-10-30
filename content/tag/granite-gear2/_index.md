@@ -1,4 +1,5 @@
 ---
 title: "グラナイトギア"
+slug: "granite-gear2"
 ---
 

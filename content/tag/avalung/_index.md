@@ -1,4 +1,5 @@
 ---
 title: "アバラング"
+slug: "avalung"
 ---
 

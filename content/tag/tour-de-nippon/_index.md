@@ -1,4 +1,5 @@
 ---
 title: "Tour de Nippon"
+slug: "tour-de-nippon"
 ---
 

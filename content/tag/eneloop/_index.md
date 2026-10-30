@@ -1,4 +1,5 @@
 ---
 title: "エネループ"
+slug: "eneloop"
 ---
 

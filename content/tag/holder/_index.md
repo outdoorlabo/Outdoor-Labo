@@ -1,4 +1,5 @@
 ---
 title: "ホルダー"
+slug: "holder"
 ---
 

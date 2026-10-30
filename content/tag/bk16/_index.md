@@ -1,4 +1,5 @@
 ---
 title: "bk16"
+slug: "bk16"
 ---
 

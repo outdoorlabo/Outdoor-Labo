@@ -1,4 +1,5 @@
 ---
 title: "Valley Belt"
+slug: "valley-belt"
 ---
 

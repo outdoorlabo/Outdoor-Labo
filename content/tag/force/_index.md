@@ -1,4 +1,5 @@
 ---
 title: "Force"
+slug: "force"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "puck"
+slug: "puck"
 ---
 

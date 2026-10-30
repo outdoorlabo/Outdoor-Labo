@@ -1,4 +1,5 @@
 ---
 title: "サポートギア"
+slug: "support-gear"
 ---
 

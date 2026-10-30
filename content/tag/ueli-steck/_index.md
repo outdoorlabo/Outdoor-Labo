@@ -1,4 +1,5 @@
 ---
 title: "Ueli Steck"
+slug: "ueli-steck"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "大山"
+slug: "oyama"
 ---
 

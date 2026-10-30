@@ -1,4 +1,5 @@
 ---
 title: "オピネル"
+slug: "opinel-opinel"
 ---
 

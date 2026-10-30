@@ -1,4 +1,5 @@
 ---
 title: "カヤック"
+slug: "kayak"
 ---
 

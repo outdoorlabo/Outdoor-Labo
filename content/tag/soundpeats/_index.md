@@ -1,4 +1,5 @@
 ---
 title: "SoundPeats"
+slug: "soundpeats"
 ---
 

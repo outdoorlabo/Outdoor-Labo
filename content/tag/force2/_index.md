@@ -1,4 +1,5 @@
 ---
 title: "フォース"
+slug: "force2"
 ---
 

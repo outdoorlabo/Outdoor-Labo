@@ -1,4 +1,5 @@
 ---
 title: "衣類"
+slug: "clothing"
 ---
 

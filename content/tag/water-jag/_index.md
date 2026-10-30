@@ -1,4 +1,5 @@
 ---
 title: "ウォータージャグ"
+slug: "water-jag"
 ---
 

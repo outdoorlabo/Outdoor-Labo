@@ -1,4 +1,5 @@
 ---
 title: "ゼウス ダウンジャケット"
+slug: "zeus-down-jacket"
 ---
 

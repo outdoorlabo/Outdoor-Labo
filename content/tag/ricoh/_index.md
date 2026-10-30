@@ -1,4 +1,5 @@
 ---
 title: "RICOH"
+slug: "ricoh"
 ---
 

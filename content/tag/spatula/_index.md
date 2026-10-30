@@ -1,4 +1,5 @@
 ---
 title: "スパチュラ"
+slug: "spatula"
 ---
 

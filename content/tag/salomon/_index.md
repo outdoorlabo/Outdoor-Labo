@@ -1,4 +1,5 @@
 ---
 title: "salomon"
+slug: "salomon"
 ---
 

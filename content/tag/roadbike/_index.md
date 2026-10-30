@@ -1,4 +1,5 @@
 ---
 title: "roadbike"
+slug: "roadbike"
 ---
 

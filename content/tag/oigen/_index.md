@@ -1,4 +1,5 @@
 ---
 title: "oigen"
+slug: "oigen"
 ---
 

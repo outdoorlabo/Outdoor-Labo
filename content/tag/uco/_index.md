@@ -1,4 +1,5 @@
 ---
 title: "UCO"
+slug: "uco"
 ---
 

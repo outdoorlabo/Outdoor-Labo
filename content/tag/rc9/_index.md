@@ -1,4 +1,5 @@
 ---
 title: "RC9"
+slug: "rc9"
 ---
 

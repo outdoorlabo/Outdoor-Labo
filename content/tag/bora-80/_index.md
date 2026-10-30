@@ -1,4 +1,5 @@
 ---
 title: "Bora 80"
+slug: "bora-80"
 ---
 

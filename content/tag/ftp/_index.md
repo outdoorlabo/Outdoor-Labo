@@ -1,4 +1,5 @@
 ---
 title: "FTP"
+slug: "ftp"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "ダナー"
+slug: "danner2"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "御前山"
+slug: "gozenyama"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "ゴーグル"
+slug: "goggles"
 ---
 

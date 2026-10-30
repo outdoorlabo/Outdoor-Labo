@@ -1,4 +1,5 @@
 ---
 title: "ビンテージ"
+slug: "vintage"
 ---
 

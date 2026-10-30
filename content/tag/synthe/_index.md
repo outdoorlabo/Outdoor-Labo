@@ -1,4 +1,5 @@
 ---
 title: "Synthe"
+slug: "synthe"
 ---
 

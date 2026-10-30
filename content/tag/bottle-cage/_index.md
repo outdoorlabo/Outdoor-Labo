@@ -1,4 +1,5 @@
 ---
 title: "ボトルケージ"
+slug: "bottle-cage"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "モカエキスプレス"
+slug: "moka-express"
 ---
 

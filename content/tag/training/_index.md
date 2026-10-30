@@ -1,4 +1,5 @@
 ---
 title: "training"
+slug: "training"
 ---
 

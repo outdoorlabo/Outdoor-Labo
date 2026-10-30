@@ -1,4 +1,5 @@
 ---
 title: "ウッドストーブ"
+slug: "wood-stove"
 ---
 

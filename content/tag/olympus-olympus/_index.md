@@ -1,4 +1,5 @@
 ---
 title: "オリンパス"
+slug: "olympus-olympus"
 ---
 

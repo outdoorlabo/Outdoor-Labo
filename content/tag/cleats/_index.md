@@ -1,4 +1,5 @@
 ---
 title: "クリート"
+slug: "cleats"
 ---
 

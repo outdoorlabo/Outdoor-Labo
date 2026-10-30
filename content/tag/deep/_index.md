@@ -1,4 +1,5 @@
 ---
 title: "ディープ"
+slug: "deep"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Bluetooth"
+slug: "bluetooth"
 ---
 

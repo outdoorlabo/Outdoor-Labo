@@ -1,4 +1,5 @@
 ---
 title: "Mt. Dax"
+slug: "mt-dax"
 ---
 

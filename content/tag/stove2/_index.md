@@ -1,4 +1,5 @@
 ---
 title: "コンロ"
+slug: "stove2"
 ---
 

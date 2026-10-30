@@ -1,4 +1,5 @@
 ---
 title: "Mistral 16"
+slug: "mistral-16"
 ---
 

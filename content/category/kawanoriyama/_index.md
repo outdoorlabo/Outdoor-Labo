@@ -1,4 +1,5 @@
 ---
 title: "川苔山"
+slug: "kawanoriyama"
 ---
 

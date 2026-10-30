@@ -1,4 +1,5 @@
 ---
 title: "先割れスプーン"
+slug: "split-spoon"
 ---
 

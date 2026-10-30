@@ -1,4 +1,5 @@
 ---
 title: "グルコサミン"
+slug: "glucosamine"
 ---
 

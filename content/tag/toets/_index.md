@@ -1,4 +1,5 @@
 ---
 title: "トーツ"
+slug: "toets"
 ---
 

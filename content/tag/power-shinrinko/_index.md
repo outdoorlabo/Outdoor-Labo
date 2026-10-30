@@ -1,4 +1,5 @@
 ---
 title: "パワー森林香"
+slug: "power-shinrinko"
 ---
 

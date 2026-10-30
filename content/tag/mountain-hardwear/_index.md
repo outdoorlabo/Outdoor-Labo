@@ -1,4 +1,5 @@
 ---
 title: "Mountain Hardwear"
+slug: "mountain-hardwear"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "シーズニング"
+slug: "seasoning"
 ---
 

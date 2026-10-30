@@ -1,4 +1,5 @@
 ---
 title: "メディダイン"
+slug: "medi-dyne"
 ---
 

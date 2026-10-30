@@ -1,4 +1,5 @@
 ---
 title: "LED"
+slug: "led"
 ---
 

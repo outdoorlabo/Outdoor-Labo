@@ -1,4 +1,5 @@
 ---
 title: "スプリッティングアックス"
+slug: "splitting-ax"
 ---
 

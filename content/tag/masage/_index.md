@@ -1,4 +1,5 @@
 ---
 title: "マッサージ"
+slug: "masage"
 ---
 

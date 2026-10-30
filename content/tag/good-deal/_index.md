@@ -1,4 +1,5 @@
 ---
 title: "お得"
+slug: "good-deal"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "アマゾン限定"
+slug: "amazon-limited"
 ---
 

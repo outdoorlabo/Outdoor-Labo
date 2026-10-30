@@ -1,4 +1,5 @@
 ---
 title: "サドル"
+slug: "saddle"
 ---
 

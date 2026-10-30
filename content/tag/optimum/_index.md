@@ -1,4 +1,5 @@
 ---
 title: "Optimum"
+slug: "optimum"
 ---
 

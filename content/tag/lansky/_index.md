@@ -1,4 +1,5 @@
 ---
 title: "Lansky"
+slug: "lansky"
 ---
 

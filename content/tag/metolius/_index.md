@@ -1,4 +1,5 @@
 ---
 title: "Metolius"
+slug: "metolius"
 ---
 

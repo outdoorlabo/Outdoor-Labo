@@ -1,4 +1,5 @@
 ---
 title: "aquaquest"
+slug: "aquaquest"
 ---
 

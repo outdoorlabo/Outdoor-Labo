@@ -1,4 +1,5 @@
 ---
 title: "Sanyo"
+slug: "sanyo"
 ---
 

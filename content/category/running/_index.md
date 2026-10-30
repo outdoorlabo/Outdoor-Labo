@@ -1,4 +1,5 @@
 ---
 title: "ランニング"
+slug: "running"
 ---
 

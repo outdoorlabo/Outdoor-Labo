@@ -1,4 +1,5 @@
 ---
 title: "Yoshinaga"
+slug: "yoshinaga"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Tuck Pack"
+slug: "tuck-pack"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "ユーテンシル"
+slug: "utensil"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Superfeet"
+slug: "superfeet"
 ---
 

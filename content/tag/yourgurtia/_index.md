@@ -1,4 +1,5 @@
 ---
 title: "ヨーグルティア"
+slug: "yourgurtia"
 ---
 

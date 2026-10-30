@@ -1,4 +1,5 @@
 ---
 title: "AppleTV"
+slug: "appletv"
 ---
 

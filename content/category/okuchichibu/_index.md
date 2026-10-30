@@ -1,4 +1,5 @@
 ---
 title: "奥秩父"
+slug: "okuchichibu"
 ---
 

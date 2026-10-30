@@ -1,4 +1,5 @@
 ---
 title: "アームカバー"
+slug: "arm-cover"
 ---
 

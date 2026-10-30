@@ -1,4 +1,5 @@
 ---
 title: "コーヒー"
+slug: "coffee"
 ---
 

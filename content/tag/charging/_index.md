@@ -1,4 +1,5 @@
 ---
 title: "充電"
+slug: "charging"
 ---
 

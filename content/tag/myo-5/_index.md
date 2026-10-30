@@ -1,4 +1,5 @@
 ---
 title: "MYO 5"
+slug: "myo-5"
 ---
 

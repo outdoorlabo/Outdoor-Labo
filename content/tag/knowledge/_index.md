@@ -1,4 +1,5 @@
 ---
 title: "ナレッジ"
+slug: "knowledge"
 ---
 

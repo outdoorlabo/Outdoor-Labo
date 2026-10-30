@@ -1,4 +1,5 @@
 ---
 title: "Olympus"
+slug: "olympus"
 ---
 

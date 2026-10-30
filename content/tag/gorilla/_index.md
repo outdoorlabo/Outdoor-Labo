@@ -1,4 +1,5 @@
 ---
 title: "ゴリラ"
+slug: "gorilla"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "サンヨー"
+slug: "sanyo2"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "ショートスリーブ"
+slug: "short-sleeve"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "赤城山"
+slug: "akagiyama"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "diy"
+slug: "diy"
 ---
 

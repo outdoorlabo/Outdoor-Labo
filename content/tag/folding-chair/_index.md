@@ -1,4 +1,5 @@
 ---
 title: "フォールディングチェア"
+slug: "folding-chair"
 ---
 

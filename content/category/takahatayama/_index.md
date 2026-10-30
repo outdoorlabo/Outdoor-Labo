@@ -1,4 +1,5 @@
 ---
 title: "高畑山・倉岳山"
+slug: "takahatayama"
 ---
 

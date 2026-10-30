@@ -1,4 +1,5 @@
 ---
 title: "RxL"
+slug: "rxl"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "TNF"
+slug: "tnf"
 ---
 

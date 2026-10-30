@@ -1,4 +1,5 @@
 ---
 title: "パンツ"
+slug: "pants"
 ---
 

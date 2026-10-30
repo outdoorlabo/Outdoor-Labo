@@ -1,4 +1,5 @@
 ---
 title: "PowerBreathe"
+slug: "powerbreathe"
 ---
 

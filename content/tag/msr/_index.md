@@ -1,4 +1,5 @@
 ---
 title: "MSR"
+slug: "msr"
 ---
 

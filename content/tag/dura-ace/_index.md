@@ -1,4 +1,5 @@
 ---
 title: "DURA-ACE"
+slug: "dura-ace"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Quarq"
+slug: "quarq"
 ---
 

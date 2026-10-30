@@ -1,4 +1,5 @@
 ---
 title: "ペツル"
+slug: "petzl2"
 ---
 

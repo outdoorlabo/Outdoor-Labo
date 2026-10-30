@@ -1,4 +1,5 @@
 ---
 title: "No. 6"
+slug: "no-6"
 ---
 

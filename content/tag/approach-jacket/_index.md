@@ -1,4 +1,5 @@
 ---
 title: "アプローチジャケット"
+slug: "approach-jacket"
 ---
 

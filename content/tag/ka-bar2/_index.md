@@ -1,4 +1,5 @@
 ---
 title: "ケーバー"
+slug: "ka-bar2"
 ---
 

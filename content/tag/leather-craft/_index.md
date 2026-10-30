@@ -1,4 +1,5 @@
 ---
 title: "レザークラフト"
+slug: "leather-craft"
 ---
 

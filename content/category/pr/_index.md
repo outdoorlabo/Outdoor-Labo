@@ -1,4 +1,5 @@
 ---
 title: "PR"
+slug: "pr"
 ---
 

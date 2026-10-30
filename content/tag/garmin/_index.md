@@ -1,4 +1,5 @@
 ---
 title: "Garmin"
+slug: "garmin"
 ---
 

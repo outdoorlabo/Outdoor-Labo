@@ -1,4 +1,5 @@
 ---
 title: "エクスカリバー"
+slug: "excalibur"
 ---
 

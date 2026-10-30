@@ -1,4 +1,5 @@
 ---
 title: "アクションカム"
+slug: "action-cam"
 ---
 

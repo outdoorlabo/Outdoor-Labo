@@ -1,4 +1,5 @@
 ---
 title: "ニンジャクラバ"
+slug: "ninjaclava"
 ---
 

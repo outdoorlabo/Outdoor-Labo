@@ -1,4 +1,5 @@
 ---
 title: "Gentos"
+slug: "gentos"
 ---
 

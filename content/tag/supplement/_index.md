@@ -1,4 +1,5 @@
 ---
 title: "サプリ"
+slug: "supplement"
 ---
 

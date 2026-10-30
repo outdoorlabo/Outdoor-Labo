@@ -1,4 +1,5 @@
 ---
 title: "PRG 50-T 7"
+slug: "prg-50-t-7"
 ---
 

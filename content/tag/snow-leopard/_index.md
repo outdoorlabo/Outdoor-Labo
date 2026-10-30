@@ -1,4 +1,5 @@
 ---
 title: "Snow Leopard"
+slug: "snow-leopard"
 ---
 

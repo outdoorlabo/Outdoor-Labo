@@ -1,4 +1,5 @@
 ---
 title: "ディフェンダー"
+slug: "defender2"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Vargo"
+slug: "vargo"
 ---
 

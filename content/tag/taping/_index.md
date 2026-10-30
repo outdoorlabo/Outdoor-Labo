@@ -1,4 +1,5 @@
 ---
 title: "テーピング"
+slug: "taping"
 ---
 

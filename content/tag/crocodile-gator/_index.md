@@ -1,4 +1,5 @@
 ---
 title: "クロコダイル ゲイター"
+slug: "crocodile-gator"
 ---
 

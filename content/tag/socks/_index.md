@@ -1,4 +1,5 @@
 ---
 title: "ソックス"
+slug: "socks"
 ---
 

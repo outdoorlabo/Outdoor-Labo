@@ -1,4 +1,5 @@
 ---
 title: "タープ"
+slug: "tarp"
 ---
 

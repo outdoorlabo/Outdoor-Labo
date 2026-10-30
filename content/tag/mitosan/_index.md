@@ -1,4 +1,5 @@
 ---
 title: "三頭山"
+slug: "mitosan"
 ---
 

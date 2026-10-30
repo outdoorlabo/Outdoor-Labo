@@ -1,4 +1,5 @@
 ---
 title: "Air Equalon+ 3"
+slug: "air-equalon-3"
 ---
 

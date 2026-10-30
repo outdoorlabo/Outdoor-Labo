@@ -1,4 +1,5 @@
 ---
 title: "bk2"
+slug: "bk2"
 ---
 

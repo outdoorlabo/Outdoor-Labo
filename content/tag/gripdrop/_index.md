@@ -1,4 +1,5 @@
 ---
 title: "GRIPDROP"
+slug: "gripdrop"
 ---
 

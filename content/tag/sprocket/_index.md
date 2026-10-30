@@ -1,4 +1,5 @@
 ---
 title: "スプロケ"
+slug: "sprocket"
 ---
 

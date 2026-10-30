@@ -1,4 +1,5 @@
 ---
 title: "GSI"
+slug: "gsi"
 ---
 

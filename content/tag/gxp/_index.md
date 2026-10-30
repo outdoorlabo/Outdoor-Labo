@@ -1,4 +1,5 @@
 ---
 title: "gxp"
+slug: "gxp"
 ---
 

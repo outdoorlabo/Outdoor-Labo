@@ -1,4 +1,5 @@
 ---
 title: "ウイルス"
+slug: "virus"
 ---
 

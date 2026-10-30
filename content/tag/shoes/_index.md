@@ -1,4 +1,5 @@
 ---
 title: "シューズ"
+slug: "shoes"
 ---
 

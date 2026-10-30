@@ -1,4 +1,5 @@
 ---
 title: "ステンレス"
+slug: "stainless-steel"
 ---
 

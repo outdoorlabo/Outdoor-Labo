@@ -1,4 +1,5 @@
 ---
 title: "靴・足回り"
+slug: "shoes"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "SONY"
+slug: "sony"
 ---
 

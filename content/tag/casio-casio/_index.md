@@ -1,4 +1,5 @@
 ---
 title: "カシオ"
+slug: "casio-casio"
 ---
 

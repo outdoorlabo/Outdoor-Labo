@@ -1,4 +1,5 @@
 ---
 title: "ハンディ ウォーマー"
+slug: "handy-warmer"
 ---
 

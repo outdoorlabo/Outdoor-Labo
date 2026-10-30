@@ -1,4 +1,5 @@
 ---
 title: "Trangia"
+slug: "trangia"
 ---
 

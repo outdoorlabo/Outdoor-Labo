@@ -1,4 +1,5 @@
 ---
 title: "ノバ"
+slug: "nova2"
 ---
 

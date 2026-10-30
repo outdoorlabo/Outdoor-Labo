@@ -1,4 +1,5 @@
 ---
 title: "ランタン"
+slug: "lantern"
 ---
 

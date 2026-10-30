@@ -1,4 +1,5 @@
 ---
 title: "サイフォン"
+slug: "siphon"
 ---
 

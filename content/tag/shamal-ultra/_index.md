@@ -1,4 +1,5 @@
 ---
 title: "shamal-ultra"
+slug: "shamal-ultra"
 ---
 

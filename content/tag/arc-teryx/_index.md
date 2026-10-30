@@ -1,4 +1,5 @@
 ---
 title: "アークテリクス"
+slug: "arc-teryx"
 ---
 

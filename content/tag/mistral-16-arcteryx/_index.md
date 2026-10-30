@@ -1,4 +1,5 @@
 ---
 title: "ミストラル 16"
+slug: "mistral-16-arcteryx"
 ---
 

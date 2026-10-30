@@ -1,4 +1,5 @@
 ---
 title: "セール"
+slug: "sale"
 ---
 

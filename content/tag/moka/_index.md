@@ -1,4 +1,5 @@
 ---
 title: "モカ"
+slug: "moka"
 ---
 

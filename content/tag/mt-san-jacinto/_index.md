@@ -1,4 +1,5 @@
 ---
 title: "Mt. San Jacinto"
+slug: "mt-san-jacinto"
 ---
 

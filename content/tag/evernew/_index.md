@@ -1,4 +1,5 @@
 ---
 title: "Evernew"
+slug: "evernew"
 ---
 

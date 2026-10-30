@@ -1,4 +1,5 @@
 ---
 title: "ハイドレーション"
+slug: "hydration"
 ---
 

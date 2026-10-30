@@ -1,4 +1,5 @@
 ---
 title: "奥穂高"
+slug: "okuhodaka"
 ---
 

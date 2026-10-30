@@ -1,4 +1,5 @@
 ---
 title: "HDR-AS300"
+slug: "hdr-as300"
 ---
 

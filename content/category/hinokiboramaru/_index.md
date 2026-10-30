@@ -1,4 +1,5 @@
 ---
 title: "檜洞丸"
+slug: "hinokiboramaru"
 ---
 

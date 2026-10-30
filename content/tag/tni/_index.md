@@ -1,4 +1,5 @@
 ---
 title: "TNI"
+slug: "tni"
 ---
 

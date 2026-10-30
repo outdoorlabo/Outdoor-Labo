@@ -1,4 +1,5 @@
 ---
 title: "Armskin"
+slug: "armskin"
 ---
 

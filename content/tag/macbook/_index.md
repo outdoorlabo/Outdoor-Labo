@@ -1,4 +1,5 @@
 ---
 title: "MacBook"
+slug: "macbook"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "シュラフ"
+slug: "sleeping-bag"
 ---
 

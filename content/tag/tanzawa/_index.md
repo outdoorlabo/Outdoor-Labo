@@ -1,4 +1,5 @@
 ---
 title: "丹沢"
+slug: "tanzawa"
 ---
 

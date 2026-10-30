@@ -1,4 +1,5 @@
 ---
 title: "GT5 Pro"
+slug: "gt5-pro"
 ---
 

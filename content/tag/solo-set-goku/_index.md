@@ -1,4 +1,5 @@
 ---
 title: "ソロセット 極"
+slug: "solo-set-goku"
 ---
 

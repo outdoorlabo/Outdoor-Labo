@@ -1,4 +1,5 @@
 ---
 title: "KAVU"
+slug: "kavu"
 ---
 

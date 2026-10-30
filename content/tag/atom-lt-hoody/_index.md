@@ -1,4 +1,5 @@
 ---
 title: "ATOM LT HOODY"
+slug: "atom-lt-hoody"
 ---
 

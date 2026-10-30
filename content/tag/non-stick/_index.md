@@ -1,4 +1,5 @@
 ---
 title: "くっつかない"
+slug: "non-stick"
 ---
 

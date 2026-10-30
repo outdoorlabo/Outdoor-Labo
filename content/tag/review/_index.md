@@ -1,4 +1,5 @@
 ---
 title: "レビュー"
+slug: "review"
 ---
 

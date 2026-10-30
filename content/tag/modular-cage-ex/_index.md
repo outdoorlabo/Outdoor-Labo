@@ -1,4 +1,5 @@
 ---
 title: "モジュラーケージEX"
+slug: "modular-cage-ex"
 ---
 

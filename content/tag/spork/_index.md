@@ -1,4 +1,5 @@
 ---
 title: "スポーク"
+slug: "spork"
 ---
 

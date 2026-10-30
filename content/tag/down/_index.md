@@ -1,4 +1,5 @@
 ---
 title: "ダウン"
+slug: "down"
 ---
 

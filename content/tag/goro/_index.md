@@ -1,4 +1,5 @@
 ---
 title: "Goro"
+slug: "goro"
 ---
 

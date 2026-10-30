@@ -1,4 +1,5 @@
 ---
 title: "フリース"
+slug: "fleece"
 ---
 

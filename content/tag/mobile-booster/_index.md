@@ -1,4 +1,5 @@
 ---
 title: "mobile booster"
+slug: "mobile-booster"
 ---
 

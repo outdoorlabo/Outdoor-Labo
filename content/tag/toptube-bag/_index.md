@@ -1,4 +1,5 @@
 ---
 title: "トップチューブバッグ"
+slug: "toptube-bag"
 ---
 

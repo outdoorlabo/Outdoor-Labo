@@ -1,4 +1,5 @@
 ---
 title: "VDV"
+slug: "vdv"
 ---
 

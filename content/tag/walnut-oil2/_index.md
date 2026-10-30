@@ -1,4 +1,5 @@
 ---
 title: "くるみ油"
+slug: "walnut-oil2"
 ---
 

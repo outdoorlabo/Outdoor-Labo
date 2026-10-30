@@ -1,4 +1,5 @@
 ---
 title: "hiking"
+slug: "hiking"
 ---
 

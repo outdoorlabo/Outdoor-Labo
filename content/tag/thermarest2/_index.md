@@ -1,4 +1,5 @@
 ---
 title: "サーマレスト"
+slug: "thermarest2"
 ---
 

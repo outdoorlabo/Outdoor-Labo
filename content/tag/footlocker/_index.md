@@ -1,4 +1,5 @@
 ---
 title: "フットロッカー"
+slug: "footlocker"
 ---
 

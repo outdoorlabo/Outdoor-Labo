@@ -1,4 +1,5 @@
 ---
 title: "dc3"
+slug: "dc3"
 ---
 

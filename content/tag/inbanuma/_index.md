@@ -1,4 +1,5 @@
 ---
 title: "印旛沼"
+slug: "inbanuma"
 ---
 

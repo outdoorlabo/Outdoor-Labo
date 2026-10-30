@@ -1,4 +1,5 @@
 ---
 title: "ガソリンストーブ"
+slug: "gasoline-stove"
 ---
 

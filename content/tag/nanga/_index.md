@@ -1,4 +1,5 @@
 ---
 title: "NANGA"
+slug: "nanga"
 ---
 

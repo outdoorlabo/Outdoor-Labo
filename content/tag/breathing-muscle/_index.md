@@ -1,4 +1,5 @@
 ---
 title: "呼吸筋"
+slug: "breathing-muscle"
 ---
 

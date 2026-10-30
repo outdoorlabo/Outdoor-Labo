@@ -1,4 +1,5 @@
 ---
 title: "亜麻仁油"
+slug: "amaniyu"
 ---
 

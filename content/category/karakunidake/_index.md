@@ -1,4 +1,5 @@
 ---
 title: "韓国岳・新燃岳・中岳"
+slug: "karakunidake"
 ---
 

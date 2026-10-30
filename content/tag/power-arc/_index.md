@@ -1,4 +1,5 @@
 ---
 title: "Power Arc"
+slug: "power-arc"
 ---
 

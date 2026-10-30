@@ -1,4 +1,5 @@
 ---
 title: "天狗岳"
+slug: "tengudake"
 ---
 

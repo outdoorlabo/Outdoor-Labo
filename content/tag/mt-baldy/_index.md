@@ -1,4 +1,5 @@
 ---
 title: "Mt. Baldy"
+slug: "mt-baldy"
 ---
 

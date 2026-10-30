@@ -1,4 +1,5 @@
 ---
 title: "O.D.ロールペーパーキット"
+slug: "od-roll-paper-kit"
 ---
 

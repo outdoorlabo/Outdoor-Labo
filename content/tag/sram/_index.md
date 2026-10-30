@@ -1,4 +1,5 @@
 ---
 title: "SRAM"
+slug: "sram"
 ---
 

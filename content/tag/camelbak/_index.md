@@ -1,4 +1,5 @@
 ---
 title: "Camelbak"
+slug: "camelbak"
 ---
 

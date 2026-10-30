@@ -1,4 +1,5 @@
 ---
 title: "LPN"
+slug: "lpn"
 ---
 

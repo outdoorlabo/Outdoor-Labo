@@ -1,4 +1,5 @@
 ---
 title: "ブッシュクラフト"
+slug: "bushcraft"
 ---
 

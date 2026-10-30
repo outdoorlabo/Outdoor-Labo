@@ -1,4 +1,5 @@
 ---
 title: "ファンライン"
+slug: "funline"
 ---
 

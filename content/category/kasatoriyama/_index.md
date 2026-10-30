@@ -1,4 +1,5 @@
 ---
 title: "笠取山"
+slug: "kasatoriyama"
 ---
 

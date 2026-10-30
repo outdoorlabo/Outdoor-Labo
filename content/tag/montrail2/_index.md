@@ -1,4 +1,5 @@
 ---
 title: "モントレイル"
+slug: "montrail2"
 ---
 

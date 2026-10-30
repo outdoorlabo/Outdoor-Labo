@@ -1,4 +1,5 @@
 ---
 title: "ワレット"
+slug: "wallet"
 ---
 

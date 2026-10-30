@@ -1,4 +1,5 @@
 ---
 title: "Outdoor Research"
+slug: "outdoor-research"
 ---
 

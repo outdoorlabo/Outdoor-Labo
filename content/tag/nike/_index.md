@@ -1,4 +1,5 @@
 ---
 title: "Nike"
+slug: "nike"
 ---
 

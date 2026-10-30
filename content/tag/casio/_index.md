@@ -1,4 +1,5 @@
 ---
 title: "Casio"
+slug: "casio"
 ---
 

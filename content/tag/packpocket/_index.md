@@ -1,4 +1,5 @@
 ---
 title: "パックポケット"
+slug: "packpocket"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "ミニクックセット"
+slug: "mini-cook-set"
 ---
 

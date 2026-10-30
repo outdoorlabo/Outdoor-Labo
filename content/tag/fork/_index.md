@@ -1,4 +1,5 @@
 ---
 title: "フォーク"
+slug: "fork"
 ---
 

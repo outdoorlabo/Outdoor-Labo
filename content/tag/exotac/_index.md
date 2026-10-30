@@ -1,4 +1,5 @@
 ---
 title: "exotac"
+slug: "exotac"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "トウキョウトレイル"
+slug: "tokyo-trail"
 ---
 

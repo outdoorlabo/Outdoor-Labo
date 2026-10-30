@@ -1,4 +1,5 @@
 ---
 title: "シガーライター"
+slug: "cigar-lighter"
 ---
 

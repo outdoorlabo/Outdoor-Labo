@@ -1,4 +1,5 @@
 ---
 title: "ファルクニーベン"
+slug: "fallkniven"
 ---
 

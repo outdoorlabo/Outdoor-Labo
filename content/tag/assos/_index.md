@@ -1,4 +1,5 @@
 ---
 title: "assos"
+slug: "assos"
 ---
 

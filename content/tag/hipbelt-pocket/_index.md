@@ -1,4 +1,5 @@
 ---
 title: "ヒップベルトポケット"
+slug: "hipbelt-pocket"
 ---
 

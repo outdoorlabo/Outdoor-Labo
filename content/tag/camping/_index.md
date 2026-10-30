@@ -1,4 +1,5 @@
 ---
 title: "テント泊"
+slug: "camping"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Toaks"
+slug: "toaks"
 ---
 

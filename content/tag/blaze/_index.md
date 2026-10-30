@@ -1,4 +1,5 @@
 ---
 title: "Blaze"
+slug: "blaze"
 ---
 

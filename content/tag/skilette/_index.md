@@ -1,4 +1,5 @@
 ---
 title: "スキレット"
+slug: "skilette"
 ---
 

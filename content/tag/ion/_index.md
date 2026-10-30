@@ -1,4 +1,5 @@
 ---
 title: "Ion"
+slug: "ion"
 ---
 

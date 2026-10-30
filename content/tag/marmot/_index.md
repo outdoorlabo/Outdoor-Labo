@@ -1,4 +1,5 @@
 ---
 title: "Marmot"
+slug: "marmot"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "Zwift"
+slug: "zwift"
 ---
 

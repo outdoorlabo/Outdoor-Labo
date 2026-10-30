@@ -1,4 +1,5 @@
 ---
 title: "Suunto"
+slug: "suunto"
 ---
 

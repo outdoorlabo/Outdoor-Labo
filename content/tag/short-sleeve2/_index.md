@@ -1,4 +1,5 @@
 ---
 title: "半袖"
+slug: "short-sleeve2"
 ---
 

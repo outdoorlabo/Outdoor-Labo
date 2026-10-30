@@ -1,4 +1,5 @@
 ---
 title: "BBQ"
+slug: "bbq"
 ---
 

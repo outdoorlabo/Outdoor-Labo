@@ -1,4 +1,5 @@
 ---
 title: "トング"
+slug: "tong"
 ---
 

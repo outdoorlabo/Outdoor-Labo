@@ -1,4 +1,5 @@
 ---
 title: "ボルダリング"
+slug: "bouldering"
 ---
 

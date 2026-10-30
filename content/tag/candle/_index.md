@@ -1,4 +1,5 @@
 ---
 title: "キャンドル"
+slug: "candle"
 ---
 

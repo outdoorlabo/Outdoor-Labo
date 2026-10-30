@@ -1,4 +1,5 @@
 ---
 title: "ウォーターフィルター"
+slug: "water-filter"
 ---
 

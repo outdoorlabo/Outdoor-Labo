@@ -1,4 +1,5 @@
 ---
 title: "Pro Trek"
+slug: "pro-trek"
 ---
 

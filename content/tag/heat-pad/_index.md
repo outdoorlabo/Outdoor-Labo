@@ -1,4 +1,5 @@
 ---
 title: "カイロ"
+slug: "heat-pad"
 ---
 

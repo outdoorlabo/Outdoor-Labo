@@ -1,4 +1,5 @@
 ---
 title: "プリムス P-153"
+slug: "primus-p-153"
 ---
 

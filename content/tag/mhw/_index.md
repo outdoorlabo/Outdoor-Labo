@@ -1,4 +1,5 @@
 ---
 title: "MHW"
+slug: "mhw"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "ミッシングリンク"
+slug: "missing-link"
 ---
 

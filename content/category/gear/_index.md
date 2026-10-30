@@ -1,4 +1,5 @@
 ---
 title: "山装備"
+slug: "gear"
 ---
 

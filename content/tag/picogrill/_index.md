@@ -1,4 +1,5 @@
 ---
 title: "picogrill"
+slug: "picogrill"
 ---
 

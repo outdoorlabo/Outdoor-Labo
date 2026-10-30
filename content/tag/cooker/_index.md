@@ -1,4 +1,5 @@
 ---
 title: "コッヘル"
+slug: "cooker"
 ---
 

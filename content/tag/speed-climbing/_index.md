@@ -1,4 +1,5 @@
 ---
 title: "スピードクライミング"
+slug: "speed-climbing"
 ---
 

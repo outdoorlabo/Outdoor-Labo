@@ -1,4 +1,5 @@
 ---
 title: "タイタンライト"
+slug: "titan-light"
 ---
 

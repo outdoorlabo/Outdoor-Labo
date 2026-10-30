@@ -1,4 +1,5 @@
 ---
 title: "中岳"
+slug: "nakadake"
 ---
 

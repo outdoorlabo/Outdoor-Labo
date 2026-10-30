@@ -1,4 +1,5 @@
 ---
 title: "マウンテンハードウェア"
+slug: "mountainhardwear"
 ---
 

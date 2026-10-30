@@ -1,4 +1,5 @@
 ---
 title: "growtac"
+slug: "growtac"
 ---
 

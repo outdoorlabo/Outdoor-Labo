@@ -1,4 +1,5 @@
 ---
 title: "Fox River"
+slug: "fox-river"
 ---
 

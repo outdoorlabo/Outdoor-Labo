@@ -1,4 +1,5 @@
 ---
 title: "CX-3"
+slug: "cx-3"
 ---
 

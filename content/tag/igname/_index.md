@@ -1,4 +1,5 @@
 ---
 title: "イナーメ"
+slug: "igname"
 ---
 

@@ -1,4 +1,5 @@
 ---
 title: "アクト"
+slug: "hilleburg-akto"
 ---
 

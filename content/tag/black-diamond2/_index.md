@@ -1,4 +1,5 @@
 ---
 title: "ブラックダイヤモンド"
+slug: "black-diamond2"
 ---
 
