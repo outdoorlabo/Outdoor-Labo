@@ -3,7 +3,7 @@ backend:
   repo: outdoorlabo/Outdoor-Labo
   branch: main
   base_url: https://outdoor-labo.outdoorlabo.workers.dev
-auth_endpoint: /auth
+  auth_endpoint: /auth
 
 site_url: https://outdoorlabo.a-ce.com
 display_url: https://outdoorlabo.a-ce.com
