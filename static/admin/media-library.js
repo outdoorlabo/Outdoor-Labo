@@ -155,9 +155,19 @@
           const chosen = [...input.files];
           loading = true; render();
           for (const file of chosen) {
-            const path = INCOMING_FOLDER + '/' + file.name;
+            const occupied = new Set(files.map(item => item.path));
+            const dot = file.name.lastIndexOf('.');
+            const stem = dot > 0 ? file.name.slice(0, dot) : file.name;
+            const ext = dot > 0 ? file.name.slice(dot) : '';
+            let uploadName = file.name;
+            let suffix = 2;
+            while (occupied.has(INCOMING_FOLDER + '/' + uploadName)) {
+              uploadName = stem + '-' + suffix + ext;
+              suffix += 1;
+            }
+            const path = INCOMING_FOLDER + '/' + uploadName;
             try {
-              await backend.persistMedia({ file, path }, { commitMessage: 'Upload ' + file.name + ' to Decap incoming media' });
+              await backend.persistMedia({ file, path }, { commitMessage: 'Upload ' + uploadName + ' to Decap incoming media' });
             } catch (error) {
               console.error('[Outdoor Labo media library] Upload failed', file.name, error);
               alert(file.name + ' のアップロードに失敗しました。詳細はブラウザのコンソールを確認してください。');
