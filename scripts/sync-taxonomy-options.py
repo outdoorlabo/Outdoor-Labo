@@ -51,3 +51,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# Generated reference files are committed by the workflow after this script runs.
