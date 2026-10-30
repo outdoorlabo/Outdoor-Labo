@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Mirror Hugo taxonomy branch bundles into flat Pages CMS reference collections."""
 from pathlib import Path
-import shutil
 import yaml
 
 SOURCES = {
@@ -11,9 +10,9 @@ SOURCES = {
 
 def read_front_matter(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
-    if not text.startswith("---\\n"):
+    if not text.startswith("---\n"):
         raise ValueError(f"Missing YAML front matter: {path}")
-    end = text.find("\\n---", 4)
+    end = text.find("\n---", 4)
     if end < 0:
         raise ValueError(f"Unclosed YAML front matter: {path}")
     data = yaml.safe_load(text[4:end]) or {}
