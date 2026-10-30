@@ -9,8 +9,7 @@ site_url: https://outdoorlabo.a-ce.com
 display_url: https://outdoorlabo.a-ce.com
 publish_mode: editorial_workflow
 
-# Hugo stores static assets under static/. Keep uploaded images alongside
-# the existing WordPress media so current image URLs remain valid.
+# New uploads are staged here. A GitHub Action sorts them by the save commit's JST date.
 media_folder: static/wp-content/uploads
 public_folder: /wp-content/uploads
 
@@ -32,10 +31,8 @@ collections:
       - label: 公開年
         field: date
         pattern: "\\d{4}"
-    # Store new media in the year/month of the post's publication date.
-    # The public URL mirrors the existing WordPress uploads structure.
-    media_folder: "{{media_folder}}/{{year}}/{{month}}"
-    public_folder: "{{public_folder}}/{{year}}/{{month}}"
+    media_folder: static/wp-content/uploads/_incoming
+    public_folder: /wp-content/uploads/_incoming
     fields:
       - label: タイトル
         name: title
