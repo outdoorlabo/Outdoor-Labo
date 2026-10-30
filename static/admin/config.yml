@@ -5,6 +5,13 @@ backend:
   # OAuth proxy will be configured after the editor and content model are validated.
   # base_url: https://YOUR-OAUTH-WORKER.example.workers.dev
 
+slug:
+  encoding: ascii
+  clean_accents: true
+
+# 既存記事・大量の分類データを全件走査するCMS横断検索は使わない
+search: false
+
 media_folder: static/wp-content/uploads
 public_folder: /wp-content/uploads
 
@@ -60,7 +67,7 @@ collections:
     create: true
     extension: md
     format: yaml-frontmatter
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
     preview_path: '{{year}}/{{month}}/{{day}}/{{fields.slug}}/'
     preview_path_date_field: date
     fields:
@@ -88,4 +95,4 @@ collections:
         display_fields: [title]
         multiple: true
         required: false
-      - { label: 本文, name: body, widget: richtext }
+      - { label: 本文, name: body, widget: richtext, modes: [raw, rich_text] }
