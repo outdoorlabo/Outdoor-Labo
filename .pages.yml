@@ -19,7 +19,7 @@ content:
     # ファイル名は作成時刻で自動生成。Hugo の :slug にもそのまま使う。
     # 日付は date フィールドから URL に反映するため、ここでは時刻だけを使う。
     filename:
-      template: "{hour}{minute}{second}.md"
+      template: "{year}{month}{day}-{hour}{minute}{second}.md"
       field: false
     view:
       fields: [title, date, draft, category]
