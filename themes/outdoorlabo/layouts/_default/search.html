@@ -11,7 +11,7 @@
   </article>
   <script>
   (function () {
-    var INDEX = {{ "search-index.json" | relURL | jsonify }};
+    var INDEX = "/search-index.json";
     var PER = 20;
     var q = (new URLSearchParams(location.search).get("q") || "").trim();
     var input = document.getElementById("search-q");
