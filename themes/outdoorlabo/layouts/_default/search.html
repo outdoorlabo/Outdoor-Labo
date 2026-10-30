@@ -11,7 +11,7 @@
   </article>
   <script>
   (function () {
-    var INDEX = {{ "search-index.json" | relURL | jsonify }};
+    var INDEX = "/search-index.json";
     var PER = 20;
     var q = (new URLSearchParams(location.search).get("q") || "").trim();
     var input = document.getElementById("search-q");
@@ -25,7 +25,20 @@
     if (!q) { status.textContent = "キーワードを入力してください。"; return; }
     status.textContent = "検索中…";
     var terms = norm(q).split(/\s+/).filter(Boolean);
-    fetch(INDEX).then(function (r) { return r.json(); }).then(function (items) {
+    var phase = "検索データの通信";
+    fetch(INDEX).then(function (r) {
+      phase = "検索データの解析";
+      return r.text().then(function (body) {
+        if (!r.ok) throw new Error("HTTP " + r.status + " / URL: " + r.url);
+        try {
+          return JSON.parse(body);
+        } catch (e) {
+          throw new Error("URL: " + r.url + " / Content-Type: " + (r.headers.get("content-type") || "不明") + " / 先頭部分: " + body.slice(0, 100).replace(/\\s+/g, " "));
+        }
+      });
+    }).then(function (items) {
+      if (!Array.isArray(items)) throw new Error("検索データの形式が配列ではありません");
+      phase = "検索結果の処理";
       var hits = [];
       items.forEach(function (it) {
         var title = norm(it.title), meta = norm(it.cat + " " + it.tags), body = norm(it.text);
@@ -61,7 +74,10 @@
       }
       more.addEventListener("click", render);
       render();
-    }).catch(function () { status.textContent = "検索データを読み込めませんでした。時間をおいて、もう一度お試しください。"; });
+    }).catch(function (e) {
+      console.error("[OUTDOOR LABO search]", phase, e);
+      status.textContent = "検索エラー（" + phase + "）: " + (e && e.message ? e.message : "原因不明のエラー");
+    });
   })();
   </script>
 {{ end }}
