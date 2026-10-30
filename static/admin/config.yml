@@ -32,6 +32,10 @@ collections:
       - label: 公開年
         field: date
         pattern: "\\d{4}"
+    # Store new media in the year/month of the post's publication date.
+    # The public URL mirrors the existing WordPress uploads structure.
+    media_folder: "{{media_folder}}/{{year}}/{{month}}"
+    public_folder: "{{public_folder}}/{{year}}/{{month}}"
     fields:
       - label: タイトル
         name: title
