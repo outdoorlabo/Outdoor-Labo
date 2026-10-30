@@ -16,9 +16,11 @@ content:
     type: collection
     path: content/posts
     format: yaml-frontmatter
+    # ファイル名は作成時刻で自動生成。Hugo の :slug にもそのまま使う。
+    # 日付は date フィールドから URL に反映するため、ここでは時刻だけを使う。
     filename:
-      template: "{year}-{month}-{day}-{title}.md"
-      field: create
+      template: "{hour}{minute}{second}.md"
+      field: false
     view:
       fields: [title, date, draft, category]
       primary: title
