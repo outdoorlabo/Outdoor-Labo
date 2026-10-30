@@ -1,0 +1,75 @@
+backend:
+  name: github
+  repo: outdoorlabo/Outdoor-Labo
+  branch: main
+  base_url: https://decap-auth.a-ce.com
+  auth_endpoint: /auth
+
+site_url: https://outdoorlabo.a-ce.com
+display_url: https://outdoorlabo.a-ce.com
+publish_mode: editorial_workflow
+
+# Hugo stores static assets under static/. Keep uploaded images alongside
+# the existing WordPress media so current image URLs remain valid.
+media_folder: static/wp-content/uploads
+public_folder: /wp-content/uploads
+
+collections:
+  - name: posts
+    label: 記事
+    label_singular: 記事
+    folder: content/posts
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    sortable_fields:
+      - date
+      - title
+    view_groups:
+      - label: 公開年
+        field: date
+        pattern: "\\d{4}"
+    fields:
+      - label: タイトル
+        name: title
+        widget: string
+      - label: 公開日時
+        name: date
+        widget: datetime
+        required: true
+      - label: 最終更新日時
+        name: lastmod
+        widget: datetime
+        required: false
+      - label: URLスラッグ
+        name: slug
+        widget: string
+        hint: "既存記事のURLを変えないよう、通常は変更しないでください。新規記事では英数字とハイフンを推奨します。"
+      - label: カテゴリー
+        name: category
+        widget: list
+        required: false
+        hint: "既存カテゴリーのスラッグを入力してください。例: camping, hiking"
+      - label: タグ
+        name: tag
+        widget: list
+        required: false
+        hint: "既存タグのスラッグを入力してください。"
+      - label: アイキャッチ画像
+        name: image
+        widget: image
+        required: false
+      - label: 概要文
+        name: description
+        widget: text
+        required: false
+      - label: WordPress ID（移行データ）
+        name: wpid
+        widget: number
+        required: false
+      - label: 本文
+        name: body
+        widget: markdown
