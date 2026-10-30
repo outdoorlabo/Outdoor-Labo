@@ -57,6 +57,54 @@ content:
         required: true
         pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 
+  - name: category-options
+    label: カテゴリー参照データ（自動生成）
+    type: collection
+    path: data/pages-cms/category-options
+    format: yaml
+    filename:
+      template: "{fields.slug}.yml"
+      field: false
+    view:
+      primary: title
+      fields: [title, slug]
+      search: [title, slug]
+    operations:
+      create: false
+      rename: false
+      delete: false
+    fields:
+      - name: title
+        label: カテゴリー名
+        type: string
+      - name: slug
+        label: スラッグ
+        type: string
+
+  - name: tag-options
+    label: タグ参照データ（自動生成）
+    type: collection
+    path: data/pages-cms/tag-options
+    format: yaml
+    filename:
+      template: "{fields.slug}.yml"
+      field: false
+    view:
+      primary: title
+      fields: [title, slug]
+      search: [title, slug]
+    operations:
+      create: false
+      rename: false
+      delete: false
+    fields:
+      - name: title
+        label: タグ名
+        type: string
+      - name: slug
+        label: スラッグ
+        type: string
+
   - name: posts
     label: 記事
     type: collection
@@ -102,7 +150,7 @@ content:
         label: カテゴリー
         type: reference
         options:
-          collection: categories
+          collection: category-options
           multiple: true
           search: "title,fields.slug"
           value: "{fields.slug}"
@@ -111,7 +159,7 @@ content:
         label: タグ
         type: reference
         options:
-          collection: tags
+          collection: tag-options
           multiple: true
           search: "title,fields.slug"
           value: "{fields.slug}"
