@@ -2,11 +2,11 @@ backend:
   name: github
   repo: outdoorlabo/Outdoor-Labo
   branch: main
-  base_url: https://outdoor-labo.outdoorlabo.workers.dev
+  base_url: https://outdoorlabo-decap-auth-preview.outdoorlabo.workers.dev
   auth_endpoint: /auth
 
-site_url: https://outdoorlabo.a-ce.com
-display_url: https://outdoorlabo.a-ce.com
+site_url: https://test-oauth-preview-origin-al.outdoorlabo.pages.dev
+display_url: https://test-oauth-preview-origin-al.outdoorlabo.pages.dev
 publish_mode: editorial_workflow
 
 # New uploads are staged here. A GitHub Action sorts them by the save commit's JST date.
