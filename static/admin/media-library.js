@@ -18,6 +18,7 @@
     style.id = 'olml-style';
     style.textContent = `
       .olml-overlay{position:fixed;inset:0;z-index:100000;background:#0009;display:flex;align-items:center;justify-content:center;padding:18px}
+      .olml-overlay[hidden]{display:none}
       .olml-modal{width:min(1000px,96vw);height:min(760px,92vh);background:#fff;color:#222;border-radius:10px;display:flex;flex-direction:column;box-shadow:0 12px 50px #0005;overflow:hidden;font:14px/1.5 system-ui,sans-serif}
       .olml-head,.olml-tools,.olml-foot{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid #ddd}
       .olml-head{justify-content:space-between;font-weight:700}.olml-tools{flex-wrap:wrap}.olml-tools input{flex:1;min-width:180px;padding:8px;border:1px solid #bbb;border-radius:5px}
