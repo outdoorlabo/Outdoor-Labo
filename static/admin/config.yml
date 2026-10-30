@@ -13,6 +13,9 @@ publish_mode: editorial_workflow
 media_folder: static/wp-content/uploads
 public_folder: /wp-content/uploads
 
+media_library:
+  name: outdoor-labo-folder-library
+
 collections:
   - name: posts
     label: 記事
