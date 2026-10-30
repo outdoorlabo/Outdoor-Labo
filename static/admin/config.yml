@@ -2,8 +2,8 @@ backend:
   name: github
   repo: outdoorlabo/Outdoor-Labo
   branch: main
-  base_url: https://decap-auth.a-ce.com
-  auth_endpoint: /auth
+  base_url: https://outdoor-labo.outdoorlabo.workers.dev
+auth_endpoint: /auth
 
 site_url: https://outdoorlabo.a-ce.com
 display_url: https://outdoorlabo.a-ce.com
