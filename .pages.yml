@@ -63,6 +63,9 @@ content:
       - name: body
         label: 本文
         type: rich-text
+        options:
+          media: post-images
+          switcher: true
 
 settings:
   content:
