@@ -1,0 +1,98 @@
+backend:
+  name: github
+  repo: outdoorlabo/Outdoor-Labo
+  branch: feature/decap-cms-test
+  # OAuth proxy will be configured after the editor and content model are validated.
+  # base_url: https://YOUR-OAUTH-WORKER.example.workers.dev
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+# 既存記事・大量の分類データを全件走査するCMS横断検索は使わない
+search: false
+
+media_folder: static/wp-content/uploads
+public_folder: /wp-content/uploads
+
+publish_mode: simple
+site_url: https://outdoorlabo.a-ce.com
+display_url: https://outdoorlabo.a-ce.com
+
+collections:
+  - name: categories
+    label: カテゴリー
+    label_singular: カテゴリー
+    folder: content/category
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    nested:
+      depth: 1
+      subfolders: true
+      summary: '{{title}}'
+    meta:
+      path:
+        widget: string
+        label: URLスラッグ（英数字）
+        index_file: _index
+    fields:
+      - { label: カテゴリー名, name: title, widget: string }
+      - { label: 説明, name: body, widget: markdown, required: false }
+
+  - name: tags
+    label: タグ
+    label_singular: タグ
+    folder: content/tag
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    nested:
+      depth: 1
+      subfolders: true
+      summary: '{{title}}'
+    meta:
+      path:
+        widget: string
+        label: URLスラッグ（英数字）
+        index_file: _index
+    fields:
+      - { label: タグ名, name: title, widget: string }
+      - { label: 説明, name: body, widget: markdown, required: false }
+
+  - name: posts
+    label: 記事
+    label_singular: 記事
+    folder: content/posts
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
+    preview_path: '{{year}}/{{month}}/{{day}}/{{fields.slug}}/'
+    preview_path_date_field: date
+    fields:
+      - { label: タイトル, name: title, widget: string }
+      - { label: 投稿日, name: date, widget: datetime, date_format: 'YYYY-MM-DD', time_format: false, format: 'YYYY-MM-DD' }
+      - { label: URLスラッグ（英数字）, name: slug, widget: string, hint: '記事URLの末尾に使う英数字。例: camp-stove-review' }
+      - { label: 下書き, name: draft, widget: boolean, default: true, required: false }
+      - { label: 記事の概要, name: description, widget: text, required: false }
+      - { label: アイキャッチ画像, name: image, widget: image, required: false }
+      - label: カテゴリー
+        name: category
+        widget: relation
+        collection: categories
+        search_fields: [title]
+        value_field: '{{slug}}'
+        display_fields: [title]
+        multiple: true
+        required: false
+      - label: タグ
+        name: tag
+        widget: relation
+        collection: tags
+        search_fields: [title]
+        value_field: '{{slug}}'
+        display_fields: [title]
+        multiple: true
+        required: false
+      - { label: 本文, name: body, widget: richtext, modes: [raw, rich_text] }
