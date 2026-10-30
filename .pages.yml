@@ -1,0 +1,70 @@
+# Pages CMS configuration for OUTDOOR LABO
+# Articles remain Hugo-compatible Markdown files in content/posts.
+
+media:
+  - name: post-images
+    label: 記事画像
+    input: static/images/posts
+    output: /images/posts
+    categories: [image]
+    extensions: [jpg, jpeg, png, webp, gif]
+    rename: safe
+
+content:
+  - name: posts
+    label: 記事
+    type: collection
+    path: content/posts
+    format: yaml-frontmatter
+    filename:
+      template: "{year}-{month}-{day}-{title}.md"
+      field: create
+    view:
+      fields: [title, date, draft, category]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: タイトル
+        type: string
+        required: true
+      - name: date
+        label: 投稿日
+        type: date
+        required: true
+      - name: draft
+        label: 下書き
+        type: boolean
+        default: true
+      - name: description
+        label: 記事の概要
+        type: text
+      - name: image
+        label: アイキャッチ画像
+        type: image
+        options:
+          media: post-images
+      - name: category
+        label: カテゴリー
+        type: string
+        list: true
+      - name: tag
+        label: タグ
+        type: string
+        list: true
+      - name: body
+        label: 本文
+        type: rich-text
+
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      create: "記事を作成: {path}"
+      update: "記事を更新: {path}"
+      delete: "記事を削除: {path}"
+      rename: "記事名を変更: {oldPath} -> {newPath}"
