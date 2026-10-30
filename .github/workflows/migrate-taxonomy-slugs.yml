@@ -1,42 +1,46 @@
-name: Migrate Hugo taxonomy slugs
+name: Sync Pages CMS taxonomy references
 
 on:
-  workflow_dispatch:
-    inputs:
-      payload:
-        description: Pages CMS action payload
-        required: true
-        type: string
+  push:
+    branches:
+      - feature/pages-cms-publishing
+    paths:
+      - "content/category/**"
+      - "content/tag/**"
+      - "scripts/sync-taxonomy-options.py"
 
 permissions:
   contents: write
 
 concurrency:
-  group: taxonomy-slug-migration-feature-pages-cms-publishing
+  group: taxonomy-reference-sync-feature-pages-cms-publishing
   cancel-in-progress: false
 
 jobs:
-  migrate:
+  sync:
     if: github.ref == 'refs/heads/feature/pages-cms-publishing'
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the publishing feature branch
+      - name: Check out publishing feature branch
         uses: actions/checkout@v4
         with:
           ref: feature/pages-cms-publishing
           fetch-depth: 0
 
-      - name: Add explicit slugs to Hugo taxonomy pages
-        run: python3 scripts/migrate-taxonomy-slugs.py
+      - name: Install YAML parser
+        run: python3 -m pip install --user pyyaml
 
-      - name: Commit migration
+      - name: Generate flat reference collections
+        run: python3 scripts/sync-taxonomy-options.py
+
+      - name: Commit generated reference data
         run: |
-          if git diff --quiet; then
-            echo "No taxonomy files need migration."
+          if git diff --quiet -- data/pages-cms; then
+            echo "Taxonomy reference data is already up to date."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/category content/tag
-          git commit -m "Add explicit slugs to taxonomy pages"
+          git add data/pages-cms
+          git commit -m "Sync Pages CMS taxonomy reference data"
           git push origin "HEAD:feature/pages-cms-publishing"
