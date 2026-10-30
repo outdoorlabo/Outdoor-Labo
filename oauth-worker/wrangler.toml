@@ -5,3 +5,4 @@ workers_dev = true
 
 [vars]
 CMS_ORIGIN = "https://outdoorlabo.a-ce.com"
+CMS_ORIGINS = "https://outdoorlabo.a-ce.com,https://test-decap-recursive-media-l.outdoorlabo.pages.dev"
