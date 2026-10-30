@@ -78,10 +78,12 @@ function callbackPage(
   </script>
 </body>
 </html>`;
-  return htmlResponse(html, 200, {
-    ...Object.fromEntries(new Headers(extraHeaders).entries()),
-    "Content-Security-Policy": "default-src 'none'; script-src 'unsafe-inline'; base-uri 'none'; frame-ancestors 'none'",
-  });
+  const headers = new Headers(extraHeaders);
+  headers.set(
+    "Content-Security-Policy",
+    "default-src 'none'; script-src 'unsafe-inline'; base-uri 'none'; frame-ancestors 'none'",
+  );
+  return htmlResponse(html, 200, headers);
 }
 
 function errorPage(message: string, status = 400, extra: HeadersInit = {}): Response {
