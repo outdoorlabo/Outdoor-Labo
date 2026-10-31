@@ -1,4 +1,4 @@
 ---
-title: "三頭山"
+parent: "okutama"\ntitle: "三頭山"
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: "檜洞丸"
+parent: "tanzawa"\ntitle: "檜洞丸"
 ---
 

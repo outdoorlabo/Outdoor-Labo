@@ -1,4 +1,4 @@
 ---
-title: "食器・調理用具"
+parent: "gear"\ntitle: "食器・調理用具"
 ---
 

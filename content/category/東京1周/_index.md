@@ -1,5 +1,4 @@
 ---
-parent: "ride"
-title: "東京1周"
+parent: "ride"\ntitle: "東京1周"
 ---
 

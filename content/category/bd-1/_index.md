@@ -1,5 +1,4 @@
 ---
-parent: "roadbike"
-title: "BD-1"
+parent: "roadbike"\ntitle: "BD-1"
 ---
 

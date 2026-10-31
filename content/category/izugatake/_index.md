@@ -1,4 +1,4 @@
 ---
-title: "伊豆ヶ岳"
+parent: "okumusashi"\ntitle: "伊豆ヶ岳"
 ---
 

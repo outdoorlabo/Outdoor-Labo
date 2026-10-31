@@ -1,4 +1,4 @@
 ---
-title: "相模湖"
+parent: "ride"\ntitle: "相模湖"
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: "越前岳"
+parent: "ashitaka"\ntitle: "越前岳"
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: "黒檜山・駒ヶ岳"
+parent: "akagiyama"\ntitle: "黒檜山・駒ヶ岳"
 ---
 

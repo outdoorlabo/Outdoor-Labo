@@ -1,4 +1,4 @@
 ---
-title: "雪山装備"
+parent: "gear"\ntitle: "雪山装備"
 ---
 

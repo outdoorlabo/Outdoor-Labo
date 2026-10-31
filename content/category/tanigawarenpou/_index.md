@@ -1,4 +1,4 @@
 ---
-title: "谷川連峰"
+parent: "hiking-mountaineering"\ntitle: "谷川連峰"
 ---
 

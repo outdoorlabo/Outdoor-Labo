@@ -1,4 +1,4 @@
 ---
-title: "赤城山"
+parent: "hiking-mountaineering"\ntitle: "赤城山"
 ---
 

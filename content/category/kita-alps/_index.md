@@ -1,4 +1,4 @@
 ---
-title: "北アルプス"
+parent: "hiking-mountaineering"\ntitle: "北アルプス"
 ---
 

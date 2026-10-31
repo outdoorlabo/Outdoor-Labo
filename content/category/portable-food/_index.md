@@ -1,4 +1,4 @@
 ---
-title: "補給食"
+parent: "training"\ntitle: "補給食"
 ---
 

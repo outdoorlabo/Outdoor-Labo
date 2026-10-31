@@ -1,4 +1,4 @@
 ---
-title: "花見川CR"
+parent: "ride"\ntitle: "花見川CR"
 ---
 

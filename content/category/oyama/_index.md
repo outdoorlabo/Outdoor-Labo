@@ -1,4 +1,4 @@
 ---
-title: "大山"
+parent: "tanzawa"\ntitle: "大山"
 ---
 

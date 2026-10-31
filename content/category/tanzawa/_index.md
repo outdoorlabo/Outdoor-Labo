@@ -1,4 +1,4 @@
 ---
-title: "丹沢"
+parent: "hiking-mountaineering"\ntitle: "丹沢"
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: "ストーブ"
+parent: "cookware"\ntitle: "ストーブ"
 ---
 

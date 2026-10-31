@@ -1,4 +1,4 @@
 ---
-title: "笠取山"
+parent: "okuchichibu"\ntitle: "笠取山"
 ---
 

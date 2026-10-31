@@ -1,4 +1,4 @@
 ---
-title: "靴・足回り"
+parent: "gear"\ntitle: "靴・足回り"
 ---
 

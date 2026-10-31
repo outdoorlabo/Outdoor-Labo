@@ -1,5 +1,4 @@
 ---
-parent: "roadbike"
-title: "BMC SLR02"
+parent: "roadbike"\ntitle: "BMC SLR02"
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: "塔ノ岳"
+parent: "tanzawa"\ntitle: "塔ノ岳"
 ---
 

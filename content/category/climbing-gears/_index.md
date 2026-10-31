@@ -1,4 +1,4 @@
 ---
-title: "用具"
+parent: "gear"\ntitle: "用具"
 ---
 

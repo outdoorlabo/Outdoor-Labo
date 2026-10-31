@@ -1,4 +1,4 @@
 ---
-title: "霧島連峰"
+parent: "hiking-mountaineering"\ntitle: "霧島連峰"
 ---
 

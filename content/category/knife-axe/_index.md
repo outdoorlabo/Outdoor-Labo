@@ -1,4 +1,4 @@
 ---
-title: "ナイフ・斧"
+parent: "gear"\ntitle: "ナイフ・斧"
 ---
 

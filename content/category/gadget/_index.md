@@ -1,4 +1,4 @@
 ---
-title: "便利な小物"
+parent: "gear"\ntitle: "便利な小物"
 ---
 

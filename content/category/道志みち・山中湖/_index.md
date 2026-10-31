@@ -1,4 +1,4 @@
 ---
-title: "道志みち・山中湖"
+parent: "ride"\ntitle: "道志みち・山中湖"
 ---
 

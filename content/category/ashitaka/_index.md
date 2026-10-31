@@ -1,4 +1,4 @@
 ---
-title: "愛鷹連峰"
+parent: "hiking-mountaineering"\ntitle: "愛鷹連峰"
 ---
 

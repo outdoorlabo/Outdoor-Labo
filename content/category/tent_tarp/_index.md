@@ -1,4 +1,4 @@
 ---
-title: "テント・タープ"
+parent: "gear"\ntitle: "テント・タープ"
 ---
 

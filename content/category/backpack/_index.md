@@ -1,4 +1,4 @@
 ---
-title: "バックパック"
+parent: "gear"\ntitle: "バックパック"
 ---
 

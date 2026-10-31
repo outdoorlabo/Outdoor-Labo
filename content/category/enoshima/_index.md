@@ -1,4 +1,4 @@
 ---
-title: "江ノ島"
+parent: "ride"\ntitle: "江ノ島"
 ---
 

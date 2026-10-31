@@ -1,4 +1,4 @@
 ---
-title: "仙丈ヶ岳"
+parent: "southern-apls"\ntitle: "仙丈ヶ岳"
 ---
 

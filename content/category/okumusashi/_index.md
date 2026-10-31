@@ -1,4 +1,4 @@
 ---
-title: "奥武蔵"
+parent: "hiking-mountaineering"\ntitle: "奥武蔵"
 ---
 

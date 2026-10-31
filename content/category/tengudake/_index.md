@@ -1,4 +1,4 @@
 ---
-title: "天狗岳"
+parent: "yatsugatake"\ntitle: "天狗岳"
 ---
 
