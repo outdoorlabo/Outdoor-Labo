@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Sync WordPress parent relationships into taxonomy front matter
+      - name: Restore category titles and sync WordPress parent relationships into taxonomy front matter
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -34,10 +34,12 @@ jobs:
           items = menu.get("main", [])
           by_id = {item.get("identifier"): item for item in items if item.get("identifier")}
           slug_by_id = {}
+          item_by_slug = {}
           for item in items:
               match = re.fullmatch(r"/category/([^/]+)/?", item.get("url", ""))
               if match:
                   slug_by_id[item.get("identifier")] = match.group(1)
+                  item_by_slug[match.group(1)] = item
 
           changed = []
           missing = []
@@ -69,7 +71,7 @@ jobs:
 
           if missing:
               raise SystemExit("Missing category files: " + ", ".join(missing))
-          print(f"Updated {len(changed)} category parent relationships.")
+          print(f"Updated {len(changed)} category titles/parent relationships.")
           PY
       - name: Commit synchronized taxonomy metadata
         run: |
