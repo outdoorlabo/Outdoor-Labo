@@ -9,7 +9,6 @@ site_url: https://outdoorlabo.a-ce.com
 display_url: https://outdoorlabo.a-ce.com
 publish_mode: editorial_workflow
 
-# New uploads are staged here. A GitHub Action sorts them by the save commit's JST date.
 media_folder: static/wp-content/uploads
 public_folder: /wp-content/uploads
 
@@ -17,6 +16,7 @@ media_library:
   name: outdoor-labo-folder-library
 
 collections:
+  # Articles remain the first and default collection.
   - name: posts
     label: 記事
     label_singular: 記事
@@ -37,43 +37,77 @@ collections:
     media_folder: static/wp-content/uploads/_incoming
     public_folder: /wp-content/uploads/_incoming
     fields:
-      - label: タイトル
-        name: title
-        widget: string
-      - label: 公開日時
-        name: date
-        widget: datetime
-        required: true
-      - label: 最終更新日時
-        name: lastmod
-        widget: datetime
-        required: false
+      - { label: タイトル, name: title, widget: string }
+      - { label: 公開日時, name: date, widget: datetime, required: true }
+      - { label: 最終更新日時, name: lastmod, widget: datetime, required: false }
       - label: URLスラッグ
         name: slug
         widget: string
-        hint: "既存記事のURLを変えないよう、通常は変更しないでください。新規記事では英数字とハイフンを推奨します。"
+        hint: "既存記事のURLを変えないよう、通常は変更しないでください。"
       - label: カテゴリー
         name: category
         widget: list
         required: false
-        hint: "既存カテゴリーのスラッグを入力してください。例: camping, hiking"
+        hint: "既存カテゴリーのスラッグを入力してください。"
       - label: タグ
         name: tag
         widget: list
         required: false
         hint: "既存タグのスラッグを入力してください。"
-      - label: アイキャッチ画像
-        name: image
-        widget: image
+      - { label: アイキャッチ画像, name: image, widget: image, required: false }
+      - { label: 概要文, name: description, widget: text, required: false }
+      - { label: WordPress ID（移行データ）, name: wpid, widget: number, required: false }
+      - { label: 本文, name: body, widget: markdown }
+
+  # Existing Hugo taxonomy bundles stay at content/category/<slug>/_index.md.
+  # Parent-child relationships are metadata only; URLs and bundle paths do not move.
+  - name: categories
+    label: カテゴリー管理
+    label_singular: カテゴリー
+    folder: content/category
+    create: true
+    delete: false
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 1
+      subfolders: true
+      summary: "{{title}}"
+    meta:
+      path:
+        label: URLスラッグ
+        widget: string
+        index_file: _index
+    summary: "{{title}}"
+    fields:
+      - { label: カテゴリー名, name: title, widget: string }
+      - label: 親カテゴリー
+        name: parent
+        widget: relation
+        collection: categories
+        search_fields: [title]
+        value_field: "{{slug}}"
+        display_fields: [title]
         required: false
-      - label: 概要文
-        name: description
-        widget: text
-        required: false
-      - label: WordPress ID（移行データ）
-        name: wpid
-        widget: number
-        required: false
-      - label: 本文
-        name: body
-        widget: markdown
+        hint: "親がない場合は空欄。親・子・孫の関係はこの項目で設定します。URLのフォルダ構造は変更しません。"
+
+  - name: tags
+    label: タグ管理
+    label_singular: タグ
+    folder: content/tag
+    create: true
+    delete: false
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 1
+      subfolders: true
+      summary: "{{title}}"
+    meta:
+      path:
+        label: URLスラッグ
+        widget: string
+        index_file: _index
+    summary: "{{title}}"
+    fields:
+      - { label: タグ名, name: title, widget: string }
