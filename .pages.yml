@@ -1,5 +1,5 @@
 # Pages CMS configuration for OUTDOOR LABO
-# Articles remain Hugo-compatible Markdown files in content/posts.
+# Hugo taxonomy URLs and existing article slugs are preserved.
 
 media:
   - name: post-images
@@ -11,106 +11,12 @@ media:
     rename: safe
 
 content:
-  - name: categories
-    label: カテゴリー管理
-    type: collection
-    path: content/category
-    subfolders: true
-    format: yaml-frontmatter
-    filename:
-      template: "{fields.slug}/_index.md"
-      field: false
-    view:
-      primary: title
-      fields: [title, slug]
-    fields:
-      - name: title
-        label: カテゴリー名
-        type: string
-        required: true
-      - name: slug
-        label: URLスラッグ（英数字）
-        type: string
-        required: true
-        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-
-  - name: tags
-    label: タグ管理
-    type: collection
-    path: content/tag
-    subfolders: true
-    format: yaml-frontmatter
-    filename:
-      template: "{fields.slug}/_index.md"
-      field: false
-    view:
-      primary: title
-      fields: [title, slug]
-    fields:
-      - name: title
-        label: タグ名
-        type: string
-        required: true
-      - name: slug
-        label: URLスラッグ（英数字）
-        type: string
-        required: true
-        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-
-  - name: category-options
-    label: カテゴリー参照データ（自動生成）
-    type: collection
-    path: data/pages-cms/category-options
-    format: yaml
-    filename:
-      template: "{fields.slug}.yml"
-      field: false
-    view:
-      primary: title
-      fields: [title, slug]
-      search: [title, slug]
-    operations:
-      create: false
-      rename: false
-      delete: false
-    fields:
-      - name: title
-        label: カテゴリー名
-        type: string
-      - name: slug
-        label: スラッグ
-        type: string
-
-  - name: tag-options
-    label: タグ参照データ（自動生成）
-    type: collection
-    path: data/pages-cms/tag-options
-    format: yaml
-    filename:
-      template: "{fields.slug}.yml"
-      field: false
-    view:
-      primary: title
-      fields: [title, slug]
-      search: [title, slug]
-    operations:
-      create: false
-      rename: false
-      delete: false
-    fields:
-      - name: title
-        label: タグ名
-        type: string
-      - name: slug
-        label: スラッグ
-        type: string
-
+  # The writing workflow is the primary CMS task: keep it first.
   - name: posts
     label: 記事
     type: collection
     path: content/posts
     format: yaml-frontmatter
-    # slug フィールドの値をファイル名に使用。Hugo の URL にも同じ slug を使う。
     filename:
       template: "{fields.slug}.md"
       field: false
@@ -134,6 +40,7 @@ content:
         label: URLスラッグ（英数字）
         type: string
         required: true
+        description: 既存記事のURLを維持するため、公開済み記事では変更しないでください。
       - name: draft
         label: 下書き
         type: boolean
@@ -152,9 +59,9 @@ content:
         options:
           collection: category-options
           multiple: true
-          search: "title,fields.slug"
+          search: "title,fields.hierarchy,fields.slug"
           value: "{fields.slug}"
-          label: "{fields.title}"
+          label: "{fields.hierarchy}"
       - name: tag
         label: タグ
         type: reference
@@ -171,12 +78,130 @@ content:
           media: post-images
           switcher: true
 
+  - name: categories
+    label: カテゴリー管理
+    type: collection
+    path: content/category
+    subfolders: true
+    format: yaml-frontmatter
+    filename:
+      template: "{fields.slug}/_index.md"
+      field: false
+    view:
+      primary: title
+      fields: [title, parent, slug]
+      search: [title, slug, parent]
+    fields:
+      - name: title
+        label: カテゴリー名
+        type: string
+        required: true
+      - name: slug
+        label: URLスラッグ
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        description: 既存カテゴリーのURLを維持するため、公開済みカテゴリーでは変更しないでください。
+      - name: parent
+        label: 親カテゴリー
+        type: reference
+        required: false
+        description: 親がない場合は空欄。親を選ぶと子カテゴリーとして管理されます。
+        options:
+          collection: categories
+          multiple: false
+          search: "title,fields.slug"
+          value: "{fields.slug}"
+          label: "{fields.title}"
+
+  - name: tags
+    label: タグ管理
+    type: collection
+    path: content/tag
+    subfolders: true
+    format: yaml-frontmatter
+    filename:
+      template: "{fields.slug}/_index.md"
+      field: false
+    view:
+      primary: title
+      fields: [title, slug]
+      search: [title, slug]
+    fields:
+      - name: title
+        label: タグ名
+        type: string
+        required: true
+      - name: slug
+        label: URLスラッグ
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+
+  - name: reference-data
+    label: 参照データ（自動生成）
+    type: group
+    items:
+      - name: category-options
+        label: 記事用カテゴリー一覧
+        type: collection
+        path: data/pages-cms/category-options
+        format: yaml
+        filename:
+          template: "{fields.slug}.yml"
+          field: false
+        view:
+          primary: hierarchy
+          fields: [hierarchy, slug]
+          search: [title, hierarchy, slug]
+        operations:
+          create: false
+          rename: false
+          delete: false
+        fields:
+          - name: title
+            label: カテゴリー名
+            type: string
+          - name: slug
+            label: スラッグ
+            type: string
+          - name: parent
+            label: 親カテゴリー
+            type: string
+          - name: hierarchy
+            label: 階層表示
+            type: string
+
+      - name: tag-options
+        label: 記事用タグ一覧
+        type: collection
+        path: data/pages-cms/tag-options
+        format: yaml
+        filename:
+          template: "{fields.slug}.yml"
+          field: false
+        view:
+          primary: title
+          fields: [title, slug]
+          search: [title, slug]
+        operations:
+          create: false
+          rename: false
+          delete: false
+        fields:
+          - name: title
+            label: タグ名
+            type: string
+          - name: slug
+            label: スラッグ
+            type: string
+
 settings:
   content:
     merge: true
   commit:
     templates:
-      create: "記事を作成: {path}"
-      update: "記事を更新: {path}"
-      delete: "記事を削除: {path}"
-      rename: "記事名を変更: {oldPath} -> {newPath}"
+      create: "コンテンツを作成: {path}"
+      update: "コンテンツを更新: {path}"
+      delete: "コンテンツを削除: {path}"
+      rename: "コンテンツ名を変更: {oldPath} -> {newPath}"
