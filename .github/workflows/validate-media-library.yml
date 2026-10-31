@@ -4,9 +4,21 @@ on:
   push:
     branches:
       - 'test/**'
+    paths:
+      - 'static/admin/**'
+      - '.github/workflows/**'
+  pull_request:
+    branches:
+      - 'test/**'
+    paths:
+      - 'static/admin/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
 
 jobs:
-  syntax:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,3 +27,24 @@ jobs:
           node-version: 20
       - name: Check JavaScript syntax
         run: node --check static/admin/media-library.js
+      - name: Install YAML validator
+        run: python3 -m pip install --disable-pip-version-check pyyaml
+      - name: Validate Decap and workflow YAML
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          config = yaml.safe_load(Path("static/admin/config.yml").read_text(encoding="utf-8"))
+          workflow = yaml.safe_load(Path(".github/workflows/organize-decap-media.yml").read_text(encoding="utf-8"))
+
+          assert config["backend"]["name"] == "github"
+          assert config["backend"]["repo"] == "outdoorlabo/Outdoor-Labo"
+          assert config["backend"]["branch"] == "test/oauth-preview-origin-allowlist"
+          assert config["media_library"]["name"] == "outdoor-labo-folder-library"
+          assert config["collections"][0]["media_folder"] == "static/wp-content/uploads/_incoming"
+          assert config["collections"][0]["public_folder"] == "/wp-content/uploads/_incoming"
+          assert "push" in workflow
+          assert workflow["permissions"]["contents"] == "write"
+          print("Decap config and media workflow YAML are valid.")
+          PY
