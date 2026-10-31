@@ -42,8 +42,18 @@ jobs:
           assert config["backend"]["repo"] == "outdoorlabo/Outdoor-Labo"
           assert config["backend"]["branch"] == "test/oauth-preview-origin-allowlist"
           assert config["media_library"]["name"] == "outdoor-labo-folder-library"
-          assert config["collections"][0]["media_folder"] == "static/wp-content/uploads/_incoming"
-          assert config["collections"][0]["public_folder"] == "/wp-content/uploads/_incoming"
+          posts = next(c for c in config["collections"] if c["name"] == "posts")
+          categories = next(c for c in config["collections"] if c["name"] == "categories")
+          tags = next(c for c in config["collections"] if c["name"] == "tags")
+          assert posts["media_folder"] == "static/wp-content/uploads/_incoming"
+          assert posts["public_folder"] == "/wp-content/uploads/_incoming"
+          for taxonomy in (categories, tags):
+              assert taxonomy["extension"] == "md"
+              assert taxonomy["format"] == "frontmatter"
+              assert taxonomy["nested"]["depth"] >= 2
+              assert taxonomy["meta"]["path"]["index_file"] == "_index"
+          assert next(f for f in posts["fields"] if f["name"] == "category")["collection"] == "categories"
+          assert next(f for f in posts["fields"] if f["name"] == "tag")["collection"] == "tags"
           assert "on" in workflow and "push" in workflow["on"]
           assert workflow["permissions"]["contents"] == "write"
           print("Decap config and media workflow YAML are valid.")
