@@ -25,7 +25,7 @@
       .olml-item{border:1px solid #ddd;border-radius:6px;padding:8px;cursor:pointer;min-width:0}.olml-item.selected{border:2px solid #2878d0;background:#eef6ff;padding:7px}
       .olml-thumb{height:105px;background:#f2f2f2;display:flex;align-items:center;justify-content:center;margin-bottom:7px;overflow:hidden;border-radius:4px;font-size:30px}
       .olml-thumb img{width:100%;height:100%;object-fit:contain}.olml-name{overflow-wrap:anywhere;font-size:12px}
-      .olml-button{border:1px solid #bbb;background:#fff;border-radius:5px;padding:7px 11px;cursor:pointer}.olml-button.primary{background:#245fa8;color:#fff;border-color:#245fa8}
+      .olml-button{border:1px solid #bbb;background:#fff;border-radius:5px;padding:7px 11px;cursor:pointer}.olml-button.primary{background:#245fa8;color:#fff;border-color:#245fa8}.olml-button.danger{color:#a12622;border-color:#d7a5a2}
       .olml-crumb{display:flex;gap:6px;align-items:center;flex:1;flex-wrap:wrap}.olml-crumb button{border:0;background:none;color:#245fa8;cursor:pointer;padding:2px}
       .olml-status{color:#666;margin-right:auto}.olml-empty,.olml-loading{padding:40px;text-align:center;color:#666}
       @media(max-width:600px){.olml-overlay{padding:5px}.olml-modal{width:100%;height:96vh}.olml-grid{grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}.olml-thumb{height:80px}}
@@ -73,7 +73,7 @@
           const prefix = MEDIA_ROOT + '/';
           files = (result.tree || [])
             .filter(item => item.type === 'blob' && item.path.startsWith(prefix) && IMAGE_EXT.test(item.path))
-            .map(item => ({ path: item.path, name: item.path.split('/').pop() }))
+            .map(item => ({ path: item.path, name: item.path.split('/').pop(), sha: item.sha }))
             .sort((a,b) => a.path.localeCompare(b.path));
         } catch (error) {
           console.error('[Outdoor Labo media library]', error);
@@ -180,11 +180,53 @@
         foot.appendChild(element('span','olml-status',files.length+' 件の画像'+(selected?' / 1 件選択':'')));
         const cancel=element('button','olml-button','キャンセル');
         cancel.addEventListener('click',()=>{overlay.hidden=true;});
+        const remove=element('button','olml-button danger','選択画像を削除');
+        remove.disabled=!selected || loading;
+        remove.addEventListener('click',deleteSelected);
         const insert=element('button','olml-button primary','この画像を選択');
-        insert.disabled=!selected;
+        insert.disabled=!selected || loading;
         insert.addEventListener('click',insertSelected);
-        foot.append(cancel,insert);
+        foot.append(cancel,remove,insert);
         modal.appendChild(foot);
+      }
+
+      async function deleteSelected() {
+        if (!selected) return;
+        const file = files.find(item => item.path === selected);
+        if (!file) return;
+        const rel = relative(file.path);
+        if (!window.confirm('この画像をテストブランチから削除します。\\n' + rel + '\\n\\n記事本文から参照されている場合、画像が表示されなくなります。続けますか？')) return;
+
+        loading = true;
+        errorMessage = '';
+        render();
+        try {
+          const apiPath = file.path.split('/').map(encodeURIComponent).join('/');
+          const response = await fetch(apiBase + '/contents/' + apiPath, {
+            method: 'DELETE',
+            headers: { ...headers, 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              message: 'Delete media: ' + rel,
+              sha: file.sha,
+              branch
+            })
+          });
+          if (!response.ok) {
+            let detail = '';
+            try {
+              const payload = await response.json();
+              detail = payload.message || '';
+            } catch (_) {}
+            throw new Error('GitHub API ' + response.status + (detail ? ': ' + detail : ''));
+          }
+          files = files.filter(item => item.path !== file.path);
+          selected = null;
+        } catch (error) {
+          console.error('[Outdoor Labo media library] delete failed', error);
+          errorMessage = '画像を削除できませんでした。' + error.message;
+        }
+        loading = false;
+        render();
       }
 
       function insertSelected() {
