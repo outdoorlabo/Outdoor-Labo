@@ -303,7 +303,7 @@
           throw new Error('同名ファイルが多すぎるため保存できませんでした。');
         } catch (error) {
           console.error('[Outdoor Labo media upload]', error);
-          alert('アップロードに失敗しました。\\n' + error.message);
+          alert('アップロードに失敗しました。\n' + error.message);
         }
       }
 
@@ -346,8 +346,9 @@
           alert('Download failed.');
           console.error(error);
         }
-      }      
-        function show() {
+      }
+
+      function show() {
         currentPath='';
         selected=null;
         search='';
