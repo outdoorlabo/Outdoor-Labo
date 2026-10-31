@@ -134,6 +134,15 @@
         searchBox.value=search;
         searchBox.addEventListener('input',()=>{search=searchBox.value;const pos=search.length;render();const next=modal.querySelector('input[type=search]');if(next){next.focus();next.setSelectionRange(pos,pos);}});
         tools.appendChild(searchBox);
+        const copyButton = element('button', 'olml-button', 'Copy');
+        copyButton.disabled = !selected;
+        copyButton.addEventListener('click', copySelected);
+        tools.appendChild(copyButton);
+
+        const downloadButton = element('button', 'olml-button', 'Download');
+        downloadButton.disabled = !selected;
+        downloadButton.addEventListener('click', downloadSelected);
+        tools.appendChild(downloadButton);
         modal.appendChild(tools);
 
         const body=element('div','olml-body');
@@ -180,12 +189,52 @@
 
       function insertSelected() {
         if (!selected) return;
-        const path=relative(selected);
+        const path = relative(selected);
         handleInsert('/wp-content/uploads/' + path);
-        overlay.hidden=true;
+        overlay.hidden = true;
       }
 
-      function show() {
+      async function copySelected() {
+        if (!selected) return;
+
+        const url = window.location.origin + '/wp-content/uploads/' + relative(selected);
+
+        try {
+          await navigator.clipboard.writeText(url);
+          alert('Image URL copied.');
+        } catch (error) {
+          alert('Copy failed.');
+          console.error(error);
+        }
+      }
+
+      async function downloadSelected() {
+        if (!selected) return;
+
+        const url = window.location.origin + '/wp-content/uploads/' + relative(selected);
+        const filename = selected.split('/').pop();
+
+        try {
+          const response = await fetch(url);
+          if (!response.ok) throw new Error('Download failed');
+
+          const blob = await response.blob();
+          const objectUrl = URL.createObjectURL(blob);
+          const link = document.createElement('a');
+
+          link.href = objectUrl;
+          link.download = filename;
+          document.body.appendChild(link);
+          link.click();
+          link.remove();
+
+          setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+        } catch (error) {
+          alert('Download failed.');
+          console.error(error);
+        }
+      }      
+        function show() {
         currentPath='';
         selected=null;
         search='';
