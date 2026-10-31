@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Validate Decap CMS taxonomy parent references without changing Hugo bundle paths."""
 from pathlib import Path
-import re
 import sys
 import yaml
 
@@ -11,11 +10,15 @@ CONFIG = ROOT / "static" / "admin" / "config.yml"
 
 
 def frontmatter(path):
-    text = path.read_text(encoding="utf-8")
-    match = re.match(r"^---\\s*\\n(.*?)\\n---(?:\\n|$)", text, re.S)
-    if not match:
+    text = path.read_text(encoding="utf-8").lstrip("\ufeff")
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
         raise ValueError(f"{path.relative_to(ROOT)}: missing YAML front matter")
-    data = yaml.safe_load(match.group(1)) or {}
+    try:
+        end = next(index for index, line in enumerate(lines[1:], start=1) if line.strip() == "---")
+    except StopIteration:
+        raise ValueError(f"{path.relative_to(ROOT)}: unterminated YAML front matter")
+    data = yaml.safe_load("\n".join(lines[1:end])) or {}
     if not isinstance(data, dict):
         raise ValueError(f"{path.relative_to(ROOT)}: front matter must be a mapping")
     return data
@@ -42,13 +45,13 @@ def main():
             raise ValueError(f"Category '{slug}' cannot be its own parent")
 
     for slug in terms:
-        seen = set()
+        seen = []
         current = slug
         while current and terms.get(current):
             if current in seen:
                 chain = " -> ".join([*seen, current])
                 raise ValueError(f"Category parent cycle detected: {chain}")
-            seen.add(current)
+            seen.append(current)
             current = terms[current]
 
     print(f"Validated Decap config and {len(terms)} category bundles; parent links are valid.")
