@@ -1,4 +1,4 @@
 ---
-parent: "hiking"\ntitle: "トレーニング"
+parent: "hiking"
 ---
 

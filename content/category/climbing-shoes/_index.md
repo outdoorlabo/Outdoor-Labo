@@ -1,4 +1,4 @@
 ---
-parent: "climbing-gear"\ntitle: "クライミングシューズ"
+parent: "climbing-gear"
 ---
 

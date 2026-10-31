@@ -1,4 +1,4 @@
 ---
-parent: "tanigawarenpou"\ntitle: "谷川岳"
+parent: "tanigawarenpou"
 ---
 

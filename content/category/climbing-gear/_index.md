@@ -1,4 +1,4 @@
 ---
-parent: "climbing"\ntitle: "クライミング装備"
+parent: "climbing"
 ---
 

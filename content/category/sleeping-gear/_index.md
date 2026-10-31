@@ -1,4 +1,4 @@
 ---
-parent: "gear"\ntitle: "寝具"
+parent: "gear"
 ---
 

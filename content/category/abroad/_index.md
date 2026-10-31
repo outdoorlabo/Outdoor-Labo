@@ -1,4 +1,4 @@
 ---
-parent: "hiking-mountaineering"\ntitle: "海外"
+parent: "hiking-mountaineering"
 ---
 

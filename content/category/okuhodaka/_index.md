@@ -1,4 +1,4 @@
 ---
-parent: "kita-alps"\ntitle: "奥穂高"
+parent: "kita-alps"
 ---
 

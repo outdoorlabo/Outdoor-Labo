@@ -1,4 +1,4 @@
 ---
-parent: "hiking"\ntitle: "セール情報"
+parent: "hiking"
 ---
 

@@ -1,4 +1,4 @@
 ---
-parent: "ride"\ntitle: "乗鞍"
+parent: "ride"
 ---
 

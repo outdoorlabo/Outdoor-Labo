@@ -1,4 +1,4 @@
 ---
-parent: "okuchichibu"\ntitle: "国師岳"
+parent: "okuchichibu"
 ---
 

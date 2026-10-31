@@ -1,4 +1,4 @@
 ---
-parent: "ride"\ntitle: "筑波サーキット"
+parent: "ride"
 ---
 

@@ -1,4 +1,4 @@
 ---
-parent: "camp"\ntitle: "キャンピング"
+parent: "camp"
 ---
 

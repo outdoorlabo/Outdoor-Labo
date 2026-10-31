@@ -1,4 +1,4 @@
 ---
-parent: "gear"\ntitle: "サポートギア"
+parent: "gear"
 ---
 

@@ -1,4 +1,4 @@
 ---
-parent: "cookware"\ntitle: "ハイドレーション"
+parent: "cookware"
 ---
 

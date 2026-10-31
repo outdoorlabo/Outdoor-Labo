@@ -1,4 +1,4 @@
 ---
-parent: "camp"\ntitle: "キャンプ用具"
+parent: "camp"
 ---
 

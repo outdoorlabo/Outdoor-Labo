@@ -1,4 +1,4 @@
 ---
-parent: "roadbike"\ntitle: "ライド"
+parent: "roadbike"
 ---
 

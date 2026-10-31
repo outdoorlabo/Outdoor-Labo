@@ -1,4 +1,4 @@
 ---
-parent: "training"\ntitle: "スラックライン"
+parent: "training"
 ---
 

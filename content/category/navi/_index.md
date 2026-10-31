@@ -1,4 +1,4 @@
 ---
-parent: "hiking"\ntitle: "ナビゲーション"
+parent: "hiking"
 ---
 

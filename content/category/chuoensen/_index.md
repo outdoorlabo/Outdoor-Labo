@@ -1,4 +1,4 @@
 ---
-parent: "hiking-mountaineering"\ntitle: "中央沿線"
+parent: "hiking-mountaineering"
 ---
 

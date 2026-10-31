@@ -1,4 +1,4 @@
 ---
-parent: "gear"\ntitle: "手・腕"
+parent: "gear"
 ---
 

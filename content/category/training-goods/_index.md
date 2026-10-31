@@ -1,4 +1,4 @@
 ---
-parent: "training"\ntitle: "トレーニング用品"
+parent: "training"
 ---
 

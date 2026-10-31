@@ -1,4 +1,4 @@
 ---
-parent: "ride"\ntitle: "美ヶ原"
+parent: "ride"
 ---
 

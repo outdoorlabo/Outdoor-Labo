@@ -1,4 +1,4 @@
 ---
-parent: "abroad"\ntitle: "アメリカ"
+parent: "abroad"
 ---
 

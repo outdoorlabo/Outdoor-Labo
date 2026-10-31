@@ -1,4 +1,4 @@
 ---
-parent: "gear"\ntitle: "ランタン・ヘッドランプ"
+parent: "gear"
 ---
 
