@@ -1,4 +1,5 @@
 ---
 parent: "abroad"
+title: "アメリカ"
 ---
 

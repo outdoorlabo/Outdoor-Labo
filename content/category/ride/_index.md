@@ -1,4 +1,5 @@
 ---
 parent: "roadbike"
+title: "ライド"
 ---
 

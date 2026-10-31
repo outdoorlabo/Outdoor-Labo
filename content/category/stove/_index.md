@@ -1,4 +1,5 @@
 ---
 parent: "cookware"
+title: "ストーブ"
 ---
 

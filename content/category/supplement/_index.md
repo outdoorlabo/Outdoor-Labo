@@ -1,4 +1,5 @@
 ---
 parent: "training"
+title: "サプリ"
 ---
 
