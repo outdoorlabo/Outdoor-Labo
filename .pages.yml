@@ -100,8 +100,7 @@ content:
         label: URLスラッグ
         type: string
         required: true
-        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-        description: 既存カテゴリーのURLを維持するため、公開済みカテゴリーでは変更しないでください。
+        description: 既存カテゴリーには日本語スラッグもあります。公開済みカテゴリーのスラッグは変更しないでください。
       - name: parent
         label: 親カテゴリー
         type: reference
@@ -136,7 +135,7 @@ content:
         label: URLスラッグ
         type: string
         required: true
-        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        description: 既存タグのスラッグは変更しないでください。
 
   - name: reference-data
     label: 参照データ（自動生成）
