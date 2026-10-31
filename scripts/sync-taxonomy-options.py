@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mirror Hugo taxonomy branch bundles into flat Pages CMS reference collections."""
+"""Generate flat Pages CMS reference entries while preserving taxonomy hierarchy."""
 from pathlib import Path
 import yaml
 
@@ -20,25 +20,59 @@ def read_front_matter(path: Path) -> dict:
         raise ValueError(f"Expected mapping front matter: {path}")
     return data
 
+def load_terms(source: Path) -> dict:
+    terms = {}
+    for index_file in sorted(source.rglob("_index.md")):
+        slug = str(index_file.parent.relative_to(source)).replace("\\", "/")
+        # Hugo bundle path is authoritative; keep legacy flat slugs intact.
+        if "/" in slug:
+            raise ValueError(
+                f"Nested taxonomy storage would change Hugo term URLs: {index_file}. "
+                "Use the parent field instead of moving taxonomy bundles."
+            )
+        metadata = read_front_matter(index_file)
+        stored_slug = str(metadata.get("slug", "")).strip()
+        title = metadata.get("title")
+        if stored_slug != slug:
+            raise ValueError(f"Slug mismatch in {index_file}: {stored_slug!r} != {slug!r}")
+        if not isinstance(title, str) or not title.strip():
+            raise ValueError(f"Missing title in {index_file}")
+        parent = str(metadata.get("parent", "") or "").strip()
+        terms[slug] = {"title": title.strip(), "slug": slug, "parent": parent}
+    for slug, term in terms.items():
+        if term["parent"] and term["parent"] not in terms:
+            raise ValueError(f"Unknown parent {term['parent']!r} for category {slug!r}")
+        seen = {slug}
+        current = term["parent"]
+        while current:
+            if current in seen:
+                raise ValueError(f"Category parent cycle detected at {current!r}")
+            seen.add(current)
+            current = terms[current]["parent"]
+    def hierarchy(slug):
+        chain, current = [], slug
+        while current:
+            chain.append(terms[current]["title"])
+            current = terms[current]["parent"]
+        return " › ".join(reversed(chain))
+    for slug, term in terms.items():
+        term["hierarchy"] = hierarchy(slug)
+    return terms
+
 def main() -> None:
     total = 0
     for source, target in SOURCES.items():
         if not source.is_dir():
             raise SystemExit(f"Missing taxonomy directory: {source}")
+        terms = load_terms(source)
         target.mkdir(parents=True, exist_ok=True)
         expected = set()
-        for index_file in sorted(source.glob("*/_index.md")):
-            slug = index_file.parent.name
-            metadata = read_front_matter(index_file)
-            stored_slug = str(metadata.get("slug", "")).strip()
-            title = metadata.get("title")
-            if stored_slug != slug:
-                raise SystemExit(f"Slug mismatch in {index_file}: {stored_slug!r} != {slug!r}")
-            if not isinstance(title, str) or not title.strip():
-                raise SystemExit(f"Missing title in {index_file}")
+        for slug, term in terms.items():
             output = target / f"{slug}.yml"
             expected.add(output.name)
-            payload = {"title": title, "slug": slug}
+            payload = term if source.name == "category" else {
+                "title": term["title"], "slug": slug
+            }
             output.write_text(
                 yaml.safe_dump(payload, allow_unicode=True, sort_keys=False),
                 encoding="utf-8",
@@ -47,9 +81,7 @@ def main() -> None:
         for stale in target.glob("*.yml"):
             if stale.name not in expected:
                 stale.unlink()
-    print(f"Synced {total} taxonomy terms into flat Pages CMS reference collections.")
+    print(f"Synced {total} taxonomy terms; category parent relationships retained.")
 
 if __name__ == "__main__":
     main()
-
-# Generated reference files are committed by the workflow after this script runs.
