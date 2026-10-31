@@ -46,9 +46,14 @@ collections:
         hint: "既存記事のURLを変えないよう、通常は変更しないでください。"
       - label: カテゴリー
         name: category
-        widget: list
+        widget: relation
+        collection: categories
+        search_fields: [title]
+        value_field: "{{slug}}"
+        display_fields: [title]
+        multiple: true
         required: false
-        hint: "既存カテゴリーのスラッグを入力してください。"
+        hint: "カテゴリー名で検索して選択してください。保存値は既存のカテゴリーURLスラッグです。"
       - label: タグ
         name: tag
         widget: list
