@@ -26,7 +26,7 @@ collections:
     format: frontmatter
     nested:
       depth: 2
-      summary: '{{title}}'
+      summary: '{{title}} — 親: {{parent}}'
       subfolders: true
     meta:
       path:
@@ -37,6 +37,17 @@ collections:
       - label: 名前
         name: title
         widget: string
+      - label: 親カテゴリー
+        name: parent
+        widget: relation
+        collection: categories
+        search_fields: [title]
+        value_field: "{{slug}}"
+        display_fields: [title]
+        multiple: false
+        required: false
+        options_length: 100
+        hint: "親カテゴリーがない場合は未選択にします。自分自身や子孫を親に指定しないでください。"
       - label: 説明
         name: body
         widget: markdown
