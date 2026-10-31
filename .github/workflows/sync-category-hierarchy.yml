@@ -52,9 +52,17 @@ jobs:
               parent_id = item.get("parent")
               parent_slug = slug_by_id.get(parent_id) if parent_id else None
               source = path.read_text(encoding="utf-8")
-              updated = re.sub(r"^parent:.*\\n", "", source, flags=re.M)
+              lines = source.splitlines(keepends=True)
+              if not lines or lines[0].strip() != "---":
+                  raise SystemExit(f"Invalid front matter: {path}")
+              try:
+                  closing = next(i for i in range(1, len(lines)) if lines[i].strip() == "---")
+              except StopIteration:
+                  raise SystemExit(f"Unclosed front matter: {path}")
+              front = [line for line in lines[1:closing] if not line.lstrip().startswith("parent:")]
               if parent_slug:
-                  updated = re.sub(r"^(---\\s*\\n)", rf"\\1parent: \"{parent_slug}\"\\n", updated, count=1)
+                  front.insert(0, f'parent: "{parent_slug}"\\n')
+              updated = "".join([lines[0], *front, *lines[closing:]])
               if updated != source:
                   path.write_text(updated, encoding="utf-8")
                   changed.append(str(path))
