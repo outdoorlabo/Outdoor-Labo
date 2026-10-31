@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Generate flat Pages CMS reference entries while preserving taxonomy hierarchy."""
+"""Generate flat Pages CMS reference entries while preserving taxonomy hierarchy.
+
+The generated labels retain parent > child paths without changing Hugo term URLs.
+"""
 from pathlib import Path
 import yaml
 
