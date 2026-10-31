@@ -36,7 +36,7 @@ jobs:
           import yaml
 
           config = yaml.safe_load(Path("static/admin/config.yml").read_text(encoding="utf-8"))
-          workflow = yaml.safe_load(Path(".github/workflows/organize-decap-media.yml").read_text(encoding="utf-8"))
+          workflow = yaml.load(Path(".github/workflows/organize-decap-media.yml").read_text(encoding="utf-8"), Loader=yaml.BaseLoader)
 
           assert config["backend"]["name"] == "github"
           assert config["backend"]["repo"] == "outdoorlabo/Outdoor-Labo"
