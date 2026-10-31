@@ -22,8 +22,11 @@ collections:
     folder: content/category
     create: true
     delete: true
+    extension: md
+    format: frontmatter
     nested:
-      depth: 1
+      depth: 2
+      summary: '{{title}}'
       subfolders: true
     meta:
       path:
