@@ -78,7 +78,7 @@ collections:
         label: URLスラッグ
         widget: string
         index_file: _index
-    summary: "{{title}}"
+    summary: "{{title}} ← {{parent}}"
     fields:
       - { label: カテゴリー名, name: title, widget: string }
       - label: 親カテゴリー
