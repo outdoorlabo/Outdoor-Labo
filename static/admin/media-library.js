@@ -36,7 +36,7 @@
 
   const mediaLibrary = {
     name: PLUGIN_NAME,
-    async init({ handleInsert }) {
+    async init({ handleInsert, getMediaLibraryContext }) {
       const repo = 'outdoorlabo/Outdoor-Labo';
       const branch = 'test/oauth-preview-origin-allowlist';
       const apiBase = 'https://api.github.com/repos/' + repo;
@@ -75,11 +75,21 @@
         render();
       }
 
+      const fileInput = element('input');
+      fileInput.type = 'file';
+      fileInput.accept = 'image/jpeg,image/png,image/gif,image/webp,image/avif,image/svg+xml,image/bmp,image/x-icon';
+      fileInput.hidden = true;
+      fileInput.addEventListener('change', async () => {
+        const file = fileInput.files && fileInput.files[0];
+        fileInput.value = '';
+        if (file) await uploadSelected(file);
+      });
+
       const overlay = element('div','olml-overlay');
       overlay.hidden = true;
       const modal = element('div','olml-modal');
       overlay.appendChild(modal);
-      document.body.appendChild(overlay);
+      document.body.append(fileInput, overlay);
 
       function relative(path) {
         return path.startsWith(MEDIA_ROOT + '/') ? path.slice(MEDIA_ROOT.length + 1) : path;
@@ -143,6 +153,10 @@
         downloadButton.disabled = !selected;
         downloadButton.addEventListener('click', downloadSelected);
         tools.appendChild(downloadButton);
+
+        const uploadButton = element('button', 'olml-button', 'Upload');
+        uploadButton.addEventListener('click', () => fileInput.click());
+        tools.appendChild(uploadButton);
         modal.appendChild(tools);
 
         const body=element('div','olml-body');
@@ -192,6 +206,106 @@
         const path = relative(selected);
         handleInsert('/wp-content/uploads/' + path);
         overlay.hidden = true;
+      }
+
+      async function uploadSelected(file) {
+        const MAX_FILE_SIZE = 20 * 1024 * 1024;
+        const allowedTypes = new Set([
+          'image/jpeg', 'image/png', 'image/gif', 'image/webp',
+          'image/avif', 'image/svg+xml', 'image/bmp', 'image/x-icon'
+        ]);
+
+        if (!allowedTypes.has(file.type) || !IMAGE_EXT.test(file.name)) {
+          alert('対応している画像形式を選択してください。');
+          return;
+        }
+        if (file.size > MAX_FILE_SIZE) {
+          alert('画像サイズは20MB以下にしてください。');
+          return;
+        }
+
+        try {
+          const context = await getMediaLibraryContext();
+          const config = context && context.backendConfig;
+          if (
+            context?.backendName !== 'github' ||
+            config?.repo !== repo ||
+            config?.branch !== branch ||
+            !context.token
+          ) {
+            throw new Error('GitHubの認証情報または保存先ブランチを確認できません。再ログインしてください。');
+          }
+
+          const dateParts = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Asia/Tokyo',
+            year: 'numeric',
+            month: '2-digit'
+          }).formatToParts(new Date());
+          const year = dateParts.find(part => part.type === 'year').value;
+          const month = dateParts.find(part => part.type === 'month').value;
+
+          const safeName = file.name
+            .replace(/[\\/\\:\\*?"<>|\\x00-\\x1F]/g, '-')
+            .replace(/^\\.+/, '')
+            .trim();
+          if (!safeName) throw new Error('ファイル名を使用できません。');
+
+          const reader = new FileReader();
+          const dataUrl = await new Promise((resolve, reject) => {
+            reader.onload = () => resolve(reader.result);
+            reader.onerror = () => reject(new Error('画像ファイルを読み込めませんでした。'));
+            reader.readAsDataURL(file);
+          });
+          const base64 = String(dataUrl).split(',')[1];
+          if (!base64) throw new Error('画像データを読み込めませんでした。');
+
+          const headers = {
+            ...Object.fromEntries(Object.entries({
+              Accept: 'application/vnd.github+json',
+              'X-GitHub-Api-Version': '2022-11-28',
+              Authorization: 'Bearer ' + context.token
+            }))
+          };
+
+          let filename = safeName;
+          let attempt = 1;
+          while (attempt <= 100) {
+            const path = MEDIA_ROOT + '/' + year + '/' + month + '/' + filename;
+            const response = await fetch(apiBase + '/contents/' + path.split('/').map(encodeURIComponent).join('/'), {
+              method: 'PUT',
+              headers: { ...headers, 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                message: 'Upload media: ' + filename,
+                content: base64,
+                branch
+              })
+            });
+
+            if (response.ok) {
+              selected = path;
+              currentPath = year + '/' + month;
+              search = '';
+              await loadFiles();
+              alert('画像をアップロードしました。');
+              return;
+            }
+
+            const detail = await response.json().catch(() => ({}));
+            if (response.status === 422 && /already exists|sha/i.test(detail.message || '')) {
+              attempt += 1;
+              const dot = safeName.lastIndexOf('.');
+              filename = dot > 0
+                ? safeName.slice(0, dot) + '-' + attempt + safeName.slice(dot)
+                : safeName + '-' + attempt;
+              continue;
+            }
+            throw new Error(detail.message || 'GitHub API returned ' + response.status);
+          }
+          throw new Error('同名ファイルが多すぎるため保存できませんでした。');
+        } catch (error) {
+          console.error('[Outdoor Labo media upload]', error);
+          alert('アップロードに失敗しました。\\n' + error.message);
+        }
       }
 
       async function copySelected() {
