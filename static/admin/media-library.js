@@ -245,8 +245,8 @@
           const month = dateParts.find(part => part.type === 'month').value;
 
           const safeName = file.name
-            .replace(/[\\/\\:\\*?"<>|\\x00-\\x1F]/g, '-')
-            .replace(/^\\.+/, '')
+            .replace(/[\\/:*?"<>|\x00-\x1F]/g, '-')
+            .replace(/^\.+/, '')
             .trim();
           if (!safeName) throw new Error('ファイル名を使用できません。');
 
@@ -259,12 +259,10 @@
           const base64 = String(dataUrl).split(',')[1];
           if (!base64) throw new Error('画像データを読み込めませんでした。');
 
-          const headers = {
-            ...Object.fromEntries(Object.entries({
-              Accept: 'application/vnd.github+json',
-              'X-GitHub-Api-Version': '2022-11-28',
-              Authorization: 'Bearer ' + context.token
-            }))
+          const uploadHeaders = {
+            Accept: 'application/vnd.github+json',
+            'X-GitHub-Api-Version': '2022-11-28',
+            Authorization: 'Bearer ' + context.token
           };
 
           let filename = safeName;
@@ -273,7 +271,7 @@
             const path = MEDIA_ROOT + '/' + year + '/' + month + '/' + filename;
             const response = await fetch(apiBase + '/contents/' + path.split('/').map(encodeURIComponent).join('/'), {
               method: 'PUT',
-              headers: { ...headers, 'Content-Type': 'application/json' },
+              headers: { ...uploadHeaders, 'Content-Type': 'application/json' },
               body: JSON.stringify({
                 message: 'Upload media: ' + filename,
                 content: base64,
