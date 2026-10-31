@@ -52,7 +52,6 @@
       let errorMessage = '';
       let search = '';
       let managerMode = false;
-      let managerMode = false;
 
       async function loadFiles() {
         loading = true;
@@ -163,13 +162,6 @@
           deleteButton.addEventListener('click', deleteSelected);
           tools.appendChild(deleteButton);
         }
-
-        if (managerMode) {
-          const deleteButton = element('button', 'olml-button', '選択画像を削除');
-          deleteButton.disabled = !selected || loading;
-          deleteButton.addEventListener('click', deleteSelected);
-          tools.appendChild(deleteButton);
-        }
         const uploadButton = element('button', 'olml-button', 'Upload');
         uploadButton.addEventListener('click', () => fileInput.click());
         tools.appendChild(uploadButton);
@@ -215,50 +207,6 @@
         insert.addEventListener('click',insertSelected);
         foot.append(cancel,insert);
         modal.appendChild(foot);
-      }
-
-      async function deleteSelected() {
-        if (!selected || !managerMode) return;
-        const relativePath = relative(selected);
-        const publicPath = '/wp-content/uploads/' + relativePath;
-        const context = await getMediaLibraryContext();
-        if (!context?.token) { alert('GitHub認証を確認できません。再ログインしてください。'); return; }
-        if (!confirm('この画像をリポジトリから削除します。\n' + publicPath + '\n記事で使用中の場合は削除できません。よろしいですか？')) return;
-        try {
-          const authHeaders = { Accept:'application/vnd.github+json', Authorization:'Bearer '+context.token, 'X-GitHub-Api-Version':'2022-11-28' };
-          const treeResponse = await fetch(apiBase + '/git/trees/' + encodeURIComponent(branch) + '?recursive=1', {headers:authHeaders,cache:'no-store'});
-          if (!treeResponse.ok) throw new Error('記事一覧の取得に失敗しました: '+treeResponse.status);
-          const treeData = await treeResponse.json();
-          if (treeData.truncated) throw new Error('リポジトリ一覧が不完全なため、安全確認を中止しました。');
-          const postPaths = (treeData.tree||[]).filter(x=>x.type==='blob' && x.path.startsWith('content/posts/') && x.path.endsWith('.md')).map(x=>x.path);
-          let usedBy = [];
-          const batchSize = 12;
-          for (let i=0;i<postPaths.length;i+=batchSize) {
-            const batch = await Promise.all(postPaths.slice(i,i+batchSize).map(async path=>{
-              const r=await fetch(apiBase+'/contents/'+path.split('/').map(encodeURIComponent).join('/')+'?ref='+encodeURIComponent(branch),{headers:authHeaders,cache:'no-store'});
-              if(!r.ok) throw new Error('記事の参照確認に失敗しました: '+path+' ('+r.status+')');
-              const data=await r.json();
-              const decoded=decodeURIComponent(escape(atob((data.content||'').replace(/\n/g,''))));
-              return decoded.includes(publicPath) ? path : null;
-            }));
-            usedBy.push(...batch.filter(Boolean));
-          }
-          if (usedBy.length) {
-            alert('この画像は記事で使用中のため削除できません。\n'+usedBy.slice(0,8).join('\n')+(usedBy.length>8?'\nほか '+(usedBy.length-8)+' 件':''));
-            return;
-          }
-          const infoResponse=await fetch(apiBase+'/contents/'+selected.split('/').map(encodeURIComponent).join('/')+'?ref='+encodeURIComponent(branch),{headers:authHeaders,cache:'no-store'});
-          if(!infoResponse.ok) throw new Error('画像情報の取得に失敗しました: '+infoResponse.status);
-          const info=await infoResponse.json();
-          const deleteResponse=await fetch(apiBase+'/contents/'+selected.split('/').map(encodeURIComponent).join('/'),{method:'DELETE',headers:{...authHeaders,'Content-Type':'application/json'},body:JSON.stringify({message:'Delete unused media: '+info.name,sha:info.sha,branch})});
-          if(!deleteResponse.ok) { const detail=await deleteResponse.json().catch(()=>({})); throw new Error(detail.message||'削除に失敗しました: '+deleteResponse.status); }
-          selected=null;
-          await loadFiles();
-          alert('未使用画像を削除しました。');
-        } catch(error) {
-          console.error('[Outdoor Labo media delete]',error);
-          alert('安全確認または削除に失敗しました。画像は削除していません。\n'+error.message);
-        }
       }
 
       async function deleteSelected() {
