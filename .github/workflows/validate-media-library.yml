@@ -44,7 +44,7 @@ jobs:
           assert config["media_library"]["name"] == "outdoor-labo-folder-library"
           assert config["collections"][0]["media_folder"] == "static/wp-content/uploads/_incoming"
           assert config["collections"][0]["public_folder"] == "/wp-content/uploads/_incoming"
-          assert "push" in workflow
+          assert "on" in workflow and "push" in workflow["on"]
           assert workflow["permissions"]["contents"] == "write"
           print("Decap config and media workflow YAML are valid.")
           PY
