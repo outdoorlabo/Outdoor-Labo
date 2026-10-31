@@ -75,7 +75,7 @@ collections:
     extension: md
     format: frontmatter
     nested:
-      depth: 1
+      depth: 2
       subfolders: true
       summary: "{{title}}"
     meta:
@@ -105,7 +105,7 @@ collections:
     extension: md
     format: frontmatter
     nested:
-      depth: 1
+      depth: 2
       subfolders: true
       summary: "{{title}}"
     meta:
