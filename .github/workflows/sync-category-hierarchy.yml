@@ -1,0 +1,88 @@
+name: Sync category hierarchy metadata
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - test/oauth-preview-origin-allowlist
+    paths:
+      - config/_default/menus.toml
+      - .github/workflows/sync-category-hierarchy.yml
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: test/oauth-preview-origin-allowlist
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Restore category titles and sync WordPress parent relationships into taxonomy front matter
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import tomllib
+
+          menu = tomllib.loads(Path("config/_default/menus.toml").read_text(encoding="utf-8"))
+          items = menu.get("main", [])
+          by_id = {item.get("identifier"): item for item in items if item.get("identifier")}
+          slug_by_id = {}
+          item_by_slug = {}
+          for item in items:
+              match = re.fullmatch(r"/category/([^/]+)/?", item.get("url", ""))
+              if match:
+                  slug_by_id[item.get("identifier")] = match.group(1)
+                  item_by_slug[match.group(1)] = item
+
+          changed = []
+          missing = []
+          for item in items:
+              slug = slug_by_id.get(item.get("identifier"))
+              if not slug:
+                  continue
+              path = Path("content/category") / slug / "_index.md"
+              if not path.exists():
+                  missing.append(str(path))
+                  continue
+              parent_id = item.get("parent")
+              parent_slug = slug_by_id.get(parent_id) if parent_id else None
+              source = path.read_text(encoding="utf-8")
+              lines = source.splitlines(keepends=True)
+              if not lines or lines[0].strip() != "---":
+                  raise SystemExit(f"Invalid front matter: {path}")
+              try:
+                  closing = next(i for i in range(1, len(lines)) if lines[i].strip() == "---")
+              except StopIteration:
+                  raise SystemExit(f"Unclosed front matter: {path}")
+              front = [line for line in lines[1:closing] if not line.lstrip().startswith(("parent:", "title:"))]
+              menu_title = item.get("name", "").replace("\\", "\\\\").replace('"', '\\"')
+              front.insert(0, f'title: "{menu_title}"\n')
+              if parent_slug:
+                  front.insert(0, f'parent: "{parent_slug}"\n')
+              updated = "".join([lines[0], *front, *lines[closing:]])
+              if updated != source:
+                  path.write_text(updated, encoding="utf-8")
+                  changed.append(str(path))
+
+          if missing:
+              raise SystemExit("Missing category files: " + ", ".join(missing))
+          print(f"Updated {len(changed)} category titles/parent relationships.")
+          PY
+      - name: Commit synchronized taxonomy metadata
+        run: |
+          if [[ -n "$(git status --porcelain content/category)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add content/category
+            git commit -m "Sync WordPress category hierarchy metadata"
+            git push origin test/oauth-preview-origin-allowlist
+          else
+            echo "Category hierarchy metadata is already synchronized."
+          fi

@@ -2,6 +2,7 @@ interface Env {
   GITHUB_OAUTH_ID: string;
   GITHUB_OAUTH_SECRET: string;
   CMS_ORIGIN: string;
+  CMS_ORIGINS?: string;
 }
 
 const STATE_COOKIE = "decap_oauth_state";
@@ -40,6 +41,58 @@ function readCookie(request: Request, name: string): string | null {
 
 function cookie(value: string, maxAge: number): string {
   return `${STATE_COOKIE}=${value}; HttpOnly; Secure; SameSite=Lax; Path=/callback; Max-Age=${maxAge}`;
+}
+
+function allowedCmsOrigins(env: Env): Set<string> {
+  const configured = env.CMS_ORIGINS?.split(",").map((value) => value.trim()).filter(Boolean) ?? [];
+  if (configured.length === 0 && env.CMS_ORIGIN) configured.push(env.CMS_ORIGIN);
+
+  const origins = new Set<string>();
+  for (const value of configured) {
+    try {
+      const url = new URL(value);
+      if (url.protocol === "https:" && url.origin === value) origins.add(url.origin);
+    } catch {
+      // Ignore malformed entries; only exact HTTPS origins are accepted.
+    }
+  }
+  return origins;
+}
+
+function resolveCmsOrigin(request: Request, env: Env): string | null {
+  const allowed = allowedCmsOrigins(env);
+  const source = request.headers.get("Origin") ?? request.headers.get("Referer");
+
+  // Older/non-browser callers may omit both headers; retain the production default.
+  if (!source) {
+    const fallback = env.CMS_ORIGIN;
+    return fallback && allowed.has(fallback) ? fallback : null;
+  }
+
+  try {
+    const origin = new URL(source).origin;
+    return allowed.has(origin) ? origin : null;
+  } catch {
+    return null;
+  }
+}
+
+function originFromStateCookie(savedState: string, env: Env): { state: string; origin: string } | null {
+  const separator = savedState.indexOf(".");
+  const state = separator === -1 ? savedState : savedState.slice(0, separator);
+  const encodedOrigin = separator === -1 ? null : savedState.slice(separator + 1);
+  let origin = env.CMS_ORIGIN;
+
+  if (encodedOrigin) {
+    try {
+      origin = decodeURIComponent(encodedOrigin);
+    } catch {
+      return null;
+    }
+  }
+
+  if (!origin || !allowedCmsOrigins(env).has(origin)) return null;
+  return { state, origin };
 }
 
 function callbackPage(
@@ -96,6 +149,14 @@ function errorPage(message: string, status = 400, extra: HeadersInit = {}): Resp
 }
 
 async function handleAuth(request: Request, env: Env): Promise<Response> {
+  const cmsOrigin = resolveCmsOrigin(request, env);
+  if (!cmsOrigin) {
+    return new Response("This CMS origin is not allowed.", {
+      status: 403,
+      headers: secureHeaders({ "Content-Type": "text/plain; charset=utf-8" }),
+    });
+  }
+
   const state = randomHex(32);
   const redirectUri = `${new URL(request.url).origin}/callback`;
   const authorizeUrl = new URL(GITHUB_AUTHORIZE_URL);
@@ -109,7 +170,7 @@ async function handleAuth(request: Request, env: Env): Promise<Response> {
     status: 302,
     headers: secureHeaders({
       Location: authorizeUrl.toString(),
-      "Set-Cookie": cookie(state, 600),
+      "Set-Cookie": cookie(`${state}.${encodeURIComponent(cmsOrigin)}`, 600),
     }),
   });
 }
@@ -117,10 +178,11 @@ async function handleAuth(request: Request, env: Env): Promise<Response> {
 async function handleCallback(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
   const state = url.searchParams.get("state");
-  const savedState = readCookie(request, STATE_COOKIE);
+  const savedStateValue = readCookie(request, STATE_COOKIE);
+  const savedState = savedStateValue ? originFromStateCookie(savedStateValue, env) : null;
   const clearState = cookie("", 0);
 
-  if (!state || !savedState || state !== savedState) {
+  if (!state || !savedState || state !== savedState.state) {
     return errorPage("OAuth state validation failed. Please close this window and try again.", 400, {
       "Set-Cookie": clearState,
     });
@@ -128,7 +190,7 @@ async function handleCallback(request: Request, env: Env): Promise<Response> {
 
   const oauthError = url.searchParams.get("error");
   if (oauthError) {
-    return callbackPage(env.CMS_ORIGIN, "error", {
+    return callbackPage(savedState.origin, "error", {
       message: "GitHub authorization was not completed.",
     }, { "Set-Cookie": clearState });
   }
@@ -169,7 +231,7 @@ async function handleCallback(request: Request, env: Env): Promise<Response> {
     });
   }
 
-  return callbackPage(env.CMS_ORIGIN, "success", { token: tokenData.access_token }, {
+  return callbackPage(savedState.origin, "success", { token: tokenData.access_token }, {
     "Set-Cookie": clearState,
   });
 }
@@ -185,7 +247,7 @@ export default {
       });
     }
 
-    if (!env.GITHUB_OAUTH_ID || !env.GITHUB_OAUTH_SECRET || !env.CMS_ORIGIN) {
+    if (!env.GITHUB_OAUTH_ID || !env.GITHUB_OAUTH_SECRET || allowedCmsOrigins(env).size === 0) {
       return new Response("OAuth Worker is not configured.", {
         status: 503,
         headers: secureHeaders(),

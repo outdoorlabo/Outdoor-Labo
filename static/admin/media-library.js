@@ -18,6 +18,7 @@
     style.id = 'olml-style';
     style.textContent = `
       .olml-overlay{position:fixed;inset:0;z-index:100000;background:#0009;display:flex;align-items:center;justify-content:center;padding:18px}
+      .olml-overlay[hidden]{display:none}
       .olml-modal{width:min(1000px,96vw);height:min(760px,92vh);background:#fff;color:#222;border-radius:10px;display:flex;flex-direction:column;box-shadow:0 12px 50px #0005;overflow:hidden;font:14px/1.5 system-ui,sans-serif}
       .olml-head,.olml-tools,.olml-foot{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid #ddd}
       .olml-head{justify-content:space-between;font-weight:700}.olml-tools{flex-wrap:wrap}.olml-tools input{flex:1;min-width:180px;padding:8px;border:1px solid #bbb;border-radius:5px}
@@ -36,21 +37,11 @@
   const mediaLibrary = {
     name: PLUGIN_NAME,
     async init({ handleInsert, getMediaLibraryContext }) {
-      if (typeof getMediaLibraryContext !== 'function') {
-        throw new Error('Decap CMS media library context is unavailable.');
-      }
-      const context = await getMediaLibraryContext();
-      const backend = context.backendConfig || {};
-      const token = context.token;
-      const repo = backend.repo;
-      const branch = backend.branch || 'main';
-      if (!token || !repo || !/^[-a-zA-Z0-9_.]+\/[-a-zA-Z0-9_.]+$/.test(repo)) {
-        throw new Error('GitHub repository or OAuth token is unavailable to the media library.');
-      }
+      const repo = 'outdoorlabo/Outdoor-Labo';
+      const branch = 'test/oauth-preview-origin-allowlist';
       const apiBase = 'https://api.github.com/repos/' + repo;
       const headers = {
         Accept: 'application/vnd.github+json',
-        Authorization: 'Bearer ' + token,
         'X-GitHub-Api-Version': '2022-11-28'
       };
 
@@ -60,13 +51,15 @@
       let loading = false;
       let errorMessage = '';
       let search = '';
+      let managerMode = false;
 
       async function loadFiles() {
         loading = true;
         errorMessage = '';
         render();
         try {
-          const response = await fetch(apiBase + '/git/trees/' + encodeURIComponent(branch) + '?recursive=1', { headers });
+          const treeUrl = apiBase + '/git/trees/' + encodeURIComponent(branch) + '?recursive=1&_=' + Date.now();
+          const response = await fetch(treeUrl, { headers, cache: 'no-store' });
           if (!response.ok) throw new Error('GitHub API returned ' + response.status);
           const result = await response.json();
           if (result.truncated) throw new Error('GitHub returned an incomplete file tree.');
@@ -84,11 +77,21 @@
         render();
       }
 
+      const fileInput = element('input');
+      fileInput.type = 'file';
+      fileInput.accept = 'image/jpeg,image/png,image/gif,image/webp,image/avif,image/svg+xml,image/bmp,image/x-icon';
+      fileInput.hidden = true;
+      fileInput.addEventListener('change', async () => {
+        const file = fileInput.files && fileInput.files[0];
+        fileInput.value = '';
+        if (file) await uploadSelected(file);
+      });
+
       const overlay = element('div','olml-overlay');
       overlay.hidden = true;
       const modal = element('div','olml-modal');
       overlay.appendChild(modal);
-      document.body.appendChild(overlay);
+      document.body.append(fileInput, overlay);
 
       function relative(path) {
         return path.startsWith(MEDIA_ROOT + '/') ? path.slice(MEDIA_ROOT.length + 1) : path;
@@ -143,6 +146,25 @@
         searchBox.value=search;
         searchBox.addEventListener('input',()=>{search=searchBox.value;const pos=search.length;render();const next=modal.querySelector('input[type=search]');if(next){next.focus();next.setSelectionRange(pos,pos);}});
         tools.appendChild(searchBox);
+        const copyButton = element('button', 'olml-button', 'Copy');
+        copyButton.disabled = !selected;
+        copyButton.addEventListener('click', copySelected);
+        tools.appendChild(copyButton);
+
+        const downloadButton = element('button', 'olml-button', 'Download');
+        downloadButton.disabled = !selected;
+        downloadButton.addEventListener('click', downloadSelected);
+        tools.appendChild(downloadButton);
+
+        if (managerMode) {
+          const deleteButton = element('button', 'olml-button', '選択画像を削除');
+          deleteButton.disabled = !selected || loading;
+          deleteButton.addEventListener('click', deleteSelected);
+          tools.appendChild(deleteButton);
+        }
+        const uploadButton = element('button', 'olml-button', 'Upload');
+        uploadButton.addEventListener('click', () => fileInput.click());
+        tools.appendChild(uploadButton);
         modal.appendChild(tools);
 
         const body=element('div','olml-body');
@@ -180,21 +202,242 @@
         foot.appendChild(element('span','olml-status',files.length+' 件の画像'+(selected?' / 1 件選択':'')));
         const cancel=element('button','olml-button','キャンセル');
         cancel.addEventListener('click',()=>{overlay.hidden=true;});
-        const insert=element('button','olml-button primary','この画像を選択');
+        const insert=element('button','olml-button primary',managerMode?'選択中の画像を記事に挿入':'この画像を選択');
         insert.disabled=!selected;
         insert.addEventListener('click',insertSelected);
         foot.append(cancel,insert);
         modal.appendChild(foot);
       }
 
-      function insertSelected() {
-        if (!selected) return;
-        const path=relative(selected);
-        handleInsert('/wp-content/uploads/' + path);
-        overlay.hidden=true;
+      async function deleteSelected() {
+        if (!selected || !managerMode) return;
+        const targetPath = selected;
+        const publicPath = '/wp-content/uploads/' + relative(targetPath);
+        const context = await getMediaLibraryContext();
+        if (!context?.token || context?.backendName !== 'github' ||
+            context?.backendConfig?.repo !== repo || context?.backendConfig?.branch !== branch) {
+          alert('GitHub認証または保存先ブランチを確認できません。再ログインしてください。');
+          return;
+        }
+        if (!confirm('この画像をリポジトリから削除します。\n' + publicPath +
+          '\n記事・固定ページ・テーマ等で使用中の場合は削除できません。よろしいですか？')) return;
+
+        try {
+          const authHeaders = {
+            Accept: 'application/vnd.github+json',
+            Authorization: 'Bearer ' + context.token,
+            'X-GitHub-Api-Version': '2022-11-28'
+          };
+          const api = async (url, options = {}) => {
+            const response = await fetch(url, { ...options, headers: { ...authHeaders, ...(options.headers || {}) }, cache: 'no-store' });
+            const data = await response.json().catch(() => ({}));
+            if (!response.ok) throw new Error((data.message || 'GitHub API error') + ' (' + response.status + ')');
+            return data;
+          };
+
+          // Resolve branch -> commit -> tree. The Git Trees API requires a tree SHA,
+          // not a branch name.
+          const ref = await api(apiBase + '/git/ref/heads/' + branch);
+          const commit = await api(apiBase + '/git/commits/' + ref.object.sha);
+          const tree = await api(apiBase + '/git/trees/' + commit.tree.sha + '?recursive=1');
+          if (tree.truncated) throw new Error('リポジトリのファイル一覧が不完全なため、安全確認を中止しました。');
+
+          const textExt = /\.(md|markdown|html?|toml|ya?ml|json|css|js|mjs|cjs|xml|txt|scss|sass|svg|org|rst|adoc)$/i;
+          const candidates = (tree.tree || []).filter(item =>
+            item.type === 'blob' && item.path !== targetPath && textExt.test(item.path)
+          );
+          const usedBy = [];
+          for (let i = 0; i < candidates.length; i += 10) {
+            const batch = await Promise.all(candidates.slice(i, i + 10).map(async item => {
+              const blob = await api(apiBase + '/git/blobs/' + item.sha);
+              if (blob.encoding !== 'base64' || typeof blob.content !== 'string') {
+                throw new Error('参照確認できないファイルがあるため削除を中止しました: ' + item.path);
+              }
+              const bytes = Uint8Array.from(atob(blob.content.replace(/\s/g, '')), c => c.charCodeAt(0));
+              const content = new TextDecoder('utf-8', { fatal: false }).decode(bytes);
+              const encodedPath = encodeURI(publicPath);
+              return content.includes(publicPath) || content.includes(encodedPath) ? item.path : null;
+            }));
+            usedBy.push(...batch.filter(Boolean));
+          }
+          if (usedBy.length) {
+            alert('この画像は次のファイルで参照されているため削除できません。\n' +
+              usedBy.slice(0, 12).join('\n') +
+              (usedBy.length > 12 ? '\nほか ' + (usedBy.length - 12) + ' 件' : ''));
+            return;
+          }
+
+          const info = await api(apiBase + '/contents/' + targetPath.split('/').map(encodeURIComponent).join('/') +
+            '?ref=' + encodeURIComponent(branch));
+          const deleted = await fetch(apiBase + '/contents/' + targetPath.split('/').map(encodeURIComponent).join('/'), {
+            method: 'DELETE',
+            headers: { ...authHeaders, 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              message: 'Delete unused media: ' + info.name,
+              sha: info.sha,
+              branch
+            })
+          });
+          const detail = await deleted.json().catch(() => ({}));
+          if (!deleted.ok) throw new Error((detail.message || '削除に失敗しました') + ' (' + deleted.status + ')');
+
+          selected = null;
+          await loadFiles();
+          alert('未使用画像を削除しました。');
+        } catch (error) {
+          console.error('[Outdoor Labo media delete]', error);
+          alert('安全確認または削除に失敗しました。画像は削除していません。\n' + error.message);
+        }
       }
 
-      function show() {
+      function insertSelected() {
+        if (!selected) return;
+        const path = relative(selected);
+        handleInsert('/wp-content/uploads/' + path);
+        overlay.hidden = true;
+      }
+
+      async function uploadSelected(file) {
+        const MAX_FILE_SIZE = 20 * 1024 * 1024;
+        const allowedTypes = new Set([
+          'image/jpeg', 'image/png', 'image/gif', 'image/webp',
+          'image/avif', 'image/svg+xml', 'image/bmp', 'image/x-icon'
+        ]);
+
+        if (!allowedTypes.has(file.type) || !IMAGE_EXT.test(file.name)) {
+          alert('対応している画像形式を選択してください。');
+          return;
+        }
+        if (file.size > MAX_FILE_SIZE) {
+          alert('画像サイズは20MB以下にしてください。');
+          return;
+        }
+
+        try {
+          const context = await getMediaLibraryContext();
+          const config = context && context.backendConfig;
+          if (
+            context?.backendName !== 'github' ||
+            config?.repo !== repo ||
+            config?.branch !== branch ||
+            !context.token
+          ) {
+            throw new Error('GitHubの認証情報または保存先ブランチを確認できません。再ログインしてください。');
+          }
+
+          const dateParts = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Asia/Tokyo',
+            year: 'numeric',
+            month: '2-digit'
+          }).formatToParts(new Date());
+          const year = dateParts.find(part => part.type === 'year').value;
+          const month = dateParts.find(part => part.type === 'month').value;
+
+          const safeName = file.name
+            .replace(/[\\/:*?"<>|\x00-\x1F]/g, '-')
+            .replace(/^\.+/, '')
+            .trim();
+          if (!safeName) throw new Error('ファイル名を使用できません。');
+
+          const reader = new FileReader();
+          const dataUrl = await new Promise((resolve, reject) => {
+            reader.onload = () => resolve(reader.result);
+            reader.onerror = () => reject(new Error('画像ファイルを読み込めませんでした。'));
+            reader.readAsDataURL(file);
+          });
+          const base64 = String(dataUrl).split(',')[1];
+          if (!base64) throw new Error('画像データを読み込めませんでした。');
+
+          const uploadHeaders = {
+            Accept: 'application/vnd.github+json',
+            'X-GitHub-Api-Version': '2022-11-28',
+            Authorization: 'Bearer ' + context.token
+          };
+
+          let filename = safeName;
+          let attempt = 1;
+          while (attempt <= 100) {
+            const path = MEDIA_ROOT + '/' + year + '/' + month + '/' + filename;
+            const response = await fetch(apiBase + '/contents/' + path.split('/').map(encodeURIComponent).join('/'), {
+              method: 'PUT',
+              headers: { ...uploadHeaders, 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                message: 'Upload media: ' + filename,
+                content: base64,
+                branch
+              })
+            });
+
+            if (response.ok) {
+              selected = path;
+              currentPath = year + '/' + month;
+              search = '';
+              await loadFiles();
+              alert('画像をアップロードしました。');
+              return;
+            }
+
+            const detail = await response.json().catch(() => ({}));
+            if (response.status === 422 && /already exists|sha/i.test(detail.message || '')) {
+              attempt += 1;
+              const dot = safeName.lastIndexOf('.');
+              filename = dot > 0
+                ? safeName.slice(0, dot) + '-' + attempt + safeName.slice(dot)
+                : safeName + '-' + attempt;
+              continue;
+            }
+            throw new Error(detail.message || 'GitHub API returned ' + response.status);
+          }
+          throw new Error('同名ファイルが多すぎるため保存できませんでした。');
+        } catch (error) {
+          console.error('[Outdoor Labo media upload]', error);
+          alert('アップロードに失敗しました。\n' + error.message);
+        }
+      }
+
+      async function copySelected() {
+        if (!selected) return;
+
+        const url = window.location.origin + '/wp-content/uploads/' + relative(selected);
+
+        try {
+          await navigator.clipboard.writeText(url);
+          alert('Image URL copied.');
+        } catch (error) {
+          alert('Copy failed.');
+          console.error(error);
+        }
+      }
+
+      async function downloadSelected() {
+        if (!selected) return;
+
+        const url = window.location.origin + '/wp-content/uploads/' + relative(selected);
+        const filename = selected.split('/').pop();
+
+        try {
+          const response = await fetch(url);
+          if (!response.ok) throw new Error('Download failed');
+
+          const blob = await response.blob();
+          const objectUrl = URL.createObjectURL(blob);
+          const link = document.createElement('a');
+
+          link.href = objectUrl;
+          link.download = filename;
+          document.body.appendChild(link);
+          link.click();
+          link.remove();
+
+          setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+        } catch (error) {
+          alert('Download failed.');
+          console.error(error);
+        }
+      }
+
+      function show(asManager = false) {
+        managerMode = Boolean(asManager);
         currentPath='';
         selected=null;
         search='';
@@ -204,6 +447,24 @@
       }
 
       addStyles();
+
+      // Add a real media-management entry alongside the collection navigation.
+      // Decap's sidebar is React-rendered, so observe it and insert idempotently.
+      function installManagerEntry() {
+        if (document.getElementById('olml-manager-entry')) return;
+        const candidates = [...document.querySelectorAll('aside, nav, [role="navigation"]')];
+        const sidebar = candidates.find(node => /記事|カテゴリー|タグ|collections/i.test(node.innerText || ''));
+        if (!sidebar) return;
+        const entry = element('button', 'olml-button', '▧ メディア管理');
+        entry.id = 'olml-manager-entry';
+        entry.style.cssText = 'display:block;width:calc(100% - 24px);margin:10px 12px;text-align:left;font-weight:600;';
+        entry.addEventListener('click', () => show(true));
+        sidebar.appendChild(entry);
+      }
+      const sidebarObserver = new MutationObserver(installManagerEntry);
+      sidebarObserver.observe(document.body, {childList:true,subtree:true});
+      installManagerEntry();
+
       return {
         show,
         hide:()=>{overlay.hidden=true;},

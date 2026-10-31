@@ -7,7 +7,19 @@
     <title>OUTDOOR LABO 管理画面</title>
   </head>
   <body>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      // Register the custom media library before Decap CMS initializes.
+      window.CMS_MANUAL_INIT = true;
+    </script>
+    <script src="https://unpkg.com/decap-cms@3.17.3/dist/decap-cms.js"></script>
     <script src="/admin/media-library.js"></script>
+    <script>
+      const { CMS, initCMS } = window;
+      if (!CMS || typeof CMS.registerMediaLibrary !== 'function' || typeof initCMS !== 'function') {
+        console.error('[Outdoor Labo CMS] Decap CMS failed to expose its initialization API.');
+      } else {
+        initCMS();
+      }
+    </script>
   </body>
 </html>

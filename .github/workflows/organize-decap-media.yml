@@ -25,6 +25,43 @@ jobs:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
 
+      - name: Sync referenced media from the CMS base branch into this draft branch
+        env:
+          BASE_BRANCH: test/oauth-preview-origin-allowlist
+        run: |
+          git fetch origin "${BASE_BRANCH}:refs/remotes/origin/${BASE_BRANCH}"
+          python3 - <<'PY'
+          import re
+          import subprocess
+          from pathlib import Path
+
+          base_ref = "origin/test/oauth-preview-origin-allowlist"
+          posts = sorted(Path("content/posts").rglob("*.md"))
+          referenced = set()
+          pattern = re.compile(r"""(?:/|https?://[^\s"'()]+/)?wp-content/uploads/([^\s"'()<>]+)""")
+          for post in posts:
+              text = post.read_text(encoding="utf-8")
+              referenced.update(match.group(1).split("?", 1)[0].split("#", 1)[0] for match in pattern.finditer(text))
+
+          copied = 0
+          for relative in sorted(referenced):
+              relative = relative.lstrip("/")
+              source_path = "static/wp-content/uploads/" + relative
+              destination = Path(source_path)
+              if destination.exists():
+                  continue
+              try:
+                  data = subprocess.check_output(["git", "show", f"{base_ref}:{source_path}"])
+              except subprocess.CalledProcessError:
+                  print(f"Not present in base branch: {source_path}")
+                  continue
+              destination.parent.mkdir(parents=True, exist_ok=True)
+              destination.write_bytes(data)
+              copied += 1
+              print(f"Synced: {source_path}")
+          print(f"Synced {copied} referenced media file(s) from the base branch.")
+          PY
+
       - name: Move referenced staged media into the WordPress year/month structure
         env:
           PUSH_COMMIT: ${{ github.sha }}

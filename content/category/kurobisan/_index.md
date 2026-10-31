@@ -1,4 +1,5 @@
 ---
+parent: "akagiyama"
 title: "黒檜山・駒ヶ岳"
 ---
 
