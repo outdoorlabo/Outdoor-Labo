@@ -38,7 +38,7 @@
     name: PLUGIN_NAME,
     async init({ handleInsert }) {
       const repo = 'outdoorlabo/Outdoor-Labo';
-      const branch = 'main';
+      const branch = 'test/oauth-preview-origin-allowlist';
       const apiBase = 'https://api.github.com/repos/' + repo;
       const headers = {
         Accept: 'application/vnd.github+json',

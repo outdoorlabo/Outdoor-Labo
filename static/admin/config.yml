@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: outdoorlabo/Outdoor-Labo
-  branch: main
+  branch: test/oauth-preview-origin-allowlist
   base_url: https://outdoorlabo-decap-auth-preview.outdoorlabo.workers.dev
   auth_endpoint: /auth
 
