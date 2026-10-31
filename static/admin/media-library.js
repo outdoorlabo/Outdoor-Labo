@@ -57,7 +57,8 @@
         errorMessage = '';
         render();
         try {
-          const response = await fetch(apiBase + '/git/trees/' + encodeURIComponent(branch) + '?recursive=1', { headers });
+          const treeUrl = apiBase + '/git/trees/' + encodeURIComponent(branch) + '?recursive=1&_=' + Date.now();
+          const response = await fetch(treeUrl, { headers, cache: 'no-store' });
           if (!response.ok) throw new Error('GitHub API returned ' + response.status);
           const result = await response.json();
           if (result.truncated) throw new Error('GitHub returned an incomplete file tree.');
