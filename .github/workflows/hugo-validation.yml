@@ -1,0 +1,77 @@
+name: Hugo migration validation
+
+on:
+  push:
+    branches:
+      - 'test/**'
+    paths:
+      - 'config/**'
+      - 'content/**'
+      - 'data/**'
+      - 'themes/**'
+      - 'static/**'
+      - '.gitmodules'
+      - '.github/workflows/hugo-validation.yml'
+  pull_request:
+    branches:
+      - 'test/**'
+    paths:
+      - 'config/**'
+      - 'content/**'
+      - 'data/**'
+      - 'themes/**'
+      - 'static/**'
+      - '.gitmodules'
+      - '.github/workflows/hugo-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hugo-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository and theme submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build production-equivalent site
+        run: hugo --minify --baseURL "https://test-oauth-preview-origin-al.outdoorlabo.pages.dev/"
+
+      - name: Check generated migration outputs
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+
+          public = Path("public")
+          required = ["index.html", "sitemap.xml", "index.xml", "search-index.json", "robots.txt"]
+          missing = [name for name in required if not (public / name).is_file()]
+          if missing:
+              raise SystemExit("Missing generated outputs: " + ", ".join(missing))
+
+          posts = list(Path("content/posts").rglob("*.md"))
+          html_posts = [p for p in public.glob("20*/*/*/*/index.html")]
+          if not posts:
+              raise SystemExit("No migrated posts found.")
+          print(f"Markdown posts: {len(posts)}")
+          print(f"Date-permalink article pages: {len(html_posts)}")
+
+          index = json.loads((public / "search-index.json").read_text(encoding="utf-8"))
+          if not isinstance(index, list):
+              raise SystemExit("Search index must be a JSON array.")
+          print(f"Search index entries: {len(index)}")
+          PY

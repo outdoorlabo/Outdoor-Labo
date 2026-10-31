@@ -1,12 +1,12 @@
 backend:
   name: github
   repo: outdoorlabo/Outdoor-Labo
-  branch: main
-  base_url: https://outdoor-labo.outdoorlabo.workers.dev
+  branch: test/oauth-preview-origin-allowlist
+  base_url: https://outdoorlabo-decap-auth-preview.outdoorlabo.workers.dev
   auth_endpoint: /auth
 
-site_url: https://outdoorlabo.a-ce.com
-display_url: https://outdoorlabo.a-ce.com
+site_url: https://test-oauth-preview-origin-al.outdoorlabo.pages.dev
+display_url: https://test-oauth-preview-origin-al.outdoorlabo.pages.dev
 publish_mode: editorial_workflow
 
 # New uploads are staged here. A GitHub Action sorts them by the save commit's JST date.
@@ -17,6 +17,67 @@ media_library:
   name: outdoor-labo-folder-library
 
 collections:
+  - name: categories
+    label: カテゴリー
+    folder: content/category
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 2
+      summary: '{{title}} — 親: {{parent}}'
+      subfolders: true
+    meta:
+      path:
+        label: URLスラッグ
+        widget: string
+        index_file: _index
+    fields:
+      - label: 名前
+        name: title
+        widget: string
+      - label: 親カテゴリー
+        name: parent
+        widget: relation
+        collection: categories
+        search_fields: [title]
+        value_field: "{{slug}}"
+        display_fields: [title]
+        multiple: false
+        required: false
+        options_length: 100
+        hint: "親カテゴリーがない場合は未選択にします。自分自身や子孫を親に指定しないでください。"
+      - label: 説明
+        name: body
+        widget: markdown
+        required: false
+
+  - name: tags
+    label: タグ
+    folder: content/tag
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 2
+      summary: '{{title}}'
+      subfolders: true
+    meta:
+      path:
+        label: URLスラッグ
+        widget: string
+        index_file: _index
+    fields:
+      - label: 名前
+        name: title
+        widget: string
+      - label: 説明
+        name: body
+        widget: markdown
+        required: false
+
   - name: posts
     label: 記事
     label_singular: 記事
@@ -28,7 +89,9 @@ collections:
     slug: "{{slug}}"
     summary: "{{title}} — {{date}}"
     sortable_fields:
-      - date
+      - field: date
+        label: 公開日時
+        default_sort: desc
       - title
     view_groups:
       - label: 公開年
@@ -54,14 +117,26 @@ collections:
         hint: "既存記事のURLを変えないよう、通常は変更しないでください。新規記事では英数字とハイフンを推奨します。"
       - label: カテゴリー
         name: category
-        widget: list
+        widget: relation
+        collection: categories
+        search_fields: [title]
+        value_field: "{{slug}}"
+        display_fields: [title]
+        multiple: true
         required: false
-        hint: "既存カテゴリーのスラッグを入力してください。例: camping, hiking"
+        options_length: 30
+        hint: "入力すると登録済みカテゴリーの候補が表示されます。"
       - label: タグ
         name: tag
-        widget: list
+        widget: relation
+        collection: tags
+        search_fields: [title]
+        value_field: "{{slug}}"
+        display_fields: [title]
+        multiple: true
         required: false
-        hint: "既存タグのスラッグを入力してください。"
+        options_length: 30
+        hint: "入力すると登録済みタグの候補が表示されます。"
       - label: アイキャッチ画像
         name: image
         widget: image

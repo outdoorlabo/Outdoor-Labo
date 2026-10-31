@@ -1,4 +1,5 @@
 ---
+parent: "hiking"
 title: "トレーニング"
 ---
 

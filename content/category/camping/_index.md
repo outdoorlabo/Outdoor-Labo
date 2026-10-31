@@ -1,4 +1,5 @@
 ---
+parent: "camp"
 title: "キャンピング"
 ---
 
