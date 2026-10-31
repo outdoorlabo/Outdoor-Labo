@@ -30,17 +30,34 @@ jobs:
       - name: Install YAML parser
         run: python3 -m pip install --user pyyaml
 
-      - name: Generate flat reference collections
-        run: python3 scripts/sync-taxonomy-options.py
-
-      - name: Commit generated reference data
+      - name: Generate and commit reference data safely
+        shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- data/pages-cms)" ]; then
-            echo "Taxonomy reference data is already up to date."
-            exit 0
-          fi
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/pages-cms
-          git commit -m "Sync Pages CMS taxonomy reference data"
-          git push origin "HEAD:feature/pages-cms-publishing"
+
+          # Rebuild from the newest branch head on every attempt. This avoids
+          # overwriting editor commits made while the generator was running.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin feature/pages-cms-publishing
+            git reset --hard origin/feature/pages-cms-publishing
+            python3 scripts/sync-taxonomy-options.py
+
+            if [ -z "$(git status --porcelain -- data/pages-cms)" ]; then
+              echo "Taxonomy reference data is already up to date."
+              exit 0
+            fi
+
+            git add data/pages-cms
+            git commit -m "Sync Pages CMS taxonomy reference data"
+
+            if git push origin "HEAD:feature/pages-cms-publishing"; then
+              exit 0
+            fi
+
+            echo "Branch advanced during push; retrying from latest head (attempt $attempt)."
+          done
+
+          echo "Could not publish generated taxonomy data after five attempts."
+          exit 1
