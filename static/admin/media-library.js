@@ -181,7 +181,7 @@
         const cancel=element('button','olml-button','キャンセル');
         cancel.addEventListener('click',()=>{overlay.hidden=true;});
         const remove=element('button','olml-button danger','選択画像を削除');
-        remove.disabled=!selected || loading;
+        remove.disabled=!selected || loading || branch !== 'test/decap-category-hierarchy';
         remove.addEventListener('click',deleteSelected);
         const insert=element('button','olml-button primary','この画像を選択');
         insert.disabled=!selected || loading;
@@ -191,6 +191,11 @@
       }
 
       async function deleteSelected() {
+        if (branch !== 'test/decap-category-hierarchy') {
+          errorMessage = '安全のため、画像削除はテストブランチでのみ有効です。';
+          render();
+          return;
+        }
         if (!selected) return;
         const file = files.find(item => item.path === selected);
         if (!file) return;
