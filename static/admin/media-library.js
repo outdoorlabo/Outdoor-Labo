@@ -211,43 +211,82 @@
 
       async function deleteSelected() {
         if (!selected || !managerMode) return;
-        const publicPath = '/wp-content/uploads/' + relative(selected);
+        const targetPath = selected;
+        const publicPath = '/wp-content/uploads/' + relative(targetPath);
         const context = await getMediaLibraryContext();
-        if (!context?.token) { alert('GitHub認証を確認できません。再ログインしてください。'); return; }
-        if (!confirm('この画像をリポジトリから削除します。\\n' + publicPath + '\\n記事で使用中の場合は削除できません。よろしいですか？')) return;
+        if (!context?.token || context?.backendName !== 'github' ||
+            context?.backendConfig?.repo !== repo || context?.backendConfig?.branch !== branch) {
+          alert('GitHub認証または保存先ブランチを確認できません。再ログインしてください。');
+          return;
+        }
+        if (!confirm('この画像をリポジトリから削除します。\n' + publicPath +
+          '\n記事・固定ページ・テーマ等で使用中の場合は削除できません。よろしいですか？')) return;
+
         try {
-          const authHeaders = { Accept:'application/vnd.github+json', Authorization:'Bearer '+context.token, 'X-GitHub-Api-Version':'2022-11-28' };
-          const treeResponse = await fetch(apiBase + '/git/trees/' + encodeURIComponent(branch) + '?recursive=1', {headers:authHeaders,cache:'no-store'});
-          if (!treeResponse.ok) throw new Error('記事一覧の取得に失敗しました: '+treeResponse.status);
-          const treeData = await treeResponse.json();
-          if (treeData.truncated) throw new Error('リポジトリ一覧が不完全なため、安全確認を中止しました。');
-          const postPaths = (treeData.tree||[]).filter(x=>x.type==='blob' && x.path.startsWith('content/posts/') && x.path.endsWith('.md')).map(x=>x.path);
+          const authHeaders = {
+            Accept: 'application/vnd.github+json',
+            Authorization: 'Bearer ' + context.token,
+            'X-GitHub-Api-Version': '2022-11-28'
+          };
+          const api = async (url, options = {}) => {
+            const response = await fetch(url, { ...options, headers: { ...authHeaders, ...(options.headers || {}) }, cache: 'no-store' });
+            const data = await response.json().catch(() => ({}));
+            if (!response.ok) throw new Error((data.message || 'GitHub API error') + ' (' + response.status + ')');
+            return data;
+          };
+
+          // Resolve branch -> commit -> tree. The Git Trees API requires a tree SHA,
+          // not a branch name.
+          const ref = await api(apiBase + '/git/ref/heads/' + branch);
+          const commit = await api(apiBase + '/git/commits/' + ref.object.sha);
+          const tree = await api(apiBase + '/git/trees/' + commit.tree.sha + '?recursive=1');
+          if (tree.truncated) throw new Error('リポジトリのファイル一覧が不完全なため、安全確認を中止しました。');
+
+          const textExt = /\.(md|markdown|html?|toml|ya?ml|json|css|js|mjs|cjs|xml|txt|scss|sass|svg|org|rst|adoc)$/i;
+          const candidates = (tree.tree || []).filter(item =>
+            item.type === 'blob' && item.path !== targetPath && textExt.test(item.path)
+          );
           const usedBy = [];
-          for (let i=0;i<postPaths.length;i+=12) {
-            const batch = await Promise.all(postPaths.slice(i,i+12).map(async path=>{
-              const r=await fetch(apiBase+'/contents/'+path.split('/').map(encodeURIComponent).join('/')+'?ref='+encodeURIComponent(branch),{headers:authHeaders,cache:'no-store'});
-              if(!r.ok) throw new Error('記事の参照確認に失敗しました: '+path+' ('+r.status+')');
-              const data=await r.json();
-              const decoded=decodeURIComponent(escape(atob((data.content||'').replace(/\\n/g,''))));
-              return decoded.includes(publicPath) ? path : null;
+          for (let i = 0; i < candidates.length; i += 10) {
+            const batch = await Promise.all(candidates.slice(i, i + 10).map(async item => {
+              const blob = await api(apiBase + '/git/blobs/' + item.sha);
+              if (blob.encoding !== 'base64' || typeof blob.content !== 'string') {
+                throw new Error('参照確認できないファイルがあるため削除を中止しました: ' + item.path);
+              }
+              const bytes = Uint8Array.from(atob(blob.content.replace(/\s/g, '')), c => c.charCodeAt(0));
+              const content = new TextDecoder('utf-8', { fatal: false }).decode(bytes);
+              const encodedPath = encodeURI(publicPath);
+              return content.includes(publicPath) || content.includes(encodedPath) ? item.path : null;
             }));
             usedBy.push(...batch.filter(Boolean));
           }
           if (usedBy.length) {
-            alert('この画像は記事で使用中のため削除できません。\\n'+usedBy.slice(0,8).join('\\n')+(usedBy.length>8?'\\nほか '+(usedBy.length-8)+' 件':''));
+            alert('この画像は次のファイルで参照されているため削除できません。\n' +
+              usedBy.slice(0, 12).join('\n') +
+              (usedBy.length > 12 ? '\nほか ' + (usedBy.length - 12) + ' 件' : ''));
             return;
           }
-          const infoResponse=await fetch(apiBase+'/contents/'+selected.split('/').map(encodeURIComponent).join('/')+'?ref='+encodeURIComponent(branch),{headers:authHeaders,cache:'no-store'});
-          if(!infoResponse.ok) throw new Error('画像情報の取得に失敗しました: '+infoResponse.status);
-          const info=await infoResponse.json();
-          const deleteResponse=await fetch(apiBase+'/contents/'+selected.split('/').map(encodeURIComponent).join('/'),{method:'DELETE',headers:{...authHeaders,'Content-Type':'application/json'},body:JSON.stringify({message:'Delete unused media: '+info.name,sha:info.sha,branch})});
-          if(!deleteResponse.ok) { const detail=await deleteResponse.json().catch(()=>({})); throw new Error(detail.message||'削除に失敗しました: '+deleteResponse.status); }
-          selected=null;
+
+          const info = await api(apiBase + '/contents/' + targetPath.split('/').map(encodeURIComponent).join('/') +
+            '?ref=' + encodeURIComponent(branch));
+          const deleted = await fetch(apiBase + '/contents/' + targetPath.split('/').map(encodeURIComponent).join('/'), {
+            method: 'DELETE',
+            headers: { ...authHeaders, 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              message: 'Delete unused media: ' + info.name,
+              sha: info.sha,
+              branch
+            })
+          });
+          const detail = await deleted.json().catch(() => ({}));
+          if (!deleted.ok) throw new Error((detail.message || '削除に失敗しました') + ' (' + deleted.status + ')');
+
+          selected = null;
           await loadFiles();
           alert('未使用画像を削除しました。');
-        } catch(error) {
-          console.error('[Outdoor Labo media delete]',error);
-          alert('安全確認または削除に失敗しました。画像は削除していません。\\n'+error.message);
+        } catch (error) {
+          console.error('[Outdoor Labo media delete]', error);
+          alert('安全確認または削除に失敗しました。画像は削除していません。\n' + error.message);
         }
       }
 
