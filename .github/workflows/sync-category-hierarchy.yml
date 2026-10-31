@@ -61,7 +61,7 @@ jobs:
                   raise SystemExit(f"Unclosed front matter: {path}")
               front = [line for line in lines[1:closing] if not line.lstrip().startswith("parent:")]
               if parent_slug:
-                  front.insert(0, f'parent: "{parent_slug}"\\n')
+                  front.insert(0, f'parent: "{parent_slug}"\n')
               updated = "".join([lines[0], *front, *lines[closing:]])
               if updated != source:
                   path.write_text(updated, encoding="utf-8")
