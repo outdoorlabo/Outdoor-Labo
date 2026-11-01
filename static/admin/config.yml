@@ -40,8 +40,8 @@ collections:
     public_folder: /wp-content/uploads/_incoming
     fields:
       - { label: タイトル, name: title, widget: string }
-      - { label: 公開日時, name: date, widget: datetime, required: true, format: "YYYY-MM-DDTHH:mm:ssZ", picker_utc: false }
-      - { label: 最終更新日時, name: lastmod, widget: datetime, required: false, format: "YYYY-MM-DDTHH:mm:ssZ", picker_utc: false }
+      - { label: 公開日時, name: date, widget: datetime, required: true, picker_utc: false, date_format: "YYYY/MM/DD", time_format: "HH:mm" }
+      - { label: 最終更新日時, name: lastmod, widget: datetime, required: false, picker_utc: false, date_format: "YYYY/MM/DD", time_format: "HH:mm" }
       - label: URLスラッグ
         name: slug
         widget: string
