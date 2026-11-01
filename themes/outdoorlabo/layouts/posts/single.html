@@ -5,7 +5,7 @@
 
     {{ with .Params.image }}
     <figure class="eyecatch">
-      <img src="{{ . | relURL }}" alt="">
+      <img src="{{ . | relURL }}" alt="{{ $.Params.imageAlt }}">
       {{ with index ($.GetTerms "category") 0 }}<a class="cat-label" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
     </figure>
     {{ end }}

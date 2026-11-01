@@ -4,6 +4,14 @@ backend:
   branch: main
   base_url: https://outdoor-labo.outdoorlabo.workers.dev
   auth_endpoint: /auth
+  squash_merges: true
+  commit_messages:
+    create: '{{collection}}「{{slug}}」を作成'
+    update: '{{collection}}「{{slug}}」を更新'
+    delete: '{{collection}}「{{slug}}」を削除'
+    uploadMedia: 'メディアを追加: {{path}}'
+    deleteMedia: 'メディアを削除: {{path}}'
+    openAuthoring: '{{message}}'
 
 site_url: https://outdoorlabo.a-ce.com
 display_url: https://outdoorlabo.a-ce.com
@@ -16,11 +24,17 @@ public_folder: /wp-content/uploads
 media_library:
   name: outdoor-labo-folder-library
 
+media_processing:
+  enabled: true
+  quality: 85
+  strip_metadata: true
+
 collections:
   # Articles remain the first and default collection.
   - name: posts
     label: 記事
     label_singular: 記事
+    description: "新しいタグ・カテゴリーは、記事の編集画面の右下にある「＋ 新規タグ」「＋ 新規カテゴリー」ボタンからその場で作れます。"
     folder: content/posts
     create: true
     delete: true
@@ -32,20 +46,27 @@ collections:
     sortable_fields:
       - date
       - title
+      - commit_date
     view_groups:
       - label: 公開年
         field: date
         pattern: "\\d{4}"
+    view_filters:
+      - { label: 2026年の記事, field: date, pattern: '^2026' }
+      - { label: 2025年の記事, field: date, pattern: '^2025' }
+      - { label: レビュー記事, field: title, pattern: 'レビュー' }
+      - { label: 山行記事, field: title, pattern: '山行' }
     media_folder: static/wp-content/uploads/_incoming
     public_folder: /wp-content/uploads/_incoming
     fields:
       - { label: タイトル, name: title, widget: string }
-      - { label: 公開日時, name: date, widget: datetime, required: true, picker_utc: false, format: "YYYY-MM-DD HH:mm:ss", date_format: "YYYY/MM/DD", time_format: "HH:mm" }
+      - { label: 公開日時, name: date, widget: datetime, required: true, picker_utc: false, format: "YYYY-MM-DD HH:mm:ss", date_format: "YYYY/MM/DD", time_format: "HH:mm", hint: "未来の日時を入れると予約投稿になります。その時刻までは公開されず、毎時自動で公開されます。" }
       - { label: 最終更新日時, name: lastmod, widget: datetime, required: false, picker_utc: false, format: "YYYY-MM-DD HH:mm:ss", date_format: "YYYY/MM/DD", time_format: "HH:mm" }
       - label: URLスラッグ
         name: slug
         widget: string
-        hint: "既存記事のURLを変えないよう、通常は変更しないでください。"
+        pattern: ['^[a-z0-9]+(?:[-_][a-z0-9]+)*$', 'スラッグは英小文字・数字・ハイフン（またはアンダースコア）のみです。日本語は使えません。']
+        hint: "新規作成のときは、タイトルから自動で決まる前に英字のスラッグを入力してください。既存記事のURLを変えないよう、通常は変更しないでください。"
       - label: カテゴリー
         name: category
         widget: relation
@@ -67,6 +88,7 @@ collections:
         required: false
         hint: "タグ名で検索して選択してください。保存値は既存のタグURLスラッグです。"
       - { label: アイキャッチ画像, name: image, widget: image, required: false }
+      - { label: アイキャッチの代替テキスト（alt）, name: imageAlt, widget: string, required: false, hint: "画像が見えないときに表示される説明文。空でも構いません。" }
       - { label: 概要文, name: description, widget: text, required: false }
       - { label: 目次を表示する, name: toc, widget: boolean, required: false }
       - { label: WordPress ID（移行データ）, name: wpid, widget: number, required: false }
