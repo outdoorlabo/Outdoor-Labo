@@ -8,6 +8,7 @@ backend:
 site_url: https://outdoorlabo.a-ce.com
 display_url: https://outdoorlabo.a-ce.com
 publish_mode: editorial_workflow
+locale: ja
 
 media_folder: static/wp-content/uploads
 public_folder: /wp-content/uploads
@@ -27,6 +28,7 @@ collections:
     format: frontmatter
     slug: "{{slug}}"
     summary: "{{title}} — {{date}}"
+    preview_path: "{{year}}/{{month}}/{{day}}/{{slug}}"
     sortable_fields:
       - date
       - title
@@ -56,11 +58,17 @@ collections:
         hint: "カテゴリー名で検索して選択してください。保存値は既存のカテゴリーURLスラッグです。"
       - label: タグ
         name: tag
-        widget: list
+        widget: relation
+        collection: tags
+        search_fields: [title]
+        value_field: "{{slug}}"
+        display_fields: [title]
+        multiple: true
         required: false
-        hint: "既存タグのスラッグを入力してください。"
+        hint: "タグ名で検索して選択してください。保存値は既存のタグURLスラッグです。"
       - { label: アイキャッチ画像, name: image, widget: image, required: false }
       - { label: 概要文, name: description, widget: text, required: false }
+      - { label: 目次を表示する, name: toc, widget: boolean, required: false }
       - { label: WordPress ID（移行データ）, name: wpid, widget: number, required: false }
       - { label: 本文, name: body, widget: markdown }
 
@@ -83,6 +91,8 @@ collections:
         label: URLスラッグ
         widget: string
         index_file: _index
+    sortable_fields:
+      - title
     summary: "{{title}} ← {{parent}}"
     fields:
       - { label: カテゴリー名, name: title, widget: string }
@@ -114,5 +124,7 @@ collections:
         widget: string
         index_file: _index
     summary: "{{title}}"
+    sortable_fields:
+      - title
     fields:
       - { label: タグ名, name: title, widget: string }
