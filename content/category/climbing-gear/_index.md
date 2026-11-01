@@ -1,6 +1,8 @@
 ---
 title: "クライミング装備"
-breadcrumb: "クライミング装備"
+parent: "climbing"
+breadcrumb: "クライミング > クライミング装備"
 ---
+
 
 

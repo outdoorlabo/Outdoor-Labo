@@ -1,6 +1,8 @@
 ---
 title: "サプリ"
-breadcrumb: "サプリ"
+parent: "training"
+breadcrumb: "トレーニング > サプリ"
 ---
+
 
 

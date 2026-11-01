@@ -1,6 +1,8 @@
 ---
 title: "乗鞍"
-breadcrumb: "乗鞍"
+parent: "ride"
+breadcrumb: "ロードバイク > ライド > 乗鞍"
 ---
+
 
 

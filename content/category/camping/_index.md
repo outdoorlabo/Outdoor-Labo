@@ -1,6 +1,8 @@
 ---
 title: "キャンピング"
-breadcrumb: "キャンピング"
+parent: "camp"
+breadcrumb: "キャンプ > キャンピング"
 ---
+
 
 

@@ -1,6 +1,8 @@
 ---
 title: "ライド"
-breadcrumb: "ライド"
+parent: "roadbike"
+breadcrumb: "ロードバイク > ライド"
 ---
+
 
 

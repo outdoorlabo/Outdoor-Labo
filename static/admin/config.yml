@@ -122,7 +122,9 @@ collections:
         widget: string
         index_file: _index
     sortable_fields:
-      - breadcrumb
+      - field: breadcrumb
+        label: 階層パス
+        default_sort: asc
       - title
     summary: "{{breadcrumb}}"
     fields:
