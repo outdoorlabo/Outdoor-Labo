@@ -1,0 +1,118 @@
+name: Organize Decap media uploads
+
+on:
+  push:
+    branches:
+      - 'cms/**'
+    paths:
+      - 'static/wp-content/uploads/_incoming/**'
+      - 'content/posts/**/*.md'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: organize-decap-media-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the CMS draft branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Move referenced staged media into the WordPress year/month structure
+        env:
+          PUSH_COMMIT: ${{ github.sha }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import shutil
+          import subprocess
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          incoming = Path("static/wp-content/uploads/_incoming")
+          if not incoming.exists():
+              print("No incoming media directory; nothing to do.")
+              raise SystemExit(0)
+
+          markdown_files = sorted(Path("content/posts").rglob("*.md"))
+          documents = {md: md.read_text(encoding="utf-8") for md in markdown_files}
+          files = sorted(p for p in incoming.rglob("*") if p.is_file())
+          if not files:
+              print("No staged media files; nothing to do.")
+              raise SystemExit(0)
+
+          # Only organize files that are already referenced by a saved CMS entry.
+          referenced = []
+          for source in files:
+              old_url = "/wp-content/uploads/_incoming/" + source.relative_to(incoming).as_posix()
+              if any(old_url in body for body in documents.values()):
+                  referenced.append((source, old_url))
+
+          if not referenced:
+              print("Staged uploads are not referenced by saved articles yet; leaving them in _incoming.")
+              raise SystemExit(0)
+
+          # Use the save commit timestamp converted to Japan time, never the post publication date.
+          iso = subprocess.check_output(
+              ["git", "show", "-s", "--format=%cI", os.environ["PUSH_COMMIT"]],
+              text=True
+          ).strip()
+          saved_at = datetime.fromisoformat(iso).astimezone(ZoneInfo("Asia/Tokyo"))
+          year, month = saved_at.strftime("%Y"), saved_at.strftime("%m")
+
+          moved = []
+          for source, old_url in referenced:
+              target_dir = Path("static/wp-content/uploads") / year / month
+              target_dir.mkdir(parents=True, exist_ok=True)
+              target = target_dir / source.name
+              if target.exists():
+                  stem, suffix = source.stem, source.suffix
+                  n = 2
+                  while target.exists():
+                      target = target_dir / f"{stem}-{n}{suffix}"
+                      n += 1
+              new_url = "/wp-content/uploads/" + year + "/" + month + "/" + target.name
+              target.parent.mkdir(parents=True, exist_ok=True)
+              shutil.move(str(source), str(target))
+              moved.append((old_url, new_url))
+              print(f"{old_url} -> {new_url}")
+
+          for md, original in documents.items():
+              updated = original
+              for old_url, new_url in moved:
+                  updated = updated.replace(old_url, new_url)
+              if updated != original:
+                  md.write_text(updated, encoding="utf-8")
+
+          # Remove only empty staging directories; unreferenced uploads remain untouched.
+          for directory in sorted((p for p in incoming.rglob("*") if p.is_dir()),
+                                  key=lambda p: len(p.parts), reverse=True):
+              try:
+                  directory.rmdir()
+              except OSError:
+                  pass
+          try:
+              incoming.rmdir()
+          except OSError:
+              pass
+          PY
+
+      - name: Commit organized media and updated draft paths
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A static/wp-content/uploads content/posts
+          if git diff --cached --quiet; then
+            echo "No media changes to commit."
+            exit 0
+          fi
+          git commit -m "Organize Decap media uploads by JST month"
+          git push origin "HEAD:${{ github.ref_name }}"

@@ -1,0 +1,153 @@
+// OUTDOOR LABO — Decap 管理画面の拡張（admin-extras.js）
+// 1) プレビュー画面に実サイトの本文デザインを当てる（registerPreviewStyle）
+// 2) 本文エディタに挿入ボタンを追加する：
+//    - 商品リンク（Hugo ショートコード aff、Rinker 風カード。仕様は SPEC.md §S5）
+//    - ブログカード（テーマ内蔵ショートコード blogcard）
+//    - YouTube（Hugo 内蔵ショートコード youtube）
+(function () {
+  if (!window.CMS) return;
+
+  CMS.registerPreviewStyle('/admin/preview.css');
+
+  function parseAttrs(text) {
+    var obj = {};
+    var re = /([a-z]+)="([^"]*)"/g;
+    var m;
+    while ((m = re.exec(text)) !== null) obj[m[1]] = m[2];
+    return obj;
+  }
+
+  function buildAttrs(obj, keys) {
+    var parts = [];
+    keys.forEach(function (k) {
+      var v = (obj[k] || '').trim();
+      if (v) parts.push(k + '="' + v.replace(/"/g, '') + '"');
+    });
+    return parts.join(' ');
+  }
+
+  function previewBox(label) {
+    if (typeof h === 'function') {
+      return h('div', {
+        style: {
+          border: '1px solid #d9d9d9', borderRadius: '4px',
+          padding: '10px 12px', fontSize: '14px', background: '#fafafa'
+        }
+      }, label);
+    }
+    return label;
+  }
+
+  // ---- 商品リンク（アフィリエイト） ----
+  CMS.registerEditorComponent({
+    id: 'affiliate-card',
+    label: '商品リンク',
+    icon: 'link',
+    fields: [
+      {
+        name: 'title', label: '商品名', widget: 'string', required: true,
+        hint: 'カードに表示される名前です。二重引用符（"）は使えません。'
+      },
+      {
+        name: 'kw', label: '検索キーワード（任意）', widget: 'string', required: false,
+        hint: '各ストアで検索する語。空のときは商品名で検索します。例：シマノ チェーン CN-HG701'
+      },
+      {
+        name: 'img', label: '商品画像（任意）', widget: 'image', required: false,
+        hint: 'メディアライブラリから選ぶか、画像のURLを貼ります。空でもカードは表示されます。'
+      },
+      {
+        name: 'asin', label: 'Amazon ASIN（任意）', widget: 'string', required: false,
+        hint: '入れると Amazon ボタンがその商品ページへの直リンクになります。商品URLの /dp/ の後ろにある10文字です。'
+      },
+      {
+        name: 'rakuten', label: '楽天の商品ページURL（任意）', widget: 'string', required: false,
+        hint: '入れると楽天ボタンと画像のリンク先がその商品ページになります。'
+      },
+      {
+        name: 'yahoo', label: 'Yahoo!ショッピングの商品ページURL（任意）', widget: 'string', required: false,
+        hint: '入れると Yahoo ボタンがその商品ページになります。'
+      }
+    ],
+    pattern: /{{< aff ([^>]*) >}}/,
+    fromBlock: function (match) {
+      return parseAttrs(match[1]);
+    },
+    toBlock: function (obj) {
+      return '{{< aff ' + buildAttrs(obj, ['title', 'kw', 'img', 'asin', 'rakuten', 'yahoo']) + ' >}}';
+    },
+    toPreviewBlock: function (obj) {
+      return previewBox('🛒 商品リンク：' + (obj.title || '（商品名未設定）'));
+    }
+  });
+
+  // ---- ブログカード ----
+  CMS.registerEditorComponent({
+    id: 'blog-card',
+    label: 'ブログカード',
+    icon: 'link',
+    fields: [
+      {
+        name: 'url', label: 'リンク先URL', widget: 'string', required: true,
+        hint: '紹介したいページのURL。'
+      },
+      {
+        name: 'title', label: 'タイトル（任意）', widget: 'string', required: false,
+        hint: '空のときはURLがそのまま表示されます。'
+      },
+      {
+        name: 'desc', label: '説明文（任意）', widget: 'string', required: false
+      },
+      {
+        name: 'image', label: 'サムネイル画像（任意）', widget: 'image', required: false
+      }
+    ],
+    pattern: /{{< blogcard ([^>]*) >}}/,
+    fromBlock: function (match) {
+      return parseAttrs(match[1]);
+    },
+    toBlock: function (obj) {
+      return '{{< blogcard ' + buildAttrs(obj, ['url', 'title', 'desc', 'image']) + ' >}}';
+    },
+    toPreviewBlock: function (obj) {
+      return previewBox('🔗 ブログカード：' + (obj.title || obj.url || ''));
+    }
+  });
+
+  // ---- YouTube ----
+  function youtubeId(v) {
+    v = (v || '').trim();
+    var m = v.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([\w-]{6,})/);
+    if (m) return m[1];
+    return v;
+  }
+
+  CMS.registerEditorComponent({
+    id: 'youtube-embed',
+    label: 'YouTube',
+    icon: 'link',
+    fields: [
+      {
+        name: 'id', label: '動画IDまたはURL', widget: 'string', required: true,
+        hint: '動画ページのURLをそのまま貼っても大丈夫です。'
+      }
+    ],
+    pattern: /{{< youtube "?([\w-]+)"? >}}/,
+    fromBlock: function (match) {
+      return { id: match[1] };
+    },
+    toBlock: function (obj) {
+      return '{{< youtube "' + youtubeId(obj.id) + '" >}}';
+    },
+    toPreviewBlock: function (obj) {
+      var id = youtubeId(obj.id);
+      if (typeof h === 'function' && id) {
+        return h('img', {
+          src: 'https://i.ytimg.com/vi/' + id + '/hqdefault.jpg',
+          style: { maxWidth: '320px', display: 'block' }
+        });
+      }
+      return previewBox('▶ YouTube：' + id);
+    }
+  });
+})();
