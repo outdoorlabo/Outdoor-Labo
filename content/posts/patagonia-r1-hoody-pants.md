@@ -1,7 +1,7 @@
 ---
 title: "Patagonia R1 フーディー + パンツ [冬期用]"
-date: 2010-04-11T23:56:20+09:00
-lastmod: 2024-01-09T14:50:39+09:00
+date: 2010-04-11 23:56:20
+lastmod: 2024-01-09 14:50:39
 slug: "patagonia-r1-hoody-pants"
 category: ["gear", "clothing", "snow-trekking-gear", "hiking"]
 tag: ["patagonia", "r1-pants", "r1-hoody", "jacket", "patagonia2", "pants"]

@@ -1,7 +1,7 @@
 ---
 title: "[薪ストーブ] 俺のかまどに、俺の後付けパーツ！"
-date: 2023-12-19T10:36:38+09:00
-lastmod: 2023-12-26T09:01:50+09:00
+date: 2023-12-19 10:36:38
+lastmod: 2023-12-26 09:01:50
 slug: "wood-stove-custom"
 category: ["camp", "camping-goods"]
 tag: ["diy", "camp", "camping-goods", "oreno-kamado", "自作", "薪ストーブ"]

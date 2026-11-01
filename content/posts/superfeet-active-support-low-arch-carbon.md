@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] Superfeet スーパーフィート カーボン Active Support Low Arch"
-date: 2024-09-05T15:33:01+09:00
-lastmod: 2024-11-25T16:38:55+09:00
+date: 2024-09-05 15:33:01
+lastmod: 2024-11-25 16:38:55
 slug: "superfeet-active-support-low-arch-carbon"
 category: ["support-gear", "training", "training-goods", "shoes", "gear", "hiking"]
 tag: ["superfeet", "insole", "carbon", "jogging", "shin-splints", "superfeet2", "trail-running", "running2", "review", "足の痛み", "鵞足炎"]

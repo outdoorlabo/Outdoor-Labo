@@ -1,7 +1,7 @@
 ---
 title: "Aqua Quest 3×3 タープを買って使ってみた。[ディフェンダー]"
-date: 2019-01-13T15:55:34+09:00
-lastmod: 2022-12-22T11:52:27+09:00
+date: 2019-01-13 15:55:34
+lastmod: 2022-12-22 11:52:27
 slug: "aqua-quest-3x3"
 category: ["camping-goods", "tent_tarp", "camp", "gear", "hiking"]
 tag: ["3x3", "aquaquest", "defender", "aqua-quest", "camp", "tarp", "defender2", "review"]

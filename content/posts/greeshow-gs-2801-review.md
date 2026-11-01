@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] Greeshow GS-2801世界初！電動駆動 携帯浄水器 / アウトドア・キャンプ・防災"
-date: 2024-08-05T20:49:50+09:00
-lastmod: 2024-08-05T20:49:57+09:00
+date: 2024-08-05 20:49:50
+lastmod: 2024-08-05 20:49:57
 slug: "greeshow-gs-2801-review"
 category: ["pr", "camp", "camping-goods", "hydration", "gadget", "gear", "hiking"]
 tag: ["camp", "携帯浄水器", "浄水器", "登山", "防災"]

@@ -1,7 +1,7 @@
 ---
 title: "3本 or 4本ローラーでZwiftはもっと楽しくなる！[ GT-Roller Q1.1]"
-date: 2018-02-08T13:04:08+09:00
-lastmod: 2022-12-22T10:33:33+09:00
+date: 2018-02-08 13:04:08
+lastmod: 2022-12-22 10:33:33
 slug: "zwift-roller-training"
 category: ["training", "roadbike"]
 tag: ["roller", "4-roller", "growtac", "gt-roller", "q1-1", "zwift", "training2", "roadbike2"]

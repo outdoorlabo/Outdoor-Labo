@@ -1,7 +1,7 @@
 ---
 title: "Camelbak アンボトル オメガリザーバー 3リットル"
-date: 2009-01-27T22:50:07+09:00
-lastmod: 2023-12-07T14:17:46+09:00
+date: 2009-01-27 22:50:07
+lastmod: 2023-12-07 14:17:46
 slug: "camelbak-omega-reservoir"
 category: ["hydration", "gear", "hiking"]
 tag: ["camelbak", "omega-reservoir", "camel-bak", "hydration"]

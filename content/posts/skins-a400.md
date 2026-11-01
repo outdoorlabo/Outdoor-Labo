@@ -1,7 +1,7 @@
 ---
 title: "Skins A400 コンプレッションのチカラ"
-date: 2018-05-17T19:38:19+09:00
-lastmod: 2019-12-18T10:59:27+09:00
+date: 2018-05-17 19:38:19
+lastmod: 2019-12-18 10:59:27
 slug: "skins-a400"
 category: ["support-gear", "training", "training-goods", "roadbike", "gear", "hiking"]
 tag: ["a400", "skins", "calf-socks", "compression-wear", "short-sleeve", "jogging", "training2", "running2", "roadbike2", "long-sleeve", "long-tights", "short-sleeve2", "長袖"]

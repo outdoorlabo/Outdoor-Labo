@@ -1,7 +1,7 @@
 ---
 title: "蜜蝋ワックスのススメ [レザー・木工]"
-date: 2019-12-19T11:08:37+09:00
-lastmod: 2022-12-21T15:06:03+09:00
+date: 2019-12-19 11:08:37
+lastmod: 2022-12-21 15:06:03
 slug: "bees-wax"
 category: ["diy-mod"]
 tag: ["walnut-oil", "walnut-oil2", "leather-craft", "amaniyu", "木工", "艶出し", "蜜蝋ワックス"]

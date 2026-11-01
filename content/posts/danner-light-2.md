@@ -1,7 +1,7 @@
 ---
 title: "ダナーライト 2 [トレッキングシューズ]"
-date: 2011-03-26T15:21:06+09:00
-lastmod: 2019-12-18T13:32:31+09:00
+date: 2011-03-26 15:21:06
+lastmod: 2019-12-18 13:32:31
 slug: "danner-light-2"
 category: ["gear", "shoes", "hiking"]
 tag: ["danner", "danner2", "danner-light-2", "trekking-shoes", "登山靴", "靴"]

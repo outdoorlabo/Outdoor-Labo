@@ -1,7 +1,7 @@
 ---
 title: "[山行] 笠取山 〜山梨百名山"
-date: 2009-07-11T23:01:07+09:00
-lastmod: 2023-12-20T10:16:00+09:00
+date: 2009-07-11 23:01:07
+lastmod: 2023-12-20 10:16:00
 slug: "kasatoriyama"
 category: ["okuchichibu", "hiking", "kasatoriyama", "hiking-mountaineering"]
 tag: ["apple", "gps-kit", "iphone", "motion-x-gps", "navigation", "山梨百名山", "登山", "笠取山"]

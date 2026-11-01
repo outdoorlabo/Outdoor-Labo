@@ -1,7 +1,7 @@
 ---
 title: "グリベル G12 ニューマチック [アイゼン]"
-date: 2010-01-16T23:42:52+09:00
-lastmod: 2023-12-26T16:05:31+09:00
+date: 2010-01-16 23:42:52
+lastmod: 2023-12-26 16:05:31
 slug: "grivel-g12"
 category: ["gear", "snow-trekking-gear", "shoes", "hiking"]
 tag: ["g12-newmatic", "grivel", "crampon", "grivel2"]

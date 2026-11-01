@@ -1,7 +1,7 @@
 ---
 title: "金峰山・北奥千丈岳・国師ヶ岳 [奥秩父縦走]"
-date: 2010-07-18T23:58:15+09:00
-lastmod: 2010-07-18T23:58:15+09:00
+date: 2010-07-18 23:58:15
+lastmod: 2010-07-18 23:58:15
 slug: "kinpu-kitaokusenjo-kokushi"
 category: ["kitaokusenjodake", "kokushidake", "okuchichibu", "hiking", "kinpusan", "hiking-mountaineering"]
 tag: ["sabino-trail", "montrail2", "kita-okusennjogatake", "国師岳", "奥秩父", "日本百名山", "登山", "縦走", "金峰山"]

@@ -1,7 +1,7 @@
 ---
 title: "モントレイル サビノトレイル・ミッド GTX [軽い]"
-date: 2010-07-25T22:26:27+09:00
-lastmod: 2010-08-17T11:02:07+09:00
+date: 2010-07-25 22:26:27
+lastmod: 2010-08-17 11:02:07
 slug: "montrail-sabino-trail-mid-gtx"
 category: ["gear", "shoes", "hiking"]
 tag: ["montrail", "sabino-trail-mid-gtx", "sabino-trail-mid", "montrail2", "登山靴"]

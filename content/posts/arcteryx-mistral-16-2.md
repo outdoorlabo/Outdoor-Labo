@@ -1,7 +1,7 @@
 ---
 title: "アークテリクス ミストラル16 [ショルダーバッグ]"
-date: 2010-08-01T20:17:24+09:00
-lastmod: 2019-12-18T10:56:30+09:00
+date: 2010-08-01 20:17:24
+lastmod: 2019-12-18 10:56:30
 slug: "arcteryx-mistral-16-2"
 category: ["climbing-gear", "climbing-gears", "climbing"]
 tag: ["arcteryx", "mistral-16", "arc-teryx", "bag", "mistral-16-arcteryx"]

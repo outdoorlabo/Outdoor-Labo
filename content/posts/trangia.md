@@ -1,7 +1,7 @@
 ---
 title: "Trangia & かんたん自作 五徳・風防　"
-date: 2008-12-25T21:51:44+09:00
-lastmod: 2023-12-07T11:19:33+09:00
+date: 2008-12-25 21:51:44
+lastmod: 2023-12-07 11:19:33
 slug: "trangia"
 category: ["camp", "camping-goods", "stove", "gear", "diy-mod", "hiking"]
 tag: ["trangia", "stove", "trangia2", "gotoku", "自作", "風防"]

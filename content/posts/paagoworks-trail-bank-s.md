@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] Paagoworks TRAIL BANK S / ミニマル財布"
-date: 2024-04-30T15:00:15+09:00
-lastmod: 2024-04-30T15:00:21+09:00
+date: 2024-04-30 15:00:15
+lastmod: 2024-04-30 15:00:21
 slug: "paagoworks-trail-bank-s"
 category: ["gadget", "gear", "hiking"]
 tag: ["paago-works", "trail-bank-s", "paagoworks", "running2", "roadbike2", "財布"]

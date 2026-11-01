@@ -1,7 +1,7 @@
 ---
 title: "南ア 北岳 八本歯経由 [テント泊]"
-date: 2011-07-17T21:35:13+09:00
-lastmod: 2019-12-18T13:43:50+09:00
+date: 2011-07-17 21:35:13
+lastmod: 2019-12-18 13:43:50
 slug: "kitadake"
 category: ["kitadake", "southern-apls", "hiking", "hiking-mountaineering"]
 tag: ["camping", "kitadake", "minami-alps", "日本百名山", "登山"]

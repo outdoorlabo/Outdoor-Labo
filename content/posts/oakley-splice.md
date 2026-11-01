@@ -1,7 +1,7 @@
 ---
 title: "オークリー Splice Jet Black / Pink Iridium [ゴーグル]"
-date: 2010-01-31T21:23:54+09:00
-lastmod: 2023-12-26T16:09:37+09:00
+date: 2010-01-31 21:23:54
+lastmod: 2023-12-26 16:09:37
 slug: "oakley-splice"
 category: ["gear", "snow-trekking-gear", "hiking"]
 tag: ["oakley", "splice", "oakley-oalkey", "goggles", "splice2"]

@@ -1,7 +1,7 @@
 ---
 title: "Zwiftが楽しすぎる"
-date: 2016-05-10T10:41:53+09:00
-lastmod: 2016-05-18T15:51:08+09:00
+date: 2016-05-10 10:41:53
+lastmod: 2016-05-18 15:51:08
 slug: "zwift"
 category: ["training", "roadbike"]
 tag: ["roadbike", "strava", "training", "zwift", "roller2"]

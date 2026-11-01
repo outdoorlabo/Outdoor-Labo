@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] OLENO(オレノ) アームスリーブ UL 親指ホール付き"
-date: 2025-04-10T17:40:15+09:00
-lastmod: 2025-10-29T14:17:44+09:00
+date: 2025-04-10 17:40:15
+lastmod: 2025-10-29 14:17:44
 slug: "oleno-ul-arm-sleeve-review"
 category: ["running", "gadget", "hands_arms", "gear", "hiking"]
 tag: ["arm-cover", "アームスリーブ", "running2", "review"]

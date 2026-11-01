@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] ミステリーランチ 2day アサルト / Mystery Ranch 2DAP"
-date: 2023-11-27T20:03:14+09:00
-lastmod: 2023-12-01T10:22:33+09:00
+date: 2023-11-27 20:03:14
+lastmod: 2023-12-01 10:22:33
 slug: "mystery-ranch-2dap"
 category: ["backpack", "gear", "hiking"]
 tag: ["2-day-assault", "2day-assault", "myster-ranch", "backpack", "mystery-ranch"]

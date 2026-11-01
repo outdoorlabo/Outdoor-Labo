@@ -1,7 +1,7 @@
 ---
 title: "モンベル ジオライン L.W.ウエストウォーマー [腹巻き]"
-date: 2010-02-21T10:42:48+09:00
-lastmod: 2023-12-26T16:15:28+09:00
+date: 2010-02-21 10:42:48
+lastmod: 2023-12-26 16:15:28
 slug: "mont-bell-waist-warmer"
 category: ["gear", "clothing", "hiking"]
 tag: ["mont-bell", "waist-warmer", "geoline", "mont-bell2"]

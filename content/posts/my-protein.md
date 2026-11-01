@@ -1,7 +1,7 @@
 ---
 title: "My Proteinに乗り換えたら… / 激安購入方法"
-date: 2024-01-22T09:58:55+09:00
-lastmod: 2025-05-08T17:23:22+09:00
+date: 2024-01-22 09:58:55
+lastmod: 2025-05-08 17:23:22
 slug: "my-protein"
 category: ["supplement", "training"]
 tag: ["eaa", "my-protein", "good-deal", "cost-effective", "protein", "myprotein", "myprotein2", "review", "激安"]

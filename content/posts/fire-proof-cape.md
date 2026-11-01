@@ -1,7 +1,7 @@
 ---
 title: "自作 ファイヤーマント [焚き火]"
-date: 2019-02-24T11:20:54+09:00
-lastmod: 2022-12-22T11:32:15+09:00
+date: 2019-02-24 11:20:54
+lastmod: 2022-12-22 11:32:15
 slug: "fire-proof-cape"
 category: ["camp", "camping-goods", "diy-mod"]
 tag: ["camp", "firemount", "bushcraft", "焚き火", "自作", "防炎"]

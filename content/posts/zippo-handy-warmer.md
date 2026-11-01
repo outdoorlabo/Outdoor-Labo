@@ -1,7 +1,7 @@
 ---
 title: "使い捨てないカイロ　Zippo ハンディ ウォーマー　"
-date: 2008-11-30T00:28:57+09:00
-lastmod: 2023-11-30T21:20:55+09:00
+date: 2008-11-30 00:28:57
+lastmod: 2023-11-30 21:20:55
 slug: "zippo-handy-warmer"
 category: ["camp", "camping-goods", "gadget", "gear", "hiking"]
 tag: ["zippo", "heat-pad", "handy-warmer"]

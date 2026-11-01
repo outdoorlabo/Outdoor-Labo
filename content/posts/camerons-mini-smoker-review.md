@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] キャメロンズ ミニスモーカー 燻製器"
-date: 2024-06-02T21:35:58+09:00
-lastmod: 2024-07-25T11:09:09+09:00
+date: 2024-06-02 21:35:58
+lastmod: 2024-07-25 11:09:09
 slug: "camerons-mini-smoker-review"
 category: ["camp", "camping-goods"]
 tag: ["camerons", "mini-smoker", "燻製", "燻製器"]

@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] MISSION ミッション MAX PLUS COOLING TOWEL マックスプラス クールタオル 熱中症対策に"
-date: 2024-07-25T10:08:44+09:00
-lastmod: 2024-07-25T11:21:41+09:00
+date: 2024-07-25 10:08:44
+lastmod: 2024-07-25 11:21:41
 slug: "mission-max-plus-cooling-towel-review"
 category: ["training", "gadget", "gear", "hiking"]
 tag: ["cool-towel", "jogging", "running2", "review", "熱中症対策"]

@@ -1,7 +1,7 @@
 ---
 title: "Puma Mobium モビアム [ランニングシューズ]"
-date: 2013-06-24T07:21:23+09:00
-lastmod: 2013-06-26T15:47:39+09:00
+date: 2013-06-24 07:21:23
+lastmod: 2013-06-26 15:47:39
 slug: "puma-mobium"
 category: ["training-goods", "training"]
 tag: ["running"]

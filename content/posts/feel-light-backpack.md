@@ -1,7 +1,7 @@
 ---
 title: "バックパックが軽く感じる裏技"
-date: 2009-09-13T11:07:03+09:00
-lastmod: 2023-12-22T13:35:47+09:00
+date: 2009-09-13 11:07:03
+lastmod: 2023-12-22 13:35:47
 slug: "feel-light-backpack"
 category: ["knowledge"]
 tag: ["knowledge", "backpack", "裏技"]

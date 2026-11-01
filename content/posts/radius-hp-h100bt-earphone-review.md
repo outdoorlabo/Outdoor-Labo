@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] radius ラディウス HP-H100BT ながら聴きイヤホン コスパ最強 ランニングと思ったが…違った件"
-date: 2024-08-20T11:48:57+09:00
-lastmod: 2025-04-07T09:35:00+09:00
+date: 2024-08-20 11:48:57
+lastmod: 2025-04-07 09:35:00
 slug: "radius-hp-h100bt-earphone-review"
 category: ["training", "gadget", "gear", "hiking"]
 tag: ["jogging", "training2", "open-ear-earphone", "running2", "review"]

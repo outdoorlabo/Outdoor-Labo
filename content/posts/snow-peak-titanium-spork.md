@@ -1,7 +1,7 @@
 ---
 title: "Snow Peak チタン 先割れスプーン"
-date: 2008-11-02T11:00:09+09:00
-lastmod: 2023-12-04T11:49:57+09:00
+date: 2008-11-02 11:00:09
+lastmod: 2023-12-04 11:49:57
 slug: "snow-peak-titanium-spork"
 category: ["gear", "cookware", "hiking"]
 tag: ["snow-peak", "snowpeak", "titanium", "utensil", "split-spoon"]

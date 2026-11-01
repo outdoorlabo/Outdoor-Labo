@@ -1,7 +1,7 @@
 ---
 title: "[ハイキング] Lands End -サンフランシスコ"
-date: 2008-08-23T19:31:58+09:00
-lastmod: 2023-11-30T10:50:58+09:00
+date: 2008-08-23 19:31:58
+lastmod: 2023-11-30 10:50:58
 slug: "lands-end-hiking"
 category: ["america", "hiking", "abroad", "hiking-mountaineering"]
 tag: ["lands-end", "hiking2"]

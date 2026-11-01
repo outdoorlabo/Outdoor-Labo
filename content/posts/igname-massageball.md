@@ -1,7 +1,7 @@
 ---
 title: "イナーメ　メタルマッサージボールは使えるのか？"
-date: 2019-07-30T15:15:25+09:00
-lastmod: 2022-12-22T10:58:51+09:00
+date: 2019-07-30 15:15:25
+lastmod: 2022-12-22 10:58:51
 slug: "igname-massageball"
 category: ["training", "roadbike"]
 tag: ["igname", "oil", "massage-ball", "roadbike2", "筋膜リリース"]

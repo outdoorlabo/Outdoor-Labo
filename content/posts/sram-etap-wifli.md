@@ -1,7 +1,7 @@
 ---
 title: "SRAM eTap WifLi 取り付け完了"
-date: 2017-05-24T08:45:35+09:00
-lastmod: 2020-01-06T13:30:15+09:00
+date: 2017-05-24 08:45:35
+lastmod: 2020-01-06 13:30:15
 slug: "sram-etap-wifli"
 category: ["road-parts", "roadbike"]
 tag: ["3t", "arx2", "dura-ace", "ergonova", "etap", "quarq", "sram", "wifli", "wishbone", "missing-link"]

@@ -1,7 +1,7 @@
 ---
 title: "物足りない尾根幹ー大垂水峠ー相模湖"
-date: 2016-07-18T08:10:19+09:00
-lastmod: 2016-07-19T16:04:21+09:00
+date: 2016-07-18 08:10:19
+lastmod: 2016-07-19 16:04:21
 slug: "lake-sagami"
 category: ["ride", "roadbike", "大垂水峠", "相模湖"]
 tag: ["ride", "roadbike2", "大垂水峠", "尾根幹", "相模湖"]

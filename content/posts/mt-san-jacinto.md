@@ -1,7 +1,7 @@
 ---
 title: "[山行] Mt. San Jacinto"
-date: 2003-09-14T23:52:36+09:00
-lastmod: 2023-11-30T09:02:04+09:00
+date: 2003-09-14 23:52:36
+lastmod: 2023-11-30 09:02:04
 slug: "mt-san-jacinto"
 category: ["america", "hiking", "abroad", "hiking-mountaineering"]
 tag: ["mt-san-jacinto", "登山"]

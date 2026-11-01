@@ -1,7 +1,7 @@
 ---
 title: "フルターフォッシュのシースとネックガードをDIY [Hultafors]"
-date: 2019-02-18T11:40:43+09:00
-lastmod: 2022-12-22T11:40:59+09:00
+date: 2019-02-18 11:40:43
+lastmod: 2022-12-22 11:40:59
 slug: "hultafors-allround"
 category: ["camp", "camping-goods", "knife-axe", "diy-mod", "gear", "hiking"]
 tag: ["camp", "husqvarna", "hultafors", "bushcraft", "hultafors2", "手斧", "自作"]

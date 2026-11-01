@@ -1,7 +1,7 @@
 ---
 title: "Metolius Rock Rings [ロックリングス]"
-date: 2010-12-05T08:04:38+09:00
-lastmod: 2019-12-18T13:34:15+09:00
+date: 2010-12-05 08:04:38
+lastmod: 2019-12-18 13:34:15
 slug: "metolius-rock-rings"
 category: ["climbing", "training-goods", "training"]
 tag: ["metolius", "rock-rings", "bouldering", "metolius2", "rock-rings2"]

@@ -1,7 +1,7 @@
 ---
 title: "KASK Protone ヘルメットを購入してみましたよ"
-date: 2018-07-17T10:35:14+09:00
-lastmod: 2022-12-22T13:29:35+09:00
+date: 2018-07-17 10:35:14
+lastmod: 2022-12-22 13:29:35
 slug: "kask-protone"
 category: ["road-parts", "roadbike"]
 tag: ["giro", "kask", "protone", "synthe", "helmet", "roadbike2"]

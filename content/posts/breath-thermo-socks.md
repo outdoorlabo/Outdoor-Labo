@@ -1,7 +1,7 @@
 ---
 title: "ブレスサーモ 極厚 ウールソックス [冬期・縦走に]"
-date: 2009-11-28T11:08:07+09:00
-lastmod: 2023-12-22T16:08:50+09:00
+date: 2009-11-28 11:08:07
+lastmod: 2023-12-22 16:08:50
 slug: "breath-thermo-socks"
 category: ["gear", "shoes", "hiking"]
 tag: ["wool-socks", "expedition", "socks", "breath-thermo", "極厚"]

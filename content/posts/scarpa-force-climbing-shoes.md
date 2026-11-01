@@ -1,7 +1,7 @@
 ---
 title: "Scarpa Force / スカルパ フォース [クライミングシューズ]"
-date: 2010-08-15T13:16:51+09:00
-lastmod: 2010-10-09T09:29:13+09:00
+date: 2010-08-15 13:16:51
+lastmod: 2010-10-09 09:29:13
 slug: "scarpa-force-climbing-shoes"
 category: ["climbing-shoes", "climbing-gear", "climbing"]
 tag: ["force", "scarpa", "climbing", "climbing-shoes", "scarpa2", "force2", "bouldering"]

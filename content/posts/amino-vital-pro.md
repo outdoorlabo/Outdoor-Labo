@@ -1,7 +1,7 @@
 ---
 title: "激安　アミノバイタル"
-date: 2008-07-10T21:19:51+09:00
-lastmod: 2023-12-05T10:40:49+09:00
+date: 2008-07-10 21:19:51
+lastmod: 2023-12-05 10:40:49
 slug: "amino-vital-pro"
 category: ["supplement", "training"]
 tag: ["amino-vital-pro", "energy-charge", "supplement2"]

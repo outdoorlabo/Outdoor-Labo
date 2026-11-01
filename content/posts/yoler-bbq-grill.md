@@ -1,7 +1,7 @@
 ---
 title: "Yoler バーベキューコンロ・焚き火台はなかなかgood！"
-date: 2019-07-09T11:50:11+09:00
-lastmod: 2022-12-22T11:10:21+09:00
+date: 2019-07-09 11:50:11
+lastmod: 2022-12-22 11:10:21
 slug: "yoler-bbq-grill"
 category: ["camp", "camping-goods", "stove", "diy-mod", "gear", "hiking"]
 tag: ["b6", "yoler", "captain-stag", "camp", "stove2", "bbq2", "焚き火", "焚き火台", "笑s", "自作"]

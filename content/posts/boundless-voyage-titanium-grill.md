@@ -1,7 +1,7 @@
 ---
 title: "チタンのロストル・焼き網を買ってみた [キャンプ]"
-date: 2020-01-03T09:40:43+09:00
-lastmod: 2022-12-21T13:32:37+09:00
+date: 2020-01-03 09:40:43
+lastmod: 2022-12-21 13:32:37
 slug: "boundless-voyage-titanium-grill"
 category: ["camp", "camping-goods", "cookware", "gear", "hiking"]
 tag: ["boundless-voyage", "wood-stove", "grill", "titanium", "review", "rooster", "oreno-kamado", "焚き火", "焼き網", "網"]

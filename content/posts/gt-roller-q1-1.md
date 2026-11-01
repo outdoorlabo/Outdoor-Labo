@@ -1,7 +1,7 @@
 ---
 title: "GT-Roller Q1.1を買ってみた [魅惑の4本ローラー]"
-date: 2017-11-27T16:08:18+09:00
-lastmod: 2017-12-06T15:53:33+09:00
+date: 2017-11-27 16:08:18
+lastmod: 2017-12-06 15:53:33
 slug: "gt-roller-q1-1"
 category: ["training", "roadbike"]
 tag: ["4-roller", "growtac", "gt-roller", "q1-1", "growtac2"]

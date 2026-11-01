@@ -1,7 +1,7 @@
 ---
 title: "グランズ レメディー gran’s remedy [靴の防臭]"
-date: 2010-10-16T21:51:18+09:00
-lastmod: 2019-12-18T13:35:01+09:00
+date: 2010-10-16 21:51:18
+lastmod: 2019-12-18 13:35:01
 slug: "grans-remedy"
 category: ["climbing-gear", "climbing-gears", "climbing"]
 tag: ["grans-remedy", "climbing-shoes", "grands-remedy", "bouldering"]

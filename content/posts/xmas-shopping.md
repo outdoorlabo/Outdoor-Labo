@@ -1,7 +1,7 @@
 ---
 title: "クリスマスショッピング"
-date: 2008-12-21T00:31:08+09:00
-lastmod: 2023-12-07T09:27:44+09:00
+date: 2008-12-21 00:31:08
+lastmod: 2023-12-07 09:27:44
 slug: "xmas-shopping"
 category: ["trip"]
 image: "/wp-content/uploads/2023/12/xmas-jpg-e1702603176824.webp"

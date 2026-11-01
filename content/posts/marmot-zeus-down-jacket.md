@@ -1,7 +1,7 @@
 ---
 title: "Marmot ゼウス ダウンジャケット"
-date: 2008-10-19T23:27:10+09:00
-lastmod: 2023-12-04T17:31:38+09:00
+date: 2008-10-19 23:27:10
+lastmod: 2023-12-04 17:31:38
 slug: "marmot-zeus-down-jacket"
 category: ["gear", "clothing", "hiking"]
 tag: ["marmot", "jacket", "zeus-down-jacket", "down", "marmot2"]

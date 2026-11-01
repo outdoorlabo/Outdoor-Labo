@@ -1,7 +1,7 @@
 ---
 title: "100均 ウォータージャグ"
-date: 2009-05-31T10:47:54+09:00
-lastmod: 2023-12-21T08:45:56+09:00
+date: 2009-05-31 10:47:54
+lastmod: 2023-12-21 08:45:56
 slug: "water-jug"
 category: ["camp", "camping-goods"]
 tag: ["100-yen-shop", "water-jag"]

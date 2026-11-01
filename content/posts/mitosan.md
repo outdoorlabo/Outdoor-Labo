@@ -1,7 +1,7 @@
 ---
 title: "三頭山〜大沢山〜槇寄山"
-date: 2009-11-21T22:36:44+09:00
-lastmod: 2023-12-22T16:04:03+09:00
+date: 2009-11-21 22:36:44
+lastmod: 2023-12-22 16:04:03
 slug: "mitosan"
 category: ["mitosan", "okutama", "hiking", "hiking-mountaineering"]
 tag: ["mitosan", "大沢山", "槇寄山", "登山"]

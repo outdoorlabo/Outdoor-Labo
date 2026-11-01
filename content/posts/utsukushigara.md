@@ -1,7 +1,7 @@
 ---
 title: "ヒルクライム ブートキャンプ Day2 美ヶ原"
-date: 2016-08-25T16:46:35+09:00
-lastmod: 2018-07-26T14:36:38+09:00
+date: 2016-08-25 16:46:35
+lastmod: 2018-07-26 14:36:38
 slug: "utsukushigara"
 category: ["ride", "roadbike", "美ヶ原"]
 tag: ["hill-climb", "ride", "roadbike2", "美ヶ原"]

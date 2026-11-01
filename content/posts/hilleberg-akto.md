@@ -1,7 +1,7 @@
 ---
 title: "Hilleberg Akto / アクト [一人用テント]"
-date: 2009-03-14T21:49:24+09:00
-lastmod: 2023-12-19T17:37:39+09:00
+date: 2009-03-14 21:49:24
+lastmod: 2023-12-19 17:37:39
 slug: "hilleberg-akto"
 category: ["tent_tarp", "gear", "hiking"]
 tag: ["one-person", "akto", "hilleberg", "hilleburg-akto", "tent", "hilleburg"]

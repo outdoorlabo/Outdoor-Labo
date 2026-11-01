@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] Paago Works Rush 7R トレランバックパック"
-date: 2024-06-18T18:45:55+09:00
-lastmod: 2025-02-26T13:39:06+09:00
+date: 2024-06-18 18:45:55
+lastmod: 2025-02-26 13:39:06
 slug: "paago-works-rush-7r-review"
 category: ["backpack", "gear", "hiking"]
 tag: ["paago-works", "rush-7r", "trail-running", "paagoworks", "backpack", "running2", "review"]

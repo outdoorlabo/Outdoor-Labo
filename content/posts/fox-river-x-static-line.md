@@ -1,7 +1,7 @@
 ---
 title: "Fox River X-static Liner -足の臭いにさようなら〜"
-date: 2008-09-02T21:17:26+09:00
-lastmod: 2023-11-30T10:55:42+09:00
+date: 2008-09-02 21:17:26
+lastmod: 2023-11-30 10:55:42
 slug: "fox-river-x-static-line"
 category: ["gear", "clothing", "shoes", "hiking"]
 tag: ["fox-river", "x-static-liner", "socks"]

@@ -1,7 +1,7 @@
 ---
 title: "ヒルクライム ブートキャンプ Day1 乗鞍 [山の日]"
-date: 2016-08-23T12:56:38+09:00
-lastmod: 2018-07-26T14:35:52+09:00
+date: 2016-08-23 12:56:38
+lastmod: 2018-07-26 14:35:52
 slug: "norikura"
 category: ["ride", "roadbike", "乗鞍"]
 tag: ["hill-climb", "ride", "roadbike2", "乗鞍", "山の日"]

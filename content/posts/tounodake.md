@@ -1,7 +1,7 @@
 ---
 title: "梅雨の塔ノ岳 [表尾根縦走]"
-date: 2010-06-26T23:28:46+09:00
-lastmod: 2016-05-31T15:09:39+09:00
+date: 2010-06-26 23:28:46
+lastmod: 2016-05-31 15:09:39
 slug: "tounodake"
 category: ["tanzawa", "tounodake", "hiking", "hiking-mountaineering"]
 tag: ["tanzawa", "塔ノ岳", "登山", "表尾根"]

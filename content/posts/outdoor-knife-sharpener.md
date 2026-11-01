@@ -1,7 +1,7 @@
 ---
 title: "アウトドアでナイフ・斧を研ぐ！ [オススメ砥石]"
-date: 2020-01-21T15:16:51+09:00
-lastmod: 2022-12-21T13:26:23+09:00
+date: 2020-01-21 15:16:51
+lastmod: 2022-12-21 13:26:23
 slug: "outdoor-knife-sharpener"
 category: ["camp", "camping-goods", "knife-axe", "gear", "hiking"]
 tag: ["ccd", "d3t", "dc3", "dc4", "lansky", "puck", "outdoor", "camping-goods", "knife", "bag", "fallkniven", "lansky2", "斧", "砥石"]

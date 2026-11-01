@@ -1,7 +1,7 @@
 ---
 title: "バトニングも！フェザーも！調理も！できるナイフ [KA-BAR BK16]"
-date: 2020-01-28T21:13:38+09:00
-lastmod: 2022-12-21T13:17:09+09:00
+date: 2020-01-28 21:13:38
+lastmod: 2022-12-21 13:17:09
 slug: "kabar-bk16"
 category: ["camp", "camping-goods", "knife-axe", "gear", "diy-mod", "hiking"]
 tag: ["bk16", "ka-bar", "camping-goods", "ka-bar2", "knife", "bushcraft", "review"]

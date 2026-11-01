@@ -1,7 +1,7 @@
 ---
 title: "ボルダリングのコツ [YouTube]"
-date: 2010-08-07T10:24:29+09:00
-lastmod: 2010-09-11T22:13:23+09:00
+date: 2010-08-07 10:24:29
+lastmod: 2010-09-11 22:13:23
 slug: "bouldering-tips"
 category: ["climbing", "training-goods", "knowledge", "training"]
 tag: ["tips", "bouldering"]

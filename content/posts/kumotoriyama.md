@@ -1,7 +1,7 @@
 ---
 title: "[山行] 日本百名山　雲取山"
-date: 2008-07-21T21:36:37+09:00
-lastmod: 2023-11-30T10:48:58+09:00
+date: 2008-07-21 21:36:37
+lastmod: 2023-11-30 10:48:58
 slug: "kumotoriyama"
 category: ["okutama", "hiking", "kumotoriyama", "hiking-mountaineering"]
 tag: ["日本百名山", "登山", "雲取山"]

@@ -1,7 +1,7 @@
 ---
 title: "AppleTV de Zwift (ﾟ∀ﾟ)ｷﾀｺﾚ!!"
-date: 2017-11-29T16:34:41+09:00
-lastmod: 2017-11-30T10:14:06+09:00
+date: 2017-11-29 16:34:41
+lastmod: 2017-11-30 10:14:06
 slug: "appletv-de-zwift"
 category: ["training", "roadbike"]
 tag: ["4-roller", "appletv", "gt-roller", "q1-1", "zwift"]

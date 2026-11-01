@@ -1,7 +1,7 @@
 ---
 title: "Goro S-8 登山靴　"
-date: 2009-01-31T23:44:52+09:00
-lastmod: 2023-12-07T14:27:56+09:00
+date: 2009-01-31 23:44:52
+lastmod: 2023-12-07 14:27:56
 slug: "goro-s-8"
 category: ["gear", "shoes", "hiking"]
 tag: ["goro", "s-8", "custom-made", "登山靴"]

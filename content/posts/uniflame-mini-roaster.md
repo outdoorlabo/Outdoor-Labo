@@ -1,7 +1,7 @@
 ---
 title: "ユニフレーム　ミニロースター"
-date: 2009-01-04T12:10:49+09:00
-lastmod: 2023-12-07T11:41:37+09:00
+date: 2009-01-04 12:10:49
+lastmod: 2023-12-07 11:41:37
 slug: "uniflame-mini-roaster"
 category: ["gear", "cookware", "hiking"]
 tag: ["uniflame", "mini-roaster", "utensil", "uniflame2"]

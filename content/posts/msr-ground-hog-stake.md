@@ -1,7 +1,7 @@
 ---
 title: "MSR Ground Hog Stake"
-date: 2010-05-23T20:57:25+09:00
-lastmod: 2019-12-18T10:53:16+09:00
+date: 2010-05-23 20:57:25
+lastmod: 2019-12-18 10:53:16
 slug: "msr-ground-hog-stake"
 category: ["tent_tarp", "gadget", "gear", "hiking"]
 tag: ["msr", "ground-hog-stake", "tent", "stake"]

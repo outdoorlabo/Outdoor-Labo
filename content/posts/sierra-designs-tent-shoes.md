@@ -1,7 +1,7 @@
 ---
 title: "Sierra Designs テントシューズ"
-date: 2008-11-27T09:42:14+09:00
-lastmod: 2023-11-30T21:33:40+09:00
+date: 2008-11-27 09:42:14
+lastmod: 2023-11-30 21:33:40
 slug: "sierra-designs-tent-shoes"
 category: ["snow-trekking-gear", "shoes", "gear", "hiking"]
 tag: ["sierra-designs", "sierra-design", "down", "tent-shoes"]

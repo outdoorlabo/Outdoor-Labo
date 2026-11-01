@@ -1,7 +1,7 @@
 ---
 title: "Granite Gear ヒップベルトポケット"
-date: 2008-10-12T02:05:58+09:00
-lastmod: 2023-12-01T11:47:14+09:00
+date: 2008-10-12 02:05:58
+lastmod: 2023-12-01 11:47:14
 slug: "granite-gear-hipbelt-pocket"
 category: ["gadget", "gear", "hiking"]
 tag: ["granite-gear", "granite-gear2", "backpack", "hipbelt-pocket"]

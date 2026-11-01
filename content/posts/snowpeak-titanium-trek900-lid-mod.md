@@ -1,7 +1,7 @@
 ---
 title: "スノーピーク チタントレック900の蓋をプチ改造"
-date: 2019-05-07T02:35:08+09:00
-lastmod: 2022-12-22T11:18:54+09:00
+date: 2019-05-07 02:35:08
+lastmod: 2022-12-22 11:18:54
 slug: "snowpeak-titanium-trek900-lid-mod"
 category: ["camp", "camping-goods", "gear", "diy-mod", "cookware", "hiking"]
 tag: ["snowpeak", "titanium", "trek900", "frying-pan", "自作", "蓋"]

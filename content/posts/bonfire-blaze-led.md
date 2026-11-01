@@ -1,7 +1,7 @@
 ---
 title: "Bonfire Blaze LED ランタン"
-date: 2009-02-06T21:30:49+09:00
-lastmod: 2023-12-07T16:30:11+09:00
+date: 2009-02-06 21:30:49
+lastmod: 2023-12-07 16:30:11
 slug: "bonfire-blaze-led"
 category: ["lamp", "gear", "hiking"]
 tag: ["blaze", "bonfire", "led", "lantern"]

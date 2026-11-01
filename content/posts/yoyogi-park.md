@@ -1,7 +1,7 @@
 ---
 title: "紅葉だよ、代々木公園"
-date: 2008-11-30T22:12:20+09:00
-lastmod: 2023-12-04T11:27:28+09:00
+date: 2008-11-30 22:12:20
+lastmod: 2023-12-04 11:27:28
 slug: "yoyogi-park"
 category: ["trip"]
 tag: ["yoyogi-park"]

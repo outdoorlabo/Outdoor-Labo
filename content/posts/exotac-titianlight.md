@@ -1,7 +1,7 @@
 ---
 title: "これはイケてる！最強⁈ライター EXOTAC titanLIGHT　[アウトドア]"
-date: 2019-12-11T07:25:48+09:00
-lastmod: 2022-12-21T15:15:53+09:00
+date: 2019-12-11 07:25:48
+lastmod: 2022-12-21 15:15:53
 slug: "exotac-titianlight"
 category: ["camp", "camping-goods", "gadget", "gear", "hiking"]
 tag: ["exotac", "titanlight", "kayak", "camp", "titan-light", "bushcraft", "lighter", "review", "登山", "釣り"]

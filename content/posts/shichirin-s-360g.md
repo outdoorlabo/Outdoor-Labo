@@ -1,7 +1,7 @@
 ---
 title: "キャンパーズコレクション ザ・シチリン S-360G"
-date: 2011-01-03T15:24:38+09:00
-lastmod: 2019-12-18T13:33:28+09:00
+date: 2011-01-03 15:24:38
+lastmod: 2019-12-18 13:33:28
 slug: "shichirin-s-360g"
 category: ["camp", "camping-goods"]
 tag: ["bbq", "s-360g", "dutch-oven"]

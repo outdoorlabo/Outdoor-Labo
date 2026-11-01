@@ -1,7 +1,7 @@
 ---
 title: "Granite Gear Hiker Satchel サコッシュ 軽い！"
-date: 2018-06-24T16:22:34+09:00
-lastmod: 2023-12-26T14:24:55+09:00
+date: 2018-06-24 16:22:34
+lastmod: 2023-12-26 14:24:55
 slug: "granite-gear-hiker-satchel"
 category: ["camp", "camping-goods", "gadget", "gear", "hiking"]
 tag: ["granite-gear", "sacoche"]

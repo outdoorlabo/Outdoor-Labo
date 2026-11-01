@@ -1,7 +1,7 @@
 ---
 title: "登山での正しい爪の切り方：スクエアオフ"
-date: 2008-12-22T23:36:21+09:00
-lastmod: 2023-12-19T10:35:05+09:00
+date: 2008-12-22 23:36:21
+lastmod: 2023-12-19 10:35:05
 slug: "how-to-clip-nails"
 category: ["knowledge"]
 tag: ["正しい爪の切り方"]

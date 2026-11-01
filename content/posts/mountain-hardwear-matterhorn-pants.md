@@ -1,7 +1,7 @@
 ---
 title: "Mountain Hardwear マッターホルン パンツ"
-date: 2008-11-24T01:32:43+09:00
-lastmod: 2023-12-01T11:45:03+09:00
+date: 2008-11-24 01:32:43
+lastmod: 2023-12-01 11:45:03
 slug: "mountain-hardwear-matterhorn-pants"
 category: ["gear", "clothing", "hiking"]
 tag: ["mountain-hardwear", "pants", "mountainhardwear", "matterhorn-pants"]

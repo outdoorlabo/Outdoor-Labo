@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] UCO キャンドル ランタン"
-date: 2008-12-02T00:02:26+09:00
-lastmod: 2023-12-05T10:59:13+09:00
+date: 2008-12-02 00:02:26
+lastmod: 2023-12-05 10:59:13
 slug: "uco-candle-lantern"
 category: ["camp", "camping-goods", "lamp", "gear", "hiking"]
 tag: ["uco", "candle", "lantern"]

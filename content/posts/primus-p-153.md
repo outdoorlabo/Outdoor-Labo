@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] プリムス　P-153 ガスストーブ"
-date: 2008-04-10T18:37:59+09:00
-lastmod: 2023-11-30T10:17:30+09:00
+date: 2008-04-10 18:37:59
+lastmod: 2023-11-30 10:17:30
 slug: "primus-p-153"
 category: ["stove", "gear", "hiking"]
 tag: ["stove", "primus-p-153"]

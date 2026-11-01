@@ -1,7 +1,7 @@
 ---
 title: "道志みちー山中湖 ダラダラ ライド "
-date: 2017-08-11T09:38:56+09:00
-lastmod: 2017-08-12T12:27:18+09:00
+date: 2017-08-11 09:38:56
+lastmod: 2017-08-12 12:27:18
 slug: "doushimichi-yamanakako"
 category: ["ride", "roadbike", "道志みち・山中湖"]
 tag: ["roadbike2", "夏", "山中湖", "道志みち"]

@@ -1,7 +1,7 @@
 ---
 title: "モンベル　ボルカノキャップ"
-date: 2009-01-25T16:04:23+09:00
-lastmod: 2023-12-07T14:16:32+09:00
+date: 2009-01-25 16:04:23
+lastmod: 2023-12-07 14:16:32
 slug: "mont-bell-volcano-cap"
 category: ["gear", "clothing", "hiking"]
 tag: ["mont-bell", "cap", "neck-gator", "fleece", "mont-bell2", "帽子"]

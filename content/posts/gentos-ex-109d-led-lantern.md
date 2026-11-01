@@ -1,7 +1,7 @@
 ---
 title: "超絶ヤバイ ランタン GENTOS エクスプローラー EX-109D [キャンプ]"
-date: 2020-02-06T13:46:53+09:00
-lastmod: 2022-12-22T10:55:15+09:00
+date: 2020-02-06 13:46:53
+lastmod: 2022-12-22 10:55:15
 slug: "gentos-ex-109d-led-lantern"
 category: ["camp", "camping-goods", "lamp", "gear", "hiking"]
 tag: ["ex-109d", "gentos", "led", "amazon-limited", "camp", "gentos2", "lantern", "review", "明るい"]

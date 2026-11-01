@@ -1,7 +1,7 @@
 ---
 title: "Light My Fire Spork スポーク"
-date: 2009-06-21T23:27:37+09:00
-lastmod: 2023-12-20T10:11:23+09:00
+date: 2009-06-21 23:27:37
+lastmod: 2023-12-20 10:11:23
 slug: "light-my-fire-spork"
 category: ["camp", "camping-goods", "gear", "cookware", "hiking"]
 tag: ["light-my-fire", "spork", "utensil"]

@@ -1,7 +1,7 @@
 ---
 title: "SPEEDPLAY ゼロ エアロ ウォーカブル クリート"
-date: 2017-03-06T15:22:02+09:00
-lastmod: 2017-03-06T15:22:02+09:00
+date: 2017-03-06 15:22:02
+lastmod: 2017-03-06 15:22:02
 slug: "speedplay-zero-aero-walkable-cleat"
 category: ["road-parts", "roadbike"]
 tag: ["speedplay", "cover", "cleats", "zero-air-walkable"]

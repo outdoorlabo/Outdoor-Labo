@@ -1,7 +1,7 @@
 ---
 title: "買ってよかった！ 格安ヘリノックスコットもどき"
-date: 2020-02-03T11:22:42+09:00
-lastmod: 2022-12-21T13:14:13+09:00
+date: 2020-02-03 11:22:42
+lastmod: 2022-12-21 13:14:13
 slug: "cot"
 category: ["camp", "camping-goods"]
 tag: ["helinox", "camp", "cot", "helinox2", "modoki", "review", "格安"]

@@ -1,7 +1,7 @@
 ---
 title: "Bushbox LF Titanium ストーブを買ってみた"
-date: 2018-12-31T09:57:53+09:00
-lastmod: 2022-12-22T13:20:34+09:00
+date: 2018-12-31 09:57:53
+lastmod: 2022-12-22 13:20:34
 slug: "bushbox-lf-titanium"
 category: ["camp", "camping-goods", "stove", "gear", "hiking"]
 tag: ["bushbox", "lf", "wood-stove", "titanium", "bushcraft"]

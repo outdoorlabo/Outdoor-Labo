@@ -1,7 +1,7 @@
 ---
 title: "エクササイズ チューブ [筋トレ]"
-date: 2010-08-22T21:09:17+09:00
-lastmod: 2010-08-23T11:04:35+09:00
+date: 2010-08-22 21:09:17
+lastmod: 2010-08-23 11:04:35
 slug: "exercise-tube"
 category: ["training-goods", "training"]
 tag: ["exercise-tube", "tube-training", "筋トレ"]

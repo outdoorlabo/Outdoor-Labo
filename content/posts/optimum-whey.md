@@ -1,7 +1,7 @@
 ---
 title: "Optimum ゴールドスタンダード ホエイプロテイン"
-date: 2017-04-24T08:42:50+09:00
-lastmod: 2017-04-24T08:42:50+09:00
+date: 2017-04-24 08:42:50
+lastmod: 2017-04-24 08:42:50
 slug: "optimum-whey"
 category: ["supplement", "training"]
 tag: ["iherb", "optimum", "protein", "whey"]

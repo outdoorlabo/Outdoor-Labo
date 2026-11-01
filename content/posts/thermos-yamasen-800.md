@@ -1,7 +1,7 @@
 ---
 title: "サーモス 山専ボトル 0.8リットル 購入"
-date: 2009-03-03T22:26:49+09:00
-lastmod: 2023-12-19T17:30:38+09:00
+date: 2009-03-03 22:26:49
+lastmod: 2023-12-19 17:30:38
 slug: "thermos-yamasen-800"
 category: ["gear", "snow-trekking-gear", "cookware", "hiking"]
 tag: ["thermos", "hydration", "山専ボトル", "魔法瓶"]

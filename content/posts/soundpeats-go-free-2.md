@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] SOUNDPEATS GoFree 2 オープンイヤー型イヤホン / ランニングに！"
-date: 2023-12-03T16:11:05+09:00
-lastmod: 2024-12-04T09:53:20+09:00
+date: 2023-12-03 16:11:05
+lastmod: 2024-12-04 09:53:20
 slug: "soundpeats-go-free-2"
 category: ["training"]
 tag: ["soundpeats", "earphone", "open-ear", "jogging", "running2"]

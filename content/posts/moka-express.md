@@ -1,7 +1,7 @@
 ---
 title: "ビアレッティ　モカエキスプレス　3カップの巻 [マキネッタ]"
-date: 2019-11-11T17:30:16+09:00
-lastmod: 2022-12-21T15:21:44+09:00
+date: 2019-11-11 17:30:16
+lastmod: 2022-12-21 15:21:44
 slug: "moka-express"
 category: ["camp", "camping-goods", "cookware", "gear", "hiking"]
 tag: ["aero-press", "coffee", "bialetti", "moka", "moka-express", "review"]

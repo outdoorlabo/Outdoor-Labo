@@ -1,7 +1,7 @@
 ---
 title: "大涌谷〜箱根"
-date: 2009-10-25T15:12:30+09:00
-lastmod: 2023-12-22T15:50:46+09:00
+date: 2009-10-25 15:12:30
+lastmod: 2023-12-22 15:50:46
 slug: "owakudani-hakon"
 category: ["trip"]
 tag: ["大涌谷", "箱根"]

@@ -1,7 +1,7 @@
 ---
 title: "[山行] 冬の天狗岳 / 北八ヶ岳"
-date: 2010-02-14T23:52:13+09:00
-lastmod: 2023-12-26T16:14:17+09:00
+date: 2010-02-14 23:52:13
+lastmod: 2023-12-26 16:14:17
 slug: "tengudake"
 category: ["yatsugatake", "tengudake", "hiking", "hiking-mountaineering"]
 tag: ["yatsugatake", "天狗岳", "登山", "雪山"]

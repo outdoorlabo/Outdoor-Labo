@@ -1,7 +1,7 @@
 ---
 title: "Carbo Shotz効果"
-date: 2009-10-18T17:45:30+09:00
-lastmod: 2023-12-22T15:50:05+09:00
+date: 2009-10-18 17:45:30
+lastmod: 2023-12-22 15:50:05
 slug: "carbo-shotz"
 category: ["supplement", "training"]
 tag: ["energy-charge", "carbo-shotz"]

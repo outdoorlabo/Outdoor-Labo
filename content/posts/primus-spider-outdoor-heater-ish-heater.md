@@ -1,7 +1,7 @@
 ---
 title: "Primus Spider Outdoor Heater-ish heater"
-date: 2010-12-26T23:25:04+09:00
-lastmod: 2010-12-26T23:26:45+09:00
+date: 2010-12-26 23:25:04
+lastmod: 2010-12-26 23:26:45
 slug: "primus-spider-outdoor-heater-ish-heater"
 category: ["camping-goods", "camp"]
 tag: ["fire-ball", "kovea", "primus", "spider-outdoor-heater", "primus2"]

@@ -1,7 +1,7 @@
 ---
 title: "俺のかまどに野良の火ばさみ [野良ばさみ]"
-date: 2020-02-11T20:38:32+09:00
-lastmod: 2023-12-26T09:16:09+09:00
+date: 2020-02-11 20:38:32
+lastmod: 2023-12-26 09:16:09
 slug: "nora-basami"
 category: ["camp", "camping-goods"]
 tag: ["camp", "camping-goods", "bbq2", "review", "火ばさみ", "焚き火", "野良バサミ"]

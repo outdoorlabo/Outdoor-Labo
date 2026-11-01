@@ -1,7 +1,7 @@
 ---
 title: "DeFeet Armskin [アームカバー]"
-date: 2010-04-25T20:51:38+09:00
-lastmod: 2010-05-28T09:02:31+09:00
+date: 2010-04-25 20:51:38
+lastmod: 2010-05-28 09:02:31
 slug: "defeet-armskin"
 category: ["training-goods", "gear", "hands_arms", "training", "hiking"]
 tag: ["armskin", "defeet", "arm-cover"]

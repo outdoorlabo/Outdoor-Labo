@@ -1,7 +1,7 @@
 ---
 title: "Golite サンバイザー"
-date: 2009-04-17T21:17:46+09:00
-lastmod: 2023-12-20T09:51:56+09:00
+date: 2009-04-17 21:17:46
+lastmod: 2023-12-20 09:51:56
 slug: "golite-sun-visor"
 category: ["gear", "clothing", "hiking"]
 tag: ["golite", "golite2", "sunvisor", "帽子"]

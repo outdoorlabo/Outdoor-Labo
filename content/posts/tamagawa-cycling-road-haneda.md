@@ -1,7 +1,7 @@
 ---
 title: "多摩川サイクリングロード　羽田まで"
-date: 2009-07-20T22:31:43+09:00
-lastmod: 2023-12-20T10:17:37+09:00
+date: 2009-07-20 22:31:43
+lastmod: 2023-12-20 10:17:37
 slug: "tamagawa-cycling-road-haneda"
 category: ["bd-1", "roadbike"]
 tag: ["apple", "bd-1", "iphone", "holder", "自転車"]

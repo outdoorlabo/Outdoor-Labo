@@ -1,7 +1,7 @@
 ---
 title: "安いHelinox系の折りたたみイスを買ってみた。[KAMUI]"
-date: 2019-02-12T16:42:51+09:00
-lastmod: 2022-12-22T11:42:10+09:00
+date: 2019-02-12 16:42:51
+lastmod: 2022-12-22 11:42:10
 slug: "foldable-chair-kamui"
 category: ["camp", "camping-goods"]
 tag: ["helinox", "aluminium", "camp", "folding-chair", "helinox2", "折りたたみ", "椅子"]

@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] SALOMON AERO GLIDE 4 GRVL ランニングシューズ"
-date: 2026-05-11T17:50:05+09:00
-lastmod: 2026-05-11T17:50:12+09:00
+date: 2026-05-11 17:50:05
+lastmod: 2026-05-11 17:50:12
 slug: "salomon-aero-glide-4-grvl"
 category: ["running"]
 tag: ["salomon", "グラベル", "サロモン"]

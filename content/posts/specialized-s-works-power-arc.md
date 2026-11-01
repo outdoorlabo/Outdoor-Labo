@@ -1,7 +1,7 @@
 ---
 title: "Specialized S-WORKS Power Arc サドル 購入 "
-date: 2017-07-13T23:40:12+09:00
-lastmod: 2020-01-06T13:17:09+09:00
+date: 2017-07-13 23:40:12
+lastmod: 2020-01-06 13:17:09
 slug: "specialized-s-works-power-arc"
 category: ["road-parts", "roadbike"]
 tag: ["power-arc", "specialized", "saddle", "specialized2", "roadbike2", "穴あきサドル"]

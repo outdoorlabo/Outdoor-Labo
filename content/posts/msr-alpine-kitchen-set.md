@@ -1,7 +1,7 @@
 ---
 title: "MSR　アルパイン キッチン セット"
-date: 2009-01-24T00:13:57+09:00
-lastmod: 2023-12-07T14:12:01+09:00
+date: 2009-01-24 00:13:57
+lastmod: 2023-12-07 14:12:01
 slug: "msr-alpine-kitchen-set"
 category: ["camp", "camping-goods", "gear", "cookware", "hiking"]
 tag: ["msr", "alpine-kitchen-set", "camp"]

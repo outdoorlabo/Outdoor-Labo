@@ -1,7 +1,7 @@
 ---
 title: "LPN ストレッチポール EXは超絶気持ちE〜"
-date: 2019-09-02T11:50:03+09:00
-lastmod: 2022-12-22T10:53:50+09:00
+date: 2019-09-02 11:50:03
+lastmod: 2022-12-22 10:53:50
 slug: "lpn-stretch-pole"
 category: ["training", "training-goods", "roadbike"]
 tag: ["lpn", "stretch", "stretch-poll", "masage", "筋膜リリース"]

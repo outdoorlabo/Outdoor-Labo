@@ -1,7 +1,7 @@
 ---
 title: "totes チタニウム レインフォース [折り畳み傘]"
-date: 2009-08-11T11:54:17+09:00
-lastmod: 2023-12-21T08:55:50+09:00
+date: 2009-08-11 11:54:17
+lastmod: 2023-12-21 08:55:50
 slug: "totes-titanium-rainforce"
 category: ["gadget", "gear", "hiking"]
 tag: ["totes", "snowpeak", "titanium", "toets", "mont-bell2", "折り畳み傘", "雨具"]

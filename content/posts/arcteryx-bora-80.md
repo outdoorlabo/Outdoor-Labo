@@ -1,7 +1,7 @@
 ---
 title: "ARC’TERYX Bora 80 バックパック"
-date: 2009-03-19T22:56:02+09:00
-lastmod: 2023-12-19T17:39:15+09:00
+date: 2009-03-19 22:56:02
+lastmod: 2023-12-19 17:39:15
 slug: "arcteryx-bora-80"
 category: ["backpack", "gear", "hiking"]
 tag: ["arcteryx", "bora-80", "arc-teryx", "backpack", "bora-80-arcteryx"]

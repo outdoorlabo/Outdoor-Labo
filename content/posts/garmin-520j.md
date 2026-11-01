@@ -1,7 +1,7 @@
 ---
 title: "Garmin 520J セット 購入"
-date: 2016-04-09T19:36:32+09:00
-lastmod: 2016-05-23T10:59:54+09:00
+date: 2016-04-09 19:36:32
+lastmod: 2016-05-23 10:59:54
 slug: "garmin-520j"
 category: ["road-parts", "roadbike"]
 tag: ["garmin", "roadbike"]

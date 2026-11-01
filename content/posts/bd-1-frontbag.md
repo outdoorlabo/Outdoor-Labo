@@ -1,7 +1,7 @@
 ---
 title: "BD-1 フロントバッグ [リクセン カウル化]"
-date: 2009-09-06T21:26:10+09:00
-lastmod: 2023-12-22T13:35:18+09:00
+date: 2009-09-06 21:26:10
+lastmod: 2023-12-22 13:35:18
 slug: "bd-1-frontbag"
 category: ["bd-1", "diy-mod", "roadbike"]
 tag: ["bd-1", "front-bag", "rixen-kaul-mod", "改造"]

@@ -1,7 +1,7 @@
 ---
 title: "冬のお買い物視察"
-date: 2009-11-28T23:35:18+09:00
-lastmod: 2023-12-26T15:44:44+09:00
+date: 2009-11-28 23:35:18
+lastmod: 2023-12-26 15:44:44
 slug: "wintershopping"
 category: ["trip", "sale", "knowledge"]
 tag: ["sale"]

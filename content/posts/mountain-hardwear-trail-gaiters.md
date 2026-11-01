@@ -1,7 +1,7 @@
 ---
 title: "Mountain Hardwear トレイルゲイター [スパッツ]"
-date: 2009-05-17T08:18:36+09:00
-lastmod: 2023-12-20T10:01:10+09:00
+date: 2009-05-17 08:18:36
+lastmod: 2023-12-20 10:01:10
 slug: "mountain-hardwear-trail-gaiters"
 category: ["gear", "shoes", "hiking"]
 tag: ["mountain-hardwear", "leggings", "trail-gator", "mountainhardwear"]

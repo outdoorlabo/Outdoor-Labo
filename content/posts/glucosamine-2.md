@@ -1,7 +1,7 @@
 ---
 title: "グルコサミン + コンドロイチン [リピ買い]"
-date: 2009-09-26T23:03:18+09:00
-lastmod: 2023-12-22T15:42:58+09:00
+date: 2009-09-26 23:03:18
+lastmod: 2023-12-22 15:42:58
 slug: "glucosamine-2"
 category: ["supplement", "training"]
 tag: ["glucosamine", "chondroitin", "supplement2", "痛み", "肘", "股関節", "腰", "膝", "関節痛"]

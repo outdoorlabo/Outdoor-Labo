@@ -1,7 +1,7 @@
 ---
 title: "Leki Makalu Ultralite Air Ergo"
-date: 2008-10-27T12:16:05+09:00
-lastmod: 2023-12-04T11:57:03+09:00
+date: 2008-10-27 12:16:05
+lastmod: 2023-12-04 11:57:03
 slug: "leki-makalu-ultralite-air-ergo"
 category: ["support-gear", "gear", "hiking"]
 tag: ["leki", "makalu-ultralite-air-ergo"]

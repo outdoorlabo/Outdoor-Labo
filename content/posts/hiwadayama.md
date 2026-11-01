@@ -1,7 +1,7 @@
 ---
 title: "[山行] 日和田山・物見山"
-date: 2008-06-14T18:55:51+09:00
-lastmod: 2023-11-30T10:24:28+09:00
+date: 2008-06-14 18:55:51
+lastmod: 2023-11-30 10:24:28
 slug: "hiwadayama"
 category: ["okumusashi", "hiking", "hiwadayama", "hiking-mountaineering"]
 tag: ["日和田山", "物見山", "登山"]

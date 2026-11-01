@@ -1,7 +1,7 @@
 ---
 title: "[山行] 御前山"
-date: 2009-02-11T20:38:16+09:00
-lastmod: 2023-12-19T17:22:00+09:00
+date: 2009-02-11 20:38:16
+lastmod: 2023-12-19 17:22:00
 slug: "gozenyama"
 category: ["okutama", "hiking", "gozenyama", "hiking-mountaineering"]
 tag: ["goro", "s-8", "奥多摩", "御前山", "登山靴"]

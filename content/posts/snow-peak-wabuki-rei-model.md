@@ -1,7 +1,7 @@
 ---
 title: "Snow Peak 和武器 REI ダブルネーム モデル"
-date: 2008-11-08T19:49:56+09:00
-lastmod: 2023-12-04T11:31:24+09:00
+date: 2008-11-08 19:49:56
+lastmod: 2023-12-04 11:31:24
 slug: "snow-peak-wabuki-rei-model"
 category: ["gear", "cookware", "hiking"]
 tag: ["rei", "snow-peak", "snowpeak", "utensil", "wabuki"]

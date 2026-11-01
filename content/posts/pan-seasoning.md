@@ -1,7 +1,7 @@
 ---
 title: "本当にくっつかない！最強フライパンシーズニング術"
-date: 2023-12-25T10:11:06+09:00
-lastmod: 2023-12-25T10:11:11+09:00
+date: 2023-12-25 10:11:06
+lastmod: 2023-12-25 10:11:11
 slug: "pan-seasoning"
 category: ["knowledge"]
 tag: ["camp", "non-stick", "seasoning", "skilette", "frying-pan", "鉄"]

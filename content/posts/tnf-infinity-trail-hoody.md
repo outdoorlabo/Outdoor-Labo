@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] ノースフェイス インフィニティトレイルフーディー / TNF INFINITY TRAIL HOODY"
-date: 2024-01-29T08:22:42+09:00
-lastmod: 2024-01-29T08:22:44+09:00
+date: 2024-01-29 08:22:42
+lastmod: 2024-01-29 08:22:44
 slug: "tnf-infinity-trail-hoody"
 category: ["clothing", "gear", "hiking"]
 tag: ["infinity-trail-hoody", "tnf", "infinity-trailhoody", "wind-shell", "wind-breaker", "jogging", "northface", "running2", "review"]

@@ -1,7 +1,7 @@
 ---
 title: "Granite Gear The Lid 蓋"
-date: 2008-12-16T07:21:02+09:00
-lastmod: 2023-12-07T09:12:28+09:00
+date: 2008-12-16 07:21:02
+lastmod: 2023-12-07 09:12:28
 slug: "granite-gear-the-lid"
 category: ["backpack", "gear", "hiking"]
 tag: ["granite-gear", "granite-gear2", "backpack", "lid"]

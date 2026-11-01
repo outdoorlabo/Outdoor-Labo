@@ -1,7 +1,7 @@
 ---
 title: "八ヶ岳 赤岳 [テント泊]"
-date: 2014-07-20T12:07:11+09:00
-lastmod: 2016-06-02T14:18:34+09:00
+date: 2014-07-20 12:07:11
+lastmod: 2016-06-02 14:18:34
 slug: "akadake"
 category: ["yatsugatake", "hiking", "akadake", "hiking-mountaineering"]
 tag: ["camping", "yatsugatake", "登山", "赤岳"]

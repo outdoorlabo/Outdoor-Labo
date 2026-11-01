@@ -1,7 +1,7 @@
 ---
 title: "Marmot Pinnacle シュラフ"
-date: 2008-12-18T00:00:21+09:00
-lastmod: 2023-12-07T09:18:28+09:00
+date: 2008-12-18 00:00:21
+lastmod: 2023-12-07 09:18:28
 slug: "marmot-pinnacle"
 category: ["camp", "camping-goods", "sleeping-gear", "gear", "hiking"]
 tag: ["marmot", "pinnacle", "sleeping-bag", "pinnacle2", "marmot2", "寝具"]

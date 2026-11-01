@@ -1,7 +1,7 @@
 ---
 title: "Power Breathe Plus（パワーブリーズ）で呼吸筋を鍛える！"
-date: 2017-08-07T12:47:01+09:00
-lastmod: 2023-12-26T15:40:57+09:00
+date: 2017-08-07 12:47:01
+lastmod: 2023-12-26 15:40:57
 slug: "powerbreathe-plus"
 category: ["training-goods", "training"]
 tag: ["powerbreathe", "training2", "power-breathe", "roadbike2", "breathing-muscle"]

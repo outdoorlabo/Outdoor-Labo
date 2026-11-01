@@ -1,7 +1,7 @@
 ---
 title: "自作 iPhone ケース ヌメ革 / レザークラフト"
-date: 2009-07-04T20:10:28+09:00
-lastmod: 2023-12-20T10:12:30+09:00
+date: 2009-07-04 20:10:28
+lastmod: 2023-12-20 10:12:30
 slug: "iphone-leather-case"
 category: ["diy-mod"]
 tag: ["apple", "iphone", "leather", "leather-case", "自作"]

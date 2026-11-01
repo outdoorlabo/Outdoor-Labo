@@ -1,7 +1,7 @@
 ---
 title: "アウトドア de ブリトー・タコス！ [簡単キャンプ飯]"
-date: 2022-12-21T12:26:09+09:00
-lastmod: 2023-12-01T11:00:43+09:00
+date: 2022-12-21 12:26:09
+lastmod: 2023-12-01 11:00:43
 slug: "camp-burrito-tacos"
 category: ["camp", "recipe"]
 tag: ["camping-meal", "tacos", "tortilla", "burrito", "recipe", "安い", "簡単", "美味しい"]

@@ -1,7 +1,7 @@
 ---
 title: "折りたたみ　ステンレス my 箸　[100均]"
-date: 2009-07-25T11:17:45+09:00
-lastmod: 2023-12-20T10:18:49+09:00
+date: 2009-07-25 11:17:45
+lastmod: 2023-12-20 10:18:49
 slug: "my-hashi-stainless"
 category: ["hiking", "gear"]
 tag: ["100-yen-shop", "highmount", "pocket-chopsticks-stainless", "utensil"]

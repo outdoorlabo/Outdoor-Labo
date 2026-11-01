@@ -1,7 +1,7 @@
 ---
 title: "SoundPEATS(サウンドピーツ) Q30 Bluetoothイヤホンを買ってみた"
-date: 2017-12-12T12:29:48+09:00
-lastmod: 2017-12-18T10:00:49+09:00
+date: 2017-12-12 12:29:48
+lastmod: 2017-12-18 10:00:49
 slug: "soundpeats-q30-bluetooth"
 category: ["training", "road-parts", "roadbike", "gadget", "gear", "hiking"]
 tag: ["bluetooth-earphone", "q30", "soundpeats"]

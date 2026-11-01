@@ -1,7 +1,7 @@
 ---
 title: "軍幕に最高で最強な薪ストーブ ［俺のかまど］"
-date: 2019-10-02T11:40:27+09:00
-lastmod: 2023-12-26T08:59:50+09:00
+date: 2019-10-02 11:40:27
+lastmod: 2023-12-26 08:59:50
 slug: "ore-no-kamado"
 category: ["camp", "camping-goods", "stove", "gear", "hiking"]
 tag: ["camp", "camping-goods", "moki", "review", "oreno-kamado", "茂木プレート", "薪ストーブ", "軍幕"]

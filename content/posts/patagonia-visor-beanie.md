@@ -1,7 +1,7 @@
 ---
 title: "Patagonia Visor Beanie エスプレッソ"
-date: 2009-01-24T19:41:32+09:00
-lastmod: 2023-12-07T14:15:12+09:00
+date: 2009-01-24 19:41:32
+lastmod: 2023-12-07 14:15:12
 slug: "patagonia-visor-beanie"
 category: ["gear", "clothing", "hiking"]
 tag: ["patagonia", "patagonia2", "beanie", "帽子"]

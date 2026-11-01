@@ -1,7 +1,7 @@
 ---
 title: "KAVU バレー ベルト　岳人祭で購入"
-date: 2009-06-06T20:59:56+09:00
-lastmod: 2023-12-20T10:05:53+09:00
+date: 2009-06-06 20:59:56
+lastmod: 2023-12-20 10:05:53
 slug: "kavu-valley-belt"
 category: ["sale", "gear", "clothing", "knowledge", "hiking"]
 tag: ["kavu", "valley-belt", "burly-belt", "pants"]

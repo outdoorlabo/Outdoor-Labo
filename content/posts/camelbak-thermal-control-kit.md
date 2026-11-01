@@ -1,7 +1,7 @@
 ---
 title: "Camelbak サーマルコントロールキット"
-date: 2009-01-28T21:22:38+09:00
-lastmod: 2023-12-07T14:20:54+09:00
+date: 2009-01-28 21:22:38
+lastmod: 2023-12-07 14:20:54
 slug: "camelbak-thermal-control-kit"
 category: ["hydration", "gear", "hiking"]
 tag: ["camelbak", "camel-bak", "thermal-control-kit", "hydration"]

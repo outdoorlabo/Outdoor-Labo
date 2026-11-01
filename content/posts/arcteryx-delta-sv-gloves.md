@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] ARC’TERYX Delta SV グローブ"
-date: 2008-12-08T20:56:11+09:00
-lastmod: 2023-12-06T08:33:59+09:00
+date: 2008-12-08 20:56:11
+lastmod: 2023-12-06 08:33:59
 slug: "arcteryx-delta-sv-gloves"
 category: ["gear", "hands_arms", "hiking"]
 tag: ["arcteryx", "delta-sv", "gloves"]

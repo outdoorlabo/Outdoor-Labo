@@ -1,7 +1,7 @@
 ---
 title: "SEA TO SUMMIT モスキート ヘッドネット [防虫]"
-date: 2010-06-20T10:57:32+09:00
-lastmod: 2010-06-29T14:40:49+09:00
+date: 2010-06-20 10:57:32
+lastmod: 2010-06-29 14:40:49
 slug: "sea-to-summit-head-net"
 category: ["gadget", "gear", "hiking"]
 tag: ["sea-to-summit", "sea-to-summit2", "head-net", "虫除け"]

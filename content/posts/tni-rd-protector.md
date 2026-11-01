@@ -1,7 +1,7 @@
 ---
 title: "TNI リアディレイラー カーボン プロテクターを取り付けてみたYO"
-date: 2018-08-20T10:56:23+09:00
-lastmod: 2022-12-22T13:27:34+09:00
+date: 2018-08-20 10:56:23
+lastmod: 2022-12-22 13:27:34
 slug: "tni-rd-protector"
 category: ["road-parts", "roadbike"]
 tag: ["tni", "tni-rear-derailleur-carbon-protector", "roadbike2"]
