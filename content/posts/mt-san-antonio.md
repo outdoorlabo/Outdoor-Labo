@@ -12,7 +12,7 @@ wpid: 344
 
 <p>美大のクラスメイト、OrmarとMt. Baldyとして知られるMt. San Antonio（10,064 ft・3067m）へ。San Gabriel Mountainsのひとつで、ロサンゼルスカウンティーの中で一番高い山。</p>
 <p>トレイルヘッド近くに駐車。</p>
-<p><a href="/wp-content/uploads/2009/12/09aee5f127b69f439d6726bd81abc48f.jpg"><img decoding="async" title="トレイルヘッド近くの駐車場" src="//wp-content/uploads/2009/12/09aee5f127b69f439d6726bd81abc48f-300x225.jpg" alt="トレイルヘッド近くの駐車場" /></a></p>
+<p><a href="/wp-content/uploads/2009/12/09aee5f127b69f439d6726bd81abc48f.jpg"><img decoding="async" title="トレイルヘッド近くの駐車場" src="/wp-content/uploads/2009/12/09aee5f127b69f439d6726bd81abc48f.jpg" alt="トレイルヘッド近くの駐車場" /></a></p>
 <p>マウンテンゴートが斜面を駆け下りているのを何度も見かけました。</p>
 <p><a href="/wp-content/uploads/2009/12/b571228e4b7172ef357f3e8049c9737a.jpg"><img decoding="async" title="マウンテンゴート" src="/wp-content/uploads/2009/12/b571228e4b7172ef357f3e8049c9737a-300x225.jpg" alt="マウンテンゴート" /></a></p>
 <p>湿度は低いけど、日差しが強い。土もカラッカラ。この山、２つピークがあります。ひとつは9,988 feet/3,044 m。</p>
