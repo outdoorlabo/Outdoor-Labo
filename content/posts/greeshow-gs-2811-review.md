@@ -37,8 +37,6 @@ wpid: 6027
 
 <p class="wp-block-paragraph">本作はしっかりしたセミハードケースに収納です。クオリティー高し。</p>
 
-<figure class="wp-block-image size-full"><img decoding="async" src="/wp-content/uploads/2024/10/image.jpeg" alt="Greeshow GS-2811 ソーラーパネル・手回し充電 電動浄水器 " class="wp-image-6044"/></figure>
-
 <p class="wp-block-paragraph">サイズは350ml缶より一回り大きい感じです。重さも450gなので、ちょっと思い感じ。前作と比べ、カクカクとした無骨な感じで、ミリタリーっぽいデザインはかなり好みです。</p>
 
 ## ここがすごい
