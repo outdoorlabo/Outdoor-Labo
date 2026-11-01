@@ -19,10 +19,10 @@
 {{- else -}}
   {{- $amazon = printf "https://www.amazon.co.jp/gp/search?ie=UTF8&keywords=%s&tag=labocon-22&index=blended&linkCode=ure&creative=6339" $kwEnc -}}
 {{- end -}}
-{{- $rakutenTarget := .Get "rakuten" | default (printf "https://search.rakuten.co.jp/search/mall/%s/?f=1&grp=product" $kwEnc) -}}
+{{- $rakutenTarget := .Get "rakuten" | default (printf "https://search.rakuten.co.jp/search/mall/%s/?f=1&grp=product" $kw) -}}
 {{- $rakuten := printf "https://af.moshimo.com/af/c/click?a_id=3588387&p_id=54&pc_id=54&pl_id=616&url=%s" ($rakutenTarget | urlquery) -}}
 {{- $rakutenImp := "https://i.moshimo.com/af/i/impression?a_id=3588387&p_id=54&pc_id=54&pl_id=616" -}}
-{{- $yahooTarget := .Get "yahoo" | default (printf "https://shopping.yahoo.co.jp/search?p=%s" $kwEnc) -}}
+{{- $yahooTarget := .Get "yahoo" | default (printf "https://shopping.yahoo.co.jp/search?p=%s" $kw) -}}
 {{- $yahoo := printf "https://af.moshimo.com/af/c/click?a_id=3745458&p_id=1225&pc_id=1925&pl_id=18502&url=%s" ($yahooTarget | urlquery) -}}
 {{- $yahooImp := "https://i.moshimo.com/af/i/impression?a_id=3745458&p_id=1225&pc_id=1925&pl_id=18502" -}}
 <div class="yyi-rinker-box">
