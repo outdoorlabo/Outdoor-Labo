@@ -1,6 +1,6 @@
 ---
 title: "商品リンクカード表示確認"
-date: 2026-11-01T09:30:00+09:00
+date: 2026-11-01 09:30:00
 slug: "aff-card-test"
 category: ["test"]
 tag: ["test"]
