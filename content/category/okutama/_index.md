@@ -1,6 +1,8 @@
 ---
 title: "奥多摩"
-breadcrumb: "奥多摩"
+parent: "hiking-mountaineering"
+breadcrumb: "山登り > 山行・エリア別 > 奥多摩"
 ---
+
 
 

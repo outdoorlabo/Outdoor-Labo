@@ -1,6 +1,8 @@
 ---
 title: "BMC SLR02"
-breadcrumb: "BMC SLR02"
+parent: "roadbike"
+breadcrumb: "ロードバイク > BMC SLR02"
 ---
+
 
 

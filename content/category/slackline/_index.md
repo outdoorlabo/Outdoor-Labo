@@ -1,6 +1,8 @@
 ---
 title: "スラックライン"
-breadcrumb: "スラックライン"
+parent: "training"
+breadcrumb: "トレーニング > スラックライン"
 ---
+
 
 

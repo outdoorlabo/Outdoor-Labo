@@ -1,6 +1,8 @@
 ---
 title: "補給食"
-breadcrumb: "補給食"
+parent: "training"
+breadcrumb: "トレーニング > 補給食"
 ---
+
 
 
