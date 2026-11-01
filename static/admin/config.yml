@@ -1,8 +1,8 @@
 backend:
   name: github
   repo: outdoorlabo/Outdoor-Labo
-  branch: test/decap-category-hierarchy
-  base_url: https://outdoorlabo-decap-auth-preview.outdoorlabo.workers.dev
+  branch: main
+  base_url: https://outdoor-labo.outdoorlabo.workers.dev
   auth_endpoint: /auth
 
 site_url: https://outdoorlabo.a-ce.com
