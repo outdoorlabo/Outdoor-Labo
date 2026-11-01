@@ -1,7 +1,7 @@
 ---
 title: "モンベル O.D.ロールペーパーキット"
-date: 2008-12-29T00:14:45+09:00
-lastmod: 2023-12-07T11:24:23+09:00
+date: 2008-12-29 00:14:45
+lastmod: 2023-12-07 11:24:23
 slug: "rollpaper-kit"
 category: ["gadget", "gear", "hiking"]
 tag: ["mont-bell", "od-roll-paper-kit", "toilette-paper", "mont-bell2"]

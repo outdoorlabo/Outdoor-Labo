@@ -1,7 +1,7 @@
 ---
 title: "ダイソー　伸びるライター"
-date: 2008-07-21T21:23:14+09:00
-lastmod: 2023-11-30T10:30:11+09:00
+date: 2008-07-21 21:23:14
+lastmod: 2023-11-30 10:30:11
 slug: "lighter-extended"
 category: ["camp", "camping-goods", "gadget", "gear", "hiking"]
 tag: ["extended-lighter"]

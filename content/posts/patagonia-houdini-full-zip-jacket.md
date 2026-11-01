@@ -1,7 +1,7 @@
 ---
 title: "Patagonia フーディニ　フルジップ　ジャケット [購入]"
-date: 2011-05-28T13:54:42+09:00
-lastmod: 2019-12-18T13:44:49+09:00
+date: 2011-05-28 13:54:42
+lastmod: 2019-12-18 13:44:49
 slug: "patagonia-houdini-full-zip-jacket"
 category: ["gear", "clothing", "hiking"]
 tag: ["houdini-full-zip-jacket", "patagonia", "jacket", "patagonia2", "houdini", "fullzip-jacket"]

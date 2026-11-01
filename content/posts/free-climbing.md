@@ -1,7 +1,7 @@
 ---
 title: "フリークライミング [教本]"
-date: 2010-10-25T22:47:14+09:00
-lastmod: 2019-12-20T10:17:13+09:00
+date: 2010-10-25 22:47:14
+lastmod: 2019-12-20 10:17:13
 slug: "free-climbing"
 category: ["climbing", "knowledge", "reading"]
 tag: ["climbing", "bouldering", "教本"]

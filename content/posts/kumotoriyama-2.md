@@ -1,7 +1,7 @@
 ---
 title: "[山行] 冬の雲取山というか、奥多摩小屋"
-date: 2009-03-08T23:48:10+09:00
-lastmod: 2023-12-19T17:33:21+09:00
+date: 2009-03-08 23:48:10
+lastmod: 2023-12-19 17:33:21
 slug: "kumotoriyama-2"
 category: ["okutama", "hiking", "kumotoriyama", "hiking-mountaineering"]
 tag: ["奥多摩小屋", "日本百名山", "登山", "雪山", "雲取山"]

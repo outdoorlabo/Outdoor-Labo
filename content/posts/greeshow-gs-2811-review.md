@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] Greeshow GS-2811 ソーラーパネル・手回し充電 電動浄水器 / 災害 キャンプ アウトドア"
-date: 2024-10-13T20:00:25+09:00
-lastmod: 2024-12-04T18:14:15+09:00
+date: 2024-10-13 20:00:25
+lastmod: 2024-12-04 18:14:15
 slug: "greeshow-gs-2811-review"
 category: ["pr", "camping-goods", "hydration", "gadget", "camp", "gear", "hiking"]
 tag: ["camp", "review", "charging", "浄水器", "防災"]
@@ -36,6 +36,8 @@ wpid: 6027
 <figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="700" height="525" src="/wp-content/uploads/2024/10/IMG_3567.jpg" alt="Greeshow GS-2811 ソーラーパネル・手回し充電 電動浄水器 " class="wp-image-6051" srcset="/wp-content/uploads/2024/10/IMG_3567.jpg 700w, /wp-content/uploads/2024/10/IMG_3567-300x225.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></figure>
 
 <p class="wp-block-paragraph">本作はしっかりしたセミハードケースに収納です。クオリティー高し。</p>
+
+<figure class="wp-block-image size-full"><img decoding="async" src="/wp-content/uploads/2024/10/image.jpeg" alt="Greeshow GS-2811 ソーラーパネル・手回し充電 電動浄水器 " class="wp-image-6044"/></figure>
 
 <p class="wp-block-paragraph">サイズは350ml缶より一回り大きい感じです。重さも450gなので、ちょっと思い感じ。前作と比べ、カクカクとした無骨な感じで、ミリタリーっぽいデザインはかなり好みです。</p>
 

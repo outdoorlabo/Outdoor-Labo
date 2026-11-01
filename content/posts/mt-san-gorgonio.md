@@ -1,7 +1,7 @@
 ---
 title: "[山行] Mt. San Gorgonio"
-date: 2003-03-28T19:50:55+09:00
-lastmod: 2023-11-30T08:56:58+09:00
+date: 2003-03-28 19:50:55
+lastmod: 2023-11-30 08:56:58
 slug: "mt-san-gorgonio"
 category: ["america", "hiking", "abroad", "hiking-mountaineering"]
 tag: ["mt-san-gorgonio", "登山"]

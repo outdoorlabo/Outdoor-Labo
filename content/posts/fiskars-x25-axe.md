@@ -1,7 +1,7 @@
 ---
 title: "化け物な斧 Fiskars X25 [薪割り]"
-date: 2020-01-22T15:29:29+09:00
-lastmod: 2022-12-21T13:23:31+09:00
+date: 2020-01-22 15:29:29
+lastmod: 2022-12-21 13:23:31
 slug: "fiskars-x25-axe"
 category: ["camp", "camping-goods", "knife-axe", "gear", "hiking"]
 tag: ["fiskars", "x25", "camp", "camping-goods", "splitting-ax", "review", "斧", "玉割り", "薪割り"]

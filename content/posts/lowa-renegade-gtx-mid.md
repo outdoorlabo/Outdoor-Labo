@@ -1,7 +1,7 @@
 ---
 title: "Lowa レネゲード GTX Mid"
-date: 2008-12-04T00:23:35+09:00
-lastmod: 2023-12-05T11:29:25+09:00
+date: 2008-12-04 00:23:35
+lastmod: 2023-12-05 11:29:25
 slug: "lowa-renegade-gtx-mid"
 category: ["gear", "shoes", "hiking"]
 tag: ["lowa", "renegade-gtx", "rover", "登山靴"]

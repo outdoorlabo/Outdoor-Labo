@@ -1,7 +1,7 @@
 ---
 title: "Petzl ティカXP2 ヘッドランプ [購入]"
-date: 2009-12-09T00:24:51+09:00
-lastmod: 2023-12-26T15:46:46+09:00
+date: 2009-12-09 00:24:51
+lastmod: 2023-12-26 15:46:46
 slug: "petzl-tikka-xp2"
 category: ["lamp", "gear", "hiking"]
 tag: ["led", "petzl", "xp-2", "head-lamp", "petzl2"]

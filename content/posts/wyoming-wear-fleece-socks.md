@@ -1,7 +1,7 @@
 ---
 title: "Wyoming Wear フリースソックス"
-date: 2009-03-01T11:11:55+09:00
-lastmod: 2023-12-19T17:28:44+09:00
+date: 2009-03-01 11:11:55
+lastmod: 2023-12-19 17:28:44
 slug: "wyoming-wear-fleece-socks"
 category: ["gear", "snow-trekking-gear", "shoes", "hiking"]
 tag: ["wyoming-wear", "socks", "fleece"]

@@ -1,7 +1,7 @@
 ---
 title: "キャプテンスタッグ　ローテーブルの脚を延長してみた"
-date: 2019-11-18T11:08:00+09:00
-lastmod: 2023-12-01T11:31:40+09:00
+date: 2019-11-18 11:08:00
+lastmod: 2023-12-01 11:31:40
 slug: "captainstag-table-mod"
 category: ["camp", "camping-goods", "diy-mod"]
 tag: ["captain-stag", "low-table", "改造", "脚の高さ調整", "自作"]

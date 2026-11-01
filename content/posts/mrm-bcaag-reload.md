@@ -1,7 +1,7 @@
 ---
 title: "MRM BCAA+g RELOAD スイカ味 [購入]"
-date: 2017-08-30T11:05:27+09:00
-lastmod: 2017-08-30T11:05:27+09:00
+date: 2017-08-30 11:05:27
+lastmod: 2017-08-30 11:05:27
 slug: "mrm-bcaag-reload"
 category: ["supplement", "training"]
 tag: ["bcaa", "mrm", "supplement", "筋トレ"]

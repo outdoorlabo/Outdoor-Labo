@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] Shimano S-PHYRE RC9"
-date: 2022-01-30T10:02:00+09:00
-lastmod: 2024-01-18T16:40:41+09:00
+date: 2022-01-30 10:02:00
+lastmod: 2024-01-18 16:40:41
 slug: "shimano-s-phyre-rc9"
 category: ["road-parts", "roadbike"]
 tag: ["rc9", "shimano", "shoes", "review", "roadbike2"]

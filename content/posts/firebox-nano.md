@@ -1,7 +1,7 @@
 ---
 title: "Firebox Nanoでミニマルに [アルストにも焚き火台にも]"
-date: 2019-12-09T14:31:20+09:00
-lastmod: 2022-12-21T15:17:33+09:00
+date: 2019-12-09 14:31:20
+lastmod: 2022-12-21 15:17:33
 slug: "firebox-nano"
 category: ["camp", "camping-goods", "stove", "gear", "hiking"]
 tag: ["firebox", "firebox-nano", "nano", "alcohol-stove", "wood-stove", "camping-goods", "titanium", "nano2", "firebox2", "review", "焚き火"]

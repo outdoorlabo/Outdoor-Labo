@@ -1,7 +1,7 @@
 ---
 title: "無骨なOigen 鋳鉄ホットサンドメーカー [焚き火]"
-date: 2020-06-16T17:41:00+09:00
-lastmod: 2023-12-26T09:19:18+09:00
+date: 2020-06-16 17:41:00
+lastmod: 2023-12-26 09:19:18
 slug: "oigen-hotsandcooker"
 category: ["camp", "camping-goods"]
 tag: ["oigen", "camping-goods", "sandwich-toaster", "sandwich-toaster2", "review", "nambu-tekki", "oigen2", "焚き火", "鋳鉄"]

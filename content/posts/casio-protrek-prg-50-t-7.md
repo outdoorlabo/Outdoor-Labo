@@ -1,7 +1,7 @@
 ---
 title: "Casio ProTrek PRG 50-T 7 チタン"
-date: 2008-12-14T13:27:57+09:00
-lastmod: 2023-12-07T09:00:25+09:00
+date: 2008-12-14 13:27:57
+lastmod: 2023-12-07 09:00:25
 slug: "casio-protrek-prg-50-t-7"
 category: ["gadget", "gear", "hiking"]
 tag: ["casio", "prg-50-t-7", "pro-trek", "casio-casio", "titanium"]

@@ -1,7 +1,7 @@
 ---
 title: "Marmot Approach Jacket ソフトシェル"
-date: 2008-12-11T12:03:55+09:00
-lastmod: 2023-12-06T08:54:47+09:00
+date: 2008-12-11 12:03:55
+lastmod: 2023-12-06 08:54:47
 slug: "marmot-approach-jacket"
 category: ["gear", "clothing", "hiking"]
 tag: ["marmot", "approach-jacket", "jacket", "soft-shell", "marmot2"]

@@ -1,7 +1,7 @@
 ---
 title: "BD-1 de iPhone Part 2 自転車にマウント [整頓]"
-date: 2009-08-15T11:56:49+09:00
-lastmod: 2023-12-20T10:34:59+09:00
+date: 2009-08-15 11:56:49
+lastmod: 2023-12-20 10:34:59
 slug: "bd-1-de-iphone-part-2"
 category: ["bd-1", "roadbike"]
 tag: ["bd-1", "gps", "iphone", "adaptor", "holder", "自転車"]

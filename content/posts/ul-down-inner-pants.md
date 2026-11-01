@@ -1,7 +1,7 @@
 ---
 title: "モンベル U.L.ダウンインナーパンツ"
-date: 2009-01-16T23:28:44+09:00
-lastmod: 2023-12-07T14:02:09+09:00
+date: 2009-01-16 23:28:44
+lastmod: 2023-12-07 14:02:09
 slug: "ul-down-inner-pants"
 category: ["gear", "clothing", "hiking"]
 tag: ["mont-bell", "ul-down-pants", "down", "pants", "mont-bell2"]

@@ -1,7 +1,7 @@
 ---
 title: "OR シアトル ソンブレロ [Gore-Tex]"
-date: 2010-07-04T19:51:31+09:00
-lastmod: 2019-12-18T10:54:12+09:00
+date: 2010-07-04 19:51:31
+lastmod: 2019-12-18 10:54:12
 slug: "or-seatle-sombrero"
 category: ["gear", "clothing", "hiking"]
 tag: ["gore-tex", "or", "outdoor-research", "outdoorresearch", "帽子", "防水"]

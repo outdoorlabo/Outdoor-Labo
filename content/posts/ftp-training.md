@@ -1,7 +1,7 @@
 ---
 title: "6週間のFTPトレーニングの結果"
-date: 2016-05-30T17:19:50+09:00
-lastmod: 2016-06-02T14:17:05+09:00
+date: 2016-05-30 17:19:50
+lastmod: 2016-06-02 14:17:05
 slug: "ftp-training"
 category: ["training", "roadbike"]
 tag: ["ftp-training", "zwift"]

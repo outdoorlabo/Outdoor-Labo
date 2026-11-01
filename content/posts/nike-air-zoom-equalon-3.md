@@ -1,7 +1,7 @@
 ---
 title: "Nike Air Zoom Equalon+ 3 [トレーニング用]"
-date: 2009-12-13T11:43:56+09:00
-lastmod: 2023-12-26T15:48:44+09:00
+date: 2009-12-13 11:43:56
+lastmod: 2023-12-26 15:48:44
 slug: "nike-air-zoom-equalon-3"
 category: ["training-goods", "training"]
 tag: ["air-equalon-3", "nike", "nike-plus", "training2"]

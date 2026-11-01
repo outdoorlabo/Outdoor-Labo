@@ -1,7 +1,7 @@
 ---
 title: "ローラー台用工業扇 ナカトミ:45cmアルミフロア扇 OPF-45AF"
-date: 2018-03-28T16:34:44+09:00
-lastmod: 2022-12-22T13:34:54+09:00
+date: 2018-03-28 16:34:44
+lastmod: 2022-12-22 13:34:54
 slug: "nakatomi-opf-45af"
 category: ["training", "road-parts", "roadbike"]
 tag: ["opf-45af", "nakatomi", "roadbike2", "roller2", "工業扇風機"]

@@ -1,7 +1,7 @@
 ---
 title: "ピコグリルを買って使ってみた。[Picogrill 398]"
-date: 2019-02-05T10:30:58+09:00
-lastmod: 2022-12-22T11:43:41+09:00
+date: 2019-02-05 10:30:58
+lastmod: 2022-12-22 11:43:41
 slug: "picogrill-398"
 category: ["camp", "camping-goods", "stove", "gear", "hiking"]
 tag: ["398", "picogrill", "pico-grill", "焚き火台"]

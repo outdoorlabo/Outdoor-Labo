@@ -1,7 +1,7 @@
 ---
 title: "晴れのち雪の谷川岳 [日本百名山]"
-date: 2010-03-28T12:15:16+09:00
-lastmod: 2024-01-09T14:44:01+09:00
+date: 2010-03-28 12:15:16
+lastmod: 2024-01-09 14:44:01
 slug: "tanigawadake"
 category: ["hiking", "tanigawadake", "tanigawarenpou", "hiking-mountaineering"]
 tag: ["日本百名山", "登山", "谷川岳", "雪山"]

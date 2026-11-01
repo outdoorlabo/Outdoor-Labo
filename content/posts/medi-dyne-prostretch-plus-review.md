@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] Medi-Dyne(メディダイン) ProStretch Plus プロ ストレッチ プラス "
-date: 2024-07-02T10:10:51+09:00
-lastmod: 2024-12-04T09:58:29+09:00
+date: 2024-07-02 10:10:51
+lastmod: 2024-12-04 09:58:29
 slug: "medi-dyne-prostretch-plus-review"
 category: ["training", "training-goods"]
 tag: ["pro-stretch-plus", "stretch", "stretch-board", "stretch-goods", "calf", "pro-stretch", "pro-stretch-plus2", "medi-dyne", "足底筋膜炎", "足底腱膜炎"]

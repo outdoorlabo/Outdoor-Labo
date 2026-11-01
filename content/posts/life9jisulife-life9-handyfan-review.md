@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] JisuLife Life9 軽量小型で最強ハンディファン"
-date: 2024-07-29T21:04:21+09:00
-lastmod: 2024-07-31T14:36:07+09:00
+date: 2024-07-29 21:04:21
+lastmod: 2024-07-31 14:36:07
 slug: "life9jisulife-life9-handyfan-review"
 category: ["training", "gadget", "gear", "hiking"]
 tag: ["camp", "jogging", "running2", "review", "roadbike2", "扇風機"]

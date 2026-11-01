@@ -1,7 +1,7 @@
 ---
 title: "ロードバイク初心者でも大丈夫な都民の森"
-date: 2016-06-20T23:30:05+09:00
-lastmod: 2016-06-22T08:57:45+09:00
+date: 2016-06-20 23:30:05
+lastmod: 2016-06-22 08:57:45
 slug: "tominnomori"
 category: ["ride", "roadbike", "都民の森"]
 tag: ["hill-climb", "ride", "roadbike2", "都民の森"]

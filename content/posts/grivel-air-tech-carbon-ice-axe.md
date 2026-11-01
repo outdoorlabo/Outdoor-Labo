@@ -1,7 +1,7 @@
 ---
 title: "Grivel エア テック カーボン [ice axe]"
-date: 2010-02-28T21:14:13+09:00
-lastmod: 2023-12-26T16:18:58+09:00
+date: 2010-02-28 21:14:13
+lastmod: 2023-12-26 16:18:58
 slug: "grivel-air-tech-carbon-ice-axe"
 category: ["gear", "snow-trekking-gear", "hiking"]
 tag: ["air-tech-carbon", "grivel", "ice-ax", "airtech-carbon", "grivel2", "ice-ax2"]

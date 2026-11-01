@@ -1,7 +1,7 @@
 ---
 title: "縦走準備完了"
-date: 2009-04-25T21:47:15+09:00
-lastmod: 2023-12-20T09:53:32+09:00
+date: 2009-04-25 21:47:15
+lastmod: 2023-12-20 09:53:32
 slug: "kirishima-prep"
 category: ["hiking", "kirishima", "karakunidake", "hiking-mountaineering"]
 tag: ["nakadake", "新燃岳", "獅子戸岳", "縦走", "霧島", "韓国岳"]

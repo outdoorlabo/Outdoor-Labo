@@ -1,7 +1,7 @@
 ---
 title: "Montrail CTC Mid GTX 購入 [軽登山用]"
-date: 2008-10-14T23:35:36+09:00
-lastmod: 2023-12-05T10:31:02+09:00
+date: 2008-10-14 23:35:36
+lastmod: 2023-12-05 10:31:02
 slug: "montrail-ctc-mid-gtx"
 category: ["gear", "shoes", "hiking"]
 tag: ["ctc-mid-gtx", "montrail", "montrail2", "登山靴"]

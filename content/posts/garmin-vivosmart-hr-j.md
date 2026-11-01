@@ -1,7 +1,7 @@
 ---
 title: "Garmin Vivosmart HR J 購入＋感想"
-date: 2016-04-26T10:26:01+09:00
-lastmod: 2016-05-04T08:03:04+09:00
+date: 2016-04-26 10:26:01
+lastmod: 2016-05-04 08:03:04
 slug: "garmin-vivosmart-hr-j"
 category: ["training", "roadbike"]
 tag: ["garmin", "roadbike", "vivosmart-hr-j"]

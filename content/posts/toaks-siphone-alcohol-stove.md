@@ -1,7 +1,7 @@
 ---
 title: "Toaks チタン アルコールストーブは優れもの [キャンプ・登山]"
-date: 2019-12-25T10:22:20+09:00
-lastmod: 2022-12-21T15:00:41+09:00
+date: 2019-12-25 10:22:20
+lastmod: 2022-12-21 15:00:41
 slug: "toaks-siphone-alcohol-stove"
 category: ["camp", "camping-goods", "stove", "gear", "hiking"]
 tag: ["firebox-nano", "toaks", "alcohol-stove", "camp", "siphon", "titanium", "trangia2", "review", "登山"]

@@ -1,7 +1,7 @@
 ---
 title: "Lodge ダッチオーブン 10″ Deep"
-date: 2009-08-02T19:03:31+09:00
-lastmod: 2023-12-20T10:22:44+09:00
+date: 2009-08-02 19:03:31
+lastmod: 2023-12-20 10:22:44
 slug: "lodge-10-inch-deep"
 category: ["camp", "camping-goods"]
 tag: ["10inch", "lodge", "camp", "dutch-oven", "deep", "lodge2", "深型"]

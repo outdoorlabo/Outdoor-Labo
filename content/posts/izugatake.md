@@ -1,7 +1,7 @@
 ---
 title: "[山行] 伊豆ヶ岳"
-date: 2008-05-05T21:08:09+09:00
-lastmod: 2023-11-30T09:16:29+09:00
+date: 2008-05-05 21:08:09
+lastmod: 2023-11-30 09:16:29
 slug: "izugatake"
 category: ["izugatake", "okumusashi", "hiking", "hiking-mountaineering"]
 tag: ["izugatake", "登山"]

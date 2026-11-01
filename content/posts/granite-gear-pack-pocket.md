@@ -1,7 +1,7 @@
 ---
 title: "Granite Gear Pack Pocket 追加"
-date: 2008-12-17T10:50:08+09:00
-lastmod: 2023-12-07T09:14:49+09:00
+date: 2008-12-17 10:50:08
+lastmod: 2023-12-07 09:14:49
 slug: "granite-gear-pack-pocket"
 category: ["backpack", "gear", "hiking"]
 tag: ["granite-gear", "granite-gear2", "backpack", "packpocket"]

@@ -1,7 +1,7 @@
 ---
 title: "[山行] 冬の黒檜山・駒ヶ岳（赤城山）"
-date: 2010-01-11T09:04:19+09:00
-lastmod: 2023-12-26T16:01:50+09:00
+date: 2010-01-11 09:04:19
+lastmod: 2023-12-26 16:01:50
 slug: "kurobisan"
 category: ["hiking", "akagiyama", "kurobisan", "hiking-mountaineering"]
 tag: ["日本百名山", "登山", "雪山", "駒ヶ岳", "黒檜山"]

@@ -1,7 +1,7 @@
 ---
 title: "Outdoor Research [OR] Nicosia Neck Wallet"
-date: 2008-12-09T00:15:23+09:00
-lastmod: 2023-12-05T16:21:25+09:00
+date: 2008-12-09 00:15:23
+lastmod: 2023-12-05 16:21:25
 slug: "outdoor-research-nicosia-neck-wallet"
 category: ["gadget", "gear", "hiking"]
 tag: ["nicosia-neck-wallet", "or", "outdoor-research", "outdoorresearch", "wallet"]

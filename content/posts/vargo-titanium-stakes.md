@@ -1,7 +1,7 @@
 ---
 title: "Vargo エクスカリバー　チタンペグ"
-date: 2009-04-05T00:16:20+09:00
-lastmod: 2023-12-19T17:43:38+09:00
+date: 2009-04-05 00:16:20
+lastmod: 2023-12-19 17:43:38
 slug: "vargo-titanium-stakes"
 category: ["tent_tarp", "gear", "hiking"]
 tag: ["vargo", "excalibur", "titanium", "tent", "stake"]

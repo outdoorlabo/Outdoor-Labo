@@ -1,7 +1,7 @@
 ---
 title: "Apple Watch 11を購入してみて [どんな人向け？]"
-date: 2025-10-14T09:30:57+09:00
-lastmod: 2025-10-14T09:31:02+09:00
+date: 2025-10-14 09:30:57
+lastmod: 2025-10-14 09:31:02
 slug: "apple-watch-11-review"
 category: ["training", "running", "gadget", "gear", "hiking"]
 tag: ["apple-watch", "series-11", "アップルウォッチ", "ウエアラブルウォッチ", "smart-watch"]

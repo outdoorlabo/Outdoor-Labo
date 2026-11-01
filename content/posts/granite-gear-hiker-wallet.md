@@ -1,7 +1,7 @@
 ---
 title: "Granite Gear Hiker Wallet"
-date: 2008-12-06T21:51:00+09:00
-lastmod: 2023-12-05T14:27:20+09:00
+date: 2008-12-06 21:51:00
+lastmod: 2023-12-05 14:27:20
 slug: "granite-gear-hiker-wallet"
 category: ["gadget", "gear", "hiking"]
 tag: ["granite-gear", "granite-gear2", "hiker-wallet", "wallet"]

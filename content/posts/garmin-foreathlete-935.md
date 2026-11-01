@@ -1,7 +1,7 @@
 ---
 title: "Garmin Foreathlete 935を購入してみた [ロードバイク・登山・ラン]"
-date: 2017-12-04T10:44:15+09:00
-lastmod: 2018-01-09T09:58:16+09:00
+date: 2017-12-04 10:44:15
+lastmod: 2018-01-09 09:58:16
 slug: "garmin-foreathlete-935"
 category: ["training", "training-goods", "navi", "roadbike", "gear", "hiking"]
 tag: ["foreathlete935", "garmin", "gps", "garmin-garmin", "smart-watch", "running2", "roadbike2", "心拍計", "登山"]

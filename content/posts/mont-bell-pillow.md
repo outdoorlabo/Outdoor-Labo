@@ -1,7 +1,7 @@
 ---
 title: "モンベル U.L.コンフォートシステムピロー"
-date: 2009-12-26T17:12:08+09:00
-lastmod: 2023-12-26T15:54:15+09:00
+date: 2009-12-26 17:12:08
+lastmod: 2023-12-26 15:54:15
 slug: "mont-bell-pillow"
 category: ["sleeping-gear", "gear", "hiking"]
 tag: ["mont-bell", "thermarest", "thermarest2", "mont-bell2", "寝具", "枕"]

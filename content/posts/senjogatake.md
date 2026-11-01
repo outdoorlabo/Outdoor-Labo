@@ -1,7 +1,7 @@
 ---
 title: "南ア 仙丈ヶ岳 [テント泊]"
-date: 2015-07-18T11:57:18+09:00
-lastmod: 2016-06-02T14:18:04+09:00
+date: 2015-07-18 11:57:18
+lastmod: 2016-06-02 14:18:04
 slug: "senjogatake"
 category: ["senjogatake", "southern-apls", "hiking", "hiking-mountaineering"]
 tag: ["senjogatake", "minami-alps", "登山"]

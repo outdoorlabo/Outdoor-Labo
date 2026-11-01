@@ -1,7 +1,7 @@
 ---
 title: "Golite Ion バックパック"
-date: 2009-05-24T02:19:47+09:00
-lastmod: 2023-12-20T10:02:02+09:00
+date: 2009-05-24 02:19:47
+lastmod: 2023-12-20 10:02:02
 slug: "golite-ion-backpack"
 category: ["backpack", "gear", "hiking"]
 tag: ["golite", "ion", "ion-ion", "ultra-light", "golite2", "backpack"]

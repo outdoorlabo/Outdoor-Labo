@@ -1,7 +1,7 @@
 ---
 title: "Ueli SteckがKarl Unterkricher Award 2010を受賞"
-date: 2010-07-13T10:13:53+09:00
-lastmod: 2019-12-20T09:57:40+09:00
+date: 2010-07-13 10:13:53
+lastmod: 2019-12-20 09:57:40
 slug: "ueli-steck"
 category: ["hiking"]
 tag: ["ueli-steck", "whats-new", "speed-climbing"]

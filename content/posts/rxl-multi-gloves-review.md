@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] RxL ウィンドフード付き マルチグローブ(スマホ・ウォッチウィンドウ両手対応) RLA9503"
-date: 2024-12-09T17:48:17+09:00
-lastmod: 2024-12-09T17:48:23+09:00
+date: 2024-12-09 17:48:17
+lastmod: 2024-12-09 17:48:23
 slug: "rxl-multi-gloves-review"
 category: ["running", "gadget", "hands_arms", "gear", "hiking"]
 tag: ["rxl", "gloves", "ミトン", "running2", "review"]

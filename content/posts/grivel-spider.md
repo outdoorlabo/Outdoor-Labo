@@ -1,7 +1,7 @@
 ---
 title: "グリベル　スパイダー　[軽アイゼン]"
-date: 2009-01-11T00:13:01+09:00
-lastmod: 2023-12-07T13:54:05+09:00
+date: 2009-01-11 00:13:01
+lastmod: 2023-12-07 13:54:05
 slug: "grivel-spider"
 category: ["gear", "snow-trekking-gear", "shoes", "hiking"]
 tag: ["grivel", "crampon", "grivel2", "軽アイゼン"]

@@ -1,7 +1,7 @@
 ---
 title: "[山行] 高畑山・倉岳山　"
-date: 2008-12-31T22:00:41+09:00
-lastmod: 2023-12-07T11:28:17+09:00
+date: 2008-12-31 22:00:41
+lastmod: 2023-12-07 11:28:17
 slug: "takahatayama"
 category: ["chuoensen", "hiking", "takahatayama", "hiking-mountaineering"]
 tag: ["kuratakeyama", "登山", "高畑山"]

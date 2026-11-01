@@ -1,7 +1,7 @@
 ---
 title: "Primus 2245 ガス ランタン"
-date: 2008-12-24T21:02:23+09:00
-lastmod: 2023-12-07T09:40:31+09:00
+date: 2008-12-24 21:02:23
+lastmod: 2023-12-07 09:40:31
 slug: "primus-2245-lantern"
 category: ["camp", "camping-goods", "lamp", "gear", "hiking"]
 tag: ["2245", "primus", "primus2", "lantern"]

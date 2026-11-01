@@ -1,7 +1,7 @@
 ---
 title: "OR Outdoor Research クロコダイルゲイター [スパッツ]"
-date: 2009-11-14T12:24:56+09:00
-lastmod: 2023-12-22T15:54:57+09:00
+date: 2009-11-14 12:24:56
+lastmod: 2023-12-22 15:54:57
 slug: "crocodiles-gaiters"
 category: ["gear", "shoes", "hiking"]
 tag: ["or", "outdoor-research", "outdoorresearch", "crocodile-gator", "leggings"]

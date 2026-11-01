@@ -66,7 +66,9 @@ def main():
             print(f"skip {path}: draft")
             continue
         if date.tzinfo is None:
-            date = date.replace(tzinfo=timezone.utc)
+            # Front matter dates without an offset are JST wall time
+            # (Hugo timeZone = Asia/Tokyo); never interpret them as UTC.
+            date = date.replace(tzinfo=timezone(timedelta(hours=9)))
         if not args.force and now - date > timedelta(hours=MAX_AGE_HOURS):
             print(f"skip {path}: older than {MAX_AGE_HOURS}h ({date.isoformat()})")
             continue

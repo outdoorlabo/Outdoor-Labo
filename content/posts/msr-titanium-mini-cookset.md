@@ -1,7 +1,7 @@
 ---
 title: "MSR チタン ミニクックセット コッフェル"
-date: 2008-12-01T00:05:13+09:00
-lastmod: 2023-12-05T10:45:23+09:00
+date: 2008-12-01 00:05:13
+lastmod: 2023-12-05 10:45:23
 slug: "msr-titanium-mini-cookset"
 category: ["gear", "cookware", "hiking"]
 tag: ["msr", "kocher", "titanium", "mini-cook-set", "utensil"]

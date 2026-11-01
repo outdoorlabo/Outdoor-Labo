@@ -1,7 +1,7 @@
 ---
 title: "Black Diamond ATC Sport"
-date: 2009-12-20T00:01:33+09:00
-lastmod: 2023-12-26T15:52:05+09:00
+date: 2009-12-20 00:01:33
+lastmod: 2023-12-26 15:52:05
 slug: "black-diamond-atc-sport"
 category: ["gear", "hiking"]
 tag: ["black-diamond", "black-diamond2"]

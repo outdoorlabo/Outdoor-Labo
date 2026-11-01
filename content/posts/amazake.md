@@ -1,7 +1,7 @@
 ---
 title: "ヨーグルティアSで自作甘酒！[飲む点滴]"
-date: 2017-03-15T16:49:11+09:00
-lastmod: 2019-12-18T10:57:47+09:00
+date: 2017-03-15 16:49:11
+lastmod: 2019-12-18 10:57:47
 slug: "amazake"
 category: ["supplement", "diy-mod", "portable-food", "training"]
 tag: ["yourgurtia", "甘酒", "自作", "麹"]

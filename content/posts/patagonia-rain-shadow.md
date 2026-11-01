@@ -1,7 +1,7 @@
 ---
 title: "Patagonia Rain Shadow ジャケット ＋ パンツ"
-date: 2009-02-14T10:15:58+09:00
-lastmod: 2023-12-19T17:24:01+09:00
+date: 2009-02-14 10:15:58
+lastmod: 2023-12-19 17:24:01
 slug: "patagonia-rain-shadow"
 category: ["gear", "clothing", "hiking"]
 tag: ["patagonia", "rain-shadow", "jacket", "patagonia2", "pants", "rain-shadow-patagonia", "雨具"]

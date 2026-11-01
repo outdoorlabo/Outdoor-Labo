@@ -1,7 +1,7 @@
 ---
 title: "Swiss Tech Smart Clip Ultra / 爪切り付きアーミーナイフ"
-date: 2008-09-15T23:02:57+09:00
-lastmod: 2023-11-30T11:51:59+09:00
+date: 2008-09-15 23:02:57
+lastmod: 2023-11-30 11:51:59
 slug: "swiss-tech-smart-clip-ultra"
 category: ["knife-axe", "gadget", "gear", "hiking"]
 tag: ["smart-clip-ultra", "swiss-tech"]

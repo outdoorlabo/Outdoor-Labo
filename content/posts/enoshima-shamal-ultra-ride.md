@@ -1,7 +1,7 @@
 ---
 title: "江ノ島ライド [Shamal Ultra 履き替えテスト]"
-date: 2016-05-02T22:38:08+09:00
-lastmod: 2016-07-19T16:03:02+09:00
+date: 2016-05-02 22:38:08
+lastmod: 2016-07-19 16:03:02
 slug: "enoshima-shamal-ultra-ride"
 category: ["ride", "roadbike", "enoshima"]
 tag: ["irc-rbcc", "roadbike", "shamal-ultra", "江ノ島"]

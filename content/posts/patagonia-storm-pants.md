@@ -1,7 +1,7 @@
 ---
 title: "Patagonia Storm Pants [冬期用]"
-date: 2010-03-21T23:43:54+09:00
-lastmod: 2024-01-09T14:41:04+09:00
+date: 2010-03-21 23:43:54
+lastmod: 2024-01-09 14:41:04
 slug: "patagonia-storm-pants"
 category: ["gear", "clothing", "snow-trekking-gear", "hiking"]
 tag: ["patagonia", "storm-pants", "storm-pants2", "patagonia2", "雪山装備"]

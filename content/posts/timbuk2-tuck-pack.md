@@ -1,7 +1,7 @@
 ---
 title: "オサレ バックパック Timbuk2 Tuck Pack"
-date: 2017-03-20T07:28:18+09:00
-lastmod: 2017-03-20T07:28:18+09:00
+date: 2017-03-20 07:28:18
+lastmod: 2017-03-20 07:28:18
 slug: "timbuk2-tuck-pack"
 category: ["road-parts", "roadbike"]
 tag: ["timbuk2", "tuck-pack", "backpack"]

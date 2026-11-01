@@ -1,7 +1,7 @@
 ---
 title: "Camelbak Better Bottle ベターボトル"
-date: 2008-08-23T20:18:58+09:00
-lastmod: 2023-11-30T10:53:45+09:00
+date: 2008-08-23 20:18:58
+lastmod: 2023-11-30 10:53:45
 slug: "camelbak-better-bottle"
 category: ["hydration", "gear", "hiking"]
 tag: ["camelbak", "camel-bak", "hydration", "better-bottle"]

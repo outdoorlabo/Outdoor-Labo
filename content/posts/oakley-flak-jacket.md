@@ -1,7 +1,7 @@
 ---
 title: "Oakley Flak Jacket 購入"
-date: 2008-11-12T22:10:47+09:00
-lastmod: 2023-12-04T11:05:46+09:00
+date: 2008-11-12 22:10:47
+lastmod: 2023-12-04 11:05:46
 slug: "oakley-flak-jacket"
 category: ["support-gear", "gear", "hiking"]
 tag: ["flak-jacket", "oakley", "oakley-oalkey", "flak-jacket2"]

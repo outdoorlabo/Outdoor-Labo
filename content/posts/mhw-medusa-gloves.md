@@ -1,7 +1,7 @@
 ---
 title: "マウンテンハードウェア　メデューサグローブ [冬期用]"
-date: 2010-03-07T21:43:20+09:00
-lastmod: 2023-12-26T16:20:12+09:00
+date: 2010-03-07 21:43:20
+lastmod: 2023-12-26 16:20:12
 slug: "mhw-medusa-gloves"
 category: ["gear", "snow-trekking-gear", "hiking"]
 tag: ["medusa-gloves", "mhw", "mountain-hardwear", "mountainhardwear", "medusa-gloves2"]

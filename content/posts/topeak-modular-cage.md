@@ -1,7 +1,7 @@
 ---
 title: "TOPEAK モジュラーケージ EX [調節可能が◎]"
-date: 2009-08-22T20:55:04+09:00
-lastmod: 2023-12-21T08:59:33+09:00
+date: 2009-08-22 20:55:04
+lastmod: 2023-12-21 08:59:33
 slug: "topeak-modular-cage"
 category: ["bd-1", "roadbike"]
 tag: ["bd-1", "bh-95x", "topeak", "bottle-cage", "minoura", "modular-cage-ex"]

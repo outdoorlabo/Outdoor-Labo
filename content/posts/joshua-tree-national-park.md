@@ -1,7 +1,7 @@
 ---
 title: "Joshua Tree National Park / ハイキング トリップ [テント泊]"
-date: 2003-02-10T21:43:08+09:00
-lastmod: 2023-11-29T15:55:15+09:00
+date: 2003-02-10 21:43:08
+lastmod: 2023-11-29 15:55:15
 slug: "joshua-tree-national-park"
 category: ["america", "camping", "camp", "hiking", "abroad", "hiking-mountaineering"]
 tag: ["joshua-tree-national-park", "camp", "joshua-tree", "hiking2"]

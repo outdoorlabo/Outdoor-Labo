@@ -1,7 +1,7 @@
 ---
 title: "DURA-SRAM化断念"
-date: 2017-04-21T13:00:58+09:00
-lastmod: 2017-04-21T13:00:58+09:00
+date: 2017-04-21 13:00:58
+lastmod: 2017-04-21 13:00:58
 slug: "dura-sram"
 category: ["road-parts", "roadbike"]
 tag: ["9100", "dura-ace", "etap", "quarq", "sram"]

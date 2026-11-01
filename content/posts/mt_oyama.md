@@ -1,7 +1,7 @@
 ---
 title: "息子と大山﻿ハイキング"
-date: 2016-04-30T23:15:07+09:00
-lastmod: 2016-06-02T14:17:34+09:00
+date: 2016-04-30 23:15:07
+lastmod: 2016-06-02 14:17:34
 slug: "mt_oyama"
 category: ["tanzawa", "oyama", "hiking", "hiking-mountaineering"]
 tag: ["登山"]

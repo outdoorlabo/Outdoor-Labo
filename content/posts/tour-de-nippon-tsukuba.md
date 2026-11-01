@@ -1,7 +1,7 @@
 ---
 title: "9極の耐9 Tour de Nippon 筑波エンデューロ 2017"
-date: 2017-08-16T11:53:30+09:00
-lastmod: 2017-08-16T11:53:33+09:00
+date: 2017-08-16 11:53:30
+lastmod: 2017-08-16 11:53:33
 slug: "tour-de-nippon-tsukuba"
 category: ["ride", "roadbike", "筑波サーキット"]
 tag: ["9tai-race", "tour-de-nippon", "tour-de-nippon2", "roadbike2", "筑波サーキット", "耐久レース"]

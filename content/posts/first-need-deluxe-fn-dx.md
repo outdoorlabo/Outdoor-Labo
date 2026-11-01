@@ -1,7 +1,7 @@
 ---
 title: "[最強 浄水器] シーガルフォー First Need DELUXE FN-DX"
-date: 2008-12-19T00:00:02+09:00
-lastmod: 2023-12-07T09:22:31+09:00
+date: 2008-12-19 00:00:02
+lastmod: 2023-12-07 09:22:31
 slug: "first-need-deluxe-fn-dx"
 category: ["camp", "camping-goods", "hydration", "gear", "hiking"]
 tag: ["first-need", "water-filter", "seagullfour", "hydration", "first-need2", "浄水器"]

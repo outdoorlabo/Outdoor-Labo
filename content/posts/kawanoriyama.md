@@ -1,7 +1,7 @@
 ---
 title: "[山行] 川苔山（川乗山）"
-date: 2009-12-30T21:14:12+09:00
-lastmod: 2023-12-26T15:56:49+09:00
+date: 2009-12-30 21:14:12
+lastmod: 2023-12-26 15:56:49
 slug: "kawanoriyama"
 category: ["okutama", "hiking", "kawanoriyama", "hiking-mountaineering"]
 tag: ["川乗山", "川苔山", "登山"]

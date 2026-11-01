@@ -1,7 +1,7 @@
 ---
 title: "BD-1 de iPhone Part 1 リクセン化してみよう。 [リクセン カウル]"
-date: 2009-08-09T22:03:28+09:00
-lastmod: 2023-12-20T10:26:17+09:00
+date: 2009-08-09 22:03:28
+lastmod: 2023-12-20 10:26:17
 slug: "bd-1-de-iphone-part-1"
 category: ["bd-1", "diy-mod", "roadbike"]
 tag: ["bd-1", "front-bag", "rixen-kaul", "rixen-kaul-mod", "改造"]

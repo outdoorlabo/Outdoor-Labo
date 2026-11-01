@@ -1,7 +1,7 @@
 ---
 title: "チタン？アルミ？ステンレス？鉄？アウトドアでのコッフェル"
-date: 2019-04-24T14:09:15+09:00
-lastmod: 2020-03-09T14:04:44+09:00
+date: 2019-04-24 14:09:15
+lastmod: 2020-03-09 14:04:44
 slug: "cooker-materials"
 category: ["camp", "camping-goods", "gear", "cookware", "hiking"]
 tag: ["camp", "camping-goods", "kocher", "cooker", "frying-pan", "鍋"]

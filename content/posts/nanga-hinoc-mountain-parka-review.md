@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] NANGA ヒノック マウンテンパーカー"
-date: 2025-12-22T16:46:02+09:00
-lastmod: 2025-12-22T16:46:09+09:00
+date: 2025-12-22 16:46:02
+lastmod: 2025-12-22 16:46:09
 slug: "nanga-hinoc-mountain-parka-review"
 category: ["clothing", "gear", "hiking"]
 tag: ["nanga", "camp", "ナンガ", "ヒノック", "マウンテンパーカ"]

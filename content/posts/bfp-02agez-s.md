@@ -1,7 +1,7 @@
 ---
 title: "パナレーサー ワンタッチポンプ BFP-02AGEZ-S [レビュー]"
-date: 2016-06-27T14:57:55+09:00
-lastmod: 2017-03-06T15:02:45+09:00
+date: 2016-06-27 14:57:55
+lastmod: 2017-03-06 15:02:45
 slug: "bfp-02agez-s"
 category: ["road-parts", "roadbike"]
 tag: ["floor-pump"]

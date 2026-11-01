@@ -1,7 +1,7 @@
 ---
 title: "[山行] 愛鷹山（越前岳）〜 御殿場アウトレット"
-date: 2008-11-23T20:09:48+09:00
-lastmod: 2023-12-01T13:59:12+09:00
+date: 2008-11-23 20:09:48
+lastmod: 2023-12-01 13:59:12
 slug: "ashitakayama"
 category: ["trip", "hiking", "ashitaka", "echizendake", "hiking-mountaineering"]
 tag: ["愛鷹山", "登山", "越前岳"]

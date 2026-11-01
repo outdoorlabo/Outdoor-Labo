@@ -1,7 +1,7 @@
 ---
 title: "Marmot DriClime Jacket　オールマイティーなジャケット"
-date: 2008-12-10T08:50:19+09:00
-lastmod: 2023-12-06T08:46:08+09:00
+date: 2008-12-10 08:50:19
+lastmod: 2023-12-06 08:46:08
 slug: "marmot-driclime-jacket"
 category: ["gear", "clothing", "hiking"]
 tag: ["marmot", "jacket", "dry-climb-jacket", "marmot2"]

@@ -1,7 +1,7 @@
 ---
 title: "被災地へ今できる援助を！[東北地方太平洋沖地震]"
-date: 2011-03-14T19:55:00+09:00
-lastmod: 2011-03-18T21:53:54+09:00
+date: 2011-03-14 19:55:00
+lastmod: 2011-03-18 21:53:54
 slug: "help_earthquake_japan"
 category: ["uncategorized"]
 tag: ["charity", "支援", "東北地方太平洋沖地震", "物資"]

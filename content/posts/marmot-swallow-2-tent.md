@@ -1,7 +1,7 @@
 ---
 title: "Marmot Swallow 2 テント [3シーズン＋]"
-date: 2009-02-01T22:00:31+09:00
-lastmod: 2023-12-07T14:29:18+09:00
+date: 2009-02-01 22:00:31
+lastmod: 2023-12-07 14:29:18
 slug: "marmot-swallow-2-tent"
 category: ["tent_tarp", "gear", "hiking"]
 tag: ["marmot", "swallow-2", "tent", "marmot2"]

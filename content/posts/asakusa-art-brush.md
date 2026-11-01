@@ -1,7 +1,7 @@
 ---
 title: "浅草アートブラシ社　かんたん毛玉とりブラシ　[レビュー]"
-date: 2009-02-21T18:55:42+09:00
-lastmod: 2023-12-19T17:25:59+09:00
+date: 2009-02-21 18:55:42
+lastmod: 2023-12-19 17:25:59
 slug: "asakusa-art-brush"
 category: ["gadget", "gear", "hiking"]
 tag: ["毛玉取り", "浅草アートブラシ"]

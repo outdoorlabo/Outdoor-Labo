@@ -1,7 +1,7 @@
 ---
 title: "自作　スポーツドリンク"
-date: 2017-06-18T16:24:01+09:00
-lastmod: 2019-12-17T11:58:09+09:00
+date: 2017-06-18 16:24:01
+lastmod: 2019-12-17 11:58:09
 slug: "sports-drink"
 category: ["supplement", "diy-mod", "portable-food", "training"]
 tag: ["bcaa", "自作", "自作スポーツドリング", "蜂蜜"]

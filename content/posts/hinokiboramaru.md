@@ -1,7 +1,7 @@
 ---
 title: "檜洞丸 ー 犬越路 [丹沢]"
-date: 2012-01-14T14:57:46+09:00
-lastmod: 2016-06-02T14:20:13+09:00
+date: 2012-01-14 14:57:46
+lastmod: 2016-06-02 14:20:13
 slug: "hinokiboramaru"
 category: ["tanzawa", "hiking", "hinokiboramaru", "hiking-mountaineering"]
 tag: ["tanzawa", "檜洞丸", "登山"]

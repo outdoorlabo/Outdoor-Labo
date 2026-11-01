@@ -1,7 +1,7 @@
 ---
 title: "ユニフレーム ファイアグリル"
-date: 2010-09-25T09:32:14+09:00
-lastmod: 2019-12-18T13:38:25+09:00
+date: 2010-09-25 09:32:14
+lastmod: 2019-12-18 13:38:25
 slug: "uniflame-fire-grill"
 category: ["camp", "camping-goods"]
 tag: ["bbq", "dutch-oven", "fire-grill", "uniflame2", "lodge2"]

@@ -1,7 +1,7 @@
 ---
 title: "グルコサミン + コンドロイチン [膝・関節痛に]"
-date: 2008-12-12T00:02:39+09:00
-lastmod: 2023-12-06T18:25:59+09:00
+date: 2008-12-12 00:02:39
+lastmod: 2023-12-06 18:25:59
 slug: "glucosamine"
 category: ["supplement", "training"]
 tag: ["glucosamine", "chondroitin", "supplement2", "股関節痛", "腰痛", "膝痛", "関節痛"]

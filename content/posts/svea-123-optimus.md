@@ -1,7 +1,7 @@
 ---
 title: "SVEA 123で遊ぶ [ビンテージ]"
-date: 2019-05-27T07:02:01+09:00
-lastmod: 2022-12-22T11:14:42+09:00
+date: 2019-05-27 07:02:01
+lastmod: 2022-12-22 11:14:42
 slug: "svea-123-optimus"
 category: ["camp", "camping-goods", "stove", "gear", "hiking"]
 tag: ["optimus", "svea", "svea123", "gasoline-stove", "vintage"]

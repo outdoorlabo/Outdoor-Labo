@@ -1,7 +1,7 @@
 ---
 title: "Firebox Nanoをガスストーブ化 [Bulin]"
-date: 2020-01-20T16:34:59+09:00
-lastmod: 2022-12-21T13:29:46+09:00
+date: 2020-01-20 16:34:59
+lastmod: 2022-12-21 13:29:46
 slug: "firebox-nano-gas-stove-mod"
 category: ["camp", "camping-goods", "stove", "gear", "diy-mod", "hiking"]
 tag: ["brs", "bulin", "firebox", "firebox-nano", "wood-stove", "gas-stove", "camping-goods", "titanium", "heater-attachment", "firebox2", "review", "改造"]

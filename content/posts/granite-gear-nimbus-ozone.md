@@ -1,7 +1,7 @@
 ---
 title: "Granite Gear Nimbus Ozone [バックパック]"
-date: 2009-01-18T00:44:25+09:00
-lastmod: 2023-12-07T14:04:06+09:00
+date: 2009-01-18 00:44:25
+lastmod: 2023-12-07 14:04:06
 slug: "granite-gear-nimbus-ozone"
 category: ["backpack", "gear", "hiking"]
 tag: ["granite-gear", "granite-gear2", "nimbus-ozone", "backpack", "登山"]

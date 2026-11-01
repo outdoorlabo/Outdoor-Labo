@@ -1,7 +1,7 @@
 ---
 title: "Bushbox LF Titaniumで肉を焼いてみた"
-date: 2019-01-02T14:45:46+09:00
-lastmod: 2022-12-22T11:54:36+09:00
+date: 2019-01-02 14:45:46
+lastmod: 2022-12-22 11:54:36
 slug: "bushbox-lf-titanium-bbq"
 category: ["camp", "camping-goods", "stove", "gear", "hiking"]
 tag: ["bushbox", "lf", "wood-stove", "titanium", "bushcraft", "焚き火"]

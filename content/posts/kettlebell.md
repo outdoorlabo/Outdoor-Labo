@@ -1,7 +1,7 @@
 ---
 title: "ケトルベル トレーニング [筋トレ]"
-date: 2010-09-05T22:25:22+09:00
-lastmod: 2019-12-18T13:40:40+09:00
+date: 2010-09-05 22:25:22
+lastmod: 2019-12-18 13:40:40
 slug: "kettlebell"
 category: ["training-goods", "training"]
 tag: ["kettlebell", "kettle-bell", "筋トレ"]

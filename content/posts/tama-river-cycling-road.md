@@ -1,7 +1,7 @@
 ---
 title: "[ポタリング] 多摩川サイクリングロード"
-date: 2008-09-17T16:15:45+09:00
-lastmod: 2023-12-05T10:37:36+09:00
+date: 2008-09-17 16:15:45
+lastmod: 2023-12-05 10:37:36
 slug: "tama-river-cycling-road"
 category: ["bd-1", "roadbike"]
 tag: ["bd-1", "多摩川サイクリングロード"]

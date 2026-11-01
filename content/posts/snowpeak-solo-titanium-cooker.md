@@ -1,7 +1,7 @@
 ---
 title: "スノーピーク ソロセット 極 チタン"
-date: 2008-10-18T00:25:35+09:00
-lastmod: 2023-12-04T17:49:48+09:00
+date: 2008-10-18 00:25:35
+lastmod: 2023-12-04 17:49:48
 slug: "snowpeak-solo-titanium-cooker"
 category: ["gear", "cookware", "hiking"]
 tag: ["snow-peak", "kocher", "snowpeak", "solo-set-goku", "titanium", "utensil"]

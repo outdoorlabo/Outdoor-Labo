@@ -1,7 +1,7 @@
 ---
 title: "ユニフレーム　ネイチャーストーブ　L"
-date: 2008-11-28T10:12:54+09:00
-lastmod: 2023-11-30T21:24:30+09:00
+date: 2008-11-28 10:12:54
+lastmod: 2023-11-30 21:24:30
 slug: "uniflame-nature-stove"
 category: ["camp", "camping-goods", "stove", "gear", "hiking"]
 tag: ["uniflame", "stove", "nature-stove-l", "uniflame2"]

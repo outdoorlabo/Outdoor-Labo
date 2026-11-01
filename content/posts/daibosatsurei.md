@@ -1,7 +1,7 @@
 ---
 title: "大菩薩嶺 [裂石]"
-date: 2011-05-21T22:50:47+09:00
-lastmod: 2011-05-21T22:50:47+09:00
+date: 2011-05-21 22:50:47
+lastmod: 2011-05-21 22:50:47
 slug: "daibosatsurei"
 category: ["daibosatsurei", "okuchichibu", "hiking", "hiking-mountaineering"]
 tag: ["大菩薩嶺", "登山", "裂石"]

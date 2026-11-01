@@ -1,7 +1,7 @@
 ---
 title: "ロシア・ソビエト軍　空挺部隊（VDV）キャンティーン キャップのメンテ [兵式飯盒]"
-date: 2019-05-13T15:54:23+09:00
-lastmod: 2022-12-22T11:16:57+09:00
+date: 2019-05-13 15:54:23
+lastmod: 2022-12-22 11:16:57
 slug: "vdv-messkit-maintenance"
 category: ["camp", "camping-goods", "gear", "cookware", "hiking"]
 tag: ["vdv", "canteen", "camping-goods", "soviet", "mess-kit", "ロシア軍", "heishiki-hango", "空挺部隊", "飯盒"]

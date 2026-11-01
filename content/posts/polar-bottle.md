@@ -1,7 +1,7 @@
 ---
 title: "POLAR BOTTLE [保冷ボトル]"
-date: 2010-06-06T21:07:26+09:00
-lastmod: 2010-06-06T21:13:32+09:00
+date: 2010-06-06 21:07:26
+lastmod: 2010-06-06 21:13:32
 slug: "polar-bottle"
 category: ["bd-1", "hydration", "roadbike", "gear", "hiking"]
 tag: ["bd-1", "polar-bottle", "hydration", "polar-bottle2"]

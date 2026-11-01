@@ -1,7 +1,7 @@
 ---
 title: "OR Outdoor Research Ninjaclava [目出し帽]"
-date: 2009-01-22T21:57:39+09:00
-lastmod: 2023-12-07T14:09:52+09:00
+date: 2009-01-22 21:57:39
+lastmod: 2023-12-07 14:09:52
 slug: "or-outdoor-research-ninjaclava"
 category: ["gear", "clothing", "hiking"]
 tag: ["or", "outdoor-research", "outdoorresearch", "ninjaclava", "帽子"]

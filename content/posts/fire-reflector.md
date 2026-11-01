@@ -1,7 +1,7 @@
 ---
 title: "自作　焚き火リフレクター [DIY]"
-date: 2019-03-18T10:50:27+09:00
-lastmod: 2022-12-22T11:30:41+09:00
+date: 2019-03-18 10:50:27
+lastmod: 2022-12-22 11:30:41
 slug: "fire-reflector"
 category: ["camp", "camping-goods", "diy-mod"]
 tag: ["bushcraft", "焚き火", "焚き火リフレクター", "自作"]

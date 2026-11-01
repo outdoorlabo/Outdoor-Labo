@@ -1,7 +1,7 @@
 ---
 title: "Opinel No. 6 ナイフ"
-date: 2009-01-03T03:13:41+09:00
-lastmod: 2023-12-07T11:37:19+09:00
+date: 2009-01-03 03:13:41
+lastmod: 2023-12-07 11:37:19
 slug: "opinel-no-6"
 category: ["knife-axe", "gear", "diy-mod", "hiking"]
 tag: ["no-6", "opinel", "opinel-opinel", "knife", "自作"]

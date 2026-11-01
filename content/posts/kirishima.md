@@ -1,7 +1,7 @@
 ---
 title: "[山行] 霧島 縦走〜日本百名山"
-date: 2009-05-06T14:31:21+09:00
-lastmod: 2023-12-20T09:55:17+09:00
+date: 2009-05-06 14:31:21
+lastmod: 2023-12-20 09:55:17
 slug: "kirishima"
 category: ["hiking", "karakunidake", "kirishima", "hiking-mountaineering"]
 tag: ["nakadake", "新燃岳", "日本百名山", "獅子戸岳", "登山", "縦走", "霧島", "韓国岳"]

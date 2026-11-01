@@ -1,7 +1,7 @@
 ---
 title: "ハイドラパック ソフトフラスク [KODAに]"
-date: 2009-11-08T17:15:53+09:00
-lastmod: 2023-12-26T15:42:17+09:00
+date: 2009-11-08 17:15:53
+lastmod: 2023-12-26 15:42:17
 slug: "hydrapack-softflask"
 category: ["supplement", "gadget", "training", "gear", "hiking"]
 tag: ["energy-charge", "carbo-shotz", "soft-flask", "hydrapack"]

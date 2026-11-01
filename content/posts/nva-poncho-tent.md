@@ -1,7 +1,7 @@
 ---
 title: "ソロだけでなくファミキャンにも使えるポンチョテント [NVA軍幕]"
-date: 2019-10-01T14:40:15+09:00
-lastmod: 2022-12-22T10:50:52+09:00
+date: 2019-10-01 14:40:15
+lastmod: 2022-12-22 10:50:52
 slug: "nva-poncho-tent"
 category: ["camp", "camping-goods", "tent_tarp", "diy-mod", "gear", "hiking"]
 tag: ["camp", "camping-goods", "tent", "poncho-tent", "改造", "東ドイツ軍", "軍幕"]

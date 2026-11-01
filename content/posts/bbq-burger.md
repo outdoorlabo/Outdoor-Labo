@@ -1,7 +1,7 @@
 ---
 title: "アウトドアバーガー Yummy!!!"
-date: 2010-09-18T20:49:43+09:00
-lastmod: 2019-12-18T13:39:41+09:00
+date: 2010-09-18 20:49:43
+lastmod: 2019-12-18 13:39:41
 slug: "bbq-burger"
 category: ["camp", "camping-goods"]
 tag: ["bbq", "nature-stove", "big-tarp-hx", "fire-grill", "mont-bell2", "uniflame2"]

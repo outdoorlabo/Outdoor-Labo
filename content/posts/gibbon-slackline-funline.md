@@ -1,7 +1,7 @@
 ---
 title: "ギボン スラックライン [ファンライン]"
-date: 2010-10-03T21:27:36+09:00
-lastmod: 2019-12-20T10:17:38+09:00
+date: 2010-10-03 21:27:36
+lastmod: 2019-12-20 10:17:38
 slug: "gibbon-slackline-funline"
 category: ["slackline", "training", "training-goods"]
 tag: ["gibbon", "slackline-2", "slack-line", "funline"]

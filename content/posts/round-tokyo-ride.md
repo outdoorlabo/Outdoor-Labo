@@ -1,7 +1,7 @@
 ---
 title: "落車に見舞われた東京一周ライド"
-date: 2016-07-04T07:08:04+09:00
-lastmod: 2020-01-06T13:05:23+09:00
+date: 2016-07-04 07:08:04
+lastmod: 2020-01-06 13:05:23
 slug: "round-tokyo-ride"
 category: ["ride", "roadbike", "東京1周"]
 tag: ["ride", "roadbike2", "多摩川サイクリングロード", "東京一周", "荒川サイクリングロード"]

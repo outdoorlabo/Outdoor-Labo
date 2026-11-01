@@ -1,7 +1,7 @@
 ---
 title: "Patagonia Storm Jacket ストームジャケット [購入]"
-date: 2008-09-19T10:06:07+09:00
-lastmod: 2023-12-01T09:11:00+09:00
+date: 2008-09-19 10:06:07
+lastmod: 2023-12-01 09:11:00
 slug: "patagonia-storm-jacket"
 category: ["hiking", "clothing", "gear"]
 tag: ["patagonia", "jacket", "storm-jacket", "patagonia2"]

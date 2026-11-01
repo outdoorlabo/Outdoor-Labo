@@ -1,7 +1,7 @@
 ---
 title: "チタンキャンティーンとキャンティーン専用ストーブはかなりオススメ [Keith+Jolmo Lander]"
-date: 2019-01-13T17:20:15+09:00
-lastmod: 2023-12-22T15:26:04+09:00
+date: 2019-01-13 17:20:15
+lastmod: 2023-12-22 15:26:04
 slug: "keith-titanium-canteen"
 category: ["camping-goods", "cookware", "camp", "gear", "hiking"]
 tag: ["keith", "keith-keith", "camp", "kocher", "titanium", "titanium-canteen"]

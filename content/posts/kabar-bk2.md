@@ -1,7 +1,7 @@
 ---
 title: "海外でも評価の高いブッシュクラフト ナイフ [KA-BAR BK2]"
-date: 2020-01-24T09:37:54+09:00
-lastmod: 2022-12-21T13:20:45+09:00
+date: 2020-01-24 09:37:54
+lastmod: 2022-12-21 13:20:45
 slug: "kabar-bk2"
 category: ["camp", "camping-goods", "knife-axe", "diy-mod", "gear", "hiking"]
 tag: ["bk2", "ka-bar", "camping-goods", "ka-bar2", "knife", "bushcraft", "review", "自作"]

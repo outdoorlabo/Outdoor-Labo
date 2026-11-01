@@ -1,7 +1,7 @@
 ---
 title: "Leki スリップレスラバーロング 再購入"
-date: 2008-11-15T19:51:45+09:00
-lastmod: 2023-12-04T10:28:37+09:00
+date: 2008-11-15 19:51:45
+lastmod: 2023-12-04 10:28:37
 slug: "leki-slipless-rubber"
 category: ["support-gear", "gear", "hiking"]
 tag: ["leki", "slipless-rubber-long"]

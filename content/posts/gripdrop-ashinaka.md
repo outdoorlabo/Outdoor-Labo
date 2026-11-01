@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] GRIPDROP （グリップドロップ）足半 / 足底腱膜炎対策"
-date: 2024-02-15T11:10:45+09:00
-lastmod: 2024-04-03T15:30:11+09:00
+date: 2024-02-15 11:10:45
+lastmod: 2024-04-03 15:30:11
 slug: "gripdrop-ashinaka"
 category: ["training", "training-goods"]
 tag: ["gripdrop", "grip-drop", "足半", "足底筋膜炎", "足底腱膜炎"]

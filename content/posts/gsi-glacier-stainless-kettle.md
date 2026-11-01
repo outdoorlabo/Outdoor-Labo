@@ -1,7 +1,7 @@
 ---
 title: "GSI グレイシャー ステンレス ケトルを買って、びっくりした件 [焚き火]"
-date: 2019-03-31T11:21:00+09:00
-lastmod: 2022-12-22T11:22:12+09:00
+date: 2019-03-31 11:21:00
+lastmod: 2022-12-22 11:22:12
 slug: "gsi-glacier-stainless-kettle"
 category: ["camp", "camping-goods", "cookware", "gear", "hiking"]
 tag: ["gsi", "camp", "glacier-kettle", "kettle", "bushcraft", "焚き火"]

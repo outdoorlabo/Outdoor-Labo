@@ -1,7 +1,7 @@
 ---
 title: "Garmin 520J 自己ベストの反映方法（リセット後）"
-date: 2017-09-25T09:42:06+09:00
-lastmod: 2017-09-25T09:42:06+09:00
+date: 2017-09-25 09:42:06
+lastmod: 2017-09-25 09:42:06
 slug: "garmin-520j-private-record"
 category: ["road-parts", "roadbike"]
 tag: ["520j", "garmin", "reset", "自己ベスト"]

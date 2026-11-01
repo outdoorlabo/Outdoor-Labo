@@ -1,7 +1,7 @@
 ---
 title: "Mora Heavy Duty Companion ナイフを買ってみた"
-date: 2018-12-17T13:29:11+09:00
-lastmod: 2023-12-22T11:38:48+09:00
+date: 2018-12-17 13:29:11
+lastmod: 2023-12-22 11:38:48
 slug: "mora-heavy-duty-companion"
 category: ["camp", "camping-goods", "knife-axe", "gear", "hiking"]
 tag: ["mora", "knife", "bushcraft"]

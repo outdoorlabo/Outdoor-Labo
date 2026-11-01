@@ -1,7 +1,7 @@
 ---
 title: "自転車お守りゲッツ [阿蘇神社]"
-date: 2016-05-22T21:04:22+09:00
-lastmod: 2016-06-02T14:16:36+09:00
+date: 2016-05-22 21:04:22
+lastmod: 2016-06-02 14:16:36
 slug: "aso-jinja"
 category: ["ride", "roadbike", "hamura"]
 tag: ["roadbike2", "羽村", "自転車お守り", "阿蘇神社"]

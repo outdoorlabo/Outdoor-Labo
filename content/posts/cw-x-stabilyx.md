@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] CW-X スタビライクス 購入 登山のお供に"
-date: 2008-06-11T18:50:59+09:00
-lastmod: 2023-11-30T10:01:37+09:00
+date: 2008-06-11 18:50:59
+lastmod: 2023-11-30 10:01:37
 slug: "cw-x-stabilyx"
 category: ["support-gear", "gear", "clothing", "hiking"]
 tag: ["cw-x", "stabilyx", "pants"]

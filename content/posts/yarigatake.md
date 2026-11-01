@@ -1,7 +1,7 @@
 ---
 title: "北ア 槍ヶ岳 [テント泊]"
-date: 2012-07-15T12:24:08+09:00
-lastmod: 2016-06-02T14:19:52+09:00
+date: 2012-07-15 12:24:08
+lastmod: 2016-06-02 14:19:52
 slug: "yarigatake"
 category: ["kita-alps", "hiking", "yarigatake", "hiking-mountaineering"]
 tag: ["camping", "kita-alps", "槍ヶ岳", "登山"]

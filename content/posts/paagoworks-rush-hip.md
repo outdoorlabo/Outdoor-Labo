@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] Paagoworks Rush Hip / ウエストポーチ"
-date: 2024-04-10T08:59:44+09:00
-lastmod: 2024-04-10T08:59:52+09:00
+date: 2024-04-10 08:59:44
+lastmod: 2024-04-10 08:59:52
 slug: "paagoworks-rush-hip"
 category: ["gadget", "gear", "hiking"]
 tag: ["paago-works", "rush-hip", "wast-porch", "trail-running", "running2", "review"]

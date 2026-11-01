@@ -1,7 +1,7 @@
 ---
 title: "登山用 座布団"
-date: 2008-12-30T00:51:53+09:00
-lastmod: 2023-12-07T11:26:48+09:00
+date: 2008-12-30 00:51:53
+lastmod: 2023-12-07 11:26:48
 slug: "zabuton"
 category: ["hiking", "gear"]
 tag: ["100-yen-shop", "登山用-座布団"]

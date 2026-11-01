@@ -1,7 +1,7 @@
 ---
 title: "SEA TO SUMMIT Kitchen Sink [５リットル]"
-date: 2010-05-09T23:49:43+09:00
-lastmod: 2019-12-18T10:50:00+09:00
+date: 2010-05-09 23:49:43
+lastmod: 2019-12-18 10:50:00
 slug: "sea_to_summit_sink"
 category: ["gear", "cookware", "hiking"]
 tag: ["kitchen-sink", "sea-to-summit", "kitchen-sink2", "camp"]

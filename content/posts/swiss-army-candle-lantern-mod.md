@@ -1,7 +1,7 @@
 ---
 title: "スイス軍キャンドルランタンをオイルランプ化 [DIY]"
-date: 2019-06-17T10:06:50+09:00
-lastmod: 2022-12-22T11:13:14+09:00
+date: 2019-06-17 10:06:50
+lastmod: 2022-12-22 11:13:14
 slug: "swiss-army-candle-lantern-mod"
 category: ["camp", "camping-goods", "lamp", "diy-mod", "gear", "hiking"]
 tag: ["diy", "oil-lantern", "candle-lantern", "swss-army", "lantern", "自作"]

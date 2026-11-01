@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] エバニュー（EVERNEW） ２個入りタマゴケース"
-date: 2008-02-03T18:46:16+09:00
-lastmod: 2023-11-30T09:57:57+09:00
+date: 2008-02-03 18:46:16
+lastmod: 2023-11-30 09:57:57
 slug: "evernew-egg-case"
 category: ["camp", "camping-goods", "gadget", "gear", "cookware", "hiking"]
 tag: ["evernew", "evernew-evernew", "utensil", "egg-case"]

@@ -1,7 +1,7 @@
 ---
 title: "上高地 – ザイテングラート – 奥穂高 [テント泊]"
-date: 2013-07-19T18:37:42+09:00
-lastmod: 2019-12-18T13:42:58+09:00
+date: 2013-07-19 18:37:42
+lastmod: 2019-12-18 13:42:58
 slug: "okuhodaka"
 category: ["kita-alps", "okuhodaka", "hiking", "hiking-mountaineering"]
 tag: ["camping", "kita-alps", "奥穂高", "登山"]

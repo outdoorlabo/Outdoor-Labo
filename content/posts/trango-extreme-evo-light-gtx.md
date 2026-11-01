@@ -1,7 +1,7 @@
 ---
 title: "Trango Extreme EVO Light GTX [冬靴]"
-date: 2010-01-01T23:50:46+09:00
-lastmod: 2023-12-26T15:59:07+09:00
+date: 2010-01-01 23:50:46
+lastmod: 2023-12-26 15:59:07
 slug: "trango-extreme-evo-light-gtx"
 category: ["gear", "snow-trekking-gear", "shoes", "hiking"]
 tag: ["la-sportiva", "trango-extreme-evo-light-gtx", "登山靴"]

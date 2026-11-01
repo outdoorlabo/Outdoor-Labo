@@ -1,7 +1,7 @@
 ---
 title: "Nike+ センサー & 自作ケース"
-date: 2009-12-19T17:43:13+09:00
-lastmod: 2023-12-26T15:51:20+09:00
+date: 2009-12-19 17:43:13
+lastmod: 2023-12-26 15:51:20
 slug: "nike-plus-sensor"
 category: ["training-goods", "diy-mod", "training"]
 tag: ["nike", "nike-plus", "training2", "自作"]

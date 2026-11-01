@@ -1,7 +1,7 @@
 ---
 title: "エクストラクター ポイズン リムーバー [フランス製]"
-date: 2010-07-11T21:47:27+09:00
-lastmod: 2010-07-11T21:47:27+09:00
+date: 2010-07-11 21:47:27
+lastmod: 2010-07-11 21:47:27
 slug: "extractor-poison-remover"
 category: ["gadget", "gear", "hiking"]
 tag: ["extractor", "gnat", "poison-remover", "虫除け", "蚊", "蜂"]

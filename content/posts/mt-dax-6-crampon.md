@@ -1,7 +1,7 @@
 ---
 title: "Mt. Dax 6本　軽アイゼン、おすすめ！雪山ハイキング、真夏の雪渓に！"
-date: 2009-03-13T22:30:27+09:00
-lastmod: 2023-12-19T17:35:23+09:00
+date: 2009-03-13 22:30:27
+lastmod: 2023-12-19 17:35:23
 slug: "mt-dax-6-crampon"
 category: ["gear", "snow-trekking-gear", "shoes", "hiking"]
 tag: ["mt-dax", "crampon", "軽アイゼン"]

@@ -1,7 +1,7 @@
 ---
 title: "iPhoneのタッチスクリーンで使える手袋"
-date: 2010-04-04T23:37:28+09:00
-lastmod: 2024-01-09T14:46:59+09:00
+date: 2010-04-04 23:37:28
+lastmod: 2024-01-09 14:46:59
 slug: "iphone-gloves"
 category: ["gear", "hands_arms", "hiking"]
 tag: ["iphone", "gloves"]

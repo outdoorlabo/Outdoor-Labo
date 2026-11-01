@@ -1,7 +1,7 @@
 ---
 title: "[厳冬期] 北八ヶ岳 東天狗・西天狗岳"
-date: 2013-01-05T14:01:28+09:00
-lastmod: 2019-12-18T13:43:32+09:00
+date: 2013-01-05 14:01:28
+lastmod: 2019-12-18 13:43:32
 slug: "tengudake-2"
 category: ["yatsugatake", "tengudake", "hiking", "hiking-mountaineering"]
 tag: ["camping", "yatsugatake", "gentoki", "天狗岳", "登山", "雪山"]

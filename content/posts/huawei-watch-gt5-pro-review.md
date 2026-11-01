@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] Huawei WATCH GT 5 Pro ファーウェイ スマートウォッチ/ ランニング・トレンラン・登山"
-date: 2024-11-24T09:03:23+09:00
-lastmod: 2025-02-15T20:09:18+09:00
+date: 2024-11-24 09:03:23
+lastmod: 2025-02-15 20:09:18
 slug: "huawei-watch-gt5-pro-review"
 category: ["running", "gadget", "gear", "hands_arms", "hiking"]
 tag: ["gt5-pro", "huawei", "smart-watch", "trail-running", "running2", "review"]

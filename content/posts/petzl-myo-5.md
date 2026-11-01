@@ -1,7 +1,7 @@
 ---
 title: "Petzl MYO 5 ヘッドランプ"
-date: 2008-12-05T09:47:26+09:00
-lastmod: 2023-12-05T13:49:45+09:00
+date: 2008-12-05 09:47:26
+lastmod: 2023-12-05 13:49:45
 slug: "petzl-myo-5"
 category: ["camp", "camping-goods", "lamp", "gear", "hiking"]
 tag: ["led", "myo-5", "petzl", "head-lamp", "petzl2"]

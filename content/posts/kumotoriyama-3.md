@@ -1,7 +1,7 @@
 ---
 title: "秋の雲取山"
-date: 2009-10-12T19:09:11+09:00
-lastmod: 2023-12-22T15:44:17+09:00
+date: 2009-10-12 19:09:11
+lastmod: 2023-12-22 15:44:17
 slug: "kumotoriyama-3"
 category: ["okutama", "hiking", "kumotoriyama", "hiking-mountaineering"]
 tag: ["奥多摩", "日本百名山", "登山", "雲取山"]

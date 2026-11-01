@@ -1,7 +1,7 @@
 ---
 title: "今月の山渓はgoodでした"
-date: 2009-02-22T22:51:24+09:00
-lastmod: 2023-12-19T17:27:48+09:00
+date: 2009-02-22 22:51:24
+lastmod: 2023-12-19 17:27:48
 slug: "yamakei-03-2009"
 category: ["reading", "knowledge"]
 tag: ["山渓"]

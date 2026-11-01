@@ -1,7 +1,7 @@
 ---
 title: "Sony アクションカム　HDR-AS300 綺麗！ ロードバイクに！登山に！ドラレコにも？"
-date: 2018-09-12T14:57:27+09:00
-lastmod: 2020-01-06T13:25:54+09:00
+date: 2018-09-12 14:57:27
+lastmod: 2020-01-06 13:25:54
 slug: "sony-hdr-as300"
 category: ["road-parts", "roadbike", "gadget", "gear", "hiking"]
 tag: ["hdr-as300", "sony", "action-cam", "roadbike2"]

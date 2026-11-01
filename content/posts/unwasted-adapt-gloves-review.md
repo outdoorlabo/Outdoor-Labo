@@ -1,7 +1,7 @@
 ---
 title: "[レビュー] アンウェイステッド UNWASTED アダプト adapt グローブ トレラン ハーフフィンガー ミトン"
-date: 2025-11-11T10:05:24+09:00
-lastmod: 2025-11-11T10:06:16+09:00
+date: 2025-11-11 10:05:24
+lastmod: 2025-11-11 10:06:16
 slug: "unwasted-adapt-gloves-review"
 category: ["running", "gadget", "gear", "hands_arms", "hiking"]
 image: "/wp-content/uploads/2025/11/IMG_5233.jpg"

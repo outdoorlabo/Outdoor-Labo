@@ -1,7 +1,7 @@
 ---
 title: "お股の擦れに！MORGAN BLUE ソフトシャモアクリーム"
-date: 2018-04-03T14:00:12+09:00
-lastmod: 2018-04-13T17:10:04+09:00
+date: 2018-04-03 14:00:12
+lastmod: 2018-04-13 17:10:04
 slug: "morgan-blue"
 category: ["training", "road-parts", "roadbike"]
 tag: ["assos", "asoss", "chamois-cream", "morgan-blue", "roadbike2", "roller2", "股擦れ"]

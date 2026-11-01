@@ -1,7 +1,7 @@
 ---
 title: "OSHMAN’S セール中"
-date: 2010-12-18T17:29:04+09:00
-lastmod: 2010-12-24T23:32:29+09:00
+date: 2010-12-18 17:29:04
+lastmod: 2010-12-24 23:32:29
 slug: "oshmans-sale"
 category: ["sale", "knowledge"]
 tag: ["oshmans", "sale"]

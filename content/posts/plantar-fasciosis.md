@@ -1,7 +1,7 @@
 ---
 title: "足底腱膜炎・骨棘との向き合い方"
-date: 2024-01-07T18:28:58+09:00
-lastmod: 2024-02-15T11:14:46+09:00
+date: 2024-01-07 18:28:58
+lastmod: 2024-02-15 11:14:46
 slug: "plantar-fasciosis"
 category: ["training", "knowledge"]
 tag: ["taping", "rehabilitation", "足底筋膜炎", "足底腱膜炎", "骨棘"]

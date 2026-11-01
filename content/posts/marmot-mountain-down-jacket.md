@@ -1,7 +1,7 @@
 ---
 title: "Marmot Mountain Down Jacket [重量級]"
-date: 2010-02-07T21:30:27+09:00
-lastmod: 2023-12-26T16:12:13+09:00
+date: 2010-02-07 21:30:27
+lastmod: 2023-12-26 16:12:13
 slug: "marmot-mountain-down-jacket"
 category: ["gear", "clothing", "hiking"]
 tag: ["marmot", "mountain-down-jacket", "jacket", "marmot2", "mountain-jacket"]

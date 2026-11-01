@@ -1,7 +1,7 @@
 ---
 title: "BD-1で行く福生ボルダリング [玉川上水緑地日光橋公園]"
-date: 2010-09-11T18:59:42+09:00
-lastmod: 2010-09-17T07:51:52+09:00
+date: 2010-09-11 18:59:42
+lastmod: 2010-09-17 07:51:52
 slug: "fussa-bouldering"
 category: ["bd-1", "climbing", "roadbike"]
 tag: ["bd-1", "bouldering", "玉川上水緑地日光橋公園"]

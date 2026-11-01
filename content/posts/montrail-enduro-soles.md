@@ -1,7 +1,7 @@
 ---
 title: "Montrail エンデュロソール 購入"
-date: 2008-11-19T21:29:50+09:00
-lastmod: 2023-12-01T14:03:04+09:00
+date: 2008-11-19 21:29:50
+lastmod: 2023-12-01 14:03:04
 slug: "montrail-enduro-soles"
 category: ["gear", "shoes", "hiking"]
 tag: ["montrail", "insole", "enduro-sole", "montrail2", "登山靴"]

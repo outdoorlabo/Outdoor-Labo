@@ -1,7 +1,7 @@
 ---
 title: "Suunto M3 コンパス"
-date: 2009-01-12T17:35:28+09:00
-lastmod: 2023-12-07T13:57:04+09:00
+date: 2009-01-12 17:35:28
+lastmod: 2023-12-07 13:57:04
 slug: "suunto-m3-compass"
 category: ["navi", "gear", "hiking"]
 tag: ["m3-compass", "suunto", "suunto2", "navigation", "登山"]

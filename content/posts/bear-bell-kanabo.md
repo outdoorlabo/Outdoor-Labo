@@ -1,7 +1,7 @@
 ---
 title: "熊に金棒　[熊鈴]"
-date: 2009-04-12T22:33:35+09:00
-lastmod: 2023-12-20T09:50:28+09:00
+date: 2009-04-12 22:33:35
+lastmod: 2023-12-20 09:50:28
 slug: "bear-bell-kanabo"
 category: ["gadget", "gear", "hiking"]
 tag: ["熊に金棒", "熊よけ", "熊鈴"]

@@ -1,7 +1,7 @@
 ---
 title: "ARC’TERYX RT 35 バックパック"
-date: 2008-11-25T14:02:25+09:00
-lastmod: 2023-12-01T11:40:51+09:00
+date: 2008-11-25 14:02:25
+lastmod: 2023-12-01 11:40:51
 slug: "arcteryx-rt-35"
 category: ["backpack", "gear", "hiking"]
 tag: ["arcteryx", "rt-35", "arc-teryx", "backpack"]

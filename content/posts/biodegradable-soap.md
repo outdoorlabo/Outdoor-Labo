@@ -1,7 +1,7 @@
 ---
 title: "エコソープ　/ Biodegradable"
-date: 2008-09-05T20:53:16+09:00
-lastmod: 2023-12-22T16:14:30+09:00
+date: 2008-09-05 20:53:16
+lastmod: 2023-12-22 16:14:30
 slug: "biodegradable-soap"
 category: ["camp", "camping-goods", "gadget", "gear", "hiking"]
 tag: ["eco-soap"]

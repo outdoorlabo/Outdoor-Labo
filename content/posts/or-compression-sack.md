@@ -1,7 +1,7 @@
 ---
 title: "OR コンプレッションサック [シュラフ]"
-date: 2010-05-31T23:04:55+09:00
-lastmod: 2019-12-18T13:30:10+09:00
+date: 2010-05-31 23:04:55
+lastmod: 2019-12-18 13:30:10
 slug: "or-compression-sack"
 category: ["sleeping-gear", "gear", "hiking"]
 tag: ["or", "outdoor-research", "compression-sac", "sleeping-bag"]

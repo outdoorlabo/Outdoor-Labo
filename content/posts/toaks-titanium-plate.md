@@ -1,7 +1,7 @@
 ---
 title: "激軽チタンプレートはフライパンとして使うべし！[Toaks]"
-date: 2019-02-04T13:50:51+09:00
-lastmod: 2022-12-22T11:45:48+09:00
+date: 2019-02-04 13:50:51
+lastmod: 2022-12-22 11:45:48
 slug: "toaks-titanium-plate"
 category: ["camping-goods", "gear", "diy-mod", "cookware", "camp", "hiking"]
 tag: ["toaks", "dish", "camp", "titanium", "titanium-plate", "frying-pan", "登山", "自作"]

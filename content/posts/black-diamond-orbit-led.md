@@ -1,7 +1,7 @@
 ---
 title: "ブラックダイヤモンド オービット [LED ランタン]"
-date: 2010-01-23T23:39:27+09:00
-lastmod: 2023-12-26T16:07:27+09:00
+date: 2010-01-23 23:39:27
+lastmod: 2023-12-26 16:07:27
 slug: "black-diamond-orbit-led"
 category: ["lamp", "gear", "hiking"]
 tag: ["black-diamond", "led", "orbit", "black-diamond2", "lantern"]

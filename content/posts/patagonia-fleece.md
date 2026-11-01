@@ -1,7 +1,7 @@
 ---
 title: "Patagonia シンチラ スナップ T フリース"
-date: 2008-12-03T20:45:11+09:00
-lastmod: 2023-12-05T11:02:16+09:00
+date: 2008-12-03 20:45:11
+lastmod: 2023-12-05 11:02:16
 slug: "patagonia-fleece"
 category: ["gear", "clothing", "hiking"]
 tag: ["patagonia", "synchilla-snap-t", "patagonia2", "fleece"]

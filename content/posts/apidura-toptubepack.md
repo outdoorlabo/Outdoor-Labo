@@ -1,7 +1,7 @@
 ---
 title: "アピデュラ トップチューブバッグ ドライ 購入 / Apidura"
-date: 2018-07-04T14:55:38+09:00
-lastmod: 2022-12-22T13:33:24+09:00
+date: 2018-07-04 14:55:38
+lastmod: 2022-12-22 13:33:24
 slug: "apidura-toptubepack"
 category: ["road-parts", "roadbike"]
 tag: ["apidura", "topeak", "apidura-apidura", "toptube-bag", "roadbike2"]

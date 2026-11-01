@@ -1,7 +1,7 @@
 ---
 title: "Optimus Novaのお掃除"
-date: 2008-06-21T21:11:26+09:00
-lastmod: 2023-11-30T10:27:12+09:00
+date: 2008-06-21 21:11:26
+lastmod: 2023-11-30 10:27:12
 slug: "optimus-nova-cleaning"
 category: ["camp", "camping-goods", "stove", "gear", "hiking"]
 tag: ["nova", "optimus", "optimus-optimus", "gasoline-stove", "stove", "nova2"]

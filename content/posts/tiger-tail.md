@@ -1,7 +1,7 @@
 ---
 title: "筋膜リリースに [タイガーテール購入]"
-date: 2016-06-02T08:04:48+09:00
-lastmod: 2020-01-06T13:11:04+09:00
+date: 2016-06-02 08:04:48
+lastmod: 2020-01-06 13:11:04
 slug: "tiger-tail"
 category: ["training-goods", "training"]
 tag: ["self-massage", "tiger-tail", "trigger-point", "筋トレ", "筋肉痛", "筋膜リリース"]

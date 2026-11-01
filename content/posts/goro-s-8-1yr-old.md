@@ -1,7 +1,7 @@
 ---
 title: "Goro S-8 もうすぐ1歳"
-date: 2009-12-16T23:34:52+09:00
-lastmod: 2023-12-26T15:50:10+09:00
+date: 2009-12-16 23:34:52
+lastmod: 2023-12-26 15:50:10
 slug: "goro-s-8-1yr-old"
 category: ["gear", "shoes", "hiking"]
 tag: ["goro", "s-8", "登山靴"]

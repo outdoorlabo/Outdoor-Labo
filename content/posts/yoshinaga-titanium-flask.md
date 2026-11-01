@@ -1,7 +1,7 @@
 ---
 title: "Yoshinaga チタン フラスコ [スキットル]"
-date: 2008-12-15T07:24:53+09:00
-lastmod: 2023-12-07T09:05:35+09:00
+date: 2008-12-15 07:24:53
+lastmod: 2023-12-07 09:05:35
 slug: "yoshinaga-titanium-flask"
 category: ["camp", "camping-goods", "gear", "cookware", "hiking"]
 tag: ["yoshinaga", "titanium", "flask"]
