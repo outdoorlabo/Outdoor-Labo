@@ -37,11 +37,11 @@ jobs:
         id: targets
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            latest=$(git log -1 --name-only --pretty=format: --diff-filter=A -- 'content/posts/*.md' | grep -m1 '\.md$' || true)
+            latest=$(git -c core.quotepath=false log -1 --name-only --pretty=format: --diff-filter=A -- 'content/posts/*.md' | grep -m1 '\.md$' || true)
             echo "files=$latest" >> "$GITHUB_OUTPUT"
             echo "args=--force" >> "$GITHUB_OUTPUT"
           else
-            files=$(git diff --name-only --diff-filter=A "${{ github.event.before }}" "${{ github.event.after }}" -- 'content/posts/*.md' | tr '\n' ' ')
+            files=$(git -c core.quotepath=false diff --name-only --diff-filter=A "${{ github.event.before }}" "${{ github.event.after }}" -- 'content/posts/*.md' | tr '\n' ' ')
             echo "files=$files" >> "$GITHUB_OUTPUT"
             echo "args=" >> "$GITHUB_OUTPUT"
           fi
