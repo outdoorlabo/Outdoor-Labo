@@ -34,6 +34,7 @@ collections:
   - name: posts
     label: 記事
     label_singular: 記事
+    description: "新しいタグ・カテゴリーは、記事の編集画面の右下にある「＋ 新規タグ」「＋ 新規カテゴリー」ボタンからその場で作れます。"
     folder: content/posts
     create: true
     delete: true
