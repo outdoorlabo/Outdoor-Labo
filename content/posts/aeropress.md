@@ -1,7 +1,7 @@
 ---
 title: "エアロプレスで至福のコーヒーを　[ポータブル]"
-date: 2019-10-30T10:19:07+09:00
-lastmod: 2022-12-21T15:33:23+09:00
+date: 2019-10-30 10:19:07
+lastmod: 2022-12-21 15:33:23
 slug: "aeropress"
 category: ["camp", "camping-goods", "cookware", "gear", "hiking"]
 tag: ["aero-press", "espresso", "camp", "coffee", "review"]

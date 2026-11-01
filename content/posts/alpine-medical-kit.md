@@ -1,7 +1,7 @@
 ---
 title: "アルパイン メディカル キット"
-date: 2009-05-10T23:16:46+09:00
-lastmod: 2023-12-20T09:59:10+09:00
+date: 2009-05-10 23:16:46
+lastmod: 2023-12-20 09:59:10
 slug: "alpine-medical-kit"
 category: ["gadget", "gear", "hiking"]
 tag: ["first-aid", "虫除け"]
