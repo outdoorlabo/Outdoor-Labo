@@ -106,3 +106,12 @@ img { max-width: 100%; height: auto; }
   .yyi-rinker-info { width: 100%; }
   .yyi-rinker-links li { flex: 1 1 100%; }
 }
+
+/* M4: プレビューテンプレートの枠（実サイト style.css の該当ルールの写し） */
+.article-title { font-size: 2rem; font-weight: 400; line-height: 1.45; margin: 0 0 22px; color: var(--c-text); }
+.eyecatch { position: relative; margin: 0 0 12px; }
+.eyecatch img { display: block; }
+.article-date { text-align: right; font-size: .85rem; color: var(--c-muted); margin: 0 0 18px; }
+.article-tags { margin: 28px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.article-tags a { font-size: .8rem; border: 1px solid var(--c-border); padding: 0 12px; border-radius: 999px; color: var(--c-text); text-decoration: none; }
+.article-tags a::before { content: "# "; color: var(--c-muted); }

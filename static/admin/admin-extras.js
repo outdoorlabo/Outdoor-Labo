@@ -150,4 +150,70 @@
       return previewBox('▶ YouTube：' + id);
     }
   });
+
+  // ---- M4: 記事プレビューを実レイアウトに寄せる ----
+  function fmtDate(v) {
+    if (!v) return '';
+    var s = String(v).slice(0, 10);
+    return s.replace(/-/g, '.');
+  }
+  function PostPreview(props) {
+    var entry = props.entry;
+    var title = entry.getIn(['data', 'title']) || '';
+    var date = entry.getIn(['data', 'date']);
+    var lastmod = entry.getIn(['data', 'lastmod']);
+    var image = entry.getIn(['data', 'image']);
+    var imageAlt = entry.getIn(['data', 'imageAlt']) || '';
+    var tags = entry.getIn(['data', 'tag']);
+    var imgUrl = null;
+    if (image && typeof props.getAsset === 'function') {
+      try { imgUrl = props.getAsset(image).toString(); } catch (e) { imgUrl = null; }
+    }
+    var children = [];
+    children.push(h('h1', { className: 'article-title', key: 't' }, title));
+    if (imgUrl) {
+      children.push(h('figure', { className: 'eyecatch', key: 'e' },
+        h('img', { src: imgUrl, alt: imageAlt })));
+    }
+    var dateLine = '投稿日 : ' + fmtDate(date);
+    children.push(h('div', { className: 'article-date', key: 'd' },
+      dateLine + (lastmod && String(lastmod).slice(0, 10) !== String(date || '').slice(0, 10)
+        ? '　更新日 : ' + fmtDate(lastmod) : '')));
+    children.push(h('div', { className: 'entry-content', key: 'b' }, props.widgetFor('body')));
+    if (tags && tags.size) {
+      children.push(h('div', { className: 'article-tags', key: 'tags' },
+        tags.toJS().map(function (t, i) {
+          return h('a', { key: i, href: '#' }, String(t));
+        })));
+    }
+    return h('article', { className: 'article' }, children);
+  }
+  CMS.registerPreviewTemplate('posts', PostPreview);
+
+  // ---- M3(b): alt を書ける画像コンポーネント（通常の Markdown 画像と相互変換） ----
+  CMS.registerEditorComponent({
+    id: 'image-with-alt',
+    label: '画像（alt付き）',
+    icon: 'image',
+    fields: [
+      { name: 'src', label: '画像', widget: 'image', required: true },
+      {
+        name: 'alt', label: '代替テキスト（alt）', widget: 'string', required: false,
+        hint: '画像が見えないときに表示される説明文。内容を短く表す言葉を入れると SEO とアクセシビリティに効きます。'
+      }
+    ],
+    pattern: /^!\[([^\]]*)\]\((\S+)\)$/,
+    fromBlock: function (match) {
+      return { alt: match[1], src: match[2] };
+    },
+    toBlock: function (obj) {
+      return '![' + (obj.alt || '') + '](' + (obj.src || '') + ')';
+    },
+    toPreviewBlock: function (obj) {
+      if (typeof h === 'function' && obj.src) {
+        return h('img', { src: obj.src, alt: obj.alt || '', style: { maxWidth: '100%' } });
+      }
+      return previewBox('🖼 画像：' + (obj.alt || obj.src || ''));
+    }
+  });
 })();
