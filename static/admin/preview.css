@@ -1,0 +1,117 @@
+/* OUTDOOR LABO — Decap プレビュー用 CSS
+ * サイトの style.css から本文まわり（.entry-content / 商品カード / ブログカード）の
+ * ルールだけを抜き出したもの。Decap のプレビュー画面に実サイトの見た目を寄せるため
+ * admin-extras.js の registerPreviewStyle で読み込む。
+ * style.css 側の本文デザインを変えたら、ここにも反映すること。
+ */
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", sans-serif; color: #222; line-height: 1.8; padding: 16px 20px; }
+img { max-width: 100%; height: auto; }
+/* OUTDOOR LABO — WordPress(Cocoon グレー系)風。色・余白は :root の変数で調整できます */
+:root {
+  --c-primary: #999;          /* 上部バー・カテゴリピル・プロフィール見出し・現在ページ */
+  --c-primary-dark: #777;
+  --c-text: #333;
+  --c-muted: #888;
+  --c-border: #ddd;
+  --c-line: #ccc;
+  --c-link: #1967d2;
+  --c-soft: #f6f6f6;
+  --wrap: 1100px;
+  --sidebar: 302px;
+  --font: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, system-ui, sans-serif;
+  --shadow: 0 1px 4px rgba(0,0,0,.25);
+}
+.entry-content { word-wrap: break-word; overflow-wrap: anywhere; }
+.entry-content p { margin: 0 0 1.6em; }
+.entry-content img { display: block; margin: 0 0 1.4em; }
+.entry-content a { text-decoration: underline; }
+.entry-content h2 { margin: 2.2em 0 1.1em; padding: .5em .25em; font-size: 1.55rem; font-weight: 400; line-height: 1.4; color: var(--c-text);
+  background: linear-gradient(to right, #888 0, #888 144px, #ddd 144px) left bottom / 100% 5px no-repeat; }
+.numbered .entry-content { counter-reset: h2n; }
+.numbered .entry-content h2 { counter-increment: h2n; }
+.numbered .entry-content h2::before { content: counter(h2n) ". "; }
+.entry-content h3 { margin: 2em 0 1em; padding: .4em .2em .4em .7em; font-size: 1.25rem; font-weight: 500; border-left: 5px solid var(--c-primary); border-bottom: 1px solid var(--c-border); line-height: 1.4; }
+.entry-content h4 { margin: 1.6em 0 .7em; font-size: 1.05rem; font-weight: 500; border-bottom: 2px dotted var(--c-primary); }
+.entry-content table { border-collapse: collapse; width: 100%; margin: 0 0 1.6em; font-size: .9rem; display: block; overflow-x: auto; }
+.entry-content th, .entry-content td { border: 1px solid var(--c-border); padding: 8px 10px; }
+.entry-content th { background: var(--c-soft); }
+.entry-content blockquote { margin: 1.6em 0; padding: 12px 20px; border-left: 4px solid #ccc; background: var(--c-soft); color: #555; }
+.entry-content pre { overflow-x: auto; padding: 12px; background: #f4f4f4; font-size: .85rem; }
+.entry-content figure { margin: 1.5em 0; }
+.entry-content figcaption { font-size: .8rem; color: var(--c-muted); }
+.entry-content ul, .entry-content ol { margin: 0 0 1.6em; }
+/* ブログカード (shortcode) */
+.blogcard { display: flex; max-width: 576px; margin: 1.6em auto; background: #fff; color: var(--c-text); text-decoration: none !important; box-shadow: 0 1px 6px rgba(0,0,0,.25); border-radius: 3px; overflow: hidden; }
+.blogcard:hover { opacity: .85; }
+.blogcard-thumb { width: 140px; flex-shrink: 0; }
+.blogcard-thumb img { width: 100%; height: 100%; object-fit: cover; margin: 0 !important; }
+.blogcard-body { display: flex; flex-direction: column; gap: 4px; padding: 12px 16px; font-size: .85rem; line-height: 1.6; }
+.blogcard-title { font-weight: 700; }
+.blogcard-snippet { color: #555; font-size: .8rem; }
+.blogcard-site { color: var(--c-muted); font-size: .75rem; }
+/* ---------- WordPress / Cocoon 由来の記事HTML ---------- */
+.entry-content img.aligncenter, .entry-content .aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.entry-content img.alignright { float: right; margin: 0 0 1em 1em; }
+.entry-content img.alignleft { float: left; margin: 0 1em 1em 0; }
+.entry-content figure.wp-block-image img, .entry-content .wp-caption img { margin-bottom: 0; }
+.entry-content iframe { max-width: 100%; }
+.entry-content::after { content: ""; display: block; clear: both; }
+/* Cocoon のブログカード (a.blogcard-wrap がリンク全体) */
+.entry-content a.blogcard-wrap { display: block; max-width: 576px; margin: 1.6em auto; color: var(--c-text); text-decoration: none !important; }
+.entry-content a.blogcard-wrap:hover { opacity: .85; }
+.entry-content a.blogcard-wrap * { text-decoration: none !important; }
+.blogcard { position: relative; display: grid; grid-template-columns: 140px 1fr; grid-template-areas: "thumb content" "thumb footer"; background: #fff; box-shadow: 0 1px 6px rgba(0,0,0,.25); border-radius: 3px; overflow: hidden; }
+.blogcard-label { display: none; }
+.blogcard-thumbnail { grid-area: thumb; margin: 0 !important; min-height: 90px; background: var(--c-soft); }
+.blogcard-thumbnail img { width: 100%; height: 100%; object-fit: cover; margin: 0 !important; }
+.blogcard-content { grid-area: content; padding: 10px 14px 0; min-width: 0; }
+.blogcard-title { font-weight: 700; font-size: .9rem; line-height: 1.5; }
+.blogcard-snippet { margin-top: 4px; font-size: .78rem; line-height: 1.55; color: #555; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.blogcard-footer { grid-area: footer; align-self: end; padding: 4px 14px 8px; font-size: .72rem; color: var(--c-muted); display: flex; justify-content: space-between; gap: 8px; }
+.blogcard-site { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.blogcard-favicon { display: flex; }
+.blogcard-favicon-image { width: 16px; height: 16px; margin: 0 !important; }
+.blogcard-domain { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.blogcard-date { display: none; }
+.blogcard .fa { display: none; }
+/* Rinker (商品リンク: Amazon / 楽天 / Yahoo) */
+.yyi-rinker-contents { margin: 1.8em 0; padding: 16px; background: #fff; border: 1px solid var(--c-border); border-radius: 3px; box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+.yyi-rinker-box { display: flex; gap: 18px; align-items: flex-start; }
+.yyi-rinker-image { flex: 0 0 150px; text-align: center; }
+.yyi-rinker-image a { text-decoration: none; }
+.yyi-rinker-image img { max-width: 150px; max-height: 150px; width: auto; height: auto; margin: 0 auto; }
+.yyi-rinker-img-s .yyi-rinker-image { flex-basis: 90px; }
+.yyi-rinker-img-s .yyi-rinker-image img { max-width: 90px; max-height: 90px; }
+.yyi-rinker-img-l .yyi-rinker-image { flex-basis: 200px; }
+.yyi-rinker-img-l .yyi-rinker-image img { max-width: 200px; max-height: 200px; }
+.yyi-rinker-info { flex: 1; min-width: 0; }
+.yyi-rinker-title { font-weight: 700; line-height: 1.55; }
+.yyi-rinker-title a { text-decoration: none; color: var(--c-text); }
+.yyi-rinker-title a:hover { text-decoration: underline; }
+.yyi-rinker-detail { margin-top: .3em; font-size: .72rem; color: var(--c-muted); }
+.yyi-rinker-detail a { color: var(--c-muted); }
+.yyi-rinker-detail .price-box { margin-top: .2em; }
+.yyi-rinker-links { list-style: none !important; margin: 10px 0 0 !important; padding: 0 !important; display: flex; flex-wrap: wrap; gap: 8px; }
+.yyi-rinker-links li { margin: 0; padding: 0; list-style: none; }
+.yyi-rinker-links li a { display: block; min-width: 108px; padding: 8px 14px; border-radius: 3px; color: #fff; font-size: .85rem; font-weight: 700; text-align: center; text-decoration: none; }
+.yyi-rinker-links li a:hover { opacity: .85; }
+.yyi-rinker-links li.amazonlink a { background: #f6a306; }
+.yyi-rinker-links li.rakutenlink a { background: #cf4944; }
+.yyi-rinker-links li.yahoolink a { background: #51a7e8; }
+.yyi-rinker-box { flex-direction: column; align-items: center; }
+.yyi-rinker-info { width: 100%; }
+.yyi-rinker-links li { flex: 1 1 100%; }
+@media (max-width: 640px) {
+  .yyi-rinker-box { flex-direction: column; align-items: center; }
+  .yyi-rinker-info { width: 100%; }
+  .yyi-rinker-links li { flex: 1 1 100%; }
+}
+
+/* M4: プレビューテンプレートの枠（実サイト style.css の該当ルールの写し） */
+.article-title { font-size: 2rem; font-weight: 400; line-height: 1.45; margin: 0 0 22px; color: var(--c-text); }
+.eyecatch { position: relative; margin: 0 0 12px; }
+.eyecatch img { display: block; }
+.article-date { text-align: right; font-size: .85rem; color: var(--c-muted); margin: 0 0 18px; }
+.article-tags { margin: 28px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.article-tags a { font-size: .8rem; border: 1px solid var(--c-border); padding: 0 12px; border-radius: 999px; color: var(--c-text); text-decoration: none; }
+.article-tags a::before { content: "# "; color: var(--c-muted); }

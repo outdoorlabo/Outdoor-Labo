@@ -1,7 +1,7 @@
 ---
 title: "adizero Japan 購入 [ランニング]"
-date: 2009-08-30T16:14:43+09:00
-lastmod: 2023-12-21T13:17:29+09:00
+date: 2009-08-30 16:14:43
+lastmod: 2023-12-21 13:17:29
 slug: "adizero-japan"
 category: ["training-goods", "training"]
 tag: ["adidas", "adizero-japan", "adidas-adidas", "training2", "running-shoes"]

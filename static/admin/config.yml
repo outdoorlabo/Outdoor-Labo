@@ -1,25 +1,40 @@
 backend:
   name: github
   repo: outdoorlabo/Outdoor-Labo
-  branch: main
-  base_url: https://outdoor-labo.outdoorlabo.workers.dev
+  branch: test/decap-category-hierarchy
+  base_url: https://outdoorlabo-decap-auth-preview.outdoorlabo.workers.dev
   auth_endpoint: /auth
+  squash_merges: true
+  commit_messages:
+    create: '{{collection}}「{{slug}}」を作成'
+    update: '{{collection}}「{{slug}}」を更新'
+    delete: '{{collection}}「{{slug}}」を削除'
+    uploadMedia: 'メディアを追加: {{path}}'
+    deleteMedia: 'メディアを削除: {{path}}'
+    openAuthoring: '{{message}}'
 
 site_url: https://outdoorlabo.a-ce.com
 display_url: https://outdoorlabo.a-ce.com
 publish_mode: editorial_workflow
+locale: ja
 
-# New uploads are staged here. A GitHub Action sorts them by the save commit's JST date.
 media_folder: static/wp-content/uploads
 public_folder: /wp-content/uploads
 
 media_library:
   name: outdoor-labo-folder-library
 
+media_processing:
+  enabled: true
+  quality: 85
+  strip_metadata: true
+
 collections:
+  # Articles remain the first and default collection.
   - name: posts
     label: 記事
     label_singular: 記事
+    description: "新しいタグ・カテゴリーは、記事の編集画面の右下にある「＋ 新規タグ」「＋ 新規カテゴリー」ボタンからその場で作れます。"
     folder: content/posts
     create: true
     delete: true
@@ -27,53 +42,149 @@ collections:
     format: frontmatter
     slug: "{{slug}}"
     summary: "{{title}} — {{date}}"
+    preview_path: "{{year}}/{{month}}/{{day}}/{{slug}}"
     sortable_fields:
       - date
       - title
+      - commit_date
     view_groups:
       - label: 公開年
         field: date
         pattern: "\\d{4}"
+    view_filters:
+      - { label: 2026年の記事, field: date, pattern: '^2026' }
+      - { label: 2025年の記事, field: date, pattern: '^2025' }
+      - { label: レビュー記事, field: title, pattern: 'レビュー' }
+      - { label: 山行記事, field: title, pattern: '山行' }
     media_folder: static/wp-content/uploads/_incoming
     public_folder: /wp-content/uploads/_incoming
     fields:
-      - label: タイトル
-        name: title
-        widget: string
-      - label: 公開日時
-        name: date
-        widget: datetime
-        required: true
-      - label: 最終更新日時
-        name: lastmod
-        widget: datetime
-        required: false
+      - { label: タイトル, name: title, widget: string }
+      - { label: 公開日時, name: date, widget: datetime, required: true, picker_utc: false, format: "YYYY-MM-DD HH:mm:ss", date_format: "YYYY/MM/DD", time_format: "HH:mm" }
+      - { label: 最終更新日時, name: lastmod, widget: datetime, required: false, picker_utc: false, format: "YYYY-MM-DD HH:mm:ss", date_format: "YYYY/MM/DD", time_format: "HH:mm" }
       - label: URLスラッグ
         name: slug
         widget: string
-        hint: "既存記事のURLを変えないよう、通常は変更しないでください。新規記事では英数字とハイフンを推奨します。"
+        pattern: ['^[a-z0-9]+(?:[-_][a-z0-9]+)*$', 'スラッグは英小文字・数字・ハイフン（またはアンダースコア）のみです。日本語は使えません。']
+        hint: "新規作成のときは、タイトルから自動で決まる前に英字のスラッグを入力してください。既存記事のURLを変えないよう、通常は変更しないでください。"
       - label: カテゴリー
         name: category
-        widget: list
+        widget: relation
+        collection: categories
+        search_fields: [title, breadcrumb]
+        value_field: "{{slug}}"
+        display_fields: [breadcrumb]
+        multiple: true
         required: false
-        hint: "既存カテゴリーのスラッグを入力してください。例: camping, hiking"
+        hint: "カテゴリー名で検索して選択してください。保存値は既存のカテゴリーURLスラッグです。"
       - label: タグ
         name: tag
-        widget: list
+        widget: relation
+        collection: tags
+        search_fields: [title]
+        value_field: "{{slug}}"
+        display_fields: [title]
+        multiple: true
         required: false
-        hint: "既存タグのスラッグを入力してください。"
-      - label: アイキャッチ画像
-        name: image
-        widget: image
+        hint: "タグ名で検索して選択してください。保存値は既存のタグURLスラッグです。"
+      - { label: アイキャッチ画像, name: image, widget: image, required: false }
+      - { label: アイキャッチの代替テキスト（alt）, name: imageAlt, widget: string, required: false, hint: "画像が見えないときに表示される説明文。空でも構いません。" }
+      - { label: 概要文, name: description, widget: text, required: false }
+      - { label: 目次を表示する, name: toc, widget: boolean, required: false }
+      - { label: WordPress ID（移行データ）, name: wpid, widget: number, required: false }
+      - { label: 本文, name: body, widget: markdown }
+
+  - name: pages
+    label: 固定ページ
+    label_singular: 固定ページ
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: contact
+        label: お問い合わせ
+        file: content/contact.md
+        fields:
+          - { label: タイトル, name: title, widget: string }
+          - { label: 本文, name: body, widget: markdown }
+          - { name: layout, widget: hidden }
+          - { name: url, widget: hidden }
+      - name: search
+        label: 検索ページ
+        file: content/search.md
+        fields:
+          - { label: タイトル, name: title, widget: string }
+          - { name: layout, widget: hidden }
+          - { name: url, widget: hidden }
+      - name: site-map
+        label: サイトマップ
+        file: content/site-map.md
+        fields:
+          - { label: タイトル, name: title, widget: string }
+          - { name: layout, widget: hidden }
+          - { name: url, widget: hidden }
+
+  # Existing Hugo taxonomy bundles stay at content/category/<slug>/_index.md.
+  # Parent-child relationships are metadata only; URLs and bundle paths do not move.
+  - name: categories
+    label: カテゴリー管理
+    label_singular: カテゴリー
+    folder: content/category
+    create: true
+    delete: false
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 2
+      subfolders: true
+      summary: "{{breadcrumb}}"
+    meta:
+      path:
+        label: URLスラッグ
+        widget: string
+        index_file: _index
+    sortable_fields:
+      - field: breadcrumb
+        label: 階層パス
+        default_sort: asc
+      - title
+    summary: "{{breadcrumb}}"
+    fields:
+      - { label: カテゴリー名, name: title, widget: string }
+      - label: 階層パス（自動生成）
+        name: breadcrumb
+        widget: string
         required: false
-      - label: 概要文
-        name: description
-        widget: text
+        hint: "カテゴリーを保存すると自動で生成・更新されます。手で書き換えても次回保存時に戻ります。"
+      - label: 親カテゴリー
+        name: parent
+        widget: relation
+        collection: categories
+        search_fields: [title, breadcrumb]
+        value_field: "{{slug}}"
+        display_fields: [breadcrumb]
         required: false
-      - label: WordPress ID（移行データ）
-        name: wpid
-        widget: number
-        required: false
-      - label: 本文
-        name: body
-        widget: markdown
+        hint: "親がない場合は空欄。親・子・孫の関係はこの項目で設定します。URLのフォルダ構造は変更しません。"
+
+  - name: tags
+    label: タグ管理
+    label_singular: タグ
+    folder: content/tag
+    create: true
+    delete: false
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 2
+      subfolders: true
+      summary: "{{title}}"
+    meta:
+      path:
+        label: URLスラッグ
+        widget: string
+        index_file: _index
+    summary: "{{title}}"
+    sortable_fields:
+      - title
+    fields:
+      - { label: タグ名, name: title, widget: string }

@@ -1,0 +1,44 @@
+name: Update category breadcrumbs
+
+on:
+  push:
+    branches:
+      - main
+      - "test/**"
+      - "cms/**"
+    paths:
+      - "content/category/**"
+      - "scripts/update_category_breadcrumbs.py"
+      - ".github/workflows/category-breadcrumbs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: category-breadcrumbs-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  breadcrumbs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Generate breadcrumbs
+        run: python3 scripts/update_category_breadcrumbs.py
+
+      - name: Commit generated breadcrumbs
+        run: |
+          if [ -z "$(git status --porcelain -- content/category)" ]; then
+            echo "Breadcrumbs are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/category
+          git commit -m "Update category breadcrumbs (auto)"
+          git push
