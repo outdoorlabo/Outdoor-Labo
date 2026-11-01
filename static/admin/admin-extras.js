@@ -1,9 +1,13 @@
 // OUTDOOR LABO — Decap 管理画面の拡張（admin-extras.js）
-// 本文エディタに「商品リンク」挿入ボタンを追加する。
-// 挿入されるのは Hugo ショートコード {{< aff ... >}} で、テーマ側
-// layouts/shortcodes/aff.html が Rinker 風カードに描画する。仕様は SPEC.md §S5。
+// 1) プレビュー画面に実サイトの本文デザインを当てる（registerPreviewStyle）
+// 2) 本文エディタに挿入ボタンを追加する：
+//    - 商品リンク（Hugo ショートコード aff、Rinker 風カード。仕様は SPEC.md §S5）
+//    - ブログカード（テーマ内蔵ショートコード blogcard）
+//    - YouTube（Hugo 内蔵ショートコード youtube）
 (function () {
   if (!window.CMS) return;
+
+  CMS.registerPreviewStyle('/admin/preview.css');
 
   function parseAttrs(text) {
     var obj = {};
@@ -13,16 +17,28 @@
     return obj;
   }
 
-  function buildBlock(obj) {
-    var keys = ['title', 'kw', 'img', 'asin', 'rakuten', 'yahoo'];
+  function buildAttrs(obj, keys) {
     var parts = [];
     keys.forEach(function (k) {
       var v = (obj[k] || '').trim();
       if (v) parts.push(k + '="' + v.replace(/"/g, '') + '"');
     });
-    return '{{< aff ' + parts.join(' ') + ' >}}';
+    return parts.join(' ');
   }
 
+  function previewBox(label) {
+    if (typeof h === 'function') {
+      return h('div', {
+        style: {
+          border: '1px solid #d9d9d9', borderRadius: '4px',
+          padding: '10px 12px', fontSize: '14px', background: '#fafafa'
+        }
+      }, label);
+    }
+    return label;
+  }
+
+  // ---- 商品リンク（アフィリエイト） ----
   CMS.registerEditorComponent({
     id: 'affiliate-card',
     label: '商品リンク',
@@ -58,19 +74,80 @@
       return parseAttrs(match[1]);
     },
     toBlock: function (obj) {
-      return buildBlock(obj);
+      return '{{< aff ' + buildAttrs(obj, ['title', 'kw', 'img', 'asin', 'rakuten', 'yahoo']) + ' >}}';
     },
     toPreviewBlock: function (obj) {
-      var label = '🛒 商品リンク：' + (obj.title || '（商品名未設定）');
-      if (typeof h === 'function') {
-        return h('div', {
-          style: {
-            border: '1px solid #d9d9d9', borderRadius: '4px',
-            padding: '10px 12px', fontSize: '14px', background: '#fafafa'
-          }
-        }, label);
+      return previewBox('🛒 商品リンク：' + (obj.title || '（商品名未設定）'));
+    }
+  });
+
+  // ---- ブログカード ----
+  CMS.registerEditorComponent({
+    id: 'blog-card',
+    label: 'ブログカード',
+    icon: 'link',
+    fields: [
+      {
+        name: 'url', label: 'リンク先URL', widget: 'string', required: true,
+        hint: '紹介したいページのURL。'
+      },
+      {
+        name: 'title', label: 'タイトル（任意）', widget: 'string', required: false,
+        hint: '空のときはURLがそのまま表示されます。'
+      },
+      {
+        name: 'desc', label: '説明文（任意）', widget: 'string', required: false
+      },
+      {
+        name: 'image', label: 'サムネイル画像（任意）', widget: 'image', required: false
       }
-      return label;
+    ],
+    pattern: /{{< blogcard ([^>]*) >}}/,
+    fromBlock: function (match) {
+      return parseAttrs(match[1]);
+    },
+    toBlock: function (obj) {
+      return '{{< blogcard ' + buildAttrs(obj, ['url', 'title', 'desc', 'image']) + ' >}}';
+    },
+    toPreviewBlock: function (obj) {
+      return previewBox('🔗 ブログカード：' + (obj.title || obj.url || ''));
+    }
+  });
+
+  // ---- YouTube ----
+  function youtubeId(v) {
+    v = (v || '').trim();
+    var m = v.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([\w-]{6,})/);
+    if (m) return m[1];
+    return v;
+  }
+
+  CMS.registerEditorComponent({
+    id: 'youtube-embed',
+    label: 'YouTube',
+    icon: 'link',
+    fields: [
+      {
+        name: 'id', label: '動画IDまたはURL', widget: 'string', required: true,
+        hint: '動画ページのURLをそのまま貼っても大丈夫です。'
+      }
+    ],
+    pattern: /{{< youtube "?([\w-]+)"? >}}/,
+    fromBlock: function (match) {
+      return { id: match[1] };
+    },
+    toBlock: function (obj) {
+      return '{{< youtube "' + youtubeId(obj.id) + '" >}}';
+    },
+    toPreviewBlock: function (obj) {
+      var id = youtubeId(obj.id);
+      if (typeof h === 'function' && id) {
+        return h('img', {
+          src: 'https://i.ytimg.com/vi/' + id + '/hqdefault.jpg',
+          style: { maxWidth: '320px', display: 'block' }
+        });
+      }
+      return previewBox('▶ YouTube：' + id);
     }
   });
 })();
