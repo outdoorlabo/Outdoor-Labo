@@ -72,6 +72,36 @@ collections:
       - { label: WordPress ID（移行データ）, name: wpid, widget: number, required: false }
       - { label: 本文, name: body, widget: markdown }
 
+  - name: pages
+    label: 固定ページ
+    label_singular: 固定ページ
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: contact
+        label: お問い合わせ
+        file: content/contact.md
+        fields:
+          - { label: タイトル, name: title, widget: string }
+          - { label: 本文, name: body, widget: markdown }
+          - { name: layout, widget: hidden }
+          - { name: url, widget: hidden }
+      - name: search
+        label: 検索ページ
+        file: content/search.md
+        fields:
+          - { label: タイトル, name: title, widget: string }
+          - { name: layout, widget: hidden }
+          - { name: url, widget: hidden }
+      - name: site-map
+        label: サイトマップ
+        file: content/site-map.md
+        fields:
+          - { label: タイトル, name: title, widget: string }
+          - { name: layout, widget: hidden }
+          - { name: url, widget: hidden }
+
   # Existing Hugo taxonomy bundles stay at content/category/<slug>/_index.md.
   # Parent-child relationships are metadata only; URLs and bundle paths do not move.
   - name: categories
