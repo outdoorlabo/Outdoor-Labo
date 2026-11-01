@@ -88,6 +88,7 @@ collections:
         required: false
         hint: "タグ名で検索して選択してください。保存値は既存のタグURLスラッグです。"
       - { label: アイキャッチ画像, name: image, widget: image, required: false }
+      - { label: アイキャッチの代替テキスト（alt）, name: imageAlt, widget: string, required: false, hint: "画像が見えないときに表示される説明文。空でも構いません。" }
       - { label: 概要文, name: description, widget: text, required: false }
       - { label: 目次を表示する, name: toc, widget: boolean, required: false }
       - { label: WordPress ID（移行データ）, name: wpid, widget: number, required: false }
