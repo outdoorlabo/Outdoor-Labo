@@ -4,6 +4,14 @@ backend:
   branch: test/decap-category-hierarchy
   base_url: https://outdoorlabo-decap-auth-preview.outdoorlabo.workers.dev
   auth_endpoint: /auth
+  squash_merges: true
+  commit_messages:
+    create: '{{collection}}「{{slug}}」を作成'
+    update: '{{collection}}「{{slug}}」を更新'
+    delete: '{{collection}}「{{slug}}」を削除'
+    uploadMedia: 'メディアを追加: {{path}}'
+    deleteMedia: 'メディアを削除: {{path}}'
+    openAuthoring: '{{message}}'
 
 site_url: https://outdoorlabo.a-ce.com
 display_url: https://outdoorlabo.a-ce.com
@@ -15,6 +23,11 @@ public_folder: /wp-content/uploads
 
 media_library:
   name: outdoor-labo-folder-library
+
+media_processing:
+  enabled: true
+  quality: 85
+  strip_metadata: true
 
 collections:
   # Articles remain the first and default collection.
@@ -32,10 +45,16 @@ collections:
     sortable_fields:
       - date
       - title
+      - commit_date
     view_groups:
       - label: 公開年
         field: date
         pattern: "\\d{4}"
+    view_filters:
+      - { label: 2026年の記事, field: date, pattern: '^2026' }
+      - { label: 2025年の記事, field: date, pattern: '^2025' }
+      - { label: レビュー記事, field: title, pattern: 'レビュー' }
+      - { label: 山行記事, field: title, pattern: '山行' }
     media_folder: static/wp-content/uploads/_incoming
     public_folder: /wp-content/uploads/_incoming
     fields:
@@ -45,7 +64,8 @@ collections:
       - label: URLスラッグ
         name: slug
         widget: string
-        hint: "既存記事のURLを変えないよう、通常は変更しないでください。"
+        pattern: ['^[a-z0-9]+(?:[-_][a-z0-9]+)*$', 'スラッグは英小文字・数字・ハイフン（またはアンダースコア）のみです。日本語は使えません。']
+        hint: "新規作成のときは、タイトルから自動で決まる前に英字のスラッグを入力してください。既存記事のURLを変えないよう、通常は変更しないでください。"
       - label: カテゴリー
         name: category
         widget: relation
