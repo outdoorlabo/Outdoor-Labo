@@ -1,4 +1,0 @@
----
-title: "Creator's Diary"
----
-

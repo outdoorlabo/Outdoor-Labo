@@ -1,4 +1,0 @@
----
-title: "Blade mSR"
----
-
