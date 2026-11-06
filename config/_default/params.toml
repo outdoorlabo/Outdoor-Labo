@@ -12,14 +12,28 @@ favicon = "/images/ol.png"          # ファビコン(static/images/ に置い�
 contactFormKey = "4b6d21d4-84a7-4b3f-b2c5-a66e91faff6b"                  # Web3Forms のアクセスキー(お問い合わせフォーム)。空の間は「準備中」と表示
 beholdFeedId = ""                    # 2026-11-06 Behold 無料枠(月1,200ビュー)上限到達のため手動運用に切替。空にすると Behold を読み込まず、下の [instagram] 手動 posts を表示する
 
-# サイドバーの Instagram 欄(APIは使わず、画像を static/images/instagram/ に置いて手動で並べる)
+# サイドバーの Instagram 欄(APIは使わず、画像をアップロードして手動で並べる。2026-11-06 に Behold から切替)
 [instagram]
   bio = "Love #outdoor // #climber #hiker #backpacker #cyclist #bbqjunkie / #tokyo #japan"
   avatar = "/images/ol.png"
-  # [[instagram.posts]] は画像を static/images/instagram/ に置いてから追加する
-  # [[instagram.posts]]
-  #   image = "/images/instagram/01.jpg"
-  #   url = "https://www.instagram.com/p/xxxxxxxxx/"
+  [[instagram.posts]]
+    image = "/wp-content/uploads/01.jpg"
+    url = "https://www.instagram.com/p/DeWq0G8pOK_/"
+  [[instagram.posts]]
+    image = "/wp-content/uploads/02.jpg"
+    url = "https://www.instagram.com/p/Dd3BJY8Jqv6/"
+  [[instagram.posts]]
+    image = "/wp-content/uploads/03.jpg"
+    url = "https://www.instagram.com/p/DdizJrTpaNI/"
+  [[instagram.posts]]
+    image = "/wp-content/uploads/04.jpg"
+    url = "https://www.instagram.com/p/Db9nDtJpwgP/"
+  [[instagram.posts]]
+    image = "/wp-content/uploads/05.jpg"
+    url = "https://www.instagram.com/p/DbNdpQnJ7WY/"
+  [[instagram.posts]]
+    image = "/wp-content/uploads/06.jpg"
+    url = "https://www.instagram.com/p/DRI-Vy3ibbF/"
 
 [author]
   name = "labocon"
