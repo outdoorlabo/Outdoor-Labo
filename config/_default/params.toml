@@ -11,6 +11,7 @@ instagramUser = "outdoorlabo"
 favicon = "/images/ol.png"          # ファビコン(static/images/ に置いた画像)
 contactFormKey = "4b6d21d4-84a7-4b3f-b2c5-a66e91faff6b"                  # Web3Forms のアクセスキー(お問い合わせフォーム)。空の間は「準備中」と表示
 beholdFeedId = ""                    # 2026-11-06 Behold 無料枠(月1,200ビュー)上限到達のため手動運用に切替。空にすると Behold を読み込まず、下の [instagram] 手動 posts を表示する
+gtmId = "GTM-WNG2H22T"               # Google Tag Manager コンテナID（2026-11-06 追加。GA4 測定は GTM 内の Google タグで行う）
 
 # サイドバーの Instagram 欄(APIは使わず、画像をアップロードして手動で並べる。2026-11-06 に Behold から切替)
 [instagram]
